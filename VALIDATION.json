@@ -26,5 +26,6 @@
     "full endpoint reconstruction campaign",
     "TeX manuscript rebuild"
   ],
-  "software_licence": "not selected; existing manuscript CC BY 4.0 retained"
+  "software_licence": "not selected; existing manuscript CC BY 4.0 retained",
+  "security_review": "SECURITY_REVIEW.md; no known dependency advisories returned for 14 pinned runtime packages; release path/integrity hardening and regression tests included"
 }

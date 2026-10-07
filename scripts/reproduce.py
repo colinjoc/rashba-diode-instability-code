@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 import sys
 import time
+from verify_package import verify
 
 for key in ['OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'MKL_NUM_THREADS']:
     os.environ.setdefault(key, '1')
@@ -30,6 +31,9 @@ def main():
         parser.error('output already exists; choose a new directory')
     if output.is_relative_to(ROOT / 'code') or output.is_relative_to(ROOT / 'data') or output.is_relative_to(ROOT / 'paper') or output.is_relative_to(ROOT / 'provenance'):
         parser.error('output must not be inside frozen source, evidence, or manuscript directories')
+    if output.is_relative_to(ROOT) and not output.is_relative_to(ROOT / 'outputs'):
+        parser.error('outputs inside this repository must be under outputs/')
+    verify(quiet=True)
     output.parent.mkdir(parents=True, exist_ok=True)
     package = ROOT / 'code' / PACKAGES[args.mode]
     sys.path.insert(0, str(package))

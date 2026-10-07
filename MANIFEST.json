@@ -14,13 +14,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 8365,
-      "sha256": "ac444c30dd0cf1e973a30eb357610805b324a166d4c5386e6c3af193042fe280"
+      "bytes": 8606,
+      "sha256": "391f3838660a2b53edd8207e5dc7b199d83c91d1ba48329b2a953fb369e27c11"
+    },
+    {
+      "path": "SECURITY_REVIEW.md",
+      "bytes": 4740,
+      "sha256": "41d486d4d0da7e7d5b5c1d7d2015574b064dcfa6dfc346ae46b1730cc88c88d4"
     },
     {
       "path": "VALIDATION.json",
-      "bytes": 1440,
-      "sha256": "7d81d6d1695f000400f7ca27e1c53446ff84fff7492248e642f9a11c8c15659e"
+      "bytes": 1619,
+      "sha256": "43c3615c57e6ef0fccca2c224d875144dd5813c6463c40fee3769c40adc72403"
     },
     {
       "path": "code/endpoint/audit_saved.py",
@@ -889,8 +894,8 @@
     },
     {
       "path": "requirements.txt",
-      "bytes": 60,
-      "sha256": "5bc87b8e56d1b3302367666a29a83be3af663443da574643f4624cabb9375b4f"
+      "bytes": 340,
+      "sha256": "ab9e60080bdb5dd180ba4fb6a3c28168ef7201d2e91219c6d467a59278fea19c"
     },
     {
       "path": "scientific_data.json",
@@ -899,28 +904,43 @@
     },
     {
       "path": "scripts/build_endpoint.py",
-      "bytes": 400,
-      "sha256": "922d74d581d71b9cd30e859c1bf319a2a51757643d06ae56de6e9b72a6a0df0f"
+      "bytes": 841,
+      "sha256": "aeb1b9e6b34cf36c3338596d9479c7650510eb910f0cad1102ccb96a4b462612"
     },
     {
       "path": "scripts/check_results.py",
-      "bytes": 2574,
-      "sha256": "73f38e75f4afd486947beae4f565864a2175a6dac94e1128941dd851c063f1fc"
+      "bytes": 2631,
+      "sha256": "132250b169e0f6d83d9800ffe7a79e589e24649d80a046c3bb3e9535808ece56"
     },
     {
       "path": "scripts/reproduce.py",
-      "bytes": 2407,
-      "sha256": "acba22194ca88277fa91cd403fcb19a0dc21821537e5a5b665db9cbf10e428a2"
+      "bytes": 2626,
+      "sha256": "773373636c47662419f36e911ca7fdae2e189f4865a2299ec401719831309973"
     },
     {
       "path": "scripts/verify_package.py",
-      "bytes": 1064,
-      "sha256": "3991c0bd0cf47ea03a9dcfbae8f0c1542e2054303fe5012ea181e46ad185f829"
+      "bytes": 2482,
+      "sha256": "9d0bc108ef8ddf731cfcc2f8f637f3a52dd8f3548df0100d2af8509b801da909"
+    },
+    {
+      "path": "security/dependencies-osv.json",
+      "bytes": 3305,
+      "sha256": "5c24e8b41f9cba08c1d10820dedcecf21cae039b0b1cc7b784c61f56b4798206"
+    },
+    {
+      "path": "security/static-analysis.json",
+      "bytes": 2067,
+      "sha256": "ec187d2eb09e3e7a962ec5fc9277140132b8109d40ff4fb4398c145fbbda1cfa"
     },
     {
       "path": "tests/test_reproduction.py",
       "bytes": 3880,
       "sha256": "3228b08537f73fb2d0704713c63c1f291483794fff9aa74e265c29ef31edb6d6"
+    },
+    {
+      "path": "tests/test_security.py",
+      "bytes": 3100,
+      "sha256": "4b82772070ef1111fc80fa3f703839bb5272ce7cf52ffdfffb83b16c1c3f2c65"
     }
   ],
   "note": "Excludes this root manifest, Git metadata, build products, regenerated figures, and local reproduction outputs."

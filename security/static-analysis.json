@@ -1,0 +1,57 @@
+{
+  "method": "Python AST inventory and release-wide credential-pattern scan, plus manual review of execution and file handling",
+  "python_files": 61,
+  "unique_python_sources": 48,
+  "credential_matches": [],
+  "network_imports": [],
+  "unsafe_execution_calls": [],
+  "subprocess_calls": [
+    {
+      "file": "scripts/build_endpoint.py",
+      "line": 17,
+      "call": "subprocess.run",
+      "shell_true": false
+    },
+    {
+      "file": "tests/test_reproduction.py",
+      "line": 61,
+      "call": "subprocess.run",
+      "shell_true": false
+    }
+  ],
+  "dynamic_import_files": [
+    "code/endpoint/recover.py",
+    "code/linear/accepted271/native_guard_adapter.py",
+    "code/linear/accepted271/native_worker.py",
+    "code/linear/accepted271/qualification_runner.py",
+    "code/linear/fresh264/native_guard_adapter.py",
+    "code/linear/fresh264/native_worker.py",
+    "code/linear/fresh264/qualification_runner.py",
+    "code/linear/source256/native_guard_adapter.py",
+    "code/linear/source256/native_worker.py",
+    "code/linear/source256/qualification_runner.py",
+    "code/linear/source256/synthetic_checks.py",
+    "code/nonlinear/baseline308/native_guard_adapter.py",
+    "code/nonlinear/baseline308/native_worker.py",
+    "code/nonlinear/baseline308/qualification_runner.py",
+    "code/nonlinear/partial299/native_guard_adapter.py",
+    "code/nonlinear/partial299/native_worker.py",
+    "code/nonlinear/partial299/qualification_runner.py",
+    "code/nonlinear/pilot293/native_guard_adapter.py",
+    "code/nonlinear/pilot293/native_worker.py",
+    "code/nonlinear/pilot293/qualification_runner.py",
+    "code/nonlinear/shifted330/native_guard_adapter.py",
+    "code/nonlinear/shifted330/native_worker.py",
+    "code/nonlinear/shifted330/qualification_runner.py",
+    "scripts/reproduce.py",
+    "tests/test_reproduction.py"
+  ],
+  "symlinks": [],
+  "python_parse_errors": [],
+  "git_history_blobs_scanned": 146,
+  "git_history_credential_matches": [],
+  "archive_review": {
+    "pdf_javascript": "",
+    "pdf_attachments": "0 embedded files"
+  }
+}
