@@ -1,0 +1,737 @@
+{
+  "claim": "At the source single-q weak/strong-helical critical endpoint with alphatilde=1/4, there exists a fixed finite dimensionless vector kappa=vF K/Tc0≠0 whose coupled amplitude/phase Gaussian Hessian has a strictly negative eigenvalue. The same fixed perturbation lowers the source-compatible off-shell free energy to quadratic order.",
+  "dossier": {
+    "accounting": {
+      "scope": "Proposed18000wholeCPU9000wall1536MiB finite owned invocation; no cumulative userCPU ceiling; no certified feasibility or allocation extension.",
+      "significance_status": "Unchanged endpoint scientificscope; integrated direct realbeta source/error remedy selected274, technicalmethod notnewphysics. Fresh exact separate independent judgments mandatory."
+    },
+    "author_id": "root-project90105-atomic-slab-checkpoint-author",
+    "claim": "At the source single-q weak/strong-helical critical endpoint with alphatilde=1/4, there exists a fixed finite dimensionless vector kappa=vF K/Tc0≠0 whose coupled amplitude/phase Gaussian Hessian has a strictly negative eigenvalue. The same fixed perturbation lowers the source-compatible off-shell free energy to quadratic order.",
+    "closest_work_difference": "Potential contribution is the specific necessary-metastability failure of the source endpoint, not established stripe physics, Hessian methods or solver improvements. No novelty pass is asserted.",
+    "evidence_refs": [
+      "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+      "evidence/supplement-1791234847745936398/CONTROLLER_SUCCESSOR_REQUIREMENTS.json",
+      "evidence/supplement-1791234847745936398/method/smooth-tail-completion/SMOOTH_SOURCE_CERTIFICATE_PROTOCOL.json",
+      "evidence/supplement-1791234847745936398/method/centre/production_centre.py",
+      "evidence/supplement-1791234847745936398/runtime/smooth_pipeline.py",
+      "evidence/supplement-1791236061688848941/method_adapter_hook.py",
+      "evidence/supplement-1791245954058248465/first-tail/PILOT_PROTOCOL.json",
+      "evidence/supplement-1791245954058248465/first-tail/FROZEN_INPUT.json",
+      "evidence/supplement-1791247328897199314/EXACT_DEADWORK_PROOF.md",
+      "evidence/supplement-1791247328897199314/PARENT_STRATEGY_JUDGMENT.json",
+      "evidence/supplement-1791247328897199314/SCIENCE111_ACCOUNTING_REVIEW.json",
+      "evidence/supplement-1791248235502776241/PARENT_ALTERNATIVES_AND_ALLOCATION_REVIEW.json",
+      "evidence/supplement-1791248235502776241/SCIENCE116_ACCOUNTING_REVIEW.json",
+      "evidence/supplement-1791249367605887057/SCIENCE121_RESULT_REVIEW.json",
+      "evidence/supplement-1791249367605887057/SCIENCE121_ACCOUNTING_RECOMMENDATION.json",
+      "evidence/supplement-1791249367605887057/MINIMUM_INTEGRATED_PILOT_AND_ALTERNATIVES_REVIEW.json",
+      "evidence/supplement-1791249367605887057/TURN7_SCIENCE121_ACCOUNTING_DISPOSITION.json",
+      "evidence/supplement-1791249367605887057/TURN7_OUTER6_ACCOUNTING_DISPOSITION.json",
+      "evidence/supplement-1791249367605887057/pilot/PILOT_PROTOCOL.json",
+      "evidence/supplement-1791249367605887057/pilot/FORECAST_AND_RESOURCE_RATIONALE.json",
+      "evidence/supplement-1791256407339312495/probe/SOURCE_PROBE_PROTOCOL.json",
+      "evidence/supplement-1791256407339312495/MEASURED_SUCCESSOR_REVIEW.json",
+      "evidence/supplement-1791256407339312495/ACCEPTED_CONTROL_RESULT_REVIEW143.json",
+      "evidence/supplement-1791258703415399145/probe/SOURCE_PROBE_PROTOCOL.json",
+      "evidence/supplement-1791258703415399145/PARENT_METHOD_REVIEW.json",
+      "evidence/supplement-1791258703415399145/ACCEPTED_GRAZING_RESULT_REVIEW152.json",
+      "evidence/supplement-1791261506836357372/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791261506836357372/probe/METHOD.md",
+      "evidence/supplement-1791261506836357372/PROSPECTIVE_ALLOCATION.json",
+      "evidence/supplement-1791262300803572466/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791262300803572466/COMPLETE_REPAIR.json",
+      "evidence/supplement-1791263626127042904/SCALAR_REPAIR.json",
+      "evidence/supplement-1791266080955520327/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791266080955520327/REMAINDER_REPAIR.json",
+      "evidence/supplement-1791266080955520327/INDEPENDENT_RESULT_REVIEW.json",
+      "evidence/supplement-1791266080955520327/PARENT_ALTERNATIVES_AND_RESOURCE_REMEDY.json",
+      "evidence/supplement-1791266080955520327/SCIENCE178_ACCOUNTING.json",
+      "evidence/supplement-1791266080955520327/EXACT_CODEC_REPAIR.json",
+      "evidence/supplement-1791266080955520327/CODEC_FIXTURE.json",
+      "evidence/supplement-1791266080955520327/RESULT184_INDEPENDENT_RESULT_REVIEW.json",
+      "evidence/supplement-1791266080955520327/RESULT184_PARENT_FOLLOWTHROUGH_JUDGMENT.json",
+      "evidence/supplement-1791267445665711958/SHORT_RECIPROCAL_PROPOSAL.json",
+      "evidence/supplement-1791267445665711958/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791268943300395120/PARENT_STRATEGY_REASSESSMENT.json",
+      "evidence/supplement-1791268943300395120/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791270559504109856/PARENT_SUCCESSOR_REVIEW.json",
+      "evidence/supplement-1791270559504109856/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791271045176640995/PARENT_SUCCESSOR_REVIEW.json",
+      "evidence/supplement-1791271045176640995/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791275939546644892/SELECTION_AND_PARKING.json",
+      "evidence/supplement-1791275939546644892/EXACT_PACKAGE_PREFLIGHT.json",
+      "evidence/supplement-1791276309357483616/INDEPENDENT207_INTEGRATED_REVIEW.json",
+      "evidence/supplement-1791277250297568036/ROOT_PROSPECTIVE_MEMORY_ALLOCATION.json",
+      "evidence/supplement-1791277250297568036/INDEPENDENT210_FAILURE_RESOURCE_REVIEW.json",
+      "prior_artifacts/000214/review/OWNED_SUCCESSOR_REQUIREMENTS.json",
+      "evidence/supplement-1791279768200086215/endpoint_linear/CONTROL_PROTOCOL.json",
+      "evidence/supplement-1791279768200086215/SOURCE_MAPPING_AND_REVIEW219.json",
+      "evidence/supplement-1791282384139743145/CONTROL_PROTOCOL.json",
+      "evidence/supplement-1791282384139743145/CONTROL_DESIGN_DRAFT.json",
+      "evidence/supplement-1791282384139743145/implementation_notes.json",
+      "evidence/supplement-1791285181549509845/field/FIELD_PROTOCOL.json",
+      "evidence/supplement-1791285181549509845/field/SOURCEBOX_DEPENDENCY.json",
+      "evidence/supplement-1791285181549509845/field/AUTHORING_PREFLIGHT.json",
+      "evidence/supplement-1791285181549509845/launch-repair/repair-report.json",
+      "evidence/supplement-1791285181549509845/launch-repair/repair.diff",
+      "evidence/supplement-1791285181549509845/launch-repair/offline-result.json",
+      "evidence/supplement-1791285181549509845/INTEGRATED_SCOPE_AND_OWNERSHIP.json",
+      "evidence/supplement-1791285181549509845/FAILED231_runner-result.json",
+      "evidence/supplement-1791285181549509845/FAILED231_runner-result.json.wait4-measurement.json",
+      "evidence/supplement-1791285181549509845/FAILED231_settlement.json",
+      "evidence/supplement-1791287100029995964/field/FIELD_PROTOCOL.json",
+      "evidence/supplement-1791287100029995964/RESOURCE_AND_DELTA.json",
+      "evidence/supplement-1791287100029995964/SOURCEFIELD238_FINAL_ACCOUNTING.json",
+      "evidence/supplement-1791287100029995964/SOURCEFIELD238_MEASURED_MILESTONE.json",
+      "evidence/supplement-1791287100029995964/REVIEW239_INTERRUPTION_RECONCILIATION.json",
+      "evidence/supplement-1791303714260220299/HANDOFF.json",
+      "evidence/supplement-1791303714260220299/package/QUALIFICATION_PROTOCOL.json",
+      "evidence/supplement-1791312120243201143/package/QUALIFICATION_PROTOCOL.json",
+      "evidence/supplement-1791306408095236975/MATHEMATICAL_IMPLEMENTATION_REPORT.json",
+      "evidence/supplement-1791321760227399813/INTERRUPTION287_INDEPENDENT_REVIEW.json",
+      "evidence/supplement-1791321760227399813/FINITE_BETA287_INTERRUPTED_FINAL_ACCOUNTING.json",
+      "evidence/supplement-1791321760227399813/FINITE_BETA287_INTERRUPTED_MEASURED_MILESTONE.json",
+      "evidence/supplement-1791321760227399813/ROOT_OWNED_RELEASE.py",
+      "evidence/supplement-1791321760227399813/ROOT_OWNED_LAUNCH.py"
+    ],
+    "falsification_test": "ONE complete normalized source-uniform n0 and n32 slab supporting control/cost pilot; not whole qualification, target, endpoint confirmation or scientific sign",
+    "independent_evidence": "Actual213completeknowncontrol accepted214, no newsource-endpointcalculation or independent admission in215. ExistingcompactLuna sourcecomparisons retained honestly unchangedclaim; prospectivefielddiagnosticexactscientificjudgments mandatory.",
+    "prior_art": [
+      {
+        "accessed": "Archived GPT-5.6 Luna medium report, 2026-10-02; inspected locally, no primary access.",
+        "coverage": "II model and III.A endpoint/barrier construction.",
+        "difference": "Same model and nominal endpoint; no spatial pairing Hessian certificate reported.",
+        "limitations": "Targeted reader coverage, coverage_verified=false; unlisted material and external sources/code/data unread.",
+        "overlap": "Same clean2D finite-asymmetry single-q endpoint and nearly-maximal diode construction.",
+        "report_binding": {
+          "path": "evidence/readers/zhuang2026/908ddee67d762bb4eb8c8ab46b2d79a623587fc1ca30dd0ddee4f7663a1278c3/report.json",
+          "sha256": "5bd518fd43200e0c20b7161a1d4cf4d7876c4e072fd0db095be8a533be9d1c61"
+        },
+        "source_sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6",
+        "title": "Helical phases and Bogoliubov Fermi surfaces probed by superconducting diode effects",
+        "url": "https://arxiv.org/abs/2510.18963v1"
+      },
+      {
+        "accessed": "Archived GPT-5.6 Luna medium report, 2026-10-02; inspected locally, no primary access.",
+        "coverage": "II and V-VII, especially Eqs65-68.",
+        "difference": "Known finite-K machinery; principal equal-DOS diagram and perturbative asymmetry correction do not assign the finite1/4 endpoint.",
+        "limitations": "Targeted reader coverage, coverage_verified=false; unlisted material and external sources/code/data unread.",
+        "overlap": "Clean2D Rashba singlet model and coupled finite-K stability.",
+        "report_binding": {
+          "path": "evidence/readers/dimitrova2007/9fdf9286a653ec2bd1e4a24f447e81b535282fcde720d8b25416c9e163549c9c/report.json",
+          "sha256": "4cea7a97929a9dadfe8d11517ee3c836d41511219c58924db25fadb3b51a79b7"
+        },
+        "source_sha256": "4312a534e6c3e3e86cc88d2931543daaa5cee0d227fdf3862c2839710442eb2e",
+        "title": "Theory of 2D superconductor with broken inversion symmetry",
+        "url": "https://arxiv.org/abs/cond-mat/0701698"
+      },
+      {
+        "accessed": "Archived GPT-5.6 Luna medium report, 2026-10-02; inspected locally, no primary access.",
+        "coverage": "II and III.B microscopic coupled-mode stability.",
+        "difference": "Established helical-to-multiple-q method; the quoted0.25 suppression result concerns spherical3D geometry, not this2D endpoint.",
+        "limitations": "Targeted reader coverage, coverage_verified=false; unlisted material and external sources/code/data unread.",
+        "overlap": "Microscopic helical-to-multiple-q fluctuation method.",
+        "report_binding": {
+          "path": "evidence/readers/agterberg2007/0387f3b0ea4b05f8cb91401e875c63e2d846282c48ade6dd71d699497f4c6d44/report.json",
+          "sha256": "ec2400942d9add4093e96d06c1577497890a15775c4976c8c3d7894e67bda8f0"
+        },
+        "source_sha256": "feddf8e57efbc60f008decf95dc4852020b4d8623bb8407716bc23285558546d",
+        "title": "Stability of magnetic-field induced helical phase in Rashba superconductors",
+        "url": "https://arxiv.org/abs/cond-mat/0612216"
+      },
+      {
+        "accessed": "Archived GPT-5.6 Luna medium report, 2026-10-02; inspected locally, no primary access.",
+        "coverage": "II-IV and AppendixA.",
+        "difference": "Strong2D stripe/diode overlap, gap-quartic GL and examined DOS0.01/0.05; no reported theorem or calculation settling this endpoint. Low temperature alone does not exclude near-Hc2 validity.",
+        "limitations": "Targeted reader coverage, coverage_verified=false; unlisted material and external sources/code/data unread.",
+        "overlap": "Clean2D cylindrical Rashba stripe onset and diode response.",
+        "report_binding": {
+          "path": "evidence/supplement-1790936891664267888/AOYAMA_SCOPE_REPORT.json",
+          "sha256": "6941aeba8cc23c4eb27cce023e12e358a06d67cbfdcd62d2c1f9898314abba09"
+        },
+        "source_sha256": "735ce8dd6002fb20f8d58516a568996f94917a130cec04b21428f1c7ea18e6ab",
+        "title": "Aoyama stripe order and superconducting diode study",
+        "url": "https://arxiv.org/abs/2310.16272"
+      },
+      {
+        "accessed": "Archived GPT-5.6 Luna medium report, 2026-10-02; inspected locally, no primary access.",
+        "coverage": "Global-equilibrium theorem, assumptions and metastable exclusions.",
+        "difference": "Global minimization at fixed twist does not determine this selected branch's local finite-K curvature.",
+        "limitations": "Targeted reader coverage, coverage_verified=false; unlisted material and external sources/code/data unread.",
+        "overlap": "Diode constraints including finite-momentum/multicomponent condensates.",
+        "report_binding": {
+          "path": "evidence/readers/hosur2026/565e4dc0146e31e3bcb92b1a8b6a4bcf0fd9749bd6f0f85fedfe651ac6b6b626/report.json",
+          "sha256": "cc8ebbadccfd2d8a0af742ae0a095e02d3b6b78f6c4e24ee91a65477d07371b3"
+        },
+        "source_sha256": "5843076883b22e232110bf24db87dfe6711b5bf0b4a701863744d937e8e3f22a",
+        "title": "Hosur equilibrium superconducting diode constraint",
+        "url": "https://arxiv.org/abs/2512.21384v3"
+      }
+    ],
+    "prior_art_access": "Saved GPT-5.6 Luna medium targeted reports only; coverage_verified=false. Source hashes are reader provenance. Unread sections, supplements, external references and figure-only coordinates are excluded; no primary-paper access or exhaustive search is claimed.",
+    "schema": "discovery-first-v1",
+    "scientific_significance": {
+      "before_after": "Support excludes local metastability at this endpoint. A contrary sign removes only this witness. Inconclusive certification changes no physics. No replacement phase, measured device efficiency or unrestricted phase diagram follows.",
+      "bounded_bridge": "At a stationary source state, a negative second variation supplies arbitrarily small energy-lowering pairing variations at fixed mean gradient. Full functional/input/error controls are necessary; a remote lower global minimum alone would not refute metastability.",
+      "decision_and_need": "The source's nearly-maximal diode endpoint uses a single-q current/barrier branch. Spatial local metastability is a necessary unverified premise in the supplied coverage. A controlled negative direction would invalidate that precise interpretation within its own model; no broader controversy is invented.",
+      "independent_assessment": {
+        "decision": "Conditional narrow significance supported; revise/hold incomplete execution design. No exact-final-protocol design or novelty admission.",
+        "input_bindings": [
+          {
+            "path": "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+            "sha256": "2304487b95b52f1456a995b00da5ab381f063b1dad175a5e5d5c340a90e135d7"
+          },
+          {
+            "path": "prior_artifacts/000008/science/frozen_witness.json",
+            "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+          }
+        ],
+        "objection": "Modulated Rashba pairing is familiar; one idealized endpoint may not alter experimental diode inference. The source already qualifies practical switching and barriers. Parameter application or solver repair alone is insufficient.",
+        "provenance": "Independent delegated supporting review returned during this invocation; no local report file was created in the read-only workspace. The reviewer verified report/input hashes, inspected compact Luna reports and independently confirmed both method obstructions; original papers were not read.",
+        "question": "Suppose this result is correct and new: why might researchers need to change their understanding, and why might they not?",
+        "report_inputs": "All five report bindings below were independently checked. Their source hashes are reader provenance, not independent verification of raw paper contents.",
+        "response": "A controlled same-source negative direction removes the specific necessary spatial-metastability premise. Claims must stop there; no replacement phase, global-equilibrium or efficiency inference.",
+        "reviewed_claim_sha256": "dce3c2b83cfa90a8300b1a318c592acb5277e4b2a17aea1f108c071d655306ae",
+        "reviewer_identity": "/root/independent_scope_check",
+        "unresolved_dependencies": [
+          "Completed exact repaired protocol and fresh independent significance/design/novelty review; this reviewer did not receive the final candidate.",
+          "Targeted reports are not an exhaustive literature countersearch."
+        ]
+      },
+      "strongest_resolution": "Microscopic Rashba helical/stripe instability and coupled-mode methods are established. Supplied comparisons do not assign this exact finite-DOS-asymmetry endpoint. A matching calculation or applicable local-stability theorem would turn the proposed inference into known recovery."
+    },
+    "search_date": "Archived reports2026-10-02; local refinement2026-10-05.",
+    "search_queries": [
+      "No fresh search or countersearch. Compared the five supplied source-linked Luna reports and historical candidate locally."
+    ],
+    "searched_through": "Supplied targeted reader coverage only.",
+    "strongest_baselines": [
+      "Exact source single-q endpoint and saved primary/control values.",
+      "Dimitrova/Agterberg microscopic stability, Aoyama2D GL stripe/diode result and Hosur's ensemble-scoped theorem.",
+      "Nonnegative fixed-direction null, with numerical invalidity treated separately."
+    ],
+    "test_refs": [
+      "rashba-finite-beta-expansion-full-source-nonlinear-qualification"
+    ]
+  },
+  "hypothesis_packet": {
+    "blockers": [],
+    "cheap_checks": [
+      {
+        "conclusion": "The exact finite-K sign is not settled by the supplied stripe/GL or global-equilibrium results. Both physical alternatives remain unresolved within the reported coverage.",
+        "disposition": "retained",
+        "evidence_refs": [
+          "evidence/readers/zhuang2026/908ddee67d762bb4eb8c8ab46b2d79a623587fc1ca30dd0ddee4f7663a1278c3/report.json",
+          "evidence/readers/hosur2026/565e4dc0146e31e3bcb92b1a8b6a4bcf0fd9749bd6f0f85fedfe651ac6b6b626/report.json",
+          "evidence/supplement-1790936891664267888/AOYAMA_SCOPE_REPORT.json"
+        ],
+        "id": "local_vs_global",
+        "method": "Local comparison of saved source-linked Luna reports and the completed-study disposition; no new search.",
+        "model_ids": [
+          "null_fixed_witness",
+          "negative_fixed_witness"
+        ]
+      },
+      {
+        "conclusion": "Uniform softening does not answer finite-K pairing stability; retain it as supporting branch/normalization evidence.",
+        "disposition": "reclassified",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json"
+        ],
+        "id": "zero_mode_is_control",
+        "method": "Inspect saved endpoint characterization and the fixed nonzero wavevector.",
+        "model_ids": [
+          "known_zero_mode"
+        ]
+      },
+      {
+        "conclusion": "At mandatory grazing, n=0 and B=.01, the implemented self-map requires aR²+(b-1)R+s<=0. Exact rational bounding gives discriminant<-1.09 and minimum>6.3 for every R>=0, even at zero input error. This vetoes the current sufficient certificate, not the physical state.",
+        "disposition": "reclassified",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+          "evidence/supplement-1791234847745936398/method/centre/production_centre.py",
+          "evidence/supplement-1791234847745936398/method/inputs/source_inputs.py"
+        ],
+        "id": "certificate_domain_veto",
+        "method": "Routine exact-rational arithmetic on the implemented sufficient inequality using Machin pi and integer-square-root brackets at 160 bits; no Riccati, Hessian or force solve.",
+        "model_ids": [
+          "numerical_obstruction"
+        ]
+      },
+      {
+        "conclusion": "One finest row needs 4194304 low certificates; 830 mandatory bytes each require at least 3481272320 bytes, exceeding 500000000. The literal 153-row translation requires 179830784 low and 602112 tail files. Current archival execution cannot complete under the cap.",
+        "disposition": "reclassified",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/runtime/smooth_pipeline.py",
+          "evidence/supplement-1791236061688848941/method_adapter_hook.py",
+          "evidence/supplement-1791234847745936398/method/inherited_driver.py"
+        ],
+        "id": "storage_lower_bound",
+        "method": "Count source-loop iterations and mandatory serialized fields without running the pipeline.",
+        "model_ids": [
+          "numerical_obstruction"
+        ]
+      },
+      {
+        "conclusion": "D0 known-control success does not determine original finite-field conditioning or cost. Exact finite-domain viable and obstructed numerical alternatives remain unresolved; one admitted stress-first pilot can discriminate them.",
+        "disposition": "retained",
+        "evidence_refs": [
+          "evidence/supplement-1791285181549509845/field/FIELD_PROTOCOL.json"
+        ],
+        "id": "field_method_feasibility_unmeasured",
+        "method": "Inspect exact adopted source-field runner/protocol and genuine independent235 findings, with accepted230/232 control reuse; no physical model evaluation.",
+        "model_ids": [
+          "direct_schedule_feasible",
+          "direct_schedule_obstructed"
+        ]
+      }
+    ],
+    "constraints": [
+      "Retain alpha_tilde=1/4, both helicities and the source clean intraband approximations.",
+      "Preserve the source ensemble, fixed mean phase gradient, Tc0 subtraction and coupled amplitude/phase perturbation.",
+      "No scientific controls or targets at refinement; no fresh literature access.",
+      "Preserve all spent identities, 896 completed results, 36/93 failed convergence checks and call89 timeout.",
+      "Prospectively uncapped cumulative CPU does not remove finite invocation or non-CPU limits."
+    ],
+    "generation_methods": [
+      "mechanistic_decomposition",
+      "symmetry_dimensions",
+      "boundary_cases",
+      "null_model"
+    ],
+    "models": [
+      {
+        "assumptions": [
+          "Same source functional, endpoint and Fourier convention.",
+          "A valid continuum uncertainty estimate is required."
+        ],
+        "baseline": true,
+        "complexity_rationale": "Minimal physical alternative without an added phase or parameter.",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+          "evidence/readers/zhuang2026/908ddee67d762bb4eb8c8ab46b2d79a623587fc1ca30dd0ddee4f7663a1278c3/report.json"
+        ],
+        "falsifier": "A controlled negative independent upper bound with every retained paired and finite-amplitude guard.",
+        "id": "null_fixed_witness",
+        "mathematical_model": "c_infinity(K*,v*) >= 0. This fixed-direction null does not assert positivity of the complete Hessian.",
+        "mechanism": "The saved direction does not destabilize the endpoint; the negative primary estimate is not confirmed.",
+        "status": "unresolved"
+      },
+      {
+        "assumptions": [
+          "The saved endpoint is stationary and source connected.",
+          "The perturbation remains fixed before evaluating the new representation.",
+          "The source microscopic approximations define the claim's scope."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Tests a necessary premise of the endpoint construction without attempting unrestricted phase selection.",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+          "evidence/readers/dimitrova2007/9fdf9286a653ec2bd1e4a24f447e81b535282fcde720d8b25416c9e163549c9c/report.json"
+        ],
+        "falsifier": "Resolved nonnegative independent curvature rejects this witness; failed numerical certification does not.",
+        "id": "negative_fixed_witness",
+        "mathematical_model": "c_infinity(K*,v*) < 0; C(epsilon)=[F(Delta+epsilon eta)+F(Delta-epsilon eta)-2F(Delta)]/(2 epsilon^2) approaches the matched quadratic coefficient.",
+        "mechanism": "Coupled amplitude/phase modulation lowers the same-source energy near the nominal single-q endpoint.",
+        "status": "unresolved"
+      },
+      {
+        "assumptions": [
+          "Canonical endpoint and Ward/current conventions are retained."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Known criticality is banked as a control, not a discovery.",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json"
+        ],
+        "falsifier": "Failure of endpoint reproduction or Ward identities invalidates this supporting control.",
+        "id": "known_zero_mode",
+        "mathematical_model": "J=0 and amplitude-relaxed dJ/dq=0 do not determine the sign at K*=(0.909013301211145,0).",
+        "mechanism": "The endpoint already has a uniform phase-gradient soft mode.",
+        "status": "supporting"
+      },
+      {
+        "assumptions": [
+          "Errors are not silently removed.",
+          "Operational completion is not scientific acceptance."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Separates computational limitations from physical conclusions.",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/CONTROLLER_SUCCESSOR_REQUIREMENTS.json",
+          "evidence/supplement-1791234847745936398/method/centre/production_centre.py",
+          "evidence/supplement-1791236061688848941/method_adapter_hook.py"
+        ],
+        "falsifier": "A complete independently validated continuum calculation resolves this diagnostic ambiguity.",
+        "id": "numerical_obstruction",
+        "mathematical_model": "Invalid convergence or an impossible sufficient-domain inequality leaves both physical models unresolved.",
+        "mechanism": "Representation, sufficient-certificate or resource failure can prevent identification of the physical sign.",
+        "status": "diagnostic"
+      },
+      {
+        "assumptions": [
+          "Original source normalization/witness/inputbox and Eep remain unchanged.",
+          "Analytic bounds may be conservative; no adequacy is presumed."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Scoped supporting test of the concrete whole-CPU obstruction from consumed287; narrower than full qualification and no target inference.",
+        "evidence_refs": [
+          "evidence/supplement-1791297573986102513/package/QUALIFICATION_PROTOCOL.json",
+          "evidence/supplement-1791290940728324805/package/QUALIFICATION_PROTOCOL.json"
+        ],
+        "falsifier": "Any inadequate local control/condition or incomplete pilot falsifies scoped two-slab adequacy, never the physical state.",
+        "id": "direct_schedule_feasible",
+        "mathematical_model": "All local full-normalization/source/branch/paired-path checks complete for both frozen slabs within finite reviewed resource allocation; measured costly and analytic rates inform only an empirical finest-schedule extrapolation.",
+        "mechanism": "Supporting numerical feasibility hypothesis for the exact finite-beta source-uniform n0/n32 slab method; no new physical mechanism.",
+        "status": "unresolved"
+      },
+      {
+        "assumptions": [
+          "Original source normalization/witness/inputbox and Eep remain unchanged.",
+          "Analytic bounds may be conservative; no adequacy is presumed."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Scoped supporting test of the concrete whole-CPU obstruction from consumed287; narrower than full qualification and no target inference.",
+        "evidence_refs": [
+          "evidence/supplement-1791297573986102513/package/QUALIFICATION_PROTOCOL.json",
+          "evidence/supplement-1791290940728324805/package/QUALIFICATION_PROTOCOL.json"
+        ],
+        "falsifier": "Complete independently reviewed two-slab validity and cost result rules out this scoped pilot obstruction, without qualifying the full-frequency method.",
+        "id": "direct_schedule_obstructed",
+        "mathematical_model": "At least one frozen local source/branch/normalization/paired-path/resource condition obstructs completing the two slabs; bank precise partial coverage and measured cost, preserving unresolved physical sign.",
+        "mechanism": "Supporting numerical feasibility hypothesis for the exact finite-beta source-uniform n0/n32 slab method; no new physical mechanism.",
+        "status": "unresolved"
+      }
+    ],
+    "proposed_study": null,
+    "question": "Is the source clean two-dimensional Rashba model's nominal nearly-maximal superconducting diode endpoint a physically self-consistent metastable pairing state once spatial pairing variations are allowed?",
+    "ranking": {
+      "mode": "qualitative",
+      "rationale": "Consumed287 achieved no complete finite-frequency qualification before wholeCPU failure. Exact independent interruption review selected materially smaller complete n0/n32 source-uniform normalized control/cost slabs and minimum historical artifact repair. This pilot decides local feasibility and measured rate only; physical parent hypotheses remain unresolved."
+    },
+    "scope": "ONE complete normalized source-uniform n0 and n32 slab supporting control/cost pilot; not whole qualification, target, endpoint confirmation or scientific sign",
+    "selected_test": "rashba-finite-beta-two-slab-control-cost-pilot",
+    "target_relevance": "A certified negative same-functional finite-K direction excludes local pairing metastability of the precise endpoint used in the nearly-maximal diode construction. Failure of this witness has narrower implications.",
+    "tests": [
+      {
+        "cheap_check_ids": [
+          "local_vs_global",
+          "zero_mode_is_control",
+          "certificate_domain_veto",
+          "storage_lower_bound",
+          "field_method_feasibility_unmeasured"
+        ],
+        "conditions": "Original x/K/v/epsilon/EP/Eep, complete source rectangle, same-z both sectors/poles and source weights unchanged. M16,Ntheta64,J8,Nt8; n0 and n32 only; n0 continuous angular16subcells and16signed beta cells; full normalization and paired paths. Uncomputed1..31 and33..511 explicit; no five-axis/mixed/epsilon convergence qualification.",
+        "cost_basis": "Prospective finite18000 wholeCPU/9000wall/1536MiB invocation, unchanged1MB output/256MiB reserve and500MB study cap; no cumulative userCPU ceiling. No measured two-slab rate before execution or certified whole-test forecast.",
+        "discrimination": "Discriminates scoped two-slab local validity and measured feasibility against a precise numerical/resource obstruction. It cannot distinguish either parent physical sign hypothesis.",
+        "estimated_actions": 1,
+        "id": "rashba-finite-beta-two-slab-control-cost-pilot",
+        "independent_validation": "ONE exact integrated independent significance/design/delta-novelty/source-remainder-tail-normalization/runtime review. Reuse unchanged compact272/274/277 comparisons within recorded coverage. Genuine separate gate readback; root release qualification only. Independent actual result and parent coverage still separate.",
+        "noise_and_nuisance": "Empirical binary64 primitive allowances remain conditional; retain source coefficient, normalized-force, connected branch/remainder, paired Gauss vs exact-moment errors. Retain complete infinite-tail bound beyond512 only; it does not cover missing finite-frequency slabs. Angular quadrature/hierarchy and complete physical coefficient errors remain unqualified.",
+        "observable": "Two complete normalized single-frequency correction sums/error components for each originalepsilon, every-completed-node/frequency telemetry and genuine wall/CPU/memory/artifact costs, or exact partial obstacle. No fullC(epsilon), completecI/EI, C1/C2 sign or endpointconfirmation.",
+        "outcome_rules": {
+          "inconclusive": "Missing or incomplete local evidence preserves scoped feasibility uncertainty and unanswered physical parent; no automatic replay, full qualification or targetrelease.",
+          "refutes": "A failed sufficient inequality or finite resource exhaustion rules out this exact scoped pilot implementation/allocation; preserve partial coverage and costs, independently reassess materially different method. Neither physical hypothesis refuted.",
+          "supports": "Both frozen slabs and every required local normalized/source/branch/paired-path control complete; supports scoped control/cost feasibility only. qualification_pass and whole_qualification_pass remainfalse, targetreleasefalse and endpointconfirmation0."
+        },
+        "predictions": {
+          "direct_schedule_feasible": "Both n0/n32 slabs complete local controls with normalized sums/errors and genuine measured rates; empirical finest extrapolation remains uncertified.",
+          "direct_schedule_obstructed": "At least one slab fails or remains incomplete, with exact local condition/partial coverage/cost evidence; no physical sign inference.",
+          "negative_fixed_witness": "Remains unresolved by this pilot: two isolated slab contributions cannot establish a negative full coefficient or original nonlinearC1/C2.",
+          "null_fixed_witness": "Remains unresolved by this pilot: no complete nonnegative curvature or stability inference from scoped controls or incomplete calculations."
+        },
+        "question_to_resolve": "Can the smallest source-faithful costly/analytic two-slab normalized control/cost pilot complete within frozen finite allocation, and what measured rate or precise local obstacle changes next full-test design?"
+      }
+    ],
+    "unmodeled_alternatives": "Other K/v instabilities, finite-amplitude escape, globally favorable textures, disorder/orbital/interband effects and device switching remain outside this witness test.",
+    "update_rule": "Bank completed-node and frequency telemetry plus partial normalized sums and exact failure domain. No replay, automatic allocation expansion, physical sign or target release. Independent result review decides measured feasibility and materially different successor. Complete pilot requires separate independent result review. Complete frequency/hierarchy qualification and original nonlinear C1/C2 plus adequate whole-test forecast remain unresolved before any targetconfirmation.",
+    "variables": [
+      {
+        "name": "x*=(T,D,q,h)",
+        "observability": "Original saved source endpoint and corrected physical radii T,D,q,h; no relocation or zero-radius inference",
+        "role": "Frozen background and endpoint uncertainty",
+        "units": "Tc0=1,vF=1"
+      },
+      {
+        "name": "K*,v*,eta",
+        "observability": "Saved witness; no rescreening or renormalization",
+        "role": "Fixed spatial intervention",
+        "units": "K in Tc0/vF; eta from the amplitude/phase vector"
+      },
+      {
+        "name": "per-frequency correction sums/localerror, completednodes, firstfailedinequality, actualcost",
+        "observability": "Two normalized slabs times three originalepsilon values give6scalar rows ifcomplete; neither missingfinitefrequencies nor fullhierarchy qualified.",
+        "role": "Supporting local source/branch/normalization controls and measured costly/analytic rates",
+        "units": "Matched sourcefreeenergy-curvature correction per N0 and explicit CPU/wall/RSS/bytes units"
+      },
+      {
+        "name": "EP,EI,Eep,Ectrl",
+        "observability": "Original EP/Eep/Ectrl and future completeEI thresholds unchanged; scoped local correction source/remainder/primitive/path errors reported. CompleteEI and nonlinearC1/C2 are not estimated by pilot.",
+        "role": "Preserved numerical/common uncertainties",
+        "units": "Samecurvatureunits"
+      },
+      {
+        "name": "M16,Ntheta64,J8,Nt8,n={0,32},originalepsilon",
+        "observability": "256quadrature expansionnodes plus2048 continuous n0 validationnodes;2304 total complete expansions ifsuccessful.16signedbeta cells on each n0 expansion.6normalized scalar rows; no full31configuration/93row hierarchy.",
+        "role": "Frozen two-regime supporting pilot interventions",
+        "units": "Counts and normalizedamplitude"
+      }
+    ],
+    "version": "competing-models-v2"
+  },
+  "protocol": {
+    "confirmation": {
+      "mode": "none_analytical"
+    },
+    "continuation_policy": "Bank completed-node and frequency telemetry plus partial normalized sums and exact failure domain. No replay, automatic allocation expansion, physical sign or target release. Independent result review decides measured feasibility and materially different successor.",
+    "controls": {
+      "complete_nonlinear": "Original C1/C2, quarter-error, paired-sign, primary agreement and Ectrl retained; complete finite-beta source, branch, all-mode remainder, both poles, path exact-moment, angular/frequency/mixed/epsilon checks required.",
+      "original_physical_acceptance": {
+        "inconclusive": "Any failed or missing source, branch, certificate, convergence, qualification, forecast or resource condition; infer neither physical sign.",
+        "refute": "A valid resolved nonnegative independent coefficient rejects this witness and requires reconciliation with the exploratory primary result. It does not refute every other unstable direction or answer the parent.",
+        "support": "Every source/branch/input/resource/convergence gate passes; cP+EP+Eep<0 and cI+EI+Eep<0; EP+Eep<=.25|cP| and EI+Eep<=.25|cI|; |cP-cI|<=EP+EI; Ectrl<=min(EP+Eep,EI+Eep); C1 and C2 are negative beyond their complete errors. This supports the fixed witness and defeats necessary local metastability within the source model."
+      },
+      "qualified_linear_anchor": "Genuine271/272 fixedwitness empiricalbinary64 result and original controls only actualbeta0 scopes; source256 not replayed or transferred to nonlinear.",
+      "source_correction": "RemainingEep allowance2.1698954876252615e-6, totalEep unchanged; sourcebox fullrectangle, piT and correctionpropagation explicit."
+    },
+    "cpu_accounting_policy": {
+      "authorization": {
+        "path": "evidence/supplement-1791234847745936398/controller/USER_CPU_AUTHORIZATION_2026_10_04.json",
+        "sha256": "b52667f5897527426264e872aaae7924db135d95411a30edcb5dfa8a62d083d2"
+      },
+      "cumulative_cpu_limit_seconds": null,
+      "schema": "case-cpu-accounting-v2"
+    },
+    "cpu_task_limits": {
+      "invocation_cpu_seconds": 18000,
+      "invocation_wall_seconds": 9000,
+      "qualification_cpu_seconds": 18000,
+      "qualification_wall_seconds": 9000
+    },
+    "dispatch_scope": "qualification_only_finite_beta_two_slab_pilot",
+    "execution_assets": {
+      "case_loop_engine": {
+        "path": "evidence/supplement-1791285181549509845/launcher/case_loop_engine.py",
+        "sha256": "fb10ba521d190feac17c7e92e4492ff982fd4f95afa45388c18725f4676eea97"
+      },
+      "correction_bounds": {
+        "path": "evidence/supplement-1791321760227399813/package/correction_bounds.py",
+        "sha256": "50026d4f2e31b055ed5fa4cc5c10f709304ad2047b8401b0b5955758a040437f"
+      },
+      "cpu_policy": {
+        "path": "evidence/supplement-1791321234680938724/runtime/cpu_policy.py",
+        "sha256": "d8c070f66894725afd1d0a3d6fc30e7dc1998a34eaa88077540b0c85d0ad1508"
+      },
+      "fresh_launch_packet": {
+        "path": "evidence/supplement-1791321760227399813/package/FRESH_LAUNCH_PACKET.json",
+        "sha256": "644088a107f8f24382b7fc3103bfa1adb90f04c61948c5db2af6fda3d6e63cf0"
+      },
+      "linear_anchor271": {
+        "path": "evidence/supplement-1791321760227399813/package/LINEAR271.json",
+        "sha256": "894e1a0a6e9887bdbd7ab2a2feca3b84f3d6a110e907040e2b72d99e16b075cc"
+      },
+      "native_guard_adapter": {
+        "path": "evidence/supplement-1791321760227399813/package/native_guard_adapter.py",
+        "sha256": "822f9b379bf33195c94adb91692f1597b4aa116710b4083e36d3994dff6f4b68"
+      },
+      "native_state_atomic_writer": {
+        "path": "evidence/supplement-1791321234680938724/runtime/native_state_atomic_writer.py",
+        "sha256": "62a0eb08f3a7e393cf85392e2876ccf05a49555a624176b6ea082e8aba611fd4"
+      },
+      "native_worker": {
+        "path": "evidence/supplement-1791321760227399813/package/native_worker.py",
+        "sha256": "9811081985d6ce7f25381aa13122d9bde09974b0a33191d455c24fd5dc1ce25e"
+      },
+      "nonlinear_response": {
+        "path": "evidence/supplement-1791321760227399813/package/nonlinear_response.py",
+        "sha256": "6413236099a7e6d75fc73af325998f880a3a2c9109d74c26e43397811cff974a"
+      },
+      "package_manifest": {
+        "path": "evidence/supplement-1791321760227399813/package/PACKAGE_MANIFEST.json",
+        "sha256": "91ac6674c17bb84ac1234a487e531558cdc9711b01b2eac93dffa21cfe9aba5a"
+      },
+      "qualification_protocol": {
+        "path": "evidence/supplement-1791321760227399813/package/QUALIFICATION_PROTOCOL.json",
+        "sha256": "bf857182366cf7876c82e76ef7c4bcfb58c07da6489a1e9fba90063e147b8eaa"
+      },
+      "qualification_runner": {
+        "path": "evidence/supplement-1791321760227399813/package/qualification_runner.py",
+        "sha256": "b815b19e17357991201d6295333d7555028e68a8067b19e7bdd56e3cfe15b7ab"
+      }
+    },
+    "execution_device_policy": {
+      "device_upper_bound_accounting": "science_wall_upper_bound",
+      "device_use": "cpu-only",
+      "schema": "reviewed-device-use-v1"
+    },
+    "execution_ready": true,
+    "execution_revision": "Consumed287 preserved; new materially smaller complete n0/n32 slab pilot, honest partial telemetry, unchanged exact source/math/acceptance; invocation-frozen historical artifact total. Fresh exact independent scientific delta admission and root release mandatory.",
+    "execution_worker": {
+      "path": "evidence/supplement-1791321760227399813/package/native_worker.py",
+      "sha256": "9811081985d6ce7f25381aa13122d9bde09974b0a33191d455c24fd5dc1ce25e"
+    },
+    "frozen_state": {
+      "EP": 5.8505237960874744e-08,
+      "Eep": 3.1623619986044952e-06,
+      "K": [
+        0.909013301211145,
+        0
+      ],
+      "binding": {
+        "path": "prior_artifacts/000008/science/frozen_witness.json",
+        "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+      },
+      "cP": -6.5287829634528e-05,
+      "epsilon": [
+        0.01,
+        0.005,
+        0.0025
+      ],
+      "status": "Inspected exploratory evidence. Exact binary centres do not imply zero physical uncertainty.",
+      "v": {
+        "imag": [
+          0,
+          -0.9908426008888789
+        ],
+        "real": [
+          -0.13502199918443586,
+          0
+        ]
+      },
+      "x": [
+        0.051955058120691594,
+        1.6925900731329657,
+        0.9791506418402958,
+        1.3985886221312929
+      ],
+      "x_order": [
+        "T",
+        "D",
+        "q",
+        "h"
+      ]
+    },
+    "independent_validation": "ONE exact integrated independent significance/design/delta-novelty/source-remainder-tail-normalization/runtime review. Reuse unchanged compact272/274/277 comparisons within recorded coverage. Genuine separate gate readback; root release qualification only. Independent actual result and parent coverage still separate.",
+    "known_control_scope": "ONE complete normalized source-uniform n0 and n32 slab supporting control/cost pilot; not whole qualification, target, endpoint confirmation or scientific sign",
+    "model_specification": {
+      "binding": {
+        "path": "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+        "sha256": "2304487b95b52f1456a995b00da5ab381f063b1dad175a5e5d5c340a90e135d7"
+      },
+      "json_pointers": [
+        "/protocol/model_specification",
+        "/protocol/canonical_endpoint"
+      ],
+      "normalization": "Uniform source weights w_lambda=(1+lambda/4)/2. Pipeline DOS weights W_lambda=2w_lambda are 3/4 and 5/4, summing to 2, with the audited piT signed-path prefactor. Do not interchange these conventions without their factor.",
+      "profile": "eta_+=vA+i vP; eta_-=conjugate(vA)+i conjugate(vP); Delta_beta=D+beta eta. Same z=omega+i delta in both Riccati sectors.",
+      "rule": "Inherit these physical definitions only, not historical execution rules or admission.",
+      "source_geometry": "theta_j=2pi j/Ntheta, including exact grazing; delta_lambda=(q/2-lambda h)cos(theta), u=cos(theta), omega_n=(2n+1)piT. Preserve Tc0 subtraction and fixed mean phase gradient."
+    },
+    "native_atomic_writer_release_readback": {
+      "atomic_live_path": "orchestration/hypothesis_loop.py",
+      "atomic_sha256": "62a0eb08f3a7e393cf85392e2876ccf05a49555a624176b6ea082e8aba611fd4",
+      "authorized_mutation": "exclusive native locks + save -> mkstemp/fsync/os.replace; no same-inode writer",
+      "engine_case_loop_live_path": "engine/case_loop.py",
+      "engine_case_loop_sha256": "fb10ba521d190feac17c7e92e4492ff982fd4f95afa45388c18725f4676eea97",
+      "metadata_trust": "Trusted local filesystem mutation reporting; no arbitrary-hostile-filesystem proof",
+      "required_before_cache_deployment": true
+    },
+    "outcomes": {
+      "inconclusive": "Missing or incomplete local evidence preserves scoped feasibility uncertainty and unanswered physical parent; no automatic replay, full qualification or targetrelease.",
+      "refute": "A failed sufficient inequality or finite resource exhaustion rules out this exact scoped pilot implementation/allocation; preserve partial coverage and costs, independently reassess materially different method. Neither physical hypothesis refuted.",
+      "support": "Both frozen slabs and every required local normalized/source/branch/paired-path control complete; supports scoped control/cost feasibility only. qualification_pass and whole_qualification_pass remainfalse, targetreleasefalse and endpointconfirmation0."
+    },
+    "pilot_protocol": {
+      "path": "evidence/supplement-1791321760227399813/package/QUALIFICATION_PROTOCOL.json",
+      "sha256": "bf857182366cf7876c82e76ef7c4bcfb58c07da6489a1e9fba90063e147b8eaa"
+    },
+    "predictions": {
+      "direct_schedule_feasible": "Both n0/n32 slabs complete local controls with normalized sums/errors and genuine measured rates; empirical finest extrapolation remains uncertified.",
+      "direct_schedule_obstructed": "At least one slab fails or remains incomplete, with exact local condition/partial coverage/cost evidence; no physical sign inference.",
+      "negative_fixed_witness": "Remains unresolved by this pilot: two isolated slab contributions cannot establish a negative full coefficient or original nonlinearC1/C2.",
+      "null_fixed_witness": "Remains unresolved by this pilot: no complete nonnegative curvature or stability inference from scoped controls or incomplete calculations."
+    },
+    "prerequisites": [
+      {
+        "bindings": [
+          {
+            "path": "evidence/supplement-1791321760227399813/package/QUALIFICATION_PROTOCOL.json",
+            "sha256": "bf857182366cf7876c82e76ef7c4bcfb58c07da6489a1e9fba90063e147b8eaa"
+          }
+        ],
+        "claim": "At the source single-q weak/strong-helical critical endpoint with alphatilde=1/4, there exists a fixed finite dimensionless vector kappa=vF K/Tc0≠0 whose coupled amplitude/phase Gaussian Hessian has a strictly negative eigenvalue. The same fixed perturbation lowers the source-compatible off-shell free energy to quadratic order.",
+        "classification": "essential",
+        "consequence": "Only exact separately admitted supporting two-slab pilot release; wholequalification and targetrelease alwaysfalse; parent unanswered",
+        "id": "source-uniform-two-slab-inert-implementation",
+        "input": "Inert local source/Taylor/Fourier/branch/tail/normalization/sum and runtime implementation for frozen n0/n32 slabs only",
+        "resolution": "Two-slab package authored, no physical evaluation or quantitative sufficiency established. Fresh exact native independent admission and root release mandatory. Complete full-frequency qualification remains an unresolved target-deferred scientific dependency.",
+        "status": "resolved"
+      },
+      {
+        "bindings": [
+          {
+            "path": "evidence/supplement-1791285181549509845/launcher/case_loop_engine.py",
+            "sha256": "fb10ba521d190feac17c7e92e4492ff982fd4f95afa45388c18725f4676eea97"
+          },
+          {
+            "path": "evidence/supplement-1791321234680938724/runtime/native_state_atomic_writer.py",
+            "sha256": "62a0eb08f3a7e393cf85392e2876ccf05a49555a624176b6ea082e8aba611fd4"
+          }
+        ],
+        "claim": "At the source single-q weak/strong-helical critical endpoint with alphatilde=1/4, there exists a fixed finite dimensionless vector kappa=vF K/Tc0≠0 whose coupled amplitude/phase Gaussian Hessian has a strictly negative eigenvalue. The same fixed perturbation lowers the source-compatible off-shell free energy to quadratic order.",
+        "classification": "essential",
+        "consequence": "No qualification dispatch or cache deployment until fresh exact independent delta review and root release-time native writer hash readback; changed/unsupported writer boundary fails closed.",
+        "id": "exclusive-native-atomic-state-writer",
+        "input": "Cache-enabled live state may mutate only through exact native save->atomic mkstemp+os.replace under native exclusive state locks; trusted local filesystem metadata reporting.",
+        "resolution": "Inspected exact engine.case_loop.save delegates atomic; exact orchestration.hypothesis_loop.atomic uses new temporary inode, fsync and os.replace. Native mutations use exclusive native locks. Root must independently verify live engine/case_loop.py and orchestration/hypothesis_loop.py SHA256 against these exact bindings before cache-enabled deployment. Same-tick same-size in-place mutations cannot be detected; any non-atomic authorized writer or failure of filesystem boundary withholds cache deployment.",
+        "status": "resolved"
+      }
+    ],
+    "question": "Is the source clean two-dimensional Rashba model's nominal nearly-maximal superconducting diode endpoint a physically self-consistent metastable pairing state once spatial pairing variations are allowed?",
+    "resource_limits": {
+      "artifact_bytes": 1000000,
+      "cpu_seconds_per_invocation": 18000,
+      "disk_reserve_bytes": 268435456,
+      "memory_mb": 1536,
+      "total_cpu_seconds": null,
+      "wall_seconds": 9000
+    },
+    "resource_projection": {
+      "controller_certificate": {
+        "path": "evidence/supplement-1790994862662329721/CURRENT_RUNTIME_ACCOUNTING.json",
+        "sha256": "a5236d399815659ae5cd897e11ed63bb83987337571049a4b555fe46aa8f2c67"
+      },
+      "qualification_artifact_bytes": 1000000,
+      "qualification_cpu_seconds": 18000,
+      "qualification_disk_reserve_bytes": 268435456,
+      "qualification_memory_mb": 1536,
+      "qualification_wall_seconds": 9000,
+      "scope": {
+        "scope": "Two slabs only provide empirical measured branch/analytic rate extrapolations; no worst-case n dependence, full error hierarchy or complete full-test forecast certification.",
+        "target_forecast_certified": false
+      },
+      "target_forecast_certified": false,
+      "target_release": false
+    },
+    "revision": "prospective-two-frequency-complete-normalized-slabs-with-node-telemetry-and-historical-artifact-freeze",
+    "supporting_diagnostic_outcomes": {
+      "fail": "Bank completed-node and frequency telemetry plus partial normalized sums and exact failure domain. No replay, automatic allocation expansion, physical sign or target release. Independent result review decides measured feasibility and materially different successor.",
+      "pass": "Complete two-slab control/cost outcome informs empirical rate only. Qualification alwaysfalse; no target release."
+    },
+    "supporting_reuse": {
+      "consumed_call": 287,
+      "fresh_confirmation": false,
+      "independent_result_call": 272,
+      "matched_beta0_nodes": "New coefficient-zero algebra only, not linear271 replay",
+      "parent_design_call": 279,
+      "scope": "New two-slab supporting pilot; not replay287, whole qualification or endpoint confirmation",
+      "source_call": 271
+    },
+    "target_deferred_prerequisites": [
+      "Adequate complete nonlinearqualification and actualwholeallocation forecast independentlyaccepted",
+      "Exact root targetrelease and unchanged C1C2 confirmation protocol/identities beforeconfirmation",
+      "Independent actualresult and separate parentcoverage review; no automaticclosure"
+    ],
+    "test_id": "rashba-finite-beta-two-slab-control-cost-pilot"
+  }
+}

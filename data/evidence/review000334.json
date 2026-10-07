@@ -1,0 +1,68 @@
+{
+  "result": {
+    "artifacts": [],
+    "binding_sha256": "55e29338158a536a3b9ba8c6229255affa93b8a8bc583010a5ea9442ca8a7d40",
+    "blockers": [],
+    "candidate_json": null,
+    "decision": "answered",
+    "external_dependency": null,
+    "findings": [
+      "The parent question is answered negatively at the level of conditional empirical numerical evidence: the reconstructed nominal nearly-maximal endpoint of the specified clean 2D Rashba source model fails necessary local pairing metastability when spatial variations are allowed. This judgment uses banked hypothesis-0067 and accepted actual-result review332, rather than treating branch closure as automatic parent closure.",
+      "Endpoint identification is supported by the historical self-consistent gap/zero-current/relaxed-current derivative residuals, positive amplitude curvature, and weak/strong-helical coexistence branches whose separation and barrier decrease toward the reconstructed endpoint. The retained coordinates are [T,Delta,q,h]=[0.051955058120691594,1.6925900731329657,0.9791506418402958,1.3985886221312929], with alphatilde=1/4. They are a numerical reconstruction, not exact coordinates supplied by the paper. The source-linked TeX reader supports stationary branch coalescence as the inferred endpoint characterization; the derivative conditions are not literally printed source equations.",
+      "Source normalization is adequately matched for this conclusion. The inspected implementation retains DOS weights 1+lambda/4 summing to two, explicit piT, the Tc-subtracted log(T) term, identical causal z in both Riccati sectors, and coupled amplitude/phase Fourier harmonics. Retained271 controls compare the raw source response with the signed force, current/free-energy normalization and K=0 amplitude/phase identities. The TeX reader corrects the older extraction's erroneous T multiplying the logarithm. These are constructed source-compatible functional identities, not a free-energy functional printed verbatim in the source.",
+      "The fixed admissible witness has kappa=(0.909013301211145,0). The qualified independent quadratic coefficient is -6.528782574296713e-5 with EI=1.6766293751752474e-7. Including the original endpoint allowance Eep=3.1623619986044952e-6 gives upper bound -6.19578008068451e-5. Its total error fraction is 5.10%, below the frozen 25% threshold; primary agreement and Ectrl=2.0319595129664327e-7 also satisfy the original rules.",
+      "The finite witness has matched nonlinear support, rather than only a raw negative mode. Actual330 C1 at epsilon=.005 and C2 at epsilon=.0025 have source-inclusive upper bounds -5.1597045109032524e-5 and -5.9342341366590406e-5. Richardson's source-inclusive upper bound is -4.549272512358091e-5. The paired nonlinear lowering, epsilon contraction and agreement with the quadratic coefficient support an actual local descent direction. A single such direction defeats the necessary minimum condition; a full spectrum or eventual phase identification is unnecessary for this negative answer.",
+      "Normalization and truncation coverage include every finite convolution mode, the full normalized-force identity, both force poles, connected signed-beta branches and full source-rectangle propagation. The nonlinear correction includes measured frequencies through511 and a complete paired infinite-frequency envelope, including every omitted even order; the tail is not asserted to vanish. Historical293/299 continuous angular enclosures and271 linear controls remain scoped supporting inputs. Actual330 contributes the complete31-configuration/93-row schedule and606208 expansions, with no historical scalar rows relabeled as fresh.",
+      "The shifted-origin coefficients agree with308 within summed complete errors. This addresses deterministic discretization sensitivity, not statistical independence or independent physical observations. Primitive binary64 allowances, endpoint error estimates and convergence estimators remain empirical. The conclusion is neither a directed-rounding theorem nor a statistical confidence statement.",
+      "Compact source-linked Luna reports distinguish this endpoint test from prior results. Zhuang's targeted bulk sections establish the single-q endpoint construction without a finite-K stability calculation. Agterberg-Kaur's reported multiple-q results do not identify this exact2D endpoint at the same asymmetry; Dimitrova-Feigel'man's principal equal-DOS/perturbative-asymmetry results likewise do not supply that identification. I inspected reader reports, not primary papers. Targeted coverage and unresolved TeX/PDF version equivalence limit bibliographic attribution; they do not require equating those priors with the reconstructed source-model endpoint. Existing novelty admission is unchanged.",
+      "Historical failures remain failures: the original008 certificate audit was inconclusive because its source-control bound failed, and later technical or resource failures are not retrospectively certified. Actual330 satisfies the retained scientific margins after prospectively reviewed work. GPU benchmarks and engineering throughput contribute no independent scientific evidence.",
+      "Actual330 elapsed14360.764784628002 seconds within its65000-second allocation. Sampled PGID RSS reached538.625MiB and reported lifetime SELF high-water was1532.09765625MiB, but neither certifies continuous whole-group memory. Initial10.8056 seconds, final0.2529 seconds and polling gaps remain unobserved. CPU ceilings remain null; adapter CPU excludes outer accounting, and the accepted review preserves the root settlement's unknown final tail and nonadditive GNUtime limitation. Missing historical telemetry is not compliance evidence.",
+      "Outside the exact question's scope, the evidence does not identify the replacement spatial phase, establish instability of every possible endpoint, calculate switching dynamics or experimental efficiency, or describe materials beyond the source's clean strong-SOC quasiclassical model. These are limitations on extrapolation, not remaining requirements for excluding local metastability of the specified nominal state."
+    ],
+    "local_exhaustion": [
+      "Read execution_context.json first and used its controller-authoritative900-second allocation and exact call334 binding.",
+      "Inspected case_context.json, including the authoritative parent question, prospective dispositions and banked hypothesis-0067; verified prior/000332.json has the banked receipt hash c5c6928e0f709550ceeda54b77b940a54e337a6970ec94b478d26e852821807b.",
+      "Inspected prior/000330.json, actual330 RESULT, MANIFEST and complete qualification evidence; checked saved acceptance arithmetic without executing physics code or generating data.",
+      "Inspected historical008 endpoint certificate, branch topology, frozen witness and failed certificate audit; inspected retained271 normalization controls and the bound nonlinear normalization/tail implementation.",
+      "Inspected compact source-linked reader reports for Zhuang, its conventions and equation/TeX audits, Agterberg-Kaur, Dimitrova-Feigel'man and Hosur. No primary-paper ingestion, network access or fresh countersearch occurred.",
+      "Inspected prior_resources/000330.json and retained its measurement-scope gaps. prior_failed/000333 contains only failure.json with a backend-exit error; no saved draft exists to repair.",
+      "The filesystem is read-only. No checkpoint file or new artifact could be created; this returned receipt records the substantive coverage judgment."
+    ],
+    "next_step": "Root should record the parent question as answered negatively by conditional empirical numerical evidence from hypothesis-0067, preserving exact provenance, uncertainty, consumed confirmations and historical failures. No repeat330, new experiment, gate waiver or authority change is needed for this scoped disposition.",
+    "novelty_review_json": null,
+    "progress_evidence": [
+      {
+        "change": "Established that the genuinely banked, independently accepted branch supplies a spatial descent witness sufficient for the parent metastability question.",
+        "reference": "prior/000332.json"
+      },
+      {
+        "change": "Checked matched nonlinear C1/C2, source-inclusive negative margins, complete tails and shifted-origin agreement; these resolve the former nonlinear-confirmation gap.",
+        "reference": "prior_artifacts/000330/science/complete-finite-beta/QUALIFICATION_RESULT.json"
+      },
+      {
+        "change": "Connected the tested state to the reconstructed nominal endpoint using self-consistency, derivative residuals and its retained uncertainty rectangle.",
+        "reference": "prior_artifacts/000008/science/endpoint_certificate.json"
+      },
+      {
+        "change": "Checked coexistence-branch contraction toward the endpoint rather than identifying it from approximate figure coordinates alone.",
+        "reference": "prior_artifacts/000008/science/branch_topology.json"
+      },
+      {
+        "change": "Verified source normalization and signed-force interpretation supporting the physical descent conclusion.",
+        "reference": "evidence/supplement-1791365457601894436/target_package/LINEAR271.json"
+      },
+      {
+        "change": "Resolved the extracted logarithm ambiguity using the source-linked TeX reader while retaining its version-attribution limitation.",
+        "reference": "evidence/readers/zhuang-tex-equation-audit/246c734ccd3f31ba3b73f28bbe91379959ef5cea441b1af0c4559408af93553a/report.json"
+      },
+      {
+        "change": "Separated scientific coverage from incomplete continuous resource certification.",
+        "reference": "prior_resources/000330.json"
+      }
+    ],
+    "question_assessment_json": "{\"parent_question\":\"Is the source clean two-dimensional Rashba model's nominal nearly-maximal superconducting diode endpoint a physically self-consistent metastable pairing state once spatial pairing variations are allowed?\",\"answer\":\"No, according to conditional empirical numerical evidence under the accepted frozen uncertainty criteria. The reconstructed nominal endpoint is self-consistent within the single-q ansatz but has an admissible coupled amplitude/phase finite-K descent direction with matched nonlinear free-energy lowering, so it fails necessary local pairing metastability when spatial variations are allowed. This is not a directed-rounding proof.\",\"branch_ids\":[\"hypothesis-0067\"],\"coverage\":\"The banked branch and independently accepted actual330 result cover the specified alphatilde=1/4 source-model nominal endpoint: numerical endpoint reconstruction and uncertainty, source-compatible normalization, a fixed nonzero-K pairing witness, qualified negative quadratic curvature, matched nonlinear C1/C2 lowering, complete spatial/source/infinite-frequency errors, and shifted-origin agreement. One admissible local descent direction suffices to exclude metastability of this state. Replacement phases, other endpoints, switching and real materials are outside this exact scope. Source-linked targeted-reader and empirical-arithmetic limitations remain explicit conditions on the answer.\",\"remaining_gaps\":[]}",
+    "summary": "Parent question answered: the reconstructed nominal source-model endpoint fails spatial local pairing metastability, supported by qualified negative curvature and matched nonlinear lowering. The answer is conditional empirical numerical evidence, not a rigorous proof or a replacement-phase prediction."
+  },
+  "completed_at": 1791397550.7026112,
+  "original_receipt_sha256": "7c9c9dbcdbb07e0d4cc1bb4d4a42afecfbac2f07c282b56bd491ec677181575f"
+}

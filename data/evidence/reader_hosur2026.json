@@ -1,0 +1,285 @@
+{
+  "coverage_note": "Reader-reported section inspection; not independently verified full-paper reading.",
+  "coverage_verified": false,
+  "created_at": "2026-10-02T08:32:01.788555+00:00",
+  "identity": {
+    "effort": "medium",
+    "model": "gpt-5.6-luna",
+    "question": "Read latest supplied version source-specific strong-equivalence veto. Extract exact equilibrium diode theorem, regularity/free-energy assumptions, global equilibrium vs current-biased metastable or constrained phase ensembles, explicit solvable Ising model, multi-component and Josephson extensions. What criticality/singular-branch requirement already covers near-perfect diode near helical Lifshitz endpoint? Does local finite-wavevector pairing instability/global competing multi-q order fall inside theorem or remain model-specific? Identify exact complete model data/parameters and actual unresolved consequential science beyond re-proving known continuity/polynomial bounds. Do not novelty-pass generic bound/stability. Precise equations/sections/unreadscope.",
+    "source_sha256": "5843076883b22e232110bf24db87dfe6711b5bf0b4a701863744d937e8e3f22a",
+    "version": "paper-reader-v1"
+  },
+  "reader": {
+    "answers": [
+      {
+        "answer": "Supported theorem: at fixed global phase twist \u0398, the equilibrium free energy is the global minimum over all internal condensate amplitudes and relative phases, F(\u0398)=min F[\u0398;|\u0394|,\u03b1]. On one connected superconducting interval (\u0398_c^\u2212,\u0398_c^+), with conventional local thermodynamics and continuous endpoint matching F(\u0398_c^+)=F(\u0398_c^\u2212), I(\u0398)=2e\u2202_\u0398F and I_c^\u00b1=max_\u0398[\u00b1I(\u0398)]. Exact I_c^\u2212=0 with I_c^+\u22600 would make I\u22650 everywhere and positive somewhere, so \u222bI d\u0398>0 contradicts endpoint equality. Exact equilibrium perfection is therefore forbidden. The asymptotic limit \u03b5=I_c^\u2212/I_c^+\u21920 requires a nonanalytic/singular global free-energy landscape: branch switching, competing condensates, or textures/domain walls producing broad nearly-flat negative-current regions and finite positive-current regions. A smooth analytic single branch cannot realize the limit by the identity theorem.",
+        "references": [
+          {
+            "line_end": 129,
+            "line_start": 59,
+            "section": "Superconducting thermodynamics setup; exact equilibrium no-go"
+          },
+          {
+            "line_end": 174,
+            "line_start": 130,
+            "section": "Critical currents; analytic-branch obstruction and singularity requirement"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The regularity assumptions are model-class specific. The basic veto requires global minimization at fixed \u0398, a connected superconducting domain (with reentrant intervals asserted to extend straightforwardly), and continuity of F at the superconducting endpoints. For a finite-order Landau description, I is assumed to be a real polynomial of degree \u2264n, giving \u03b5\u2265[T_n((1+r)/(1\u2212r))]^{-1}. For a 2\u03c0-periodic Josephson energy with harmonics through order n, \u03b5\u2265[T_{2n}(sec(\u03c0r/2))]^{-1}; finite 4\u03c0 periodicity only changes the fundamental domain. If F\u2208C^k but F\u2209C^{k+1}, Fourier tails scale as |A_m|\u223cm^{\u2212(k+1)} and |I_m|\u223cm^{\u2212k}, weakening the finite-harmonic obstruction. These quantitative bounds are not universal bounds on unrestricted nonsmooth or infinite-harmonic models.",
+        "references": [
+          {
+            "line_end": 118,
+            "line_start": 96,
+            "section": "Equilibrium minimization, superconducting interval, and endpoint conditions"
+          },
+          {
+            "line_end": 174,
+            "line_start": 138,
+            "section": "Analytic obstruction and Josephson-harmonic remark"
+          },
+          {
+            "line_end": 368,
+            "line_start": 289,
+            "section": "Appendix A: finite-order Landau assumptions and Remez bound"
+          },
+          {
+            "line_end": 425,
+            "line_start": 373,
+            "section": "Appendix B: finite-harmonic Josephson bound and smoothness assumptions"
+          },
+          {
+            "line_end": 467,
+            "line_start": 426,
+            "section": "Appendix B: nonsmooth Fourier tails and 4\u03c0 periodicity"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The theorem concerns unconstrained two-terminal global equilibrium. It explicitly includes multiband/multicomponent condensates, finite-momentum paired states, and effectively one-dimensional Josephson devices only when all internal variables globally relax at fixed \u0398. It does not govern constrained equilibrium, selected local-minimum or loss-of-stability dynamics, metastable current-biased Josephson switching, explicitly driven/dissipative states, or multiterminal devices. Those routes can produce high or ideal measured efficiency without contradicting the theorem.",
+        "references": [
+          {
+            "line_end": 101,
+            "line_start": 59,
+            "section": "Thermodynamic setting and global minimization"
+          },
+          {
+            "line_end": 145,
+            "line_start": 130,
+            "section": "Equilibrium critical currents versus current-biased switching"
+          },
+          {
+            "line_end": 274,
+            "line_start": 232,
+            "section": "Constrained, metastable, nonequilibrium, and multiterminal routes"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The explicit solvable model is a per-length free energy f=F/L with q=\u0398/L and an internal Ising variable \u03c3=\u00b11: f(q;\u03c3)=\u2212f_0+(K_\u03c3/2)q\u00b2\u2212\u03c3\u03b3_\u03c3q, with K_\u03c3>0 and \u03b3_\u03c3>0. Minimizing \u03c3 gives f(q<0)=\u2212f_0+(K_\u2212/2)q\u00b2+\u03b3_\u2212q and f(q>0)=\u2212f_0+(K_+/2)q\u00b2\u2212\u03b3_+q, with a cusp at q=0 (or a shifted cusp measured relative to its location). The superconducting cutoffs are q_c^\u00b1=\u00b1K_\u00b1^{-1}(\u03b3_\u00b1+\u221a(\u03b3_\u00b1\u00b2+2K_\u00b1f_0)), and minima q_*^\u00b1=\u00b1\u03b3_\u00b1/K_\u00b1. The current is I(q)=2e(K_\u2212q+\u03b3_\u2212) for q_c^\u2212<q<0 and 2e(K_+q\u2212\u03b3_+) for 0<q<q_c^+, with a jump 2e(\u03b3_++\u03b3_\u2212) at q=0. I_c^\u00b1=2e max(\u03b3_\u2213,\u03b3_\u00b1+\u221a(\u03b3_\u00b1\u00b2+2K_\u00b1f_0)). The complete toy-model data are (f_0,K_+,K_\u2212,\u03b3_+,\u03b3_\u2212), subject to positivity; near-perfect asymmetry requires \u03b3_\u2212, \u03b3_+, and K_\u2212\u21920 with K_+=f_0 fixed. The displayed examples are (1,1,0.7,0.8,0.35), \u03b5\u22480.759, and (1,1,0.003,0.01,0.01), \u03b5\u22485.5\u00d710^\u22122.",
+        "references": [
+          {
+            "line_end": 222,
+            "line_start": 175,
+            "section": "Ising-coupled superconductor: definition, minimization, cutoffs, current"
+          },
+          {
+            "line_end": 285,
+            "line_start": 254,
+            "section": "Ising-model parameters, examples, and limiting condition"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "For a helical Lifshitz endpoint, the requirement already supplied by this paper is not merely \u2018criticality\u2019 or a local soft mode: near-perfect global-equilibrium diode behavior requires that global minimization generate a nonanalytic lower envelope F(\u0398), with branch switching or an equivalent singular texture/order rearrangement. The supplied paper does not analyze a helical Lifshitz endpoint or prove that its local criticality produces such a global singular branch. Therefore the endpoint application remains unresolved and model-specific.",
+        "references": [
+          {
+            "line_end": 174,
+            "line_start": 138,
+            "section": "Required singular branch structure"
+          },
+          {
+            "line_end": 299,
+            "line_start": 289,
+            "section": "Experimental diagnostic and unresolved physical alternatives"
+          }
+        ],
+        "status": "unresolved"
+      },
+      {
+        "answer": "A local finite-wavevector pairing instability is not, by itself, an exception to the theorem and is insufficient evidence for the required branch. If all competing states are globally minimized at fixed \u0398 and their lower envelope is continuous but nonanalytic, the instability can realize the permitted singular-branch mechanism. A globally competing multi-q order likewise lies inside the theorem only after a complete global free-energy comparison; if the observed state is a selected local/metastable branch, it is outside the theorem and becomes model-specific. The source supplies no microscopic multi-q functional, fluctuation analysis, barrier calculation, or global-versus-local result for such a case.",
+        "references": [
+          {
+            "line_end": 107,
+            "line_start": 59,
+            "section": "Scope of finite-momentum states and global minimization"
+          },
+          {
+            "line_end": 169,
+            "line_start": 138,
+            "section": "Competing finite-q states and nonanalytic branch changes"
+          },
+          {
+            "line_end": 254,
+            "line_start": 239,
+            "section": "Local-instability and competing-order routes"
+          },
+          {
+            "line_end": 315,
+            "line_start": 289,
+            "section": "Diagnostic implications and unresolved alternatives"
+          }
+        ],
+        "status": "unresolved"
+      },
+      {
+        "answer": "The unresolved consequential science is therefore not another proof of continuity, the identity theorem, polynomial rigidity, or finite-harmonic bounds. It is the complete model-specific determination of whether a specified material or endpoint has: (i) all microscopic parameters and competing q/multi-q order parameters specified; (ii) a globally minimized, continuous but singular F(\u0398); (iii) equilibrium access across competing branches rather than metastability; and (iv) a measurement protocol sampling that global state. The supplied source does not provide those data or calculations.",
+        "references": [
+          {
+            "line_end": 174,
+            "line_start": 138,
+            "section": "Singularity requirement and competing states"
+          },
+          {
+            "line_end": 315,
+            "line_start": 289,
+            "section": "Experimental implications and remaining physical alternatives"
+          }
+        ],
+        "status": "unresolved"
+      }
+    ],
+    "findings": [
+      {
+        "assumptions": [
+          "\u0398 is the sole transport-conjugate coordinate; all other condensate amplitudes and relative phases are minimized at fixed \u0398.",
+          "The basic proof uses one connected superconducting interval; the source states reentrant extensions are straightforward.",
+          "Conventional local thermodynamics supplies continuity of F at the identified endpoints.",
+          "The polynomial and Fourier inequalities require finite-order truncation or stated smoothness assumptions."
+        ],
+        "claim": "The source-specific strong-equivalence veto is: exact perfect diode behavior is incompatible with continuous unconstrained global equilibrium, while asymptotically perfect behavior requires a singular global branch structure or departure from global equilibrium.",
+        "equations": [
+          "F(\u0398)=min_{|\u0394_j|,\u03b1_{j\u22652}}F[\u0398;|\u0394_{1...N}|,\u03b1_{2...N}].",
+          "I(\u0398)=2e\u2202_\u0398F(\u0398),  I_c^\u00b1=max_\u0398[\u00b1I(\u0398)].",
+          "F(\u0398_c^+)\u2212F(\u0398_c^\u2212)=(1/2e)\u222b_{\u0398_c^\u2212}^{\u0398_c^+}I(\u0398)d\u0398.",
+          "\u03b5=I_c^\u2212/I_c^+; \u03b5=0 implies I(\u0398)\u22650 everywhere and I(\u0398)>0 somewhere, contradicting endpoint equality."
+        ],
+        "limitations": [
+          "The source establishes a thermodynamic condition, not a microscopic criterion for a named critical point to generate the required singularity.",
+          "The theorem does not establish global selection from a local instability or guarantee equilibration across barriers."
+        ],
+        "references": [
+          {
+            "line_end": 129,
+            "line_start": 96,
+            "section": "Equilibrium minimization and exact no-go"
+          },
+          {
+            "line_end": 174,
+            "line_start": 130,
+            "section": "Asymptotic singularity requirement"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "The Ising variable is an exactly solvable auxiliary internal degree of freedom.",
+          "The model is translationally reduced to q=\u0398/L and is per unit length.",
+          "The five parameters f_0,K_+,K_\u2212,\u03b3_+,\u03b3_\u2212 are phenomenological; no microscopic mapping is supplied."
+        ],
+        "claim": "The Ising model is a complete toy-model realization of the singular branch mechanism, not a complete microscopic model of a helical Lifshitz or multi-q material.",
+        "equations": [
+          "f(q;\u03c3)=\u2212f_0+(K_\u03c3/2)q\u00b2\u2212\u03c3\u03b3_\u03c3q.",
+          "f(q<0)=\u2212f_0+(K_\u2212/2)q\u00b2+\u03b3_\u2212q;  f(q>0)=\u2212f_0+(K_+/2)q\u00b2\u2212\u03b3_+q.",
+          "q_*^\u00b1=\u00b1\u03b3_\u00b1/K_\u00b1.",
+          "I_c^\u00b1=2e max(\u03b3_\u2213,\u03b3_\u00b1+\u221a(\u03b3_\u00b1\u00b2+2K_\u00b1f_0))."
+        ],
+        "limitations": [
+          "No microscopic band, interaction, disorder, temperature, fluctuation, or endpoint parameterization is supplied.",
+          "No multi-q variational or global-vs-local stability calculation is supplied."
+        ],
+        "references": [
+          {
+            "line_end": 222,
+            "line_start": 175,
+            "section": "Ising-coupled superconductor"
+          },
+          {
+            "line_end": 274,
+            "line_start": 254,
+            "section": "Ising examples and limiting parameters"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "Only the supplied source.txt/source.numbered.txt were inspected; no network access, external references, cited papers, or supplements were inspected.",
+      "The numbered extraction renders some equations awkwardly; equations are transcribed from the supplied source content while citations point to the canonical numbered lines.",
+      "The supplied paper does not contain a source-specific microscopic helical-Lifshitz or multi-q calculation, so those applications remain unresolved rather than novelty-passed."
+    ],
+    "sections_inspected": [
+      {
+        "line_end": 20,
+        "line_start": 1,
+        "section": "Title and abstract"
+      },
+      {
+        "line_end": 129,
+        "line_start": 59,
+        "section": "Superconducting thermodynamics setup and exact no-go"
+      },
+      {
+        "line_end": 174,
+        "line_start": 130,
+        "section": "Critical currents, analytic obstruction, and singularity requirement"
+      },
+      {
+        "line_end": 222,
+        "line_start": 175,
+        "section": "Ising-coupled superconductor"
+      },
+      {
+        "line_end": 285,
+        "line_start": 254,
+        "section": "Ising examples and limiting parameter condition"
+      },
+      {
+        "line_end": 315,
+        "line_start": 232,
+        "section": "Relevance, experimental implications, and unresolved alternatives"
+      },
+      {
+        "line_end": 368,
+        "line_start": 289,
+        "section": "Appendix A: finite-order Landau assumptions and bound"
+      },
+      {
+        "line_end": 425,
+        "line_start": 373,
+        "section": "Appendix B: finite-harmonic Josephson bound and smoothness assumptions"
+      },
+      {
+        "line_end": 467,
+        "line_start": 426,
+        "section": "Appendix B: nonsmooth tails and 4\u03c0 periodicity"
+      }
+    ],
+    "source_sha256": "5843076883b22e232110bf24db87dfe6711b5bf0b4a701863744d937e8e3f22a",
+    "unread_scope": [
+      "Introduction/body lines 21-58 were not inspected because they are not needed for the requested theorem/model/ensemble analysis.",
+      "Bibliography and cited external literature were not inspected.",
+      "External references and supplements were not inspected; no independent verification of literature claims was performed."
+    ]
+  },
+  "report_path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/hosur2026/565e4dc0146e31e3bcb92b1a8b6a4bcf0fd9749bd6f0f85fedfe651ac6b6b626/report.json",
+  "source": {
+    "line_count": 725,
+    "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/raw/hosur2026.txt",
+    "sha256": "5843076883b22e232110bf24db87dfe6711b5bf0b4a701863744d937e8e3f22a"
+  }
+}

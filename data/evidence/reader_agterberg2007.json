@@ -1,0 +1,411 @@
+{
+  "coverage_note": "Reader-reported section inspection; not independently verified full-paper reading.",
+  "coverage_verified": false,
+  "created_at": "2026-10-02T08:57:19.804127+00:00",
+  "identity": {
+    "effort": "medium",
+    "model": "gpt-5.6-luna",
+    "question": "Targeted strongest-equivalent scientific review. Read Agterberg-Kaur microscopic Rashba helical stability source, extract exact normal Hamiltonian/helicity DOS convention deltaN and strong-SOC approximation, pairing interaction and Eilenberger/free-energy regularization, coupled finite-wavevector perturbation operator including both fluctuation sectors around a single-q selfconsistent state, and actual helical-to-multiple-q instability boundaries. Compare model assumptions to this compact Zhuang2026 report context: clean 2D isotropic parabolic Rashba gas, strong SOC weak inplane Zeeman field, common singlet single-q pairing, helicity DOS asymmetry alphatilde=.25, quoted weak-to-strong helical critical endpoint TCEP/Tc approximately .05, missing exact hCEP/qCEP. Does your paper already prove or numerically establish that actual endpoint is preempted by stripe/multiple-q order at the same density asymmetry, or merely establish such instability in a different parameter domain? Provide explicit change-of-convention mapping where supported; do not equate generic existence of stripe with actual endpoint preemption. Are quantities sufficient for a source-native finite Gaussian local stability test without fitting phenomenological coefficients? Distinguish negative eigenvalue local instability from global phase selection and from gap closing. Identify exact missing coordinates, dimensions/geometry, angular/frequency grids/cutoffs, published code/data, strongest relevant precedent and limitations. Explain whether any source-specific new consequential finite endpoint inference remains, rather than new solver or known stripe boundary. Use compact equations and source citations; no simulation. Explicitly identify unread external citations and gaps, all source hashes, actual sections inspected.",
+    "source_sha256": "feddf8e57efbc60f008decf95dc4852020b4d8623bb8407716bc23285558546d",
+    "version": "paper-reader-v1"
+  },
+  "reader": {
+    "answers": [
+      {
+        "answer": "The paper establishes a finite-wavevector local helical-to-multiple-q instability in its own phase diagrams, but does not establish preemption of the Zhuang2026 endpoint at the same 2D density asymmetry. Its \u03b4N>0.25 statement belongs to the reported 3D spherical-Fermi-surface analysis; no matching Zhuang endpoint calculation is given.",
+        "references": [
+          {
+            "line_end": 16,
+            "line_start": 1,
+            "section": "Title/Abstract"
+          },
+          {
+            "line_end": 83,
+            "line_start": 23,
+            "section": "I. INTRODUCTION"
+          },
+          {
+            "line_end": 326,
+            "line_start": 211,
+            "section": "III.B. Stability of the helical phase"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The source defines \u03b4N=(N+\u2212N\u2212)/(N++N\u2212). Thus \u03b1tilde=0.25 maps to \u03b4N=0.25 only if \u03b1tilde uses the same signed normalized helicity-DOS difference and band ordering; otherwise only the magnitude correspondence is supported. No TCEP, qCEP, fixed-density procedure, or direct Zhuang2026 convention mapping is supplied.",
+        "references": [
+          {
+            "line_end": 206,
+            "line_start": 189,
+            "section": "III.A. Helical phase solution"
+          },
+          {
+            "line_end": 326,
+            "line_start": 314,
+            "section": "III.B. Stability of the helical phase"
+          }
+        ],
+        "status": "unresolved"
+      },
+      {
+        "answer": "The displayed equations suffice in principle for a source-native finite Gaussian/local stability test: solve the self-consistent single-q state and evaluate the quadratic form in the coupled fluctuation sectors. They do not suffice to reproduce a unique numerical boundary because angular grids, Matsubara truncation/high-frequency treatment, convergence rules, and code/data are unspecified.",
+        "references": [
+          {
+            "line_end": 170,
+            "line_start": 106,
+            "section": "II. MICROSCOPIC FORMULATION"
+          },
+          {
+            "line_end": 206,
+            "line_start": 173,
+            "section": "III.A. Helical phase solution"
+          },
+          {
+            "line_end": 281,
+            "line_start": 211,
+            "section": "III.B. Stability of the helical phase"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "A negative eigenvalue of the quadratic fluctuation form is a local instability of the self-consistent helical state. It is not by itself proof of global phase selection and is not equivalent to quasiparticle gap closing; the paper treats free-energy phase comparison and DOS separately.",
+        "references": [
+          {
+            "line_end": 217,
+            "line_start": 211,
+            "section": "III.B. Stability of the helical phase"
+          },
+          {
+            "line_end": 326,
+            "line_start": 279,
+            "section": "III.B. Stability of the helical phase"
+          },
+          {
+            "line_end": 352,
+            "line_start": 329,
+            "section": "III.C. Density of states in the helical phase"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "No source-specific new consequential finite-endpoint inference is established beyond the precedent that multiple-q order occurs in some domains and is suppressed as DOS asymmetry increases. The Zhuang2026 endpoint requires a fresh calculation at its exact 2D geometry, field-temperature coordinates, q convention, and DOS asymmetry.",
+        "references": [
+          {
+            "line_end": 83,
+            "line_start": 23,
+            "section": "I. INTRODUCTION"
+          },
+          {
+            "line_end": 326,
+            "line_start": 314,
+            "section": "III.B. Stability of the helical phase"
+          },
+          {
+            "line_end": 448,
+            "line_start": 438,
+            "section": "IV. CONCLUSIONS"
+          }
+        ],
+        "status": "supported"
+      }
+    ],
+    "findings": [
+      {
+        "assumptions": [
+          "\u03b1tilde=\u03b4N assumes identical signed normalized DOS-difference convention and band ordering.",
+          "Endpoint preemption means a multiple-q fluctuation eigenvalue becomes negative at or before the specified Zhuang2026 endpoint."
+        ],
+        "claim": "Agterberg and Kaur study magnetic-field-induced helical order and its instability to spatially varying multiple-q order.",
+        "equations": [
+          "\u0394(R)=\u03940 exp(iq\u00b7R).",
+          "\u0394(R)=\u0394q eiq\u00b7R+\u0394p eip\u00b7R+\u03942q\u2212p ei(2q\u2212p)\u00b7R."
+        ],
+        "limitations": [
+          "Cited external papers were not inspected."
+        ],
+        "references": [
+          {
+            "line_end": 16,
+            "line_start": 1,
+            "section": "Title/Abstract"
+          },
+          {
+            "line_end": 44,
+            "line_start": 32,
+            "section": "I. INTRODUCTION"
+          },
+          {
+            "line_end": 217,
+            "line_start": 211,
+            "section": "III.B. Stability of the helical phase"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "\u03b1\u226b\u03bcBH and \u03b1\u226bTc.",
+          "The nontrivial analysis uses an in-plane field; vector potential is neglected and B=H."
+        ],
+        "claim": "The normal Hamiltonian is H0=\u03a3kss\u2032 c\u2020k,s{\u03b5k\u03c30+[\u03b1gk+\u03bcBH]\u00b7\u03c3}ss\u2032ck,s\u2032 plus the pairing interaction, with gk=(ky,\u2212kx,0)/kF and \u27e8gk\u00b2\u27e9=1. The helicity dispersions are Ek,\u00b1=\u03b5k\u00b1|\u03b1gk+\u03bcBH|; in strong SOC the problem reduces to two real helicity bands. For the cylindrical in-plane-field representation, the field can be absorbed into shifted momenta in the quoted dispersion.",
+        "equations": [
+          "H0=\u03a3kss\u2032c\u2020k,s{\u03b5k\u03c30+[\u03b1gk+\u03bcBH]\u00b7\u03c3}ss\u2032ck,s\u2032+(1/2)\u03a3kk\u2032qV(k,k\u2032)c\u2020k+q/2,\u2191c\u2020\u2212k+q/2,\u2193c\u2212k\u2032+q/2,\u2193ck\u2032+q/2,\u2191.",
+          "\u03b4N=(N+\u2212N\u2212)/(N++N\u2212)."
+        ],
+        "limitations": [
+          "No Zhuang-style \u03b1tilde, fixed-density procedure, or exact endpoint convention is defined."
+        ],
+        "references": [
+          {
+            "line_end": 60,
+            "line_start": 51,
+            "section": "I. INTRODUCTION"
+          },
+          {
+            "line_end": 104,
+            "line_start": 86,
+            "section": "II. MICROSCOPIC FORMULATION"
+          },
+          {
+            "line_end": 206,
+            "line_start": 189,
+            "section": "III.A. Helical phase solution"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "The singlet interaction and large-SOC phase redefinition are used."
+        ],
+        "claim": "The pairing interaction is spin-singlet, with V(k\u0302,k\u0302\u2032)=\u2212V\u03d5\u0393(k\u0302)\u03d5\u0393*(k\u0302\u2032) and helicity-band matrix proportional to [[1,\u22121],[\u22121,1]]. The factorized gaps obey \u0394\u0303+(R)+\u0394\u0303\u2212(R)=0, so their magnitudes are equal pointwise.",
+        "equations": [
+          "V\u0302=(V(k\u0302,k\u0302\u2032)/2)[[1,\u22121],[\u22121,1]].",
+          "\u0394\u03b1(k\u0302,R)=\u0394\u0303\u03b1(R)\u03d5\u0393(k\u0302), \u0394\u0303++\u0394\u0303\u2212=0."
+        ],
+        "limitations": [
+          "This is not a general mixed singlet-triplet or independent-helicity-gap model."
+        ],
+        "references": [
+          {
+            "line_end": 104,
+            "line_start": 96,
+            "section": "II. MICROSCOPIC FORMULATION"
+          },
+          {
+            "line_end": 154,
+            "line_start": 142,
+            "section": "II. MICROSCOPIC FORMULATION"
+          },
+          {
+            "line_end": 427,
+            "line_start": 425,
+            "section": "III.C. Density of states in the helical phase"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "The displayed quasiclassical functional is used after solving the Eilenberger equations.",
+          "A is neglected for the reported Zeeman-only diagrams."
+        ],
+        "claim": "The Eilenberger equations impose f\u2020f+g\u00b2=1; the gap equation sums Matsubara frequencies and helicity bands weighted by Nj; and the Gibbs functional contains V\u22121|\u0394|\u00b2 minus the Matsubara sum of Ij. No numerical Matsubara cutoff or explicit high-frequency subtraction is stated.",
+        "equations": [
+          "[\u03c9n\u00b1i\u03bcB g\u0302k\u00b7B+v\u0302k\u00b7(\u2207+2ieA/c)]f\u00b1=\u0394\u00b1g\u00b1.",
+          "f\u2020\u00b1f\u00b1+g\u00b2\u00b1=1.",
+          "\u0394i=\u2212\u03c0T\u03a3n,jNj\u27e8Vijfj\u27e9.",
+          "\u03a9SN=\u222bdR[V\u22121|\u0394|\u00b2\u2212\u03c0T\u03a3n,jNj\u27e8Ij\u27e9]."
+        ],
+        "limitations": [
+          "Angular quadrature, Matsubara truncation, high-frequency treatment, spatial discretization, tolerances, and code/data are absent."
+        ],
+        "references": [
+          {
+            "line_end": 170,
+            "line_start": 106,
+            "section": "II. MICROSCOPIC FORMULATION"
+          },
+          {
+            "line_end": 206,
+            "line_start": 189,
+            "section": "III.A. Helical phase solution"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "The background \u0394Q is self-consistent and made real by gauge choice.",
+          "Terms through second order in the two added Fourier amplitudes are retained."
+        ],
+        "claim": "The coupled fluctuation sectors are \u0394p and \u03942Q\u2212p. The required first- and second-order propagator corrections lead to a quadratic free energy with diagonal terms and sector mixing, implying a 2\u00d72 Hermitian local stability matrix.",
+        "equations": [
+          "F(2)=\u03b1p|\u0394p|\u00b2+\u03b12Q\u2212p|\u03942Q\u2212p|\u00b2+\u03b1m\u0394p\u03942Q\u2212p+\u03b1m*\u0394p*\u0394*2Q\u2212p.",
+          "The paper reports numerically that the first instability occurs at p=\u2212Q."
+        ],
+        "limitations": [
+          "Full coefficient functions, eigenvectors, numerical grids, and error estimates are not printed.",
+          "The determinant/eigenvalue criterion is inferred from the displayed quadratic form."
+        ],
+        "references": [
+          {
+            "line_end": 281,
+            "line_start": 211,
+            "section": "III.B. Stability of the helical phase"
+          },
+          {
+            "line_end": 323,
+            "line_start": 314,
+            "section": "III.B. Stability of the helical phase"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "Reported phase boundaries remain within the paper\u2019s stated geometry and pairing model."
+        ],
+        "claim": "For isotropic s-wave pairing on a 3D spherical Fermi surface, \u03b4N=0 has helical-to-multiple-q instability below T/Tc=0.36; \u03b4N=0.05 retains a low-temperature/moderate-field multiple-q region; and the stripe region shrinks with \u03b4N, ceasing once \u03b4N>0.25. A separate 2D cylindrical result is discussed for Hc2, but no 2D isotropic-s-wave helical-to-multiple-q endpoint boundary at \u03b4N=0.25 is supplied.",
+        "equations": [
+          "\u03b4N=0: multiple-q instability for T/Tc<0.36.",
+          "\u03b4N=0.05: multiple-q at low temperature and moderate fields.",
+          "Multiple-q ceases once \u03b4N>0.25."
+        ],
+        "limitations": [
+          "No exact H/T or q coordinates, uncertainties, or endpoint coordinates are supplied.",
+          "The >0.25 statement is not a result exactly at 0.25 and is not stated for the Zhuang2026 2D parabolic model.",
+          "Underlying numerical data are unavailable."
+        ],
+        "references": [
+          {
+            "line_end": 326,
+            "line_start": 288,
+            "section": "III.B. Stability of the helical phase"
+          },
+          {
+            "line_end": 350,
+            "line_start": 338,
+            "section": "III.C. Density of states in the helical phase"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "Free-energy selection, local Hessian instability, and spectral gap behavior are distinct observables."
+        ],
+        "claim": "The source minimizes the helical free energy over \u0394 and q, evaluates a quadratic perturbation free energy for local stability, and separately computes DOS. The high-field normal-like band contribution is not identified as the multiple-q boundary.",
+        "equations": [
+          "g\u00b1=\u03c9\u0303n\u00b1/sqrt(\u03c9\u0303n\u00b1\u00b2+|\u0394\u03d5\u0393|\u00b2), f\u00b1=\u0394\u03d5\u0393eiq\u00b7R/sqrt(\u03c9\u0303n\u00b1\u00b2+|\u0394\u03d5\u0393|\u00b2).",
+          "N(\u03c9)=\u03a3j=\u00b1Nj Re\u27e8|\u03c9\u0303j|/sqrt(\u03c9\u0303j\u00b2\u2212|\u0394\u03d5\u0393(k\u0302)|\u00b2)\u27e9k\u0302."
+        ],
+        "limitations": [
+          "No spectral gap-closing line is computed as the helical-to-multiple-q transition."
+        ],
+        "references": [
+          {
+            "line_end": 206,
+            "line_start": 178,
+            "section": "III.A. Helical phase solution"
+          },
+          {
+            "line_end": 326,
+            "line_start": 279,
+            "section": "III.B. Stability of the helical phase"
+          },
+          {
+            "line_end": 351,
+            "line_start": 329,
+            "section": "III.C. Density of states in the helical phase"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "Relevant precedent is limited to what the supplied source identifies, without reading its references."
+        ],
+        "claim": "The strongest relevant precedent supplied is this microscopic Eilenberger/free-energy calculation, together with its cited prior 2D s-wave Rashba stripe literature. The external works are unread, so their exact assumptions and boundaries cannot be assessed here.",
+        "equations": [],
+        "limitations": [
+          "External citations 1\u201328 were not read.",
+          "No supplement, code, raw phase-boundary tables, or independent reproduction package was supplied."
+        ],
+        "references": [
+          {
+            "line_end": 40,
+            "line_start": 25,
+            "section": "I. INTRODUCTION"
+          },
+          {
+            "line_end": 83,
+            "line_start": 51,
+            "section": "I. INTRODUCTION"
+          },
+          {
+            "line_end": 512,
+            "line_start": 455,
+            "section": "References"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "Only source.txt/source.numbered.txt were inspected; no network access, experiments, or filesystem writes were used.",
+      "The supplied source SHA256 is feddf8e57efbc60f008decf95dc4852020b4d8623bb8407716bc23285558546d; it was not independently recomputed.",
+      "External cited papers, supplements, publisher versions, source code, raw phase-boundary data, and any Zhuang2026 source were not inspected.",
+      "No separately identified appendix is present in the supplied text. Exact numerical grids, Matsubara cutoffs/high-frequency regularization, q/H/T tables, and endpoint data are missing."
+    ],
+    "sections_inspected": [
+      {
+        "line_end": 16,
+        "line_start": 1,
+        "section": "Title/Abstract"
+      },
+      {
+        "line_end": 83,
+        "line_start": 23,
+        "section": "I. INTRODUCTION"
+      },
+      {
+        "line_end": 170,
+        "line_start": 86,
+        "section": "II. MICROSCOPIC FORMULATION"
+      },
+      {
+        "line_end": 206,
+        "line_start": 173,
+        "section": "III.A. Helical phase solution"
+      },
+      {
+        "line_end": 326,
+        "line_start": 211,
+        "section": "III.B. Stability of the helical phase"
+      },
+      {
+        "line_end": 435,
+        "line_start": 329,
+        "section": "III.C. Density of states in the helical phase"
+      },
+      {
+        "line_end": 450,
+        "line_start": 438,
+        "section": "IV. CONCLUSIONS"
+      },
+      {
+        "line_end": 512,
+        "line_start": 455,
+        "section": "References (external works unread)"
+      }
+    ],
+    "source_sha256": "feddf8e57efbc60f008decf95dc4852020b4d8623bb8407716bc23285558546d",
+    "unread_scope": [
+      "External references 1\u201328 and their papers, supplements, code, and data were not inspected.",
+      "No external Zhuang2026 report or underlying source was inspected; its context came only from the question.",
+      "No publisher version, appendices beyond the supplied source, source code, raw numerical data, or exact phase-boundary tables were inspected."
+    ]
+  },
+  "report_path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/agterberg2007/0387f3b0ea4b05f8cb91401e875c63e2d846282c48ade6dd71d699497f4c6d44/report.json",
+  "source": {
+    "line_count": 512,
+    "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/agterberg2007/0387f3b0ea4b05f8cb91401e875c63e2d846282c48ade6dd71d699497f4c6d44/raw/source.txt",
+    "sha256": "feddf8e57efbc60f008decf95dc4852020b4d8623bb8407716bc23285558546d"
+  }
+}

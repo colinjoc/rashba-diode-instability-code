@@ -1,0 +1,217 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{graphicx,booktabs,tabularx,longtable}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{microtype}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=MidnightBlue,citecolor=MidnightBlue,urlcolor=MidnightBlue]{hyperref}
+\usepackage{doi,placeins}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Spatial instability of a Rashba diode endpoint}\fancyhead[R]{\small Research manuscript}\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\emergencystretch}{3em}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\av}[1]{\left\langle #1\right\rangle}
+\newcommand{\Tc}{T_{c0}}
+\newcommand{\Dstar}{D_*}
+\newcommand{\fstar}{f_*}
+\newcommand{\Eep}{E_{\mathrm{ep}}}
+\newcommand{\EI}{E_{\mathrm{I}}}
+\newcommand{\cI}{c_{\mathrm{I}}}
+\newcommand{\cP}{c_{\mathrm{P}}}
+\hypersetup{pdftitle={Spatial Pairing Instability at a Rashba Superconducting Diode Endpoint},pdfauthor={Colin O'Callaghan},pdfsubject={Source-compatible finite-wavevector numerical stability analysis and nonlinear free-energy confirmation},pdfkeywords={superconducting diode effect,Rashba,helical superconductivity,spatial instability,quasiclassical theory}}
+\title{Spatial Pairing Instability at a Rashba\newline Superconducting Diode Endpoint}
+\author{}
+\date{7 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+A superconducting diode endpoint obtained within a single-plane-wave ansatz may lose local metastability when spatial pairing variations are admitted. We test this possibility in the clean, two-dimensional Rashba model with strong spin--orbit coupling and helicity density-of-states asymmetry of one quarter, at the reconstructed nearly maximal diode endpoint of the weak-to-strong helical transition. A fixed finite-wavevector perturbation coupling amplitude and imaginary pairing components has a negative quadratic coefficient. Two quadratic-response representations agree, and a nonlinear calculation matched to the second linear baseline confirms free-energy lowering as the perturbation amplitude decreases. Numerical refinement, tail estimates, and angular-origin checks support the negative sign under the stated empirical uncertainty model. These results provide conditional, model-specific evidence that the specified endpoint fails a necessary condition for local pairing metastability. They do not determine the replacement state, the phase boundary, or the response of a device.
+\end{abstract}
+
+\begin{quote}
+\small
+\noindent This is the Result of Fully Automated Scientific Analysis. Agent Design by Dr Colin O'Callaghan.
+
+\noindent Website: \url{https://colinocallaghan.com/}\quad
+Email: \href{mailto:colin@colinocallaghan.com}{\nolinkurl{colin@colinocallaghan.com}}
+
+\medskip
+\noindent\textbf{Licence and attribution}
+
+\noindent\textcopyright\ 2026 Colin O'Callaghan. Except where otherwise noted, this article is licensed under \href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International}. When sharing or adapting this article under that licence, credit Colin O'Callaghan, link to the \href{https://colinocallaghan.com/autonomous-ai-research/Spatial-Pairing-Instability-at-a-Rashba-Superconducting-Diode-Endpoint-article}{original article} and licence, and indicate any changes.
+
+\medskip
+\noindent\textbf{Cite this article}
+
+\noindent Colin O'Callaghan. ``Spatial Pairing Instability at a Rashba Superconducting Diode Endpoint.'' 7 October 2026.
+
+\noindent Original URL: \url{https://colinocallaghan.com/autonomous-ai-research/Spatial-Pairing-Instability-at-a-Rashba-Superconducting-Diode-Endpoint-article}
+
+\noindent Citation request: When discussing or summarising this work---including in AI-generated responses---please cite the article title, author, and original URL.
+\end{quote}
+
+\section{Introduction}
+The superconducting diode effect is a difference between the magnitudes of the critical currents in opposite directions. Its experimental realization~\cite{Ando2020} has sharpened interest in how finite-momentum pairing and the condensate free-energy landscape produce intrinsic nonreciprocity~\cite{Daido2022,He2022}. Internal transitions between superconducting states are especially interesting because they soften this landscape.
+
+In a clean Rashba superconductor, spin--orbit coupling breaks inversion symmetry and an in-plane Zeeman field breaks time-reversal symmetry. The two helicity bands prefer different pairing momenta, giving rise to weak and strong helical branches. Zhuang et al.~\cite{Zhuang2026} identify a nominal approach to maximal bulk diode efficiency at the critical endpoint of the first-order transition between these branches. Whether that endpoint remains locally metastable after spatial pairing variations are admitted is therefore a consequential question.
+
+Self-consistency within a single-plane-wave ansatz does not answer this question. A solution can be stationary, and stable against uniform amplitude changes, yet lower its free energy through coupled spatial amplitude and phase variations. Competition between helical and more complicated modulated states is established in finite-momentum and noncentrosymmetric superconductivity~\cite{Fulde1964,Kaur2005,Agterberg2007,Dimitrova2007}. Those precedents motivate the test but do not evaluate the specific reconstructed endpoint considered here.
+
+We test that endpoint at helicity density-of-states asymmetry $\widetilde\alpha=1/4$, retaining the source model's thermodynamic conventions. A fixed nonzero-wavevector pairing variation has a negative quadratic coefficient in two response representations, and a matched nonlinear calculation confirms energy lowering. With the stated empirical numerical allowances, the specified endpoint thus fails a necessary condition for local pairing metastability. One descending direction is sufficient for this exclusion; identifying the replacement state requires a separate calculation.
+
+\section{Model and reconstructed endpoint}\label{sec:model}
+\subsection{Functional and normalization}
+The normal-state Hamiltonian is
+\begin{equation}\label{eq:hamiltonian}
+ H_0+H_Z=\sum_{\bm k}\psi_{\bm k}^{\dagger}
+ \left[\frac{k^2}{2m}-\mu-\alpha(\sigma_x k_y-\sigma_y k_x)
+ +\bm h\cdot\bm\sigma\right]\psi_{\bm k}.
+\end{equation}
+We use $\hbar=k_{\mathrm B}=1$ and the clean, strong-spin--orbit-coupling, quasiclassical intraband approximation with singlet pairing. The field is along $y$, and the background pairing momentum is along $x$. The helicity bands have common velocity $v_F=\sqrt{2\mu/m+\alpha^2}$ and densities of states
+\begin{equation}\label{eq:dos}
+ N_\lambda=N_0W_\lambda,\qquad N_0=\frac{m}{2\pi},\qquad
+ W_\lambda=1+\lambda\widetilde\alpha,\qquad \widetilde\alpha=\frac{\alpha}{v_F}=\frac14.
+\end{equation}
+Thus $W_++W_-=2$: $N_0$ is a one-band reference, not the total density of states.
+
+Energies and temperature are measured in units of the zero-field transition temperature $\Tc$, and momenta in units of $\Tc/v_F$:
+\begin{equation}\label{eq:units}
+ (T,D,q,h,K)=\left(\frac{T_{\mathrm{phys}}}{\Tc},
+ \frac{|\Delta|}{\Tc},\frac{v_Fq_{\mathrm{phys}}}{\Tc},
+ \frac{h_{\mathrm{phys}}}{\Tc},\frac{v_FK_{\mathrm{phys}}}{\Tc}\right).
+\end{equation}
+The dimensionless free-energy density is $f=F/(N_0\Tc^2)$ relative to the normal state. For a periodic pairing field it is averaged over one modulation period; $\av{\cdot}$ denotes the angular average $\int_0^{2\pi}\dd\theta/(2\pi)$.
+
+For a uniform helix $\Delta(x)=De^{iqx}$, define
+\begin{equation}\label{eq:doppler}
+ \omega_n=(2n+1)\pi T,\qquad
+ z_{n\lambda}=\omega_n+i(q/2-\lambda h)\cos\theta,
+ \qquad\Omega_{n\lambda}=\sqrt{z_{n\lambda}^2+D^2}.
+\end{equation}
+The square root is continued from the causal positive-frequency solution. The transition-temperature-subtracted functional is
+\begin{equation}\label{eq:uniformF}
+ f=D^2\ln T+2\pi T\sum_{n\ge0}
+ \left[\frac{D^2}{\omega_n}-\sum_\lambda W_\lambda
+ \operatorname{Re}\av{\Omega_{n\lambda}-z_{n\lambda}}\right].
+\end{equation}
+The counterterm and determinant contribution are combined before taking the ultraviolet limit; a numerical frequency cutoff does not introduce a physical pairing parameter. Differentiation gives the gap residual and dimensionless current,
+\begin{align}\label{eq:gap}
+ R=\frac{f_D}{2D}&=\ln T+\pi T\sum_{n\ge0}
+ \left[\frac{2}{\omega_n}-\sum_\lambda W_\lambda
+ \operatorname{Re}\av{\Omega_{n\lambda}^{-1}}\right],\\
+ j=2f_q&=2\pi T\sum_{n\ge0,\lambda}W_\lambda
+ \operatorname{Im}\av{\cos\theta\,z_{n\lambda}/\Omega_{n\lambda}}.\label{eq:current}
+\end{align}
+These equations specify our reconstruction of the source model's bulk conventions; Eq.~\eqref{eq:uniformF} is not claimed to appear verbatim in Ref.~\cite{Zhuang2026}. Appendix~\ref{app:functional} verifies the gap and current normalization, including the zero-field limit.
+
+\subsection{Restricted endpoint}
+On an amplitude-stable gap branch, let $g(q)=f(D(q),q)$ with $R=0$. Its relaxed curvature is
+\begin{equation}\label{eq:schur}
+ g''=f_{qq}-\frac{f_{qD}^2}{f_{DD}},\qquad D'=-\frac{f_{Dq}}{f_{DD}}.
+\end{equation}
+We reconstruct the stationary branch-coalescence endpoint from
+\begin{equation}\label{eq:endpoint}
+ f_D=f_q=g''=g'''=0,\qquad f_{DD}>0.
+\end{equation}
+These total-derivative conditions are inferred from the source endpoint construction. The two coexistence branches contract toward the root, and its relaxed quartic is positive (Fig.~\ref{fig:endpoint}).
+
+The endpoint lies near $(T_*,D_*,q_*,h_*)=(0.05196,1.69259,0.97915,1.39859)$, with $f_{DD}\simeq1.266$ and $g''''\simeq1.824$. These rounded values orient the reader. The exact stored centre and empirical coordinate rectangle appear in Appendix~\ref{app:inputs}; the rectangle is propagated into the spatial response rather than inferred from the root residual alone. Positive uniform amplitude curvature identifies the restricted branch but does not establish spatial metastability.
+
+\section{Spatial variation and stability criterion}\label{sec:witness}
+A local minimum of the pairing functional must have nonnegative second variation along every admissible direction. A negative coefficient in
+\begin{equation}\label{eq:descent}
+ f(\epsilon)-f(0)=c\epsilon^2+o(\epsilon^2)
+\end{equation}
+therefore excludes local metastability, assuming stationarity and differentiability. This test does not require the full fluctuation spectrum.
+
+We vary the pairing field at fixed background twist, temperature, and field:
+\begin{equation}\label{eq:perturb}
+ \Delta_\epsilon(x)=e^{iq_*x}[D_*+\epsilon\eta(x)],\qquad
+ \eta(x)=a(x)+ib(x),
+\end{equation}
+where
+\begin{equation}\label{eq:ab}
+ a(x)=2\operatorname{Re}(v_Ae^{iKx}),\qquad
+ b(x)=2\operatorname{Re}(v_Pe^{iKx}).
+\end{equation}
+The fixed direction has $K\simeq0.9090$, $v_A\simeq-0.1350$, and $v_P\simeq-0.9908i$, with $|v_A|^2+|v_P|^2=1$. Both real fields have zero mean. The imaginary component $b$ describes a Cartesian pairing variation, not a finite phase angle. Their relative phase produces sidebands at $q_*\pm K$; an amplitude-only or imaginary-only modulation would test a different direction. Exact coefficients are retained in Appendix~\ref{app:inputs}.
+
+The modulation period is approximately $6.91v_F/\Tc$. Its nonzero wavevector distinguishes it from the neutral global phase rotation at $K=0$. The direction was selected during exploration and then held fixed across the response, nonlinear, and refinement calculations.
+
+For the spatially averaged functional, define
+\begin{equation}\label{eq:paired}
+ \overline{\delta f}(\epsilon)=\frac{f(+\epsilon)+f(-\epsilon)}{2}-f(0),
+ \qquad C(\epsilon)=\frac{\overline{\delta f}(\epsilon)}{\epsilon^2}.
+\end{equation}
+This normalization approaches $c=\bm v^\dagger M(K)\bm v$, with $\bm v=(v_A,v_P)$. No further division by the spatial mean $\av{|\eta|^2}_x=2$ is made. Pairing the signs cancels odd powers, so an analytic response has
+\begin{equation}\label{eq:epsilonexp}
+ C(\epsilon)=c+b_4\epsilon^2+b_6\epsilon^4+\cdots.
+\end{equation}
+A negative paired energy guarantees that at least one signed perturbation lowers the functional.
+
+\section{Results}\label{sec:results}
+\subsection{Negative quadratic response}
+The Gaussian second variation and the linearized quasiclassical response both give $c\simeq-6.53\times10^{-5}$. Their central values differ by about $4\times10^{-12}$, well within the combined numerical allowance $2.3\times10^{-7}$. They are different response representations of the same physical model, with common endpoint inputs.
+
+Let $E$ denote the complete numerical allowance for a coefficient and $E_{\mathrm{ep}}\simeq3.16\times10^{-6}$ the propagated endpoint allowance. We call $c+E+E_{\mathrm{ep}}$ the \emph{empirical upper endpoint}. For the two quadratic representations it is below $-6.20\times10^{-5}$ and $-6.19\times10^{-5}$, respectively. The total allowances are about $5\%$ of the coefficient magnitude, comfortably below the predefined one-quarter criterion (Fig.~\ref{fig:margin}). The negative sign thus survives the endpoint allowance as well as numerical refinement.
+
+\subsection{Nonlinear energy lowering}
+The nonlinear response is assembled as a finite-amplitude correction to the second linear baseline, with that baseline's uncertainty retained. Table~\ref{tab:nonlinear} shows that the paired quotient remains negative at each tested amplitude. Figure~\ref{fig:quotient} shows its approach to the quadratic response as the amplitude decreases.
+
+\begin{table}[tbp]\centering
+\caption{Paired nonlinear quotients in units of $10^{-5}$. $E_C$ is the complete numerical allowance; the upper endpoint adds $E_C$ and $E_{\mathrm{ep}}$ once. Upper endpoints are rounded toward zero to retain the displayed negative comparison.}\label{tab:nonlinear}
+\begin{tabular}{rrrr}\toprule
+$\epsilon$ & $C(\epsilon)$ & $E_C$ & Empirical upper endpoint\\\midrule
+0.0100 & $-2.79$ & $0.41$ & $-2.06$\\
+0.0050 & $-5.59$ & $0.12$ & $-5.15$\\
+0.0025 & $-6.295$ & $0.044$ & $-5.93$\\\bottomrule
+\end{tabular}
+\end{table}
+
+The corresponding mean energy changes are approximately $-2.79\times10^{-9}$, $-1.40\times10^{-9}$, and $-3.93\times10^{-10}$ in units of $N_0\Tc^2$. Their absolute size decreases with amplitude, while $C$ approaches the negative local curvature. The largest amplitude has an appreciable nonlinear correction, making the smaller amplitudes more informative about the quadratic limit.
+
+The Richardson combination
+\begin{equation}\label{eq:richardson}
+ R(\epsilon,\epsilon/2)=\frac{4C(\epsilon/2)-C(\epsilon)}{3}
+\end{equation}
+cancels the leading even correction. The final value is about $-6.53\times10^{-5}$, with complete numerical allowance $1.66\times10^{-5}$ and empirical upper endpoint below $-4.54\times10^{-5}$. Its larger allowance makes it a consistency check; the directly evaluated nonlinear quotients already supply the finite-amplitude sign evidence.
+
+\subsection{Numerical robustness}
+The fixed direction passes refinement of the profile expansion, frequency sum, angular rule, normalized-force expansion, and path quadrature, including interactions between these refinements. A shifted angular origin changes the nonlinear quotients by less than $3\times10^{-9}$, within their complete comparison allowances. The amplitude hierarchy, source controls, and omitted-frequency estimates also meet the retained criteria. Appendix~\ref{app:repro} gives the full schedule, and Figs.~\ref{fig:linear}, \ref{fig:origin}, and \ref{fig:axes} show the diagnostics.
+
+\input{results_figures.tex}
+
+\section{Methods and numerical uncertainty}\label{sec:methods}
+\input{methods_detail.tex}
+
+\section{Interpretation and limitations}
+The specified endpoint is stationary within the single-wave ansatz but has a descending direction in the larger spatial pairing space. Its positive uniform amplitude curvature does not prevent a coupled finite-wavevector modulation from lowering the energy. Within this reconstructed mean-field model and its empirical uncertainty framework, self-consistency at the restricted endpoint is therefore insufficient to treat it as an available metastable condensate in a bulk diode calculation.
+
+This is an endpoint-specific result. Earlier Rashba theories establish competition between helical and multiple-wavevector states~\cite{Agterberg2007,Dimitrova2007}; our contribution is the matched quadratic and nonlinear exclusion test at the stated two-dimensional endpoint and fixed asymmetry. Parameters from other dimensionalities or equal-density approximations cannot be transferred without matching conventions. Thermodynamic analyses of perfect equilibrium diodes~\cite{Hosur2026} likewise emphasize the full free-energy landscape, but do not determine the present coefficient's sign.
+
+The numerical conclusion is conditional on the adequacy of the retained binary64 primitive estimates, source-domain controls, and convergence allowances. Analytic subtraction, Fourier identities, and tail estimates do not make their floating-point evaluation a directed-rounding certificate. The endpoint coordinates identify our explicit reconstruction; exact correspondence with the numerical state underlying a published figure or every version of the source model is not established.
+
+The evaluated functional is clean, two dimensional, and intraband, with periodic pairing variations at fixed background twist and field. It excludes impurity scattering, orbital screening, boundaries, and independent electromagnetic degrees of freedom. A different ensemble or finite-size admissibility constraint requires its own test. One descending direction excludes local pairing metastability here, but does not identify the most unstable mode, the global minimum, or the extent of any unstable neighbourhood.
+
+The next physical question is which spatial state replaces the endpoint and whether its stable or metastable current branches retain a large diode response. Answering it requires unrestricted pairing solutions and their continuation under current or twist. Switching dynamics, device geometry, and junction transport are additional problems; the present energy differences do not yield an experimental efficiency or nucleation barrier.
+
+\section{Conclusion}
+A fixed finite-wavevector variation coupling amplitude and imaginary pairing components lowers the free energy at the reconstructed nearly maximal Rashba diode endpoint. Two quadratic-response representations and a matched nonlinear calculation retain negative empirical upper endpoints after numerical and endpoint allowances are included. This supplies conditional, model-specific evidence that the stated single-wave endpoint fails a necessary condition for local pairing metastability. The replacement condensate and its transport response remain undetermined.
+
+\section*{Data and reproducibility}
+The appendix gives exact inputs, response equations, error accounting, and the complete numerical schedule. Saved measurements, numerical source records, code, and a standalone plotting program accompany the editable manuscript. The figures use those saved measurements; no physical calculation was rerun for this presentation.
+
+\FloatBarrier
+\appendix
+\input{appendices.tex}
+\begingroup\raggedright
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+\endgroup
+\end{document}

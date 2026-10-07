@@ -1,0 +1,36 @@
+{
+  "x": [
+    0.051955058120691594,
+    1.6925900731329657,
+    0.9791506418402958,
+    1.3985886221312929
+  ],
+  "K": [
+    0.909013301211145,
+    0.0
+  ],
+  "v": {
+    "real": [
+      -0.13502199918443586,
+      0.0
+    ],
+    "imag": [
+      0.0,
+      -0.9908426008888789
+    ]
+  },
+  "cP": -6.5287829634528e-05,
+  "EP": 5.8505237960874744e-08,
+  "Eep": 3.1623619986044952e-06,
+  "primary_upper": -6.206696239796263e-05,
+  "test_id": "rashba-source-endpoint-fixed-finiteK-paired-curvature-v2",
+  "candidate_sha256": "12621a3ea333099972beae5b6b2fa370c0b842edbba1f85d46887826cae17d25",
+  "status": "Fixed before any nonlinear perturbation data; no replacement allowed",
+  "epsilon": [
+    0.01,
+    0.005,
+    0.0025
+  ],
+  "created_epoch": 1790943419.4598348,
+  "created_monotonic": 1471833.409352124
+}

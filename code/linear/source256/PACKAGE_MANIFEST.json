@@ -1,0 +1,54 @@
+{
+  "assets": {
+    "error_bounds": {
+      "path": "error_bounds.py",
+      "sha256": "8f4305023e99fd2dd08e34dabb6e32a7f116b3ba5a630e868f7edce2e4dd453d"
+    },
+    "integrated_source_budget": {
+      "path": "integrated_source_budget.py",
+      "sha256": "31056b114fc009f7fd74a13f803d7762145205b9fdb70cf59f13cf34a3611e7b"
+    },
+    "linear_response": {
+      "path": "linear_response.py",
+      "sha256": "899a4b8f6141323f98e9c9569ed47913a275b857f73c3aee289f44f9ebd9d7e2"
+    },
+    "native_guard_adapter": {
+      "path": "native_guard_adapter.py",
+      "sha256": "d9b239f36d12517679820cb5b81e431bc5aae280c0f209d66c1c2481280d5ab0"
+    },
+    "native_worker": {
+      "path": "native_worker.py",
+      "sha256": "e52b947c47a803689b5b474c0079d7c2b94631bf473361c4e22927f982b5a6cb"
+    },
+    "nonlinear_response": {
+      "path": "nonlinear_response.py",
+      "sha256": "b83efd8b8c63e0198b58f8f622fe842971f130f8095924fbfebace39a7914e1c"
+    },
+    "nonlinear_tail": {
+      "path": "nonlinear_tail.py",
+      "sha256": "c6e7abc1dcd4c08bc0d47dcc4800c1b90c24bc140bfc5e4ba51a808152dfdab2"
+    },
+    "qualification_protocol": {
+      "path": "QUALIFICATION_PROTOCOL.json",
+      "sha256": "5c4b3a73e81c378dd565f18a75aaa889be224ae8f3e2a3bfb50185612c29629f"
+    },
+    "qualification_runner": {
+      "path": "qualification_runner.py",
+      "sha256": "e18874534077f420bd167efb768e5db3a23e1a893e82f89dd2350c229fbf83fd"
+    },
+    "source_bound_derivation": {
+      "path": "SOURCE_BOUND_DERIVATION.json",
+      "sha256": "5066799bf29e75b379a624d907324230cdf22646749f9d8b6b45881add1c22ab"
+    },
+    "synthetic_checks": {
+      "path": "synthetic_checks.py",
+      "sha256": "89c25e6aa0d65cbdf89d9f6546a9be3be8d6256222032bf61109d2de0ee8f897"
+    }
+  },
+  "author_full_cpu_seconds": null,
+  "independent_review": false,
+  "physical_execution": false,
+  "required_root_followthrough": "Fresh exact independent significance/design/novelty delta admission and allocation/disk review, genuine gate readback, exact root release, isolated gate promptly; independent actual-result review thereafter.",
+  "root_projection_note": "Prefix all relative asset paths with newly imported exact package root; manifest binds every code/JSON runtime file. No MD/text dependencies. Qualification-only release scope qualification_only_integrated_source_budget.",
+  "schema": "project90105-prospective-integrated-source-budget-package-v1"
+}

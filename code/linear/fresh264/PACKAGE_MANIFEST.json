@@ -1,0 +1,53 @@
+{
+  "schema": "project90105-allK-integrated-package-v1",
+  "assets": {
+    "fresh_launch_packet": {
+      "path": "FRESH_LAUNCH_PACKET.json",
+      "sha256": "601172f200fa4b892e6799d94ded4f207621df5980de876d469f041f3511d3f3"
+    },
+    "qualification_protocol": {
+      "path": "QUALIFICATION_PROTOCOL.json",
+      "sha256": "383fd8b6e1f997984472209225b1dd903fc47911b4b835cd083e3062e0d90833"
+    },
+    "saved_source256": {
+      "path": "SOURCE_BUDGET256.json",
+      "sha256": "34c50db2e3c7107fd8ba894859b1d52b182ca0f8ac4b2ae1d052c643ea7e716c"
+    },
+    "current_controls": {
+      "path": "current_controls.py",
+      "sha256": "eb850b5e57dee33ced7ee9cacc41788653b0a663e19d209af3cd63b7568e1306"
+    },
+    "error_bounds": {
+      "path": "error_bounds.py",
+      "sha256": "8f4305023e99fd2dd08e34dabb6e32a7f116b3ba5a630e868f7edce2e4dd453d"
+    },
+    "linear_response": {
+      "path": "linear_response.py",
+      "sha256": "899a4b8f6141323f98e9c9569ed47913a275b857f73c3aee289f44f9ebd9d7e2"
+    },
+    "native_guard_adapter": {
+      "path": "native_guard_adapter.py",
+      "sha256": "d9b239f36d12517679820cb5b81e431bc5aae280c0f209d66c1c2481280d5ab0"
+    },
+    "native_worker": {
+      "path": "native_worker.py",
+      "sha256": "deb8c7d35723e9846415516729471cc7b84e441153fc9abe54a3b8de072a8d1c"
+    },
+    "qualification_runner": {
+      "path": "qualification_runner.py",
+      "sha256": "9305700eed008b284a717cdc2d3608fe3d2d03fcb55f7d660986fd3d183d7e88"
+    },
+    "source_reference": {
+      "path": "source_reference.py",
+      "sha256": "ab272d2e1ca4ad2a547e526322bb12e7b8c8a36d025c0286194a6e7b03782715"
+    }
+  },
+  "physical_execution": false,
+  "independent_review": false,
+  "root_projection_note": "Prefix package-relative runtime paths with exact newly imported evidence supplement/package. Reuse original launcher sourcebindings unchanged; prospective packet3600wall must be independently admitted. Native worker keeps qualification_only_continuous_linear_source_errors release scope. No informationalMD assets.",
+  "repair_basis": {
+    "native_review_call": 261,
+    "only_runtime_delta": "source_reference.py diagonalC5threecoefficientterms",
+    "original_manifest_sha256": "9d2e48cdc9f3ac627c5e6f122cfe79dd6601b57639e69105eb695db349d0378c"
+  }
+}

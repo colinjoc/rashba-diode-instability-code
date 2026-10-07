@@ -1,0 +1,129 @@
+\section{Exact endpoint and perturbation inputs}\label{app:inputs}
+These stored floating-point inputs identify the calculation; their full decimal expansions are not claims of physical precision. The reconstructed endpoint centre is
+\begin{equation}\label{eq:coords}
+ \begin{aligned}
+ T_*&=0.051955058120691594,&\quad\Dstar&=1.6925900731329657,\\
+ q_*&=0.9791506418402958,&h_*&=1.3985886221312929.
+ \end{aligned}
+\end{equation}
+The empirical uncertainty rectangle has component half-widths
+\begin{equation}\label{eq:rho}
+ \bm\rho=(1.225571985\times10^{-8},\ 4.011468456\times10^{-8},
+ \ 1.061632250\times10^{-7},\ 1.824801669\times10^{-8}).
+\end{equation}
+
+The fixed wavevector and Fourier coefficients are
+\begin{align}\label{eq:witness}
+ K&=0.909013301211145,\\
+ v_A&=-0.13502199918443586,\qquad
+ v_P=-0.9908426008888789\,i.
+\end{align}
+Thus
+\begin{equation}\label{eq:profile}
+ a(x)=-0.270043998368872\cos Kx,\qquad
+ b(x)=1.981685201777758\sin Kx.
+\end{equation}
+
+Equivalently, $\eta_+=v_A+iv_P\simeq0.8558206017$ and $\eta_-=v_A^*+iv_P^*\simeq-1.1258646001$, with sidebands at $q_*\pm K$.
+
+\begin{table}[tbp]\centering
+\caption{Stored central coefficients and allowances. Numerical radii exclude $E_{\mathrm{ep}}=3.1623619986044952\times10^{-6}$, which is added once to obtain each empirical upper endpoint. Full machine-readable records accompany the article.}\label{tab:rawresults}
+\begin{tabular}{lrr}\toprule
+Quantity & Central coefficient & Numerical radius\\\midrule
+Gaussian & $-6.5287829634528\times10^{-5}$ & $5.8505237960874744\times10^{-8}$\\
+Second linear & $-6.528782574296713\times10^{-5}$ & $1.6766293751752474\times10^{-7}$\\
+$C(0.01)$ & $-2.7863363462\times10^{-5}$ & $4.0957803644\times10^{-6}$\\
+$C(0.005)$ & $-5.5932063990\times10^{-5}$ & $1.1726568826\times10^{-6}$\\
+$C(0.0025)$ & $-6.2948907422\times10^{-5}$ & $4.4420405631\times10^{-7}$\\
+Final Richardson & $-6.528785523193218\times10^{-5}$ & $1.66327681097\times10^{-5}$\\\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{flushleft}
+The control allowance is $2.0319595130\times10^{-7}$. The two Richardson centres are $-6.528829749948777\times10^{-5}$ and $-6.528785523193218\times10^{-5}$. Origin-shift differences at decreasing amplitudes are $2.7802392560\times10^{-9}$, $6.9433639003\times10^{-10}$, and $1.7353873522\times10^{-10}$; their allowed sums of numerical errors are $9.5198562301\times10^{-6}$, $2.6777244933\times10^{-6}$, and $9.7165279423\times10^{-7}$.
+\end{flushleft}
+
+\section{Functional consistency and endpoint derivatives}\label{app:functional}
+\subsection{Amplitude and twist differentiation}
+Equation~\eqref{eq:uniformF} gives $\partial_D\Omega=D/\Omega$ and therefore
+\begin{equation}
+ \partial_Df=2D\ln T+2\pi TD\sum_{n\ge0}
+ \left[\frac{2}{\omega_n}-\sum_\lambda W_\lambda
+ \operatorname{Re}\av{\Omega^{-1}}\right].
+\end{equation}
+At $h=q=0$, $\sum_\lambda W_\lambda=2$ and $\Omega=\sqrt{\omega_n^2+D^2}$. Dividing by $2D$ yields
+\begin{equation}
+ \ln T+2\pi T\sum_{n\ge0}
+ \left(\frac{1}{\omega_n}-\frac{1}{\sqrt{\omega_n^2+D^2}}\right)=0,
+\end{equation}
+the standard transition-temperature-subtracted uniform gap equation in these units. A spurious extra factor of $T$ multiplying the logarithm would fail this check. Source plotting conventions also require care: where the source uses $\xi=v_F/|\Delta_q|$ and scales field by $|\Delta_q|$, its plotted momentum and field correspond to $q/D$ and $h/D$, rather than the $\Tc$-scaled $q,h$ used in this manuscript. The reconstructed coordinates must not be directly identified with those source-figure abscissae. The derivation also distinguishes $N_0$ from the total density of states.
+
+For the twist, $\partial_qz=(i/2)\cos\theta$ and $\partial_q\Omega=(z/\Omega)\partial_qz$. Since $\operatorname{Re}(iX)=-\operatorname{Im}X$ and $\operatorname{Re}\partial_qz=0$, differentiating the negative determinant contribution gives Eq.~\eqref{eq:current}. This fixes the current/free-energy normalization without fitting a response prefactor to the final negative mode.
+
+\subsection{Total versus partial endpoint derivatives}
+Set $s=D'(q)=-f_{Dq}/f_{DD}$. Along the gap branch,
+\begin{equation}
+ g'=f_q,\qquad
+ g''=f_{qq}-\frac{f_{qD}^2}{f_{DD}},\qquad
+ g'''=f_{qqq}+3f_{qqD}s+3f_{qDD}s^2+f_{DDD}s^3.
+\end{equation}
+These are total derivatives after amplitude relaxation. Replacing them by fixed-$D$ derivatives would locate a different object. The endpoint calculation uses a four-variable root and gives an infinity-norm condition estimate of about $124.636$. Its coordinate uncertainty includes numerical refinements and solver effects rather than being identified with the central residual alone.
+
+The central dimensionless free energy is $f_*=-0.63217093656$. The saved uniform amplitude derivative and twist derivative are near zero, but $f_{qq}\simeq0.08498845757$ is positive: it is the relaxed combination $g''$, not $f_{qq}$ by itself, that vanishes. This illustrates the importance of distinguishing a restricted variable change from the relaxed branch condition. The spatial perturbation is a further, different enlargement of the variation space.
+
+\section{Detailed response construction}\label{app:response}
+\input{numerical_appendix.tex}
+
+\section{Detailed error accounting and acceptance arithmetic}\label{app:errors}
+\subsection{Additive error decomposition}
+For each amplitude, let $E_{\mathrm{fine}}$ denote the finest row's complete coefficient radius, including the second linear baseline uncertainty and explicit nonlinear components. The final complete allowance is
+\begin{equation}\label{eq:EIassembled}
+ E_C=E_{\mathrm{fine}}+\sum_{a=1}^5E_a
+ +\sum_{1\le a<b\le5}E_{ab}.
+\end{equation}
+The original endpoint/source allowance $\Eep$ is then added once for the sign test. The row-specific nonlinear source radius is checked against its allocated source budget. Adding it again on top of the full $\Eep$ would double count that coverage.
+
+At the finest row, the explicit numerical correction radius is the sum of tail, primitive, normalized-force residual, path-polynomial, and spatial terms. The aggregate quotient radius must also account for the second linear baseline and the observed refinement hierarchy. Table~\ref{tab:errorbreakdown} shows the resulting decomposition. A zero calculated spatial term applies to the retained finite-polynomial accounting; omitted modes/orders are covered by the residual and analytic estimates, not asserted absent from the physical response.
+
+\input{error_breakdown_table.tex}
+
+The mixed checks use saved contrasts $m_1,m_2$ and corresponding row-noise allowances $b_1,b_2$. The convergence heatmap shows the maximum of
+\begin{equation}
+ \frac{|m_2|}{0.75|m_1|+b_1+b_2},\qquad
+ \frac{|m_2|}{0.25\sum_{\ell=1}^5E_\ell+b_2}.
+\end{equation}
+A value below one satisfies both magnitude conditions represented in the panel. The axis and amplitude hierarchies also retain their respective sign/noise rules; colour alone is not a substitute for the complete numerical checks.
+
+\subsection{Source and amplitude uncertainty are distinct}
+The endpoint coordinate uncertainty affects both the background linear coefficient and the nonlinear correction. Their documented source budgets are assigned so that the total stays within the original $\Eep$. Refinement errors instead measure resolution sensitivity under the fixed source domain. The two should not be combined as uncorrelated Gaussian variables.
+
+Similarly, the difference between $C(0.005)$ and $C(0.0025)$ is primarily a finite-amplitude correction, not a sampling uncertainty. The extrapolation removes its leading even order under an analytic expansion. The complete Richardson allowance remains large enough that the sign conclusion does not depend on claiming its central-value precision as certified precision.
+
+\subsection{Numerical consistency criteria}
+The retained numerical consistency criteria are: source controls; complete axis and mixed hierarchy; complete nonlinear $C_1$ negativity; complete nonlinear $C_2$ negativity; complete Richardson negativity; complete schedule; amplitude hierarchy; normalization-control adequacy; linear-response negativity; cross-representation agreement; quarter-error rule; shifted-origin agreement; and source-budget adequacy. All of these criteria are required together for the stated conclusion. 
+
+The formal stability implication and its numerical premise should remain separate. Conditional on an actual $c<0$ and the usual differentiability of the functional, Eq.~\eqref{eq:descent} excludes a local minimum. The present calculation supplies empirical numerical evidence for that premise in the stated model; it does not prove that all primitive errors have been enclosed for every real input by directed rounding.
+
+\section{Reproduction recipe and complete configuration table}\label{app:repro}
+The numerical calculation can be reconstructed from the physical and numerical definitions in this article. A reproduction must use the same normalization throughout; resolving a negative sign with a mismatched overall factor would not reproduce the stated coefficients.
+
+\begin{enumerate}
+\item Fix $\widetilde\alpha=1/4$, the causal positive-frequency branch, and the dimensionless units in Eq.~\eqref{eq:units}. Evaluate the uniform functional with its transition-temperature subtraction and the infinite-frequency remainder.
+\item Solve the four endpoint equations in Eq.~\eqref{eq:endpoint}, using total derivatives along the amplitude-relaxed branch. Check the two coexistence minima and intermediate stationary point, positive amplitude curvature, and positive relaxed quartic. Propagate the coordinate rectangle in Eq.~\eqref{eq:rho}.
+\item Fix $K,v_A,v_P$ in Eq.~\eqref{eq:witness}. Evaluate Eqs.~\eqref{eq:kernelAA}--\eqref{eq:kernelAP} and the zero-wavevector/current normalization checks. Independently evaluate the linearized Riccati response, including its full numerical error estimate.
+\item For each angular rule and positive Matsubara frequency, expand both causal Riccati sectors using Eq.~\eqref{eq:recurrence}. Keep every generated Fourier convolution mode. Evaluate the normalized force in Eq.~\eqref{eq:dividedforce}, controlling both denominator factors and the omitted profile remainder.
+\item Integrate the paired nonlinear correction in Eq.~\eqref{eq:path}, with the two signs and the three amplitudes. Check polynomial path moments, the source rectangle, signed-amplitude branch continuity, low-frequency residual estimates, and the complex-amplitude disk. Include the complete omitted-frequency envelope in Eq.~\eqref{eq:tail}.
+\item Evaluate the 31 configurations in Table~\ref{tab:configurations}; construct single-axis changes, all ten mixed contrasts, amplitude contraction and Richardson values. Add the numerical allowances as in Eq.~\eqref{eq:EIassembled}, and add the endpoint allowance once. Compare the primary and second linear coefficients and test the strict negative upper endpoints.
+\item Repeat the nonlinear angular calculation with the common shifted origin in Eq.~\eqref{eq:origin}. Compare the resulting coefficients against the sum of complete numerical allowances. This final step tests angular sensitivity while sharing the fixed state and linear baseline.
+\end{enumerate}
+
+The equations specify the functional, perturbation, expansion, force, integration path, numerical hierarchy, error composition and sign criterion. They do not convert the empirical primitive estimates into validated interval arithmetic: that limitation remains part of the reproducible result. A rigorously certified reproduction would additionally require outward-rounded primitive and accumulation bounds over the entire parameter domain.
+
+
+
+Table~\ref{tab:configurations} reports every configuration and the three corresponding central quotients. All physical inputs are given in Eqs.~\eqref{eq:coords}, \eqref{eq:rho}, and \eqref{eq:witness}; the numerical levels are in Table~\ref{tab:levels}. Central-value digits allow numerical comparison; the appropriate uncertainty remains the complete numerical allowance plus endpoint allowance in Table~\ref{tab:nonlinear}.
+\input{configuration_table.tex}
+
+\FloatBarrier
+\section{Diagnostic figures}
+\input{diagnostic_figures.tex}

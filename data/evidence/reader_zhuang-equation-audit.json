@@ -1,0 +1,262 @@
+{
+  "coverage_note": "Reader-reported section inspection; not independently verified full-paper reading.",
+  "coverage_verified": false,
+  "created_at": "2026-10-02T08:49:49.327045+00:00",
+  "identity": {
+    "effort": "medium",
+    "model": "gpt-5.6-luna",
+    "question": "Narrow source-equation audit, not broad review. Inspect Eq(10) and surrounding source plus homogeneous g in Eqs(13)-(15): transcribe the FIRST TERM of gap equation exactly with its symbol, is it T ln(T/Tc), Delta ln(T/Tc), or something else? Distinguish extracted-text ambiguity or source typo from your inference. Give explicit homogeneous scalar self-consistency equation with all helicity weights and real/angular/Matsubara factors after substitution; check Delta=0 and zero-field BCS limit algebraically without experiments. Give exact current after homogeneous substitution, including both positive/all Matsubara conventions, and which overall normalizations matter for matching twist derivative. Explain whether normalized weights sum to1 or2 and their relation to N0. Inspect precise current endpoint language and specify whether j=jprime=jdoubleprime=0 is unambiguously implied or an unproven interpretation. Cite only inspected contiguous lines.",
+    "source_sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6",
+    "version": "paper-reader-v1"
+  },
+  "reader": {
+    "answers": [
+      {
+        "answer": "Eq. (10)'s first term is exactly `T ln(T/Tc)` inside a bracket multiplied by an overall `\u2206`; it is neither `\u2206 ln(T/Tc)` nor another first term. The numbered extraction is column-interleaved but the displayed equation itself is unambiguous; no source typo is established.",
+        "references": [
+          {
+            "line_end": 226,
+            "line_start": 215,
+            "section": "II.B, self-consistency equation (10)"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Using Eqs. (13)\u2013(16), with `q\u03bb \u2261 q\u22122Q\u03bb`, `\u2206\u03bb=\u2206q exp(i q\u03bb\u00b7r)`, `\u03c9\u0303n\u03bb=\u03c9n+i(vF/2)q\u03bb\u00b7k\u0302`, and `\u03a9\u03bb=[\u2206q\u00b2+\u03c9\u0303n\u03bb\u00b2]^{1/2}`, one has `i(g\u03bb)12=\u2206\u03bb/\u03a9\u03bb`. Thus the homogeneous scalar equation for `\u2206q\u22600` is `T ln(T/Tc)+\u03c0T \u03a3_{\u03c9n>0} \u03a3_{\u03bb=\u00b1}(1+\u03bb\u03b1\u0303)[1/\u03c9n\u2212\u27e81/\u03a9\u03bb(k\u0302,\u03c9n)\u27e9FS]=0`. The full angular average is `\u27e8\u2026\u27e9FS=\u222b0^{2\u03c0}d\u03b8/(2\u03c0)(\u2026)`; its value is real after pairing `k\u0302` and `\u2212k\u0302` (equivalently use the real part of one half of that paired integral).",
+        "references": [
+          {
+            "line_end": 226,
+            "line_start": 211,
+            "section": "II.B, equation (10)"
+          },
+          {
+            "line_end": 290,
+            "line_start": 253,
+            "section": "II.B, gauge transformation and homogeneous solution, equations (13)\u2013(16)"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "At `\u2206q=0`, Eq. (10) is algebraically satisfied by the explicit prefactor `\u2206`; the nontrivial linearized instability equation must instead be obtained by taking the `\u2206q\u21920` limit before dividing by `\u2206`. At zero field with `q=0`, `\u03a9\u03bb=sqrt(\u2206q\u00b2+\u03c9n\u00b2)` and the helicity weights give `\u03a3\u03bb(1+\u03bb\u03b1\u0303)=2`, so the equation reduces to `T ln(T/Tc)+2\u03c0T \u03a3_{\u03c9n>0}[1/\u03c9n\u22121/sqrt(\u2206q\u00b2+\u03c9n\u00b2)]=0`, the spin-degenerate BCS equation in this convention.",
+        "references": [
+          {
+            "line_end": 226,
+            "line_start": 215,
+            "section": "II.B, equation (10)"
+          },
+          {
+            "line_end": 290,
+            "line_start": 271,
+            "section": "II.B, homogeneous definitions"
+          },
+          {
+            "line_end": 180,
+            "line_start": 176,
+            "section": "II.A, helical-band densities of states"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The weights are not normalized to sum to 1: `w\u03bb=1+\u03bb\u03b1\u0303` and `w++w\u2212=2`. They are DOS ratios, because the source defines `N\u03bb=N0(1+\u03bb\u03b1\u0303)` with `N0=m/(2\u03c0)`. If normalized probabilities are desired, they are `w\u03bb/2`; the physical current and gap equation retain the DOS factor `N0` through `N\u03bb`.",
+        "references": [
+          {
+            "line_end": 180,
+            "line_start": 176,
+            "section": "II.A, helical-band densities of states"
+          },
+          {
+            "line_end": 237,
+            "line_start": 228,
+            "section": "II.B, current definition (12)"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "After homogeneous substitution, `Tr[\u03c4z g\u03bb k\u0302]=2 k\u0302 \u03c9\u0303n\u03bb/\u03a9\u03bb`, hence the exact all-Matsubara band current is `j\u03bb=\u2212i\u03c0N\u03bb vF T \u03a3_{n\u2208Z}\u27e8k\u0302 \u03c9\u0303n\u03bb/\u03a9\u03bb\u27e9FS`, with `j=\u03a3\u03bb j\u03bb`. For positive Matsubara frequencies, pairing `\u00b1\u03c9n` gives `j\u03bb=2\u03c0N\u03bb vF T \u03a3_{\u03c9n>0}\u27e8k\u0302 Im[(\u03c9n+i a\u03bb)/sqrt(\u2206q\u00b2+(\u03c9n+i a\u03bb)\u00b2)]\u27e9FS`, where `a\u03bb=(vF/2)q\u03bb\u00b7k\u0302`; the square-root branch is the Matsubara branch continuous from positive real `\u03c9n`. The factor of 2 comes from the Nambu trace and must not be omitted. For matching a twist/phase derivative, retain `N\u03bb=N0(1+\u03bb\u03b1\u0303)`, `vF`, and this trace normalization; in a junction the source additionally uses the width factor `W` in its current convention.",
+        "references": [
+          {
+            "line_end": 238,
+            "line_start": 228,
+            "section": "II.B, current definition (12)"
+          },
+          {
+            "line_end": 295,
+            "line_start": 271,
+            "section": "II.B, homogeneous Green function and definitions"
+          },
+          {
+            "line_end": 339,
+            "line_start": 323,
+            "section": "II.B, total junction current normalization"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The source explicitly requires vanishing supercurrent for equilibrium and writes `j(q)=0`. It also says that a local minimum of `j(q)` becomes an inflection point at `TCEP`. However, it never explicitly states the derivative conditions `j\u2032(q)=0` and `j\u2033(q)=0`, nor the combined condition `j=j\u2032=j\u2033=0`. Therefore that triple condition is a plausible stationary-inflection interpretation, not an unambiguous extracted author statement.",
+        "references": [
+          {
+            "line_end": 295,
+            "line_start": 289,
+            "section": "II.B, bulk equilibrium condition"
+          },
+          {
+            "line_end": 447,
+            "line_start": 438,
+            "section": "III.A, bulk transition and critical endpoint"
+          },
+          {
+            "line_end": 500,
+            "line_start": 490,
+            "section": "III.A, CEP discussion and qualification"
+          }
+        ],
+        "status": "unresolved"
+      }
+    ],
+    "findings": [
+      {
+        "assumptions": [
+          "The homogeneous bulk solution is evaluated with the same angular Fermi-surface average used in Eq. (10).",
+          "The square-root branch is chosen consistently with Matsubara analyticity, so the positive/negative-frequency pairing used for the current is valid.",
+          "The displayed `\u2206` in Eq. (10) is the local pairing amplitude whose homogeneous magnitude is `\u2206q`; its phase cancels against the phase of `(g\u03bb)12`."
+        ],
+        "claim": "Substitution of the homogeneous Green function converts the anomalous propagator term into `\u2206\u03bb/\u03a9\u03bb`, yielding the stated scalar self-consistency equation.",
+        "equations": [
+          "`g\u0303\u03bbs=(1/\u03a9\u03bb) [[\u03c9\u0303n\u03bb,\u2212i\u2206\u03bb],[i\u2206\u03bb*,\u2212\u03c9\u0303n\u03bb]]`",
+          "`i(g\u03bb)12=\u2206\u03bb/\u03a9\u03bb`",
+          "`T ln(T/Tc)+\u03c0T \u03a3_{\u03c9n>0,\u03bb}{1/\u03c9n\u2212(1+\u03bb\u03b1\u0303)\u27e81/\u03a9\u03bb\u27e9FS}=0`"
+        ],
+        "limitations": [
+          "The source does not separately print this post-substitution scalar equation; it is an algebraic inference from Eqs. (10), (13)\u2013(16)."
+        ],
+        "references": [
+          {
+            "line_end": 226,
+            "line_start": 215,
+            "section": "II.B, equation (10)"
+          },
+          {
+            "line_end": 290,
+            "line_start": 253,
+            "section": "II.B, homogeneous solution"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "The current is the bulk current of Eq. (12), not the separately width-normalized junction current of Eq. (28)."
+        ],
+        "claim": "The all-Matsubara and positive-frequency current formulas are algebraically equivalent under the homogeneous Green function, and the physical DOS normalization is `N\u03bb=N0(1+\u03bb\u03b1\u0303)`.",
+        "equations": [
+          "`j\u03bb=\u2212i\u03c0N\u03bbvFT \u03a3n\u27e8k\u0302 \u03c9\u0303n\u03bb/\u03a9\u03bb\u27e9FS`",
+          "`j\u03bb=2\u03c0N\u03bbvFT \u03a3_{\u03c9n>0}\u27e8k\u0302 Im[(\u03c9n+i a\u03bb)/sqrt(\u2206q\u00b2+(\u03c9n+i a\u03bb)\u00b2)]\u27e9FS`"
+        ],
+        "limitations": [
+          "The source gives Eq. (12) but does not itself print the homogeneous-current reduction; the reduction is direct matrix algebra.",
+          "A phase/twist derivative can differ by geometric convention (e.g. junction width or charge/current units), although the source's displayed prefactors fix the convention used here."
+        ],
+        "references": [
+          {
+            "line_end": 238,
+            "line_start": 228,
+            "section": "II.B, current definition (12)"
+          },
+          {
+            "line_end": 290,
+            "line_start": 280,
+            "section": "II.B, homogeneous Green function"
+          },
+          {
+            "line_end": 339,
+            "line_start": 323,
+            "section": "II.B, junction current normalization"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "\u201cInflection point\u201d is interpreted only in its ordinary mathematical sense unless additional derivative conditions are explicitly supplied."
+        ],
+        "claim": "The source supports `j(q)=0` as the equilibrium condition, but does not unambiguously support the stronger endpoint identity `j=j\u2032=j\u2033=0`.",
+        "equations": [
+          "Explicit source condition: `j(q)=0`.",
+          "Unstated proposed condition: `j(q)=j\u2032(q)=j\u2033(q)=0`."
+        ],
+        "limitations": [
+          "No explicit derivative notation for the CEP was found in the inspected endpoint discussion.",
+          "The word \u201cinflection\u201d alone does not establish both stationarity and vanishing second derivative in the exact convention required by the orchestrator."
+        ],
+        "references": [
+          {
+            "line_end": 295,
+            "line_start": 289,
+            "section": "II.B, bulk equilibrium condition"
+          },
+          {
+            "line_end": 447,
+            "line_start": 438,
+            "section": "III.A, critical endpoint description"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "Only the supplied source.txt/source.numbered.txt was used; no network sources, supplements, appendices outside the supplied source, experiments, or filesystem writes were used.",
+      "The post-substitution scalar gap equation and homogeneous-current formulas are algebraic inferences from the printed equations, not equations printed verbatim by the authors.",
+      "The source's extracted layout is column-interleaved around Eq. (10), but the first term and summation limits are readable from the canonical numbered text."
+    ],
+    "sections_inspected": [
+      {
+        "line_end": 180,
+        "line_start": 140,
+        "section": "II.A, model Hamiltonian and helical-band DOS"
+      },
+      {
+        "line_end": 238,
+        "line_start": 190,
+        "section": "II.B, Eilenberger equation, gap equation (10), and current (12)"
+      },
+      {
+        "line_end": 295,
+        "line_start": 253,
+        "section": "II.B, gauge transformation and homogeneous solution, equations (13)\u2013(16)"
+      },
+      {
+        "line_end": 339,
+        "line_start": 323,
+        "section": "II.B, junction current normalization, equations (27)\u2013(29)"
+      },
+      {
+        "line_end": 395,
+        "line_start": 373,
+        "section": "III.A, bulk self-consistency and equilibrium"
+      },
+      {
+        "line_end": 466,
+        "line_start": 430,
+        "section": "III.A, Lifshitz transition and critical endpoint"
+      },
+      {
+        "line_end": 500,
+        "line_start": 490,
+        "section": "III.A, CEP qualification"
+      }
+    ],
+    "source_sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6",
+    "unread_scope": [
+      "The remainder of the supplied paper outside the listed sections was not inspected in detail, including most later SNS/JDE results and the reference list.",
+      "External references and supplements were not inspected."
+    ]
+  },
+  "report_path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/zhuang-equation-audit/63f4e666565bb1f80d25da946306cf9bba19706a1ec2e9016ee06d7c6ba292bd/report.json",
+  "source": {
+    "line_count": 1270,
+    "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/raw/zhuang2026.txt",
+    "sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6"
+  }
+}

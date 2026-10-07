@@ -1,0 +1,158 @@
+{
+  "schema": "rashba-endpoint-science-result-v1",
+  "binding_sha256": "a21289d95d837d55cdef5e84a4eed1f752acf173248207cd802db8f05c251e6a",
+  "test_id": "rashba-source-endpoint-fixed-finiteK-paired-curvature-v2",
+  "decision": "result",
+  "outcome": "inconclusive",
+  "stage": "science",
+  "candidate_version": 2,
+  "parent_question": "Is the source clean two-dimensional Rashba model's nominal nearly-maximal superconducting diode endpoint a physically self-consistent metastable pairing state once spatial pairing variations are allowed?",
+  "scope": "Execution of the exact admitted deterministic source-model protocol. Independent result review and parent-question review remain separate.",
+  "endpoint": {
+    "coordinates_order": [
+      "T/Tc0",
+      "Delta/Tc0",
+      "q vF/Tc0",
+      "h/Tc0"
+    ],
+    "coordinates": [
+      0.051955058120691594,
+      1.6925900731329657,
+      0.9791506418402958,
+      1.3985886221312929
+    ],
+    "empirical_coordinate_error_estimates": [
+      1.2255719847929461e-08,
+      4.0114684557896594e-08,
+      1.061632250176717e-07,
+      1.8248016692488084e-08
+    ],
+    "root_residual": [
+      0.0,
+      1.21962038503219e-16,
+      -1.1102230246251565e-16,
+      0.0
+    ],
+    "condition_inf": 124.6361309842574,
+    "amplitude_curvature": 1.265845730761213,
+    "relaxed_F_quartic": 1.8240813932472637,
+    "grid_certificate_pass": true,
+    "coexistence_branch_pass": true,
+    "q_separations": [
+      0.28982370556456183,
+      0.2091298830518441,
+      0.14936801466263872,
+      0.09503584560257117
+    ],
+    "barriers": [
+      3.575425720647729e-05,
+      9.396234986525087e-06,
+      2.4051970592964267e-06,
+      3.9016848507600344e-07
+    ],
+    "limitations": "Empirical root/grid/topology checks, not an interval enclosure or an exhaustive global uniqueness proof."
+  },
+  "bounded_primary_search": {
+    "candidates": 40,
+    "negative_fine_grid_count": 1,
+    "eligible_by_primary_quadrature_only": 1,
+    "fixed_witness": "science/frozen_witness.json",
+    "primary_sign": {
+      "cP": -6.5287829634528e-05,
+      "EP": 5.8505237960874744e-08,
+      "Eep": 3.1623619986044952e-06,
+      "upper": -6.206696239796263e-05,
+      "relative_error": 0.04933334826100557,
+      "sign_and_25percent_guard_pass": true
+    },
+    "physical_interpretation": "A preliminary negative coupled amplitude/phase direction at the recovered endpoint. It does not satisfy the complete admitted acceptance criteria."
+  },
+  "decisive_certificate_failure": {
+    "frozen_rule": "Any source-control numerical error larger than the selected witness's accepted total error invalidates the witness.",
+    "pass": false,
+    "accepted_primary_total_error": 3.22086723656537e-06,
+    "largest_error_allowed_by_primary_25percent_guard": 1.6321957408632e-05,
+    "maximum_propagated_control_error": 0.22107946849201907,
+    "mixed_control_error": 0.0002380918016520797,
+    "Schur_control_error": 0.22107946849201907,
+    "mixed_control_actual_discrepancy": 3.4677816174166765e-13,
+    "Schur_control_actual_discrepancy": 5.396616917259361e-10,
+    "interpretation": "Raw identity discrepancies are small. The conservative propagated numerical bounds are much larger than the admitted witness error. Counting only the discrepancy while discarding its prescribed bound would not supply the frozen numerical certificate."
+  },
+  "audit_and_repairs": {
+    "authoritative_disposition": "science/certificate_audit.json",
+    "preliminary_flag_preserved": "science/selected_checks.json",
+    "stricter_endpoint_slope_check": {
+      "pass": true,
+      "axes": [
+        {
+          "coordinate": 0,
+          "difference": 7.15643091453444e-08,
+          "rounding_only_noise": 0.011534950034257183,
+          "limit": 0.09984103102277662,
+          "pass": true
+        },
+        {
+          "coordinate": 1,
+          "difference": 6.461277068936511e-10,
+          "rounding_only_noise": 0.0035241238373864203,
+          "limit": 0.20330902801359432,
+          "pass": true
+        },
+        {
+          "coordinate": 2,
+          "difference": 6.38378239159465e-14,
+          "rounding_only_noise": 0.0013316203992125176,
+          "limit": 0.042791183587466766,
+          "pass": true
+        },
+        {
+          "coordinate": 3,
+          "difference": 2.473029442340291e-08,
+          "rounding_only_noise": 0.007747094846636998,
+          "limit": 0.0906663278255622,
+          "pass": true
+        }
+      ],
+      "correction": "Use only primitive-rounding bounds in the slope-contraction allowance. The original use of full EP was overly permissive; saved observations still pass the stricter check."
+    },
+    "code_repair": "science/selected_checks.py now applies the missing source-error guard and primitive-only slope noise. It has not been rerun on target data.",
+    "executed_source_provenance": "science/selected_checks_executed_reconstruction.py reconstructs the actual pre-audit source from the recorded edits. It was reconstructed after execution, not captured or independently timestamped beforehand."
+  },
+  "independent_confirmation": {
+    "target_runs": 0,
+    "status": "Not executed. The frozen failed-control early exit applies.",
+    "fixed_witness_preserved": true,
+    "no_replacement_witness": true,
+    "hardware_probe": "science/cuda_probe_result.json",
+    "hardware_limitation": "CUDA runtime reports error 35; NVML separately reports OS-blocked GPU access. This describes this invocation only, not permanent device availability."
+  },
+  "resources": {
+    "authoritative_allocation": "execution_context.json",
+    "charged_local_cpu_before_call": 1033.3872780000002,
+    "remaining_total_cpu_before_call": 13366.612722,
+    "uniform_derivative_evaluations": 194,
+    "uniform_cap": 900,
+    "primary_matrix_evaluations": 166,
+    "primary_cap": 207,
+    "instrumented_uniform_counter_seconds": 34.503395529,
+    "instrumented_primary_counter_seconds": 7.0268067080000005,
+    "counter_caveat": "Process-time counters overlap during selected_checks and omit some startup/compilation. They are retained as instrumentation, not exact whole-allocation CPU charges; controller accounting is authoritative.",
+    "largest_recorded_local_program_maxrss_kib": 253396,
+    "memory_caveat": "Local Linux subprocess max RSS only. prior_resources is absent. No retrospective whole-allocation memory measurement is invented.",
+    "cause_of_stop": "Failed numerical certificate, not exhausted wall/CPU budget."
+  },
+  "literature_provenance": "Only supplied compact reader reports and derived preparation were used. No original paper, full-text derivative, network access, fresh search or download occurred.",
+  "interpretation_limits": [
+    "No accepted instability result.",
+    "No metastability or all-K nonnegativity proof.",
+    "No global phase selection, device prediction or parent-question answer.",
+    "No held-out confirmation identities exist or were consumed: none_analytical mode."
+  ],
+  "next_step": "Independent result review should assess the inconclusive certificate and saved negative primary direction. Determine whether a tighter control certificate can be implemented under the unchanged frozen rules; any altered control definition, error rule or perturbation protocol requires prospective refinement and renewed review/admission. Preserve the fixed witness and all observations. CUDA execution must also be restored or a protocol-compatible bounded alternative established before periodic confirmation. This is not a permanent no-retry disposition.",
+  "recommended_refinement_for_review_only": {
+    "problem": "Small-K control subtracts a Ward-soft term and divides the full matrix error by K squared, producing a very loose certificate.",
+    "concrete_option": "Review a source-control formulation that explicitly separates the analytically known Ward residual from the K-dependent response and tests each component with frozen error propagation. This would be a protocol revision, not permission to enforce a Ward zero or change tolerances in this allocation.",
+    "not_performed": "No modified scientific protocol, fresh admission, new mode search, or nonlinear target computation."
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "accounting": {
+    "charged_local_cpu_seconds": 117688.49411185198,
+    "review_launches": [
+      {
+        "call": 331,
+        "measured_cpu_seconds": 14.966504
+      },
+      {
+        "call": 332,
+        "measured_cpu_seconds": 22.396393
+      },
+      {
+        "call": 333,
+        "measured_cpu_seconds": 14.973755
+      },
+      {
+        "call": 334,
+        "measured_cpu_seconds": 21.996261999999998
+      }
+    ],
+    "science330_settlement": "orchestrator/fresh-launch-accounting/f84d605a26464a3e942c4d27acba202f/settlement.json",
+    "scope": "Booked historical costs and genuine disjoint measurements; not a complete cost because unknown-positive overhead and remote inference remain.",
+    "user_cumulative_cpu_limit_seconds": null,
+    "user_invocation_cpu_limit_seconds": null
+  },
+  "assessment": {
+    "answer": "No, according to conditional empirical numerical evidence under the accepted frozen uncertainty criteria. The reconstructed nominal endpoint is self-consistent within the single-q ansatz but has an admissible coupled amplitude/phase finite-K descent direction with matched nonlinear free-energy lowering, so it fails necessary local pairing metastability when spatial variations are allowed. This is not a directed-rounding proof.",
+    "branch_ids": [
+      "hypothesis-0067"
+    ],
+    "coverage": "The banked branch and independently accepted actual330 result cover the specified alphatilde=1/4 source-model nominal endpoint: numerical endpoint reconstruction and uncertainty, source-compatible normalization, a fixed nonzero-K pairing witness, qualified negative quadratic curvature, matched nonlinear C1/C2 lowering, complete spatial/source/infinite-frequency errors, and shifted-origin agreement. One admissible local descent direction suffices to exclude metastability of this state. Replacement phases, other endpoints, switching and real materials are outside this exact scope. Source-linked targeted-reader and empirical-arithmetic limitations remain explicit conditions on the answer.",
+    "parent_question": "Is the source clean two-dimensional Rashba model's nominal nearly-maximal superconducting diode endpoint a physically self-consistent metastable pairing state once spatial pairing variations are allowed?",
+    "remaining_gaps": []
+  },
+  "created_epoch": 1791397726.1393385,
+  "disposition": "finished",
+  "evidence_bindings": [
+    {
+      "call": 330,
+      "path": "calls/000330/receipt.json",
+      "sha256": "12445a0efef6cb1c0a1607519bcf8ff37db9120db9f9b4bc7af6b57c86970cbc",
+      "stage": "science",
+      "worker_id": "external-deterministic-target-330"
+    },
+    {
+      "call": 332,
+      "path": "calls/000332/receipt.json",
+      "sha256": "c5c6928e0f709550ceeda54b77b940a54e337a6970ec94b478d26e852821807b",
+      "stage": "result_review",
+      "worker_id": "fresh-result_review-332"
+    },
+    {
+      "call": 334,
+      "path": "calls/000334/receipt.json",
+      "sha256": "7c9c9dbcdbb07e0d4cc1bb4d4a42afecfbac2f07c282b56bd491ec677181575f",
+      "stage": "question_review",
+      "worker_id": "fresh-question_review-334"
+    }
+  ],
+  "limitations": [
+    "Conditional empirical numerical evidence; no directed-rounding proof or statistical confidence claim.",
+    "Source endpoint is numerically reconstructed; targeted Luna reader coverage and TeX/PDF version equivalence limits remain.",
+    "No replacement phase, other endpoint, switching, experimental diode efficiency or real-material conclusion.",
+    "Whole-group memory sampling has gaps; historical unmeasured positive CPU and nonadditive accounting cross-checks preserved."
+  ],
+  "native_status": "answered",
+  "next_action": "No further dispatch for the answered exact parent question. Preserve evidence and scoped watchdog. Any broader scientific question requires separate scope and independent admission.",
+  "no_science_replay": true,
+  "owned_tasks": [],
+  "owner": "root:project90105",
+  "parent_answered": true,
+  "parent_question": "Is the source clean two-dimensional Rashba model's nominal nearly-maximal superconducting diode endpoint a physically self-consistent metastable pairing state once spatial pairing variations are allowed?",
+  "quantitative_result": {
+    "C1": -5.593206399023333e-05,
+    "C1_epsilon": 0.005,
+    "C1_source_inclusive_upper_bound": -5.1597045109032524e-05,
+    "C2": -6.294890742150746e-05,
+    "C2_epsilon": 0.0025,
+    "C2_source_inclusive_upper_bound": -5.9342341366590406e-05,
+    "calculation_cpu_seconds": 12751.57901488,
+    "calculation_wall_seconds": 14348.284464371012,
+    "endpoint_allowance": 3.1623619986044952e-06,
+    "expansions": 606208,
+    "frozen_checks_passed": 13,
+    "independent_numerical_allowance": 1.6766293751752474e-07,
+    "independent_quadratic_coefficient": -6.528782574296713e-05,
+    "kappa": [
+      0.909013301211145,
+      0
+    ],
+    "rows": 93,
+    "source_inclusive_quadratic_upper_bound": -6.19578008068451e-05
+  },
+  "schema": "project90105-final-scientific-disposition-v1",
+  "scientific_conclusion": "Parent question answered: the reconstructed nominal source-model endpoint fails spatial local pairing metastability, supported by qualified negative curvature and matched nonlinear lowering. The answer is conditional empirical numerical evidence, not a rigorous proof or a replacement-phase prediction.",
+  "watchdog_preserved": true
+}

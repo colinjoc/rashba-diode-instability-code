@@ -1,0 +1,41 @@
+{
+  "files": {
+    "FRESH_LAUNCH_PACKET.json": {
+      "path": "FRESH_LAUNCH_PACKET.json",
+      "sha256": "9bd2b4030ec4539c00676a9ed739af7b6e8a8305ae949108924b9cd96636d427"
+    },
+    "LINEAR271.json": {
+      "path": "LINEAR271.json",
+      "sha256": "894e1a0a6e9887bdbd7ab2a2feca3b84f3d6a110e907040e2b72d99e16b075cc"
+    },
+    "QUALIFICATION_PROTOCOL.json": {
+      "path": "QUALIFICATION_PROTOCOL.json",
+      "sha256": "6041f65c1a22df53fd97272fea212c79fc62cfb09c354b17c9b3b12e139f84b1"
+    },
+    "SAVED293.json": {
+      "path": "SAVED293.json",
+      "sha256": "d7166d65f1a5672ba2fe83d0eb8d566dcb72422d00096a7c1442675ffa9cd338"
+    },
+    "correction_bounds.py": {
+      "path": "correction_bounds.py",
+      "sha256": "50026d4f2e31b055ed5fa4cc5c10f709304ad2047b8401b0b5955758a040437f"
+    },
+    "native_guard_adapter.py": {
+      "path": "native_guard_adapter.py",
+      "sha256": "99604bd70087dabbfcd83da5dc1beb203e38e5fc9d77d4f8b8ab2ca0a563c391"
+    },
+    "native_worker.py": {
+      "path": "native_worker.py",
+      "sha256": "fb82505be829ceec2e2b33cecfb8c4a223005ea69c78a8f488ee4f139ed91674"
+    },
+    "nonlinear_response.py": {
+      "path": "nonlinear_response.py",
+      "sha256": "6413236099a7e6d75fc73af325998f880a3a2c9109d74c26e43397811cff974a"
+    },
+    "qualification_runner.py": {
+      "path": "qualification_runner.py",
+      "sha256": "09d80850ec7cb62f87e6d46ddef7f0f77fe2cfb1dc36490cc19c513ed75007f2"
+    }
+  },
+  "schema": "exact-inert-complete-finite-beta-package-v2"
+}

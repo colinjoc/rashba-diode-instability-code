@@ -1,0 +1,266 @@
+{
+  "coverage_note": "Reader-reported section inspection; not independently verified full-paper reading.",
+  "coverage_verified": false,
+  "created_at": "2026-10-02T08:31:45.296157+00:00",
+  "identity": {
+    "effort": "medium",
+    "model": "gpt-5.6-luna",
+    "question": "Targeted source-native consequential stability question. Extract complete clean Rashba/Eilenberger bulk model, gap equations/free-energy functional, DOS asymmetry/SOC/field/current conventions, numerical canonical near-perfect-diode critical endpoint parameters. Are equilibrium global branch, metastable local critical currents or constrained-current switching distinguished? Do source calculations include two-q stripe/order, amplitude/phase finite-wavevector Hessian, only uniformDelta/phase-gradient curvature, or a proved stability bound? Does actual endpoint lie in a source-compared AgterbergKaur2007/Aoyama2024 stable/stripe domain? What finite Gaussian stability certificate could change the nominal endpoint or BFS diagnostic under IDENTICAL source model, and are all its inputs specified? Full vs necessary local-stability scope, independent cost, code/data, strongest equivalent prior. No arbitrary phenomenological model or claim instability in advance. Cite sections/equations/limits/unreadscope.",
+    "source_sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6",
+    "version": "paper-reader-v1"
+  },
+  "reader": {
+    "answers": [
+      {
+        "answer": "Supported: The clean 2D bulk model is a strongly Rashba-coupled electron gas, H0=\u03a3k f\u2020k[\u03b5k\u2212\u03b1(\u03c3xky\u2212\u03c3ykx)]fk with \u03b5k=k\u00b2/(2m)\u2212\u03bc, plus an in-plane Zeeman term. In the strong-SOC/weak-field limit, the two helical-band Eilenberger equations decouple: \u2212ivF k\u0302\u00b7\u2207\u03bbg\u03bb=[(i\u03c9n\u2212\u0394\u0302)\u03c4z,g\u03bb], with \u2207\u03bb=\u2207\u2212iQ\u03bb[\u03c4z,...], \u03c9n=(2n+1)\u03c0T, and \u0394\u0302=[[0,\u0394(r)],[\u0394*(r),0]]. The source also defines helical-band DOS and field-induced shifts in its bulk conventions.",
+        "references": [
+          {
+            "line_end": 207,
+            "line_start": 190,
+            "section": "II.A Model Hamiltonian and II.B Quasiclassical Eilenberger equation"
+          },
+          {
+            "line_end": 184,
+            "line_start": 173,
+            "section": "Zeeman term, helical-band DOS and field shifts"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Unresolved: The source supplies the self-consistency/gap equation, LDOS, and current equations, including Eq. (10), Eq. (11), and Eq. (12). Its bulk ansatz is a single plane wave \u0394\u03bb(r)=\u0394q exp(iq\u03bb\u00b7r), with q\u03bb=q\u22122Q\u03bb and \u03a9\u03bb=(|\u0394\u03bb|\u00b2+\u03c9\u0303n,\u03bb\u00b2)1/2. No explicit thermodynamic/free-energy functional is supplied in the provided text; free-energy ordering is invoked through j(q)=0 and qualitative branch comparison.",
+        "references": [
+          {
+            "line_end": 237,
+            "line_start": 211,
+            "section": "Bulk self-consistency, LDOS and current equations"
+          },
+          {
+            "line_end": 294,
+            "line_start": 253,
+            "section": "Bulk gauge transformation, single-q solution and equilibrium condition"
+          }
+        ],
+        "status": "unresolved"
+      },
+      {
+        "answer": "Supported: The source distinguishes equilibrium/global and metastable/local branches. At increasing field, a local minimum of j(q) crosses zero, creates a free-energy minimum, and later becomes global, producing a jump in equilibrium q. Below TCEP, Ic\u2212 is determined by the local minimum nearest qs rather than the global minimum because continuous current reduction generally requires crossing a free-energy barrier. The source separately notes that domain motion, tunneling, and dissipative switching can change the experimentally realized current.",
+        "references": [
+          {
+            "line_end": 447,
+            "line_start": 385,
+            "section": "III.A Bulk SDE in the helical phase and CEP construction"
+          },
+          {
+            "line_end": 506,
+            "line_start": 490,
+            "section": "Barrier, tunneling and practical critical-current qualification"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Supported: The canonical textual endpoint is TCEP/Tc\u22480.05 at \u03b1\u0303=0.25. The source uses dimensionless q\u0303=q\u03be, q\u0303\u03bb=q\u03bb\u03be, h\u0303=h/\u0394q, and related scaled variables, with h and q directions specified in the numerical setup. It does not provide a canonical numerical endpoint h/Tc, q, \u0394q, exact \u03b7max, or uncertainty in the supplied text; those values are graphical or absent.",
+        "references": [
+          {
+            "line_end": 381,
+            "line_start": 373,
+            "section": "III dimensionless conventions and numerical defaults"
+          },
+          {
+            "line_end": 464,
+            "line_start": 434,
+            "section": "Bulk phase diagram and CEP"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Supported: The calculation is a single-q helical plane-wave calculation with self-consistent uniform amplitude \u0394q and phase gradient q. It scans j(q) and identifies local extrema, but the supplied source contains no two-q/stripe or pair-density-wave variational calculation, no amplitude/phase finite-wavevector Gaussian Hessian, and no proved stability bound. It therefore establishes neither full stability of the endpoint nor instability of the single-q state.",
+        "references": [
+          {
+            "line_end": 294,
+            "line_start": 253,
+            "section": "Single-q bulk ansatz and solution"
+          },
+          {
+            "line_end": 447,
+            "line_start": 385,
+            "section": "Bulk j(q), local minima and CEP construction"
+          },
+          {
+            "line_end": 868,
+            "line_start": 856,
+            "section": "Cited stripe/helical prior"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Unresolved: The source cites Agterberg\u2013Kaur 2007 as prior work on magnetic-field-induced helical and stripe phases, but it does not perform a source-native comparison of the endpoint with that work's stable/stripe domain. Aoyama 2024 is not identified or compared in the supplied source. Whether the actual endpoint lies in a source-compared Agterberg\u2013Kaur/Aoyama stable or stripe domain is therefore not established.",
+        "references": [
+          {
+            "line_end": 872,
+            "line_start": 866,
+            "section": "References: Agterberg\u2013Kaur 2007 and related helical literature"
+          }
+        ],
+        "status": "unresolved"
+      },
+      {
+        "answer": "Unresolved: Under the identical source model, a finite Gaussian stability certificate would require the eigenvalue spectrum of the second variation of the microscopic thermodynamic potential about the self-consistent single-q solution, including coupled amplitude/phase fluctuations and both finite-wavevector sectors. A negative eigenvalue could shift the nominal CEP, favor a two-q/stripe state, or alter whether the BFS/LDOS diagnostic belongs to the true stable branch. The supplied source does not provide the required free-energy functional, Hessian, eigenvalues, fluctuation cutoff/regularization, or complete endpoint inputs, so all certificate inputs are not specified.",
+        "references": [
+          {
+            "line_end": 207,
+            "line_start": 193,
+            "section": "Microscopic model, approximations and gap equation"
+          },
+          {
+            "line_end": 226,
+            "line_start": 211,
+            "section": "Microscopic model, approximations and gap equation; bulk self-consistency"
+          },
+          {
+            "line_end": 464,
+            "line_start": 439,
+            "section": "CEP, barriers and nominal diode limit"
+          },
+          {
+            "line_end": 506,
+            "line_start": 490,
+            "section": "CEP, barriers and nominal diode limit"
+          }
+        ],
+        "status": "unresolved"
+      },
+      {
+        "answer": "Unresolved: The supplied source does not state code availability, numerical-data availability, or an independently reproducible endpoint dataset. The strongest explicitly identified equivalent prior within the source is Agterberg\u2013Kaur 2007 for Rashba helical/stripe physics; the source does not document a complete stability-domain comparison against it or against Aoyama 2024.",
+        "references": [
+          {
+            "line_end": 872,
+            "line_start": 856,
+            "section": "References: helical and stripe prior"
+          },
+          {
+            "line_end": 825,
+            "line_start": 795,
+            "section": "Discussion and stated future work"
+          }
+        ],
+        "status": "unresolved"
+      }
+    ],
+    "findings": [
+      {
+        "assumptions": [
+          "The source's bulk convention q=q x\u0302 and h=h y\u0302 is used, with \u03b1\u0303=0.25 for the quoted CEP.",
+          "The requested stability certificate is interpreted as a model-internal Gaussian fluctuation test, not a new phenomenological model."
+        ],
+        "claim": "The BFS diagnostic is tied to the assumed single-q spectrum: the \u03bb=\u2212 spectral gap closes when q\u0303+2h\u0303=2, entering the strong-helical phase; the source associates the resulting gapless spectrum with BFS formation.",
+        "equations": [
+          "\u03bd\u03bb(\u03c9)=N\u03bb Re[\u2212i(\u03c9\u0303\u2212q\u0303\u03bb cos\u03b8/2)/sqrt(1\u2212(\u03c9\u0303+i\u03b4\u2212q\u0303\u03bb cos\u03b8/2)^2)]",
+          "gap range: |\u03c9\u0303|<1\u2212|q\u0303\u03bb|/2=1\u2212|(q\u0303\u22122\u03bbh\u0303)/2|"
+        ],
+        "limitations": [
+          "This is a spectral/LDOS diagnostic on the assumed single-q branch, not a proof that the branch is globally stable."
+        ],
+        "references": [
+          {
+            "line_end": 425,
+            "line_start": 400,
+            "section": "Bulk LDOS, gap closing and BFS onset"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "Only supplied source.numbered.txt was treated as evidence."
+        ],
+        "claim": "The paper explicitly notes that its perfect-diode limit depends on the definition of Ic\u00b1 and that barriers, phase coexistence, temperature fluctuations, and tunneling details can reduce observed efficiency.",
+        "equations": [
+          "\u03b7=(Ic+ + Ic\u2212)/(Ic+ \u2212 Ic\u2212)"
+        ],
+        "limitations": [
+          "The source leaves the minimum barrier and switching dynamics to details beyond its simplified model."
+        ],
+        "references": [
+          {
+            "line_end": 506,
+            "line_start": 490,
+            "section": "Practical diode efficiency and barrier qualification"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "No network access, scientific experiments, code execution, or filesystem writes were used.",
+      "Only the listed targeted sections of source.numbered.txt were inspected; no cover-to-cover reading is claimed.",
+      "External references, supplements, appendices not included in the supplied source, and any code/data repository were not inspected.",
+      "The supplied text does not expose exact numerical endpoint coordinates beyond TCEP/Tc\u22480.05 at \u03b1\u0303=0.25; figure-only values were not inferred.",
+      "Aoyama 2024 was not present as an identified, source-compared work in the inspected supplied text."
+    ],
+    "sections_inspected": [
+      {
+        "line_end": 130,
+        "line_start": 1,
+        "section": "Title, abstract and Introduction"
+      },
+      {
+        "line_end": 207,
+        "line_start": 173,
+        "section": "II.A Model Hamiltonian and II.B Quasiclassical Eilenberger equation"
+      },
+      {
+        "line_end": 237,
+        "line_start": 211,
+        "section": "Bulk self-consistency, LDOS and current"
+      },
+      {
+        "line_end": 294,
+        "line_start": 253,
+        "section": "Bulk gauge transformation and single-q solution"
+      },
+      {
+        "line_end": 381,
+        "line_start": 373,
+        "section": "III conventions and numerical defaults"
+      },
+      {
+        "line_end": 464,
+        "line_start": 385,
+        "section": "III.A Bulk SDE, helical phases and CEP"
+      },
+      {
+        "line_end": 506,
+        "line_start": 490,
+        "section": "Critical-current/barrier qualification"
+      },
+      {
+        "line_end": 825,
+        "line_start": 760,
+        "section": "Discussion and limitations/future work"
+      },
+      {
+        "line_end": 872,
+        "line_start": 850,
+        "section": "References: helical and stripe prior"
+      },
+      {
+        "line_end": 1135,
+        "line_start": 1108,
+        "section": "References: BFS stability and related prior"
+      }
+    ],
+    "source_sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6",
+    "unread_scope": [
+      "Source lines outside the listed targeted sections were not inspected, including most references and any material not captured by targeted searches.",
+      "External Agterberg\u2013Kaur 2007 and Aoyama 2024 papers, supplements, source code, numerical data, and repositories were not inspected."
+    ]
+  },
+  "report_path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/zhuang2026/908ddee67d762bb4eb8c8ab46b2d79a623587fc1ca30dd0ddee4f7663a1278c3/report.json",
+  "source": {
+    "line_count": 1270,
+    "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/raw/zhuang2026.txt",
+    "sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6"
+  }
+}

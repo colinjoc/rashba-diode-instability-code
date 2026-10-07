@@ -1,0 +1,8 @@
+{
+  "cuda_runtime_probe_result_file": "science/cuda_probe_result.json",
+  "cuda_error": 35,
+  "runtime_probe_message": "CUDA driver version is insufficient for CUDA runtime version",
+  "nvml_tool_observation": "Failed to initialize NVML: GPU access blocked by the operating system",
+  "scope": "Observed in this invocation. No GPU access permission change, driver installation, or external state change attempted.",
+  "effect": "Independent GPU target evaluation was unavailable; the numerical-control early exit independently prevents acceptance."
+}

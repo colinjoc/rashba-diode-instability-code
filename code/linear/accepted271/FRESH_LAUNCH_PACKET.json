@@ -1,0 +1,40 @@
+{
+  "case_root": "/home/col/autoscience/engine_state/case-loops/rashba-diode-endpoint",
+  "launch_cpu_seconds": 600,
+  "launch_wall_seconds": 600,
+  "schema": "source-bound-fresh-launch-v1",
+  "source_bindings": {
+    "cpu_accounting_interface.py": {
+      "path": "evidence/supplement-1791285181549509845/launcher/cpu_accounting_interface.py",
+      "sha256": "7d9f1bc117e7ea44d0861aa373120d1a1e95915ca5cb59ef209b0718e88902f3"
+    },
+    "cpu_policy.py": {
+      "path": "evidence/supplement-1791285181549509845/launcher/cpu_policy.py",
+      "sha256": "d8c070f66894725afd1d0a3d6fc30e7dc1998a34eaa88077540b0c85d0ad1508"
+    },
+    "external_science_controller.py": {
+      "path": "evidence/supplement-1791285181549509845/launcher/external_science_controller.py",
+      "sha256": "288b09751d6202df9dd9b6b0a6d142d82f66aee0e280e9f8095ae95c23d14163"
+    },
+    "fresh_launch_accounting.py": {
+      "path": "evidence/supplement-1791285181549509845/launcher/fresh_launch_accounting.py",
+      "sha256": "a6941bb0df4c9a40f2a23436aaea545cac872ccebbcb7964908232911801c80c"
+    },
+    "launch_accounted_case.py": {
+      "path": "evidence/supplement-1791285181549509845/launcher/launch_accounted_case.py",
+      "sha256": "e0ce9db8c9d3fafe5da3646955e0b910af51b7c9af1fed1456041052095633f1"
+    },
+    "launch_tree_runner.py": {
+      "path": "evidence/supplement-1791285181549509845/launcher/launch_tree_runner.py",
+      "sha256": "d89ff573d22bab3154a6fe544b182fd0fd75057b91ddeee68af9b26e4cf35d3e"
+    },
+    "run_admitted_case.py": {
+      "path": "evidence/supplement-1791285181549509845/launcher/run_admitted_case.py",
+      "sha256": "e8cfba6836e03012974691f2da709f7d5ade2bb6ac88dcd37751cc7ecb6fcdae"
+    },
+    "watch_case.py": {
+      "path": "evidence/supplement-1791285181549509845/launcher/watch_case.py",
+      "sha256": "d35a67f7c71acb27bb10d11d85aa920eff116b0f10f8e133ee0e141dcf04d2bd"
+    }
+  }
+}

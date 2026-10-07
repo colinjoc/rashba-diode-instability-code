@@ -1,0 +1,107 @@
+{
+  "unchanged_input_bindings": true,
+  "fixed_vector_norm": 0.9999999999999999,
+  "saved_Rayleigh_consistency": true,
+  "uniform_evaluation_count": 194,
+  "matrix_evaluation_count": 166,
+  "matrix_integrand_records": 158,
+  "count_note": "The selected full 3x3 table is charged as nine evaluations; all 32 endpoint probes retain prescribed nested reductions in one integration each.",
+  "syntax_checks": "All delivered Python files parsed successfully; corrected acceptance code was not rerun on target data.",
+  "prior_artifact_inventory": [
+    {
+      "path": "prior_artifacts/000002/HYPOTHESES.json",
+      "keys": [
+        "blockers",
+        "cheap_checks",
+        "constraints",
+        "generation_methods",
+        "models",
+        "proposed_study",
+        "question",
+        "ranking",
+        "scope",
+        "selected_test",
+        "target_relevance",
+        "tests",
+        "unmodeled_alternatives",
+        "update_rule",
+        "variables",
+        "version"
+      ],
+      "sha256": "5aba5984620b223ed5aa4442b69e9eba28f198ce397ddf18476eb4887a3b4196"
+    },
+    {
+      "path": "prior_artifacts/000002/RECOVERY_PROVENANCE.json",
+      "keys": [
+        "created_utc",
+        "independent_reviews",
+        "kind",
+        "physical_claim_changed",
+        "preserved_failure_call",
+        "reason",
+        "source_hash",
+        "target_evaluations"
+      ],
+      "sha256": "ab7bd5802fc35e3fbc9f1a04c322589f9b8cf659881c6f3dabe660416b018f12"
+    },
+    {
+      "path": "prior_artifacts/000002/PROSPECTIVE_CANDIDATE.json",
+      "keys": [
+        "claim",
+        "dossier",
+        "hypothesis_packet",
+        "protocol"
+      ],
+      "sha256": "fa1ea4d53dc6bacdd12a1685f12d18aa63d94763dbc6d5f373e358803bc648fc"
+    },
+    {
+      "path": "prior_artifacts/000005/HYPOTHESES.json",
+      "keys": [
+        "blockers",
+        "cheap_checks",
+        "constraints",
+        "generation_methods",
+        "models",
+        "proposed_study",
+        "question",
+        "ranking",
+        "scope",
+        "selected_test",
+        "target_relevance",
+        "tests",
+        "unmodeled_alternatives",
+        "update_rule",
+        "variables",
+        "version"
+      ],
+      "sha256": "7ceea7becd0f766a5e5f9daebfdebbeaba4c3a020eaf930cd4efca8b870241a7"
+    },
+    {
+      "path": "prior_artifacts/000005/RECOVERY_PROVENANCE.json",
+      "keys": [
+        "created_utc",
+        "draft_sha256",
+        "independent_design_and_novelty_reviews",
+        "kind",
+        "physical_claim_model_endpoint_resource_limits_unchanged",
+        "preserved_failure_call",
+        "recovery_method",
+        "source_log_sha256",
+        "target_evaluations"
+      ],
+      "sha256": "e7552cf8ee62b20608140efe6a4104bff1d9bd36b68668dfd13c3ec4d6f1c82d"
+    },
+    {
+      "path": "prior_artifacts/000005/PROSPECTIVE_CANDIDATE.json",
+      "keys": [
+        "claim",
+        "dossier",
+        "hypothesis_packet",
+        "protocol"
+      ],
+      "sha256": "12621a3ea333099972beae5b6b2fa370c0b842edbba1f85d46887826cae17d25"
+    }
+  ],
+  "admitted_candidate_matches_prior_call5": true,
+  "inconclusive_flag_verified": true
+}

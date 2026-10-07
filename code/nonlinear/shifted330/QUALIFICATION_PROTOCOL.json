@@ -1,0 +1,872 @@
+{
+  "acceptance": {
+    "inconclusive": "Any failed or missing source, branch, certificate, convergence, qualification, forecast or resource condition; infer neither physical sign.",
+    "refute": "A valid resolved nonnegative independent coefficient rejects this witness and requires reconciliation with the exploratory primary result. It does not refute every other unstable direction or answer the parent.",
+    "support": "Every source/branch/input/resource/convergence gate passes; cP+EP+Eep<0 and cI+EI+Eep<0; EP+Eep<=.25|cP| and EI+Eep<=.25|cI|; |cP-cI|<=EP+EI; Ectrl<=min(EP+Eep,EI+Eep); C1 and C2 are negative beyond their complete errors. This supports the fixed witness and defeats necessary local metastability within the source model."
+  },
+  "accepted_linear_source_bound": 9.924665109792337e-07,
+  "analytic_beta_radius": 0.1,
+  "analytic_tail_split": 32,
+  "angular_origin_definition": "binary64 math.pi*math.sqrt(5)/256; common fixed origin for nested Ntheta16/32/64",
+  "angular_origin_radians": 0.02744068254312784,
+  "angular_validation_subcells": 16,
+  "arithmetic_floor": 1e-12,
+  "artifact_bytes": 1000000,
+  "axis_order": [
+    "profile_beta_degree",
+    "Nw",
+    "Ntheta",
+    "force_beta_degree_divided_by_two",
+    "Nt"
+  ],
+  "baseline308_sha256": "89a16fde242a71471902c9ca27a18bb7a10968c2223c2faf819391f12ca2ad15",
+  "common_profile_remainder_cap": 0.001,
+  "continuous_domain": "Original entire source rectangle and signedbeta[-.01,.01], both helicities. Reuse exact historical293 n0 and299 n1..31 continuous angular enclosures only: full circle coverage is independent of quadrature origin. No historical scalar quadrature rows reused.",
+  "controls_reuse_scope": "Genuine271 normalization/raw/signed force/current/K0/reference qualification controls retained only as beta0 controls; no scalar current to curvature transfer. Nonlinear equation/conjugation/Fourier normalized identity, continuous tube/source/pole/profile errors and actual nonlinear C1/C2 are independently newly checked.",
+  "correction_identity": "c_epsilon(x)=c0(x) - piT sum_n,lambda W_lambda average_theta sum_sigma integral_0^1 t [F_sigma*t*epsilon(x)-F0(x)] dt. Log(T)*E and E/omega counterterm cancel only in correction; piT source variation remains explicit. Anchor c0 reused at original source within genuine271 scope. Matched beta0 nodes are required control-variate evaluations at NEW nonlinear schedule, not replay of linear271/source256 jobs.",
+  "cumulative_user_cpu_ceiling": null,
+  "data_role": "Prospectively new deterministic common-origin observations, neither statistical independence nor independent physical data.324 and308 remain consumed historical evidence.",
+  "disk_reserve_bytes": 268435456,
+  "epsilon": [
+    0.01,
+    0.005,
+    0.0025
+  ],
+  "extra_conservative_checks": "Complete Richardson negative beyond propagated full errors and original Eep; this adds no relaxed criterion.",
+  "failure_policy": "First failed local or full inequality banks exactdomain/margins, completedcontrolcoverage and genuine costs. No pilotreplay, changed witness/epsilon/source, automatic allocation increase or capretry. Two unchanged failures require independent parent alternatives strategy. Adequate complete controls still require independentresult/rootforecast/targetrelease/parentcoverage.",
+  "finest": [
+    16,
+    512,
+    64,
+    8,
+    8
+  ],
+  "forecast": {
+    "certified": false,
+    "conservative_forecast_seconds": 60423.93990559397,
+    "controller_certificate": {
+      "path": "evidence/supplement-1791365452993850088/RESOURCE_CERTIFICATE.json",
+      "sha256": "404d509b773dd7eabf66d487159004eb81b5d76874982a35e1ece72cadee6455"
+    },
+    "cpu_limit_seconds": null,
+    "headroom_seconds": 4576.060094406028,
+    "independent_memory_alternatives": {
+      "path": "evidence/supplement-1791360827677387838/MEMORY_ALTERNATIVES.json",
+      "sha256": "bc49d63b1b2bfc7cd9d57b4b3478785c52cc707e59d69f571197497d7f881fba"
+    },
+    "limitations": [
+      "Allocation is a prospective empirical forecast and not certification; new-angle conditioning and per-node expense can differ. No per-frequency299 time decomposition exists in supplied report; attribution uses full measured299 cost and explicit expansion count.",
+      "Prospective2048MiB guard preserves308 SELF lifetime1336.64453125MiB evidence; sampled PGID484.5MiB has gaps. Same coefficient dimensions do not prove whole-memory compliance.",
+      "Artifact guard1,000,000bytes and disk reserve268,435,456bytes remain enforced. Existing308 result size and exact prospective projected assets must be checked by root preflight; this document certifies no storage footprint.",
+      "All CPU ceilings remain null and actual CPU must be measured. Finite65000whole wall applies unchanged. If independent review rejects bridge adequacy, hold dispatch and record exact deficit; no silent allocation increase."
+    ],
+    "limits": {
+      "artifact_bytes": 1000000,
+      "cpu_seconds_per_invocation": null,
+      "disk_reserve_bytes": 268435456,
+      "memory_mb": 2048,
+      "total_cpu_seconds": null,
+      "wall_seconds": 65000
+    },
+    "measured_inputs": {
+      "293_n0_including2048continuous_wall_seconds": 500.0315635399893,
+      "293_n0_scalar_nodes": 128,
+      "293_n0_total_nodes": 2176,
+      "293_total_wall_seconds": 503.3059575489897,
+      "299_calculation_wall_seconds": 17624.759952796987,
+      "299_n1to31_continuous_nodes": 63488,
+      "299_n1to31_expansion_nodes_including_continuous": 71424,
+      "299_total_expansion_nodes": 138200,
+      "308_calculation_cpu_seconds": 11143.268252759,
+      "308_calculation_nodes": 540672,
+      "308_calculation_wall_seconds": 12554.616561040006,
+      "308_sampled_pgid_max_mib": 484.5,
+      "308_self_lifetime_max_mib": 1336.64453125,
+      "308_whole_launch_wall_seconds": 12587.21,
+      "319_memory_scope": "GNUlargest awaitedprocesshighwater, not workerSELF or continuousPGID; worker initialSELF guard exceeded1536 before solver; targetobservations0.",
+      "319_whole_launch_GNU_max_mib": 1727.671875,
+      "whole_launch_provenance": "orchestrator/restarts/QUALIFICATION308_FINAL_ACCOUNTING.json; archived root settlement, separate from calculation measurement"
+    },
+    "memory_allocation": "Prospective2048MiB guard,320.328125MiB above observed319GNUpeak; prior308SELF1336.64453125 retained. Conditional feasibility only, no whole-memory proof; hardware/resources root recheck mandatory.",
+    "old_aggregate_arithmetic": "60423.93990559397 =2*(12587.21+17624.759952796987), not2*308+1*299. Current disjoint schedule budget sums to the same figure but now explicitly covers new n0, lost scalar reuse and overhead.",
+    "remaining_prospective_wall_seconds_root_supplied": 94186.84789467801,
+    "schedule_disjoint_costs": [
+      {
+        "bridge_seconds": 26393.22799764092,
+        "empirical_cost_bridge": "2*12554.616561040006*568320/540672; uses whole308 calculation mean including its low-frequency work, then factor2",
+        "expansions": 568320,
+        "task": "high n32..511 new expansions",
+        "wall_allowance_seconds": 27000
+      },
+      {
+        "bridge_seconds": 9250.583925489802,
+        "empirical_cost_bridge": "2*500.0315635399893*1184/128; charges full293 n0 cost INCLUDING2048 continuous support nodes to its128 scalar nodes, conservatively retaining expensive n0 cost although no new continuous expansion is scheduled",
+        "expansions": 1184,
+        "task": "new n0 expansions including loss of historical n0 scalar reuse",
+        "wall_allowance_seconds": 9500
+      },
+      {
+        "bridge_seconds": 18114.33661815246,
+        "empirical_cost_bridge": "2*17624.759952796987*36704/(31*2304); full299 wall includes both continuous and high-frequency work. Average per expanded node is an empirical conditioning proxy, not a proven bound for scalar/source expansions. Factor2 and rounded allowance absorb observed mix uncertainty, subject independent review.",
+        "expansions": 36704,
+        "task": "new n1..31 expansions including loss of historical finest scalar reuse",
+        "wall_allowance_seconds": 18500
+      },
+      {
+        "new_expansions": 0,
+        "task": "retained continuous-support intake/hash/source-domain validation",
+        "wall_allowance_seconds": 500
+      },
+      {
+        "task": "checkpoint, memory/disk guard and serialization overhead beyond calculation timings",
+        "wall_allowance_seconds": 2500
+      },
+      {
+        "task": "native startup/projected asset intake and final result settlement",
+        "wall_allowance_seconds": 2423.93990559397
+      }
+    ],
+    "schema": "project90105-schedule-wall-forecast-v1",
+    "scope": "93 genuinely new common-origin rows after disk324; no old scalar rows relabeled or reused. Valid unchanged measured forecast bridge remains conditional on new-angle conditioning.",
+    "target_release": false,
+    "whole_wall_seconds": 65000
+  },
+  "frozen_state": {
+    "EP": 5.8505237960874744e-08,
+    "Eep": 3.1623619986044952e-06,
+    "K": [
+      0.909013301211145,
+      0
+    ],
+    "binding": {
+      "path": "prior_artifacts/000008/science/frozen_witness.json",
+      "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+    },
+    "cP": -6.5287829634528e-05,
+    "epsilon": [
+      0.01,
+      0.005,
+      0.0025
+    ],
+    "status": "Inspected exploratory evidence. Exact binary centres do not imply zero physical uncertainty.",
+    "v": {
+      "imag": [
+        0,
+        -0.9908426008888789
+      ],
+      "real": [
+        -0.13502199918443586,
+        0
+      ]
+    },
+    "x": [
+      0.051955058120691594,
+      1.6925900731329657,
+      0.9791506418402958,
+      1.3985886221312929
+    ],
+    "x_order": [
+      "T",
+      "D",
+      "q",
+      "h"
+    ]
+  },
+  "full_guard_interval_seconds": 0.5,
+  "levels": [
+    [
+      8,
+      12,
+      16
+    ],
+    [
+      128,
+      256,
+      512
+    ],
+    [
+      16,
+      32,
+      64
+    ],
+    [
+      4,
+      6,
+      8
+    ],
+    [
+      2,
+      4,
+      8
+    ]
+  ],
+  "linear_anchor_sha256": "894e1a0a6e9887bdbd7ab2a2feca3b84f3d6a110e907040e2b72d99e16b075cc",
+  "local_memory_mb": 2048,
+  "mixed_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "new_planned_rows": 93,
+  "nonlinear_source_allowance": 2.1698954876252615e-06,
+  "normalization_max": 1e-10,
+  "observation_identity": {
+    "angular_origin_definition": "binary64 math.pi*math.sqrt(5)/256; common fixed origin for nested Ntheta16/32/64",
+    "angular_origin_radians": 0.02744068254312784,
+    "epsilons": [
+      0.01,
+      0.005,
+      0.0025
+    ],
+    "historical324_use": "Consumed21rows retained as historical supporting evidence only; no scalar rows inserted into new93row schedule. Fresh common origin maintains all hierarchy/mixed controls.",
+    "non_independence": "Deterministic discretization; origin shift probes aliasing and neither random sampling nor independent physical data.",
+    "observation_keys": "(M,Ntheta,J,n,lambda,j,phi), plus derived (configuration,epsilon); all new phi-dependent coefficient/source/remainder observations. Nt paths share new primitives openly. Exact circles continuous enclosures are supporting historical inputs, not new observations.",
+    "physical_state": {
+      "EP": 5.8505237960874744e-08,
+      "Eep": 3.1623619986044952e-06,
+      "K": [
+        0.909013301211145,
+        0
+      ],
+      "binding": {
+        "path": "prior_artifacts/000008/science/frozen_witness.json",
+        "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+      },
+      "cP": -6.5287829634528e-05,
+      "epsilon": [
+        0.01,
+        0.005,
+        0.0025
+      ],
+      "status": "Inspected exploratory evidence. Exact binary centres do not imply zero physical uncertainty.",
+      "v": {
+        "imag": [
+          0,
+          -0.9908426008888789
+        ],
+        "real": [
+          -0.13502199918443586,
+          0
+        ]
+      },
+      "x": [
+        0.051955058120691594,
+        1.6925900731329657,
+        0.9791506418402958,
+        1.3985886221312929
+      ],
+      "x_order": [
+        "T",
+        "D",
+        "q",
+        "h"
+      ]
+    },
+    "schedule": [
+      [
+        16,
+        512,
+        64,
+        8,
+        8
+      ],
+      [
+        8,
+        512,
+        64,
+        8,
+        8
+      ],
+      [
+        12,
+        512,
+        64,
+        8,
+        8
+      ],
+      [
+        16,
+        128,
+        64,
+        8,
+        8
+      ],
+      [
+        16,
+        256,
+        64,
+        8,
+        8
+      ],
+      [
+        16,
+        512,
+        16,
+        8,
+        8
+      ],
+      [
+        16,
+        512,
+        32,
+        8,
+        8
+      ],
+      [
+        16,
+        512,
+        64,
+        4,
+        8
+      ],
+      [
+        16,
+        512,
+        64,
+        6,
+        8
+      ],
+      [
+        16,
+        512,
+        64,
+        8,
+        2
+      ],
+      [
+        16,
+        512,
+        64,
+        8,
+        4
+      ],
+      [
+        8,
+        128,
+        64,
+        8,
+        8
+      ],
+      [
+        12,
+        256,
+        64,
+        8,
+        8
+      ],
+      [
+        8,
+        512,
+        16,
+        8,
+        8
+      ],
+      [
+        12,
+        512,
+        32,
+        8,
+        8
+      ],
+      [
+        8,
+        512,
+        64,
+        4,
+        8
+      ],
+      [
+        12,
+        512,
+        64,
+        6,
+        8
+      ],
+      [
+        8,
+        512,
+        64,
+        8,
+        2
+      ],
+      [
+        12,
+        512,
+        64,
+        8,
+        4
+      ],
+      [
+        16,
+        128,
+        16,
+        8,
+        8
+      ],
+      [
+        16,
+        256,
+        32,
+        8,
+        8
+      ],
+      [
+        16,
+        128,
+        64,
+        4,
+        8
+      ],
+      [
+        16,
+        256,
+        64,
+        6,
+        8
+      ],
+      [
+        16,
+        128,
+        64,
+        8,
+        2
+      ],
+      [
+        16,
+        256,
+        64,
+        8,
+        4
+      ],
+      [
+        16,
+        512,
+        16,
+        4,
+        8
+      ],
+      [
+        16,
+        512,
+        32,
+        6,
+        8
+      ],
+      [
+        16,
+        512,
+        16,
+        8,
+        2
+      ],
+      [
+        16,
+        512,
+        32,
+        8,
+        4
+      ],
+      [
+        16,
+        512,
+        64,
+        4,
+        2
+      ],
+      [
+        16,
+        512,
+        64,
+        6,
+        4
+      ]
+    ],
+    "schema": "deterministic-origin-shift-observation-v1",
+    "source_box_radii": [
+      1.2255719847929461e-08,
+      4.0114684557896594e-08,
+      1.061632250176717e-07,
+      1.8248016692488084e-08
+    ],
+    "test_id": "rashba-fixed-witness-origin-shift-confirmation"
+  },
+  "paired_polynomial_identity_max": 1e-10,
+  "planned_rows": 93,
+  "preconditioner_modes": 12,
+  "prospective_correction_bounds_sha256": "50026d4f2e31b055ed5fa4cc5c10f709304ad2047b8401b0b5955758a040437f",
+  "prospective_nonlinear_response_sha256": "a66d0dbf78c82002f7f966372207fe08cafa5efade76f6fcdb799821998ed998",
+  "quadrature_error_policy": "Retain original empirical five-axis/mixed/epsilon hierarchy. Finite Taylor path Gauss vs exact moment difference additionally propagated as path_polynomial_error. Complete continuous angular branch coverage is separately required, never an angular error estimate.",
+  "remainder_policy": "Exact high-beta-order Fourier residual, source coefficient radii, full operator block inverse and common uniqueness cap establish source-connected remainder conditionally. BOTH force factors and full normalization identity checked. Every inadequate inequality fails first with exact domain/margins.",
+  "residual_max": 1e-10,
+  "reuse293": {
+    "correction_bounds_sha256": "50026d4f2e31b055ed5fa4cc5c10f709304ad2047b8401b0b5955758a040437f",
+    "new_missing_controls_share_deterministic_primitives": true,
+    "no_existing_coefficients_asserted": true,
+    "nonlinear_response_sha256": "6413236099a7e6d75fc73af325998f880a3a2c9109d74c26e43397811cff974a",
+    "nt8_rows_authoritative": true,
+    "original_protocol": {
+      "path": "SAVED293_PROTOCOL.json",
+      "sha256": "bf857182366cf7876c82e76ef7c4bcfb58c07da6489a1e9fba90063e147b8eaa"
+    },
+    "original_protocol_sha256": "bf857182366cf7876c82e76ef7c4bcfb58c07da6489a1e9fba90063e147b8eaa",
+    "source_domain_keys": [
+      "frozen_state",
+      "source_box_radii",
+      "epsilon",
+      "arithmetic_floor",
+      "residual_max",
+      "normalization_max",
+      "paired_polynomial_identity_max",
+      "signed_beta_cells",
+      "angular_validation_subcells",
+      "preconditioner_modes",
+      "common_profile_remainder_cap",
+      "analytic_beta_radius",
+      "analytic_tail_split"
+    ]
+  },
+  "reuse299": {
+    "completed_base": [
+      16,
+      64,
+      8
+    ],
+    "completed_configurations": [
+      [
+        16,
+        128,
+        64,
+        8,
+        8
+      ],
+      [
+        16,
+        128,
+        64,
+        8,
+        2
+      ],
+      [
+        16,
+        256,
+        64,
+        8,
+        8
+      ],
+      [
+        16,
+        256,
+        64,
+        8,
+        4
+      ],
+      [
+        16,
+        512,
+        64,
+        8,
+        8
+      ],
+      [
+        16,
+        512,
+        64,
+        8,
+        2
+      ],
+      [
+        16,
+        512,
+        64,
+        8,
+        4
+      ]
+    ],
+    "completed_rows": 21,
+    "continuous_validation_nodes": 63488,
+    "continuous_validation_scope": "Original finest M16/theta64/J8 n1..31, helicities+/-1, angular16subcells; n0 exact293 coverage2048 remains original reuse",
+    "historical_status": "technical failed call299; no successful science receipt, no qualification certification",
+    "new_confirmation": false,
+    "original_protocol": {
+      "path": "SAVED299_PROTOCOL.json",
+      "sha256": "6041f65c1a22df53fd97272fea212c79fc62cfb09c354b17c9b3b12e139f84b1"
+    },
+    "partial_base": "M8/theta64/J8 was interrupted at n71; no accumulator or coefficient arrays retained. Its incomplete scalars cannot be restored. New arithmetic computes only still missing configuration outputs, openly records primitive overlap; no replay of completed299 rows or confirmation.",
+    "preserve_empirical_errors": true,
+    "report_sha256": "964892ac4b48ba1bb947fa8f32c2c2be25aad40a0917049675c2ec35cb247208",
+    "runtime_provenance_required": "Root independently verifies frozen299 input hashes, saved checkpoint integrity and failed call metadata before release. Independent integrated review must attest completed coverage scope."
+  },
+  "saved293_sha256": "d7166d65f1a5672ba2fe83d0eb8d566dcb72422d00096a7c1442675ffa9cd338",
+  "schedule": [
+    [
+      16,
+      512,
+      64,
+      8,
+      8
+    ],
+    [
+      8,
+      512,
+      64,
+      8,
+      8
+    ],
+    [
+      12,
+      512,
+      64,
+      8,
+      8
+    ],
+    [
+      16,
+      128,
+      64,
+      8,
+      8
+    ],
+    [
+      16,
+      256,
+      64,
+      8,
+      8
+    ],
+    [
+      16,
+      512,
+      16,
+      8,
+      8
+    ],
+    [
+      16,
+      512,
+      32,
+      8,
+      8
+    ],
+    [
+      16,
+      512,
+      64,
+      4,
+      8
+    ],
+    [
+      16,
+      512,
+      64,
+      6,
+      8
+    ],
+    [
+      16,
+      512,
+      64,
+      8,
+      2
+    ],
+    [
+      16,
+      512,
+      64,
+      8,
+      4
+    ],
+    [
+      8,
+      128,
+      64,
+      8,
+      8
+    ],
+    [
+      12,
+      256,
+      64,
+      8,
+      8
+    ],
+    [
+      8,
+      512,
+      16,
+      8,
+      8
+    ],
+    [
+      12,
+      512,
+      32,
+      8,
+      8
+    ],
+    [
+      8,
+      512,
+      64,
+      4,
+      8
+    ],
+    [
+      12,
+      512,
+      64,
+      6,
+      8
+    ],
+    [
+      8,
+      512,
+      64,
+      8,
+      2
+    ],
+    [
+      12,
+      512,
+      64,
+      8,
+      4
+    ],
+    [
+      16,
+      128,
+      16,
+      8,
+      8
+    ],
+    [
+      16,
+      256,
+      32,
+      8,
+      8
+    ],
+    [
+      16,
+      128,
+      64,
+      4,
+      8
+    ],
+    [
+      16,
+      256,
+      64,
+      6,
+      8
+    ],
+    [
+      16,
+      128,
+      64,
+      8,
+      2
+    ],
+    [
+      16,
+      256,
+      64,
+      8,
+      4
+    ],
+    [
+      16,
+      512,
+      16,
+      4,
+      8
+    ],
+    [
+      16,
+      512,
+      32,
+      6,
+      8
+    ],
+    [
+      16,
+      512,
+      16,
+      8,
+      2
+    ],
+    [
+      16,
+      512,
+      32,
+      8,
+      4
+    ],
+    [
+      16,
+      512,
+      64,
+      4,
+      2
+    ],
+    [
+      16,
+      512,
+      64,
+      6,
+      4
+    ]
+  ],
+  "schema": "rashba-fixed-witness-origin-shift-confirmation-v1",
+  "scope": "Prospective original fixed-witness nonlinear C1/C2 confirmation; unchanged source model and physical claim",
+  "signed_beta_cells": 16,
+  "source_box_radii": [
+    1.2255719847929461e-08,
+    4.0114684557896594e-08,
+    1.061632250176717e-07,
+    1.8248016692488084e-08
+  ],
+  "source_error_policy": "Coefficientwise full-rectangle source radii on BOTH Riccati and normalized force recursions. Sum only even correction coefficients after sign cancellation, propagate piT. Accepted271 linear/source bridge once; new correction source bound<=2.1698954876252615e-6. Uniform-source all-order remainders included once in EI, not presumed zero.",
+  "spatial_method": "Every Taylor coefficient retains every exact convolution mode (profile degree k support<=k+1), normalized force coefficient recurrence retains full support. Exact zero Fourier coefficient integrates finite polynomial; complete force identity/profile remainder retains every omitted beta/spatial mode.",
+  "status": "inert_unadmitted_proposal",
+  "tail_method": "Quantitative computed signed-paired correction n32..Nw-1, plus complete source-uniform complex-beta Cauchy infinite Matsubara tail. Odd powers cancel before absolute bound; every omitted even order included. Tail analytic disk radius.1, no low-frequency use or zero-tail assertion.",
+  "test_id": "rashba-fixed-witness-origin-shift-confirmation",
+  "whole_cpu_seconds": null,
+  "whole_wall_seconds": 65000
+}

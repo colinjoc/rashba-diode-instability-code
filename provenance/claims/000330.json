@@ -1,0 +1,951 @@
+{
+  "claim": "At the source single-q weak/strong-helical critical endpoint with alphatilde=1/4, there exists a fixed finite dimensionless vector kappa=vF K/Tc0≠0 whose coupled amplitude/phase Gaussian Hessian has a strictly negative eigenvalue. The same fixed perturbation lowers the source-compatible off-shell free energy to quadratic order.",
+  "dossier": {
+    "accounting": {
+      "scope": "AllCPUlimitsnull; original costs preserved. Prospective65000wholewall/2048MiB/1MBartifact/256MiBreserve remains within root supplied existing wall envelope; independent forecast/design required.",
+      "significance_status": "Unchanged endpoint scientificscope; integrated direct realbeta source/error remedy selected274, technicalmethod notnewphysics. Fresh exact separate independent judgments mandatory."
+    },
+    "author_id": "root-delegated-target320-memory-origin-delta",
+    "claim": "At the source single-q weak/strong-helical critical endpoint with alphatilde=1/4, there exists a fixed finite dimensionless vector kappa=vF K/Tc0≠0 whose coupled amplitude/phase Gaussian Hessian has a strictly negative eigenvalue. The same fixed perturbation lowers the source-compatible off-shell free energy to quadratic order.",
+    "closest_work_difference": "Potential contribution is the specific necessary-metastability failure of the source endpoint, not established stripe physics, Hessian methods or solver improvements. No novelty pass is asserted.",
+    "evidence_refs": [
+      "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+      "evidence/supplement-1791234847745936398/CONTROLLER_SUCCESSOR_REQUIREMENTS.json",
+      "evidence/supplement-1791234847745936398/method/smooth-tail-completion/SMOOTH_SOURCE_CERTIFICATE_PROTOCOL.json",
+      "evidence/supplement-1791234847745936398/method/centre/production_centre.py",
+      "evidence/supplement-1791234847745936398/runtime/smooth_pipeline.py",
+      "evidence/supplement-1791236061688848941/method_adapter_hook.py",
+      "evidence/supplement-1791245954058248465/first-tail/PILOT_PROTOCOL.json",
+      "evidence/supplement-1791245954058248465/first-tail/FROZEN_INPUT.json",
+      "evidence/supplement-1791247328897199314/EXACT_DEADWORK_PROOF.md",
+      "evidence/supplement-1791247328897199314/PARENT_STRATEGY_JUDGMENT.json",
+      "evidence/supplement-1791247328897199314/SCIENCE111_ACCOUNTING_REVIEW.json",
+      "evidence/supplement-1791248235502776241/PARENT_ALTERNATIVES_AND_ALLOCATION_REVIEW.json",
+      "evidence/supplement-1791248235502776241/SCIENCE116_ACCOUNTING_REVIEW.json",
+      "evidence/supplement-1791249367605887057/SCIENCE121_RESULT_REVIEW.json",
+      "evidence/supplement-1791249367605887057/SCIENCE121_ACCOUNTING_RECOMMENDATION.json",
+      "evidence/supplement-1791249367605887057/MINIMUM_INTEGRATED_PILOT_AND_ALTERNATIVES_REVIEW.json",
+      "evidence/supplement-1791249367605887057/TURN7_SCIENCE121_ACCOUNTING_DISPOSITION.json",
+      "evidence/supplement-1791249367605887057/TURN7_OUTER6_ACCOUNTING_DISPOSITION.json",
+      "evidence/supplement-1791249367605887057/pilot/PILOT_PROTOCOL.json",
+      "evidence/supplement-1791249367605887057/pilot/FORECAST_AND_RESOURCE_RATIONALE.json",
+      "evidence/supplement-1791256407339312495/probe/SOURCE_PROBE_PROTOCOL.json",
+      "evidence/supplement-1791256407339312495/MEASURED_SUCCESSOR_REVIEW.json",
+      "evidence/supplement-1791256407339312495/ACCEPTED_CONTROL_RESULT_REVIEW143.json",
+      "evidence/supplement-1791258703415399145/probe/SOURCE_PROBE_PROTOCOL.json",
+      "evidence/supplement-1791258703415399145/PARENT_METHOD_REVIEW.json",
+      "evidence/supplement-1791258703415399145/ACCEPTED_GRAZING_RESULT_REVIEW152.json",
+      "evidence/supplement-1791261506836357372/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791261506836357372/probe/METHOD.md",
+      "evidence/supplement-1791261506836357372/PROSPECTIVE_ALLOCATION.json",
+      "evidence/supplement-1791262300803572466/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791262300803572466/COMPLETE_REPAIR.json",
+      "evidence/supplement-1791263626127042904/SCALAR_REPAIR.json",
+      "evidence/supplement-1791266080955520327/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791266080955520327/REMAINDER_REPAIR.json",
+      "evidence/supplement-1791266080955520327/INDEPENDENT_RESULT_REVIEW.json",
+      "evidence/supplement-1791266080955520327/PARENT_ALTERNATIVES_AND_RESOURCE_REMEDY.json",
+      "evidence/supplement-1791266080955520327/SCIENCE178_ACCOUNTING.json",
+      "evidence/supplement-1791266080955520327/EXACT_CODEC_REPAIR.json",
+      "evidence/supplement-1791266080955520327/CODEC_FIXTURE.json",
+      "evidence/supplement-1791266080955520327/RESULT184_INDEPENDENT_RESULT_REVIEW.json",
+      "evidence/supplement-1791266080955520327/RESULT184_PARENT_FOLLOWTHROUGH_JUDGMENT.json",
+      "evidence/supplement-1791267445665711958/SHORT_RECIPROCAL_PROPOSAL.json",
+      "evidence/supplement-1791267445665711958/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791268943300395120/PARENT_STRATEGY_REASSESSMENT.json",
+      "evidence/supplement-1791268943300395120/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791270559504109856/PARENT_SUCCESSOR_REVIEW.json",
+      "evidence/supplement-1791270559504109856/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791271045176640995/PARENT_SUCCESSOR_REVIEW.json",
+      "evidence/supplement-1791271045176640995/probe/FORCE_BOUND_PROTOCOL.json",
+      "evidence/supplement-1791275939546644892/SELECTION_AND_PARKING.json",
+      "evidence/supplement-1791275939546644892/EXACT_PACKAGE_PREFLIGHT.json",
+      "evidence/supplement-1791276309357483616/INDEPENDENT207_INTEGRATED_REVIEW.json",
+      "evidence/supplement-1791277250297568036/ROOT_PROSPECTIVE_MEMORY_ALLOCATION.json",
+      "evidence/supplement-1791277250297568036/INDEPENDENT210_FAILURE_RESOURCE_REVIEW.json",
+      "prior_artifacts/000214/review/OWNED_SUCCESSOR_REQUIREMENTS.json",
+      "evidence/supplement-1791279768200086215/endpoint_linear/CONTROL_PROTOCOL.json",
+      "evidence/supplement-1791279768200086215/SOURCE_MAPPING_AND_REVIEW219.json",
+      "evidence/supplement-1791282384139743145/CONTROL_PROTOCOL.json",
+      "evidence/supplement-1791282384139743145/CONTROL_DESIGN_DRAFT.json",
+      "evidence/supplement-1791282384139743145/implementation_notes.json",
+      "evidence/supplement-1791285181549509845/field/FIELD_PROTOCOL.json",
+      "evidence/supplement-1791285181549509845/field/SOURCEBOX_DEPENDENCY.json",
+      "evidence/supplement-1791285181549509845/field/AUTHORING_PREFLIGHT.json",
+      "evidence/supplement-1791285181549509845/launch-repair/repair-report.json",
+      "evidence/supplement-1791285181549509845/launch-repair/repair.diff",
+      "evidence/supplement-1791285181549509845/launch-repair/offline-result.json",
+      "evidence/supplement-1791285181549509845/INTEGRATED_SCOPE_AND_OWNERSHIP.json",
+      "evidence/supplement-1791285181549509845/FAILED231_runner-result.json",
+      "evidence/supplement-1791285181549509845/FAILED231_runner-result.json.wait4-measurement.json",
+      "evidence/supplement-1791285181549509845/FAILED231_settlement.json",
+      "evidence/supplement-1791287100029995964/field/FIELD_PROTOCOL.json",
+      "evidence/supplement-1791287100029995964/RESOURCE_AND_DELTA.json",
+      "evidence/supplement-1791287100029995964/SOURCEFIELD238_FINAL_ACCOUNTING.json",
+      "evidence/supplement-1791287100029995964/SOURCEFIELD238_MEASURED_MILESTONE.json",
+      "evidence/supplement-1791287100029995964/REVIEW239_INTERRUPTION_RECONCILIATION.json",
+      "evidence/supplement-1791303714260220299/HANDOFF.json",
+      "evidence/supplement-1791303714260220299/package/QUALIFICATION_PROTOCOL.json",
+      "evidence/supplement-1791312120243201143/package/QUALIFICATION_PROTOCOL.json",
+      "evidence/supplement-1791306408095236975/MATHEMATICAL_IMPLEMENTATION_REPORT.json",
+      "evidence/supplement-1791321760227399813/INTERRUPTION287_INDEPENDENT_REVIEW.json",
+      "evidence/supplement-1791321760227399813/FINITE_BETA287_INTERRUPTED_FINAL_ACCOUNTING.json",
+      "evidence/supplement-1791321760227399813/FINITE_BETA287_INTERRUPTED_MEASURED_MILESTONE.json",
+      "evidence/supplement-1791321760227399813/ROOT_OWNED_RELEASE.py",
+      "evidence/supplement-1791321760227399813/ROOT_OWNED_LAUNCH.py",
+      "evidence/supplement-1791343269688257449/controller/PARENT_STRATEGY_REVIEW.json",
+      "evidence/supplement-1791343269688257449/package/QUALIFICATION_PROTOCOL.json",
+      "evidence/supplement-1791343269688257449/controller/COMPLETE_SCHEDULE_FORECAST.json",
+      "evidence/supplement-1791343269688257449/package/SAVED299.json",
+      "evidence/supplement-1791343269688257449/controller/CPU_DELTA_ENGINEERING_REVIEW.json",
+      "evidence/supplement-1791358622670612759/PARTITION.json",
+      "evidence/supplement-1791358622670612759/FORECAST.json",
+      "prior/000312.json",
+      "evidence/supplement-1791360827677387838/MEMORY_ALTERNATIVES.json",
+      "evidence/supplement-1791364792243867848/OBSERVATION_IDENTITY.json"
+    ],
+    "falsification_test": {
+      "cheap_check_ids": [
+        "local_vs_global",
+        "zero_mode_is_control",
+        "certificate_domain_veto",
+        "storage_lower_bound",
+        "completed_qualification_banked",
+        "completed_two_slab_pilot_banked"
+      ],
+      "conditions": "Original full source rectangle/fixed witness/epsilons; all31configs93rows new shifted origin; original full-circle continuous enclosures retained as supporting inputs.",
+      "cost_basis": "Historicalv76forecast60423.93990559397seconds is context only. Root must reconcile genuine324allocations and bind reviewed fresh full-schedule forecast before candidate submission;65000wholewall preserved/nullCPU.",
+      "discrimination": "Can qualify originalnonlinearcriteria forfixedwitness underfullsource uncertainty; methodfailureinferneitherphysicalsign. Parentneedsindependentactualresultandcoveragereview.",
+      "estimated_actions": 1,
+      "id": "rashba-fixed-witness-origin-shift-confirmation",
+      "independent_validation": "Fresh integrated exact design, significance and scoped delta-novelty review of93 new shifted-origin rows, partition hash, historical continuous-support scope, native target routing/reservation and schedule forecast. Reuse unchanged valid compact source comparisons. Separate result and parent-coverage review mandatory.",
+      "noise_and_nuisance": "Empirical binary64 primitive allowances remain conditional. Complete source coefficient/force-pole/remainder/normalization/path/infinite-frequency errors retained. Historical293/299 scalar sums are never fresh target data.",
+      "observable": "Full prospectively frozen shifted-origin C1/C2 coefficients, complete errors, original physical gates and agreement with complete308 qualification within summed EI.",
+      "outcome_rules": {
+        "inconclusive": "Any failed or missing source, branch, certificate, convergence, qualification, forecast or resource condition; infer neither physical sign.",
+        "refutes": "A valid resolved nonnegative independent coefficient rejects this witness and requires reconciliation with the exploratory primary result. It does not refute every other unstable direction or answer the parent.",
+        "supports": "Every source/branch/input/resource/convergence gate passes; cP+EP+Eep<0 and cI+EI+Eep<0; EP+Eep<=.25|cP| and EI+Eep<=.25|cI|; |cP-cI|<=EP+EI; Ectrl<=min(EP+Eep,EI+Eep); C1 and C2 are negative beyond their complete errors. This supports the fixed witness and defeats necessary local metastability within the source model. Additionally shifted-origin coefficients must agree with308within summed complete EI."
+      },
+      "predictions": {
+        "direct_schedule_feasible": "All31configs/93newrows with original controls complete within65000wall/2048MiB and no CPUcap. Runtime completion alone has no physics meaning.",
+        "direct_schedule_obstructed": "New shifted schedule or exact source/error/branch/resource condition fails; preserve precise obstacle and independently select materially different followthrough.",
+        "negative_fixed_witness": "All original complete C1/C2 negative/error gates survive new angular origin and agree with308within summed complete EI. Supports fixed witness only after independent actual result review.",
+        "null_fixed_witness": "Resolved nonnegative coefficients reject this witness only; origin disagreement/failed errors imply inconclusive, never parent stability."
+      },
+      "question_to_resolve": "Does the original fixed witness survive genuinely unconsumed angular-origin aliasing discriminant under unchanged full uncertainty and nonlinear acceptance rules?"
+    },
+    "independent_evidence": "Actual213completeknowncontrol accepted214, no newsource-endpointcalculation or independent admission in215. ExistingcompactLuna sourcecomparisons retained honestly unchangedclaim; prospectivefielddiagnosticexactscientificjudgments mandatory.",
+    "prior_art": [
+      {
+        "accessed": "Archived GPT-5.6 Luna medium report, 2026-10-02; inspected locally, no primary access.",
+        "coverage": "II model and III.A endpoint/barrier construction.",
+        "difference": "Same model and nominal endpoint; no spatial pairing Hessian certificate reported.",
+        "limitations": "Targeted reader coverage, coverage_verified=false; unlisted material and external sources/code/data unread.",
+        "overlap": "Same clean2D finite-asymmetry single-q endpoint and nearly-maximal diode construction.",
+        "report_binding": {
+          "path": "evidence/readers/zhuang2026/908ddee67d762bb4eb8c8ab46b2d79a623587fc1ca30dd0ddee4f7663a1278c3/report.json",
+          "sha256": "5bd518fd43200e0c20b7161a1d4cf4d7876c4e072fd0db095be8a533be9d1c61"
+        },
+        "source_sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6",
+        "title": "Helical phases and Bogoliubov Fermi surfaces probed by superconducting diode effects",
+        "url": "https://arxiv.org/abs/2510.18963v1"
+      },
+      {
+        "accessed": "Archived GPT-5.6 Luna medium report, 2026-10-02; inspected locally, no primary access.",
+        "coverage": "II and V-VII, especially Eqs65-68.",
+        "difference": "Known finite-K machinery; principal equal-DOS diagram and perturbative asymmetry correction do not assign the finite1/4 endpoint.",
+        "limitations": "Targeted reader coverage, coverage_verified=false; unlisted material and external sources/code/data unread.",
+        "overlap": "Clean2D Rashba singlet model and coupled finite-K stability.",
+        "report_binding": {
+          "path": "evidence/readers/dimitrova2007/9fdf9286a653ec2bd1e4a24f447e81b535282fcde720d8b25416c9e163549c9c/report.json",
+          "sha256": "4cea7a97929a9dadfe8d11517ee3c836d41511219c58924db25fadb3b51a79b7"
+        },
+        "source_sha256": "4312a534e6c3e3e86cc88d2931543daaa5cee0d227fdf3862c2839710442eb2e",
+        "title": "Theory of 2D superconductor with broken inversion symmetry",
+        "url": "https://arxiv.org/abs/cond-mat/0701698"
+      },
+      {
+        "accessed": "Archived GPT-5.6 Luna medium report, 2026-10-02; inspected locally, no primary access.",
+        "coverage": "II and III.B microscopic coupled-mode stability.",
+        "difference": "Established helical-to-multiple-q method; the quoted0.25 suppression result concerns spherical3D geometry, not this2D endpoint.",
+        "limitations": "Targeted reader coverage, coverage_verified=false; unlisted material and external sources/code/data unread.",
+        "overlap": "Microscopic helical-to-multiple-q fluctuation method.",
+        "report_binding": {
+          "path": "evidence/readers/agterberg2007/0387f3b0ea4b05f8cb91401e875c63e2d846282c48ade6dd71d699497f4c6d44/report.json",
+          "sha256": "ec2400942d9add4093e96d06c1577497890a15775c4976c8c3d7894e67bda8f0"
+        },
+        "source_sha256": "feddf8e57efbc60f008decf95dc4852020b4d8623bb8407716bc23285558546d",
+        "title": "Stability of magnetic-field induced helical phase in Rashba superconductors",
+        "url": "https://arxiv.org/abs/cond-mat/0612216"
+      },
+      {
+        "accessed": "Archived GPT-5.6 Luna medium report, 2026-10-02; inspected locally, no primary access.",
+        "coverage": "II-IV and AppendixA.",
+        "difference": "Strong2D stripe/diode overlap, gap-quartic GL and examined DOS0.01/0.05; no reported theorem or calculation settling this endpoint. Low temperature alone does not exclude near-Hc2 validity.",
+        "limitations": "Targeted reader coverage, coverage_verified=false; unlisted material and external sources/code/data unread.",
+        "overlap": "Clean2D cylindrical Rashba stripe onset and diode response.",
+        "report_binding": {
+          "path": "evidence/supplement-1790936891664267888/AOYAMA_SCOPE_REPORT.json",
+          "sha256": "6941aeba8cc23c4eb27cce023e12e358a06d67cbfdcd62d2c1f9898314abba09"
+        },
+        "source_sha256": "735ce8dd6002fb20f8d58516a568996f94917a130cec04b21428f1c7ea18e6ab",
+        "title": "Aoyama stripe order and superconducting diode study",
+        "url": "https://arxiv.org/abs/2310.16272"
+      },
+      {
+        "accessed": "Archived GPT-5.6 Luna medium report, 2026-10-02; inspected locally, no primary access.",
+        "coverage": "Global-equilibrium theorem, assumptions and metastable exclusions.",
+        "difference": "Global minimization at fixed twist does not determine this selected branch's local finite-K curvature.",
+        "limitations": "Targeted reader coverage, coverage_verified=false; unlisted material and external sources/code/data unread.",
+        "overlap": "Diode constraints including finite-momentum/multicomponent condensates.",
+        "report_binding": {
+          "path": "evidence/readers/hosur2026/565e4dc0146e31e3bcb92b1a8b6a4bcf0fd9749bd6f0f85fedfe651ac6b6b626/report.json",
+          "sha256": "cc8ebbadccfd2d8a0af742ae0a095e02d3b6b78f6c4e24ee91a65477d07371b3"
+        },
+        "source_sha256": "5843076883b22e232110bf24db87dfe6711b5bf0b4a701863744d937e8e3f22a",
+        "title": "Hosur equilibrium superconducting diode constraint",
+        "url": "https://arxiv.org/abs/2512.21384v3"
+      }
+    ],
+    "prior_art_access": "Saved GPT-5.6 Luna medium targeted reports only; coverage_verified=false. Source hashes are reader provenance. Unread sections, supplements, external references and figure-only coordinates are excluded; no primary-paper access or exhaustive search is claimed.",
+    "schema": "discovery-first-v1",
+    "scientific_significance": {
+      "before_after": "Support excludes local metastability at this endpoint. A contrary sign removes only this witness. Inconclusive certification changes no physics. No replacement phase, measured device efficiency or unrestricted phase diagram follows.",
+      "bounded_bridge": "At a stationary source state, a negative second variation supplies arbitrarily small energy-lowering pairing variations at fixed mean gradient. Full functional/input/error controls are necessary; a remote lower global minimum alone would not refute metastability.",
+      "decision_and_need": "The source's nearly-maximal diode endpoint uses a single-q current/barrier branch. Spatial local metastability is a necessary unverified premise in the supplied coverage. A controlled negative direction would invalidate that precise interpretation within its own model; no broader controversy is invented.",
+      "independent_assessment": {
+        "decision": "Conditional narrow significance supported; revise/hold incomplete execution design. No exact-final-protocol design or novelty admission.",
+        "input_bindings": [
+          {
+            "path": "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+            "sha256": "2304487b95b52f1456a995b00da5ab381f063b1dad175a5e5d5c340a90e135d7"
+          },
+          {
+            "path": "prior_artifacts/000008/science/frozen_witness.json",
+            "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+          }
+        ],
+        "objection": "Modulated Rashba pairing is familiar; one idealized endpoint may not alter experimental diode inference. The source already qualifies practical switching and barriers. Parameter application or solver repair alone is insufficient.",
+        "provenance": "Independent delegated supporting review returned during this invocation; no local report file was created in the read-only workspace. The reviewer verified report/input hashes, inspected compact Luna reports and independently confirmed both method obstructions; original papers were not read.",
+        "question": "Suppose this result is correct and new: why might researchers need to change their understanding, and why might they not?",
+        "report_inputs": "All five report bindings below were independently checked. Their source hashes are reader provenance, not independent verification of raw paper contents.",
+        "response": "A controlled same-source negative direction removes the specific necessary spatial-metastability premise. Claims must stop there; no replacement phase, global-equilibrium or efficiency inference.",
+        "reviewed_claim_sha256": "dce3c2b83cfa90a8300b1a318c592acb5277e4b2a17aea1f108c071d655306ae",
+        "reviewer_identity": "/root/independent_scope_check",
+        "unresolved_dependencies": [
+          "Completed exact repaired protocol and fresh independent significance/design/novelty review; this reviewer did not receive the final candidate.",
+          "Targeted reports are not an exhaustive literature countersearch."
+        ]
+      },
+      "strongest_resolution": "Microscopic Rashba helical/stripe instability and coupled-mode methods are established. Supplied comparisons do not assign this exact finite-DOS-asymmetry endpoint. A matching calculation or applicable local-stability theorem would turn the proposed inference into known recovery."
+    },
+    "search_date": "Archived reports2026-10-02; local refinement2026-10-05.",
+    "search_queries": [
+      "No fresh search or countersearch. Compared the five supplied source-linked Luna reports and historical candidate locally."
+    ],
+    "searched_through": "Supplied targeted reader coverage only.",
+    "strongest_baselines": [
+      "Exact source single-q endpoint and saved primary/control values.",
+      "Dimitrova/Agterberg microscopic stability, Aoyama2D GL stripe/diode result and Hosur's ensemble-scoped theorem.",
+      "Nonnegative fixed-direction null, with numerical invalidity treated separately."
+    ],
+    "test_refs": [
+      "rashba-missing-only-finite-beta-qualification"
+    ]
+  },
+  "hypothesis_packet": {
+    "blockers": [],
+    "cheap_checks": [
+      {
+        "conclusion": "The exact finite-K sign is not settled by the supplied stripe/GL or global-equilibrium results. Both physical alternatives remain unresolved within the reported coverage.",
+        "disposition": "retained",
+        "evidence_refs": [
+          "evidence/readers/zhuang2026/908ddee67d762bb4eb8c8ab46b2d79a623587fc1ca30dd0ddee4f7663a1278c3/report.json",
+          "evidence/readers/hosur2026/565e4dc0146e31e3bcb92b1a8b6a4bcf0fd9749bd6f0f85fedfe651ac6b6b626/report.json",
+          "evidence/supplement-1790936891664267888/AOYAMA_SCOPE_REPORT.json"
+        ],
+        "id": "local_vs_global",
+        "method": "Local comparison of saved source-linked Luna reports and the completed-study disposition; no new search.",
+        "model_ids": [
+          "null_fixed_witness",
+          "negative_fixed_witness"
+        ]
+      },
+      {
+        "conclusion": "Uniform softening does not answer finite-K pairing stability; retain it as supporting branch/normalization evidence.",
+        "disposition": "reclassified",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json"
+        ],
+        "id": "zero_mode_is_control",
+        "method": "Inspect saved endpoint characterization and the fixed nonzero wavevector.",
+        "model_ids": [
+          "known_zero_mode"
+        ]
+      },
+      {
+        "conclusion": "At mandatory grazing, n=0 and B=.01, the implemented self-map requires aR²+(b-1)R+s<=0. Exact rational bounding gives discriminant<-1.09 and minimum>6.3 for every R>=0, even at zero input error. This vetoes the current sufficient certificate, not the physical state.",
+        "disposition": "reclassified",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+          "evidence/supplement-1791234847745936398/method/centre/production_centre.py",
+          "evidence/supplement-1791234847745936398/method/inputs/source_inputs.py"
+        ],
+        "id": "certificate_domain_veto",
+        "method": "Routine exact-rational arithmetic on the implemented sufficient inequality using Machin pi and integer-square-root brackets at 160 bits; no Riccati, Hessian or force solve.",
+        "model_ids": [
+          "numerical_obstruction"
+        ]
+      },
+      {
+        "conclusion": "One finest row needs 4194304 low certificates; 830 mandatory bytes each require at least 3481272320 bytes, exceeding 500000000. The literal 153-row translation requires 179830784 low and 602112 tail files. Current archival execution cannot complete under the cap.",
+        "disposition": "reclassified",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/runtime/smooth_pipeline.py",
+          "evidence/supplement-1791236061688848941/method_adapter_hook.py",
+          "evidence/supplement-1791234847745936398/method/inherited_driver.py"
+        ],
+        "id": "storage_lower_bound",
+        "method": "Count source-loop iterations and mandatory serialized fields without running the pipeline.",
+        "model_ids": [
+          "numerical_obstruction"
+        ]
+      },
+      {
+        "conclusion": "Actual308 completed all93 qualification rows and independent309 accepted scoped qualification within empirical numerical limitations. Failed299 remains failed. This enables design of93 new shifted-origin target rows, not retrospective confirmation. This supporting result does not settle prospective shifted-origin schedule feasibility; both future execution alternatives remain unresolved.",
+        "disposition": "retained",
+        "evidence_refs": [
+          "evidence/supplement-1791365457601894436/target_package/SAVED308.json"
+        ],
+        "id": "completed_qualification_banked",
+        "method": "Read genuine308 result and309 independent review; no solve.",
+        "model_ids": [
+          "direct_schedule_feasible",
+          "direct_schedule_obstructed"
+        ]
+      },
+      {
+        "conclusion": "Actual293 six local slab rows and2048 n0 continuous nodes remain historical support; complete308 qualification is banked separately. Neither historical result supplies new shifted-origin scalar data.",
+        "disposition": "reclassified",
+        "evidence_refs": [
+          "evidence/supplement-1791343269688257449/package/QUALIFICATION_PROTOCOL.json",
+          "evidence/supplement-1791343269688257449/package/SAVED293.json",
+          "evidence/supplement-1791343269688257449/controller/COMPACT_RESULT294.json",
+          "evidence/supplement-1791343269688257449/controller/PARENT_STRATEGY_REVIEW.json"
+        ],
+        "id": "completed_two_slab_pilot_banked",
+        "method": "Read genuine saved293 supporting outcome and independent294 scope; no replay or new calculation.",
+        "model_ids": [
+          "completed_two_slab_pilot"
+        ]
+      }
+    ],
+    "constraints": [
+      "Retain alpha_tilde=1/4, both helicities and the source clean intraband approximations.",
+      "Preserve the source ensemble, fixed mean phase gradient, Tc0 subtraction and coupled amplitude/phase perturbation.",
+      "No scientific controls or targets at refinement; no fresh literature access.",
+      "Preserve all spent identities, 896 completed results, 36/93 failed convergence checks and call89 timeout.",
+      "ExplicituserallCPUcapremoval: cumulative/invocation/qualification/bootstrapCPU null; actualcostsmeasured; finitewall/memory/disk/STOP/scientificacceptance preserved.",
+      "Consumed324sqrt3identity and all21scalarrows/67756measuredexpansions remain banked. New full93schedule uses one distinctsqrt5origin only after independently reviewed disk remedy, fresh exact native integrated admission and root release; no admission inherited."
+    ],
+    "generation_methods": [
+      "mechanistic_decomposition",
+      "symmetry_dimensions",
+      "boundary_cases",
+      "null_model"
+    ],
+    "models": [
+      {
+        "assumptions": [
+          "Same source functional, endpoint and Fourier convention.",
+          "A valid continuum uncertainty estimate is required."
+        ],
+        "baseline": true,
+        "complexity_rationale": "Minimal physical alternative without an added phase or parameter.",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+          "evidence/readers/zhuang2026/908ddee67d762bb4eb8c8ab46b2d79a623587fc1ca30dd0ddee4f7663a1278c3/report.json"
+        ],
+        "falsifier": "A controlled negative independent upper bound with every retained paired and finite-amplitude guard.",
+        "id": "null_fixed_witness",
+        "mathematical_model": "c_infinity(K*,v*) >= 0. This fixed-direction null does not assert positivity of the complete Hessian.",
+        "mechanism": "The saved direction does not destabilize the endpoint; the negative primary estimate is not confirmed.",
+        "status": "unresolved"
+      },
+      {
+        "assumptions": [
+          "The saved endpoint is stationary and source connected.",
+          "The perturbation remains fixed before evaluating the new representation.",
+          "The source microscopic approximations define the claim's scope."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Tests a necessary premise of the endpoint construction without attempting unrestricted phase selection.",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+          "evidence/readers/dimitrova2007/9fdf9286a653ec2bd1e4a24f447e81b535282fcde720d8b25416c9e163549c9c/report.json"
+        ],
+        "falsifier": "Resolved nonnegative independent curvature rejects this witness; failed numerical certification does not.",
+        "id": "negative_fixed_witness",
+        "mathematical_model": "c_infinity(K*,v*) < 0; C(epsilon)=[F(Delta+epsilon eta)+F(Delta-epsilon eta)-2F(Delta)]/(2 epsilon^2) approaches the matched quadratic coefficient.",
+        "mechanism": "Coupled amplitude/phase modulation lowers the same-source energy near the nominal single-q endpoint.",
+        "status": "unresolved"
+      },
+      {
+        "assumptions": [
+          "Canonical endpoint and Ward/current conventions are retained."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Known criticality is banked as a control, not a discovery.",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json"
+        ],
+        "falsifier": "Failure of endpoint reproduction or Ward identities invalidates this supporting control.",
+        "id": "known_zero_mode",
+        "mathematical_model": "J=0 and amplitude-relaxed dJ/dq=0 do not determine the sign at K*=(0.909013301211145,0).",
+        "mechanism": "The endpoint already has a uniform phase-gradient soft mode.",
+        "status": "supporting"
+      },
+      {
+        "assumptions": [
+          "Errors are not silently removed.",
+          "Operational completion is not scientific acceptance."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Separates computational limitations from physical conclusions.",
+        "evidence_refs": [
+          "evidence/supplement-1791234847745936398/CONTROLLER_SUCCESSOR_REQUIREMENTS.json",
+          "evidence/supplement-1791234847745936398/method/centre/production_centre.py",
+          "evidence/supplement-1791236061688848941/method_adapter_hook.py"
+        ],
+        "falsifier": "A complete independently validated continuum calculation resolves this diagnostic ambiguity.",
+        "id": "numerical_obstruction",
+        "mathematical_model": "Invalid convergence or an impossible sufficient-domain inequality leaves both physical models unresolved.",
+        "mechanism": "Representation, sufficient-certificate or resource failure can prevent identification of the physical sign.",
+        "status": "diagnostic"
+      },
+      {
+        "assumptions": [
+          "Original frozen source/witness/epsilon/EP/Eep and acceptance unchanged.",
+          "All31configurations/93epsilon rows at prospective common angular origin pi*sqrt5/256.13unique bases606208expansions,37888low-frequency,1184n0. Old32421rows preserved historical, zero inserted or relabeled fresh. Full-circle historical enclosures/beta0 anchor reused only within original covered scope.",
+          "Null CPU; finite65000wall/2048MiB/1MBartifact/256MiBreserve unchanged. All historical costs preserved."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Discriminates adequate complete qualification from a precise source/branch/hierarchy/uncertainty/resource obstacle; no new physical mechanism or claim of parent coverage.",
+        "evidence_refs": [
+          "evidence/supplement-1791365457601894436/target_package/SAVED308.json",
+          "evidence/supplement-1791365457601894436/target_package/qualification_runner.py",
+          "evidence/supplement-1791358622670612759/PARTITION.json",
+          "evidence/supplement-1791358622670612759/FORECAST.json"
+        ],
+        "falsifier": "Any inadequate original source/branch/full normalization/error/hierarchy/C1C2/resource or reuse-provenance condition rejects this supporting method adequacy; no physical sign or parent exhaustion follows.",
+        "id": "direct_schedule_feasible",
+        "mathematical_model": "All93 new shifted-origin rows satisfy unchanged full nonlinear criteria and origin agreement within reviewed prospective limits.",
+        "mechanism": "Determine whether the new shifted-origin93-row schedule passes every original source/control/hierarchy/uncertainty/C1C2 gate and agrees with308 within summed complete errors.",
+        "status": "unresolved"
+      },
+      {
+        "assumptions": [
+          "Original frozen source/witness/epsilon/EP/Eep and acceptance unchanged.",
+          "All31configurations/93epsilon rows at prospective common angular origin pi*sqrt5/256.13unique bases606208expansions,37888low-frequency,1184n0. Old32421rows preserved historical, zero inserted or relabeled fresh. Full-circle historical enclosures/beta0 anchor reused only within original covered scope.",
+          "Null CPU; finite65000wall/2048MiB/1MBartifact/256MiBreserve unchanged. All historical costs preserved."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Discriminates adequate complete qualification from a precise source/branch/hierarchy/uncertainty/resource obstacle; no new physical mechanism or claim of parent coverage.",
+        "evidence_refs": [
+          "evidence/supplement-1791365457601894436/target_package/SAVED308.json",
+          "evidence/supplement-1791365457601894436/target_package/qualification_runner.py",
+          "evidence/supplement-1791358622670612759/PARTITION.json",
+          "evidence/supplement-1791358622670612759/FORECAST.json"
+        ],
+        "falsifier": "Any inadequate original source/branch/full normalization/error/hierarchy/C1C2/resource or reuse-provenance condition rejects this supporting method adequacy; no physical sign or parent exhaustion follows.",
+        "id": "direct_schedule_obstructed",
+        "mathematical_model": "At least one new shifted-origin source, branch, convergence, uncertainty, C1C2, origin-agreement or resource condition fails or is missing. Method inadequacy supplies no physical sign.",
+        "mechanism": "Determine whether the new shifted-origin93-row schedule passes every original source/control/hierarchy/uncertainty/C1C2 gate and agrees with308 within summed complete errors.",
+        "status": "unresolved"
+      },
+      {
+        "assumptions": [
+          "Empirical binary64 scope and measured/unknown resource limitations preserved."
+        ],
+        "baseline": false,
+        "complexity_rationale": "A completed supporting premise is not an unresolved model or endpoint confirmation.",
+        "evidence_refs": [
+          "evidence/supplement-1791343269688257449/package/QUALIFICATION_PROTOCOL.json",
+          "evidence/supplement-1791343269688257449/package/SAVED293.json",
+          "evidence/supplement-1791343269688257449/controller/COMPACT_RESULT294.json",
+          "evidence/supplement-1791343269688257449/controller/PARENT_STRATEGY_REVIEW.json"
+        ],
+        "falsifier": "Changed/corrupt exact saved artifacts invalidate reuse; their successful limited scope does not imply full qualification.",
+        "id": "completed_two_slab_pilot",
+        "mathematical_model": "Actual293 completed n0 and n32 at configuration16/64/8/8,2304 expansions and six normalized Nt8 rows; independent294 accepted scoped controls/costs only.",
+        "mechanism": "Historical293 local feasibility and continuous source coverage remain banked supporting evidence. Complete308 supporting qualification is independently accepted309; neither is fresh target confirmation.",
+        "status": "supporting"
+      }
+    ],
+    "proposed_study": null,
+    "question": "Is the source clean two-dimensional Rashba model's nominal nearly-maximal superconducting diode endpoint a physically self-consistent metastable pairing state once spatial pairing variations are allowed?",
+    "ranking": {
+      "mode": "qualitative",
+      "rationale": "Accepted308/309 complete supporting qualification enables one new deterministic angular-origin aliasing test of the fixed witness. Completed qualification is banked; no historical observations are replayed or relabeled."
+    },
+    "scope": "All31configurations/93epsilon rows at prospective common angular origin pi*sqrt5/256.13unique bases606208expansions,37888low-frequency,1184n0. Old32421rows preserved historical, zero inserted or relabeled fresh. Full-circle historical enclosures/beta0 anchor reused only within original covered scope.",
+    "selected_test": "rashba-fixed-witness-origin-shift-confirmation",
+    "target_relevance": "A certified negative same-functional finite-K direction excludes local pairing metastability of the precise endpoint used in the nearly-maximal diode construction. Failure of this witness has narrower implications.",
+    "tests": [
+      {
+        "cheap_check_ids": [
+          "local_vs_global",
+          "zero_mode_is_control",
+          "certificate_domain_veto",
+          "storage_lower_bound",
+          "completed_qualification_banked",
+          "completed_two_slab_pilot_banked"
+        ],
+        "conditions": "Original full source rectangle/fixed witness/epsilons; all31configs93rows new shifted origin; original full-circle continuous enclosures retained as supporting inputs.",
+        "cost_basis": "Historicalv76forecast60423.93990559397seconds is context only. Root must reconcile genuine324allocations and bind reviewed fresh full-schedule forecast before candidate submission;65000wholewall preserved/nullCPU.",
+        "discrimination": "Can qualify originalnonlinearcriteria forfixedwitness underfullsource uncertainty; methodfailureinferneitherphysicalsign. Parentneedsindependentactualresultandcoveragereview.",
+        "estimated_actions": 1,
+        "id": "rashba-fixed-witness-origin-shift-confirmation",
+        "independent_validation": "Fresh integrated exact design, significance and scoped delta-novelty review of93 new shifted-origin rows, partition hash, historical continuous-support scope, native target routing/reservation and schedule forecast. Reuse unchanged valid compact source comparisons. Separate result and parent-coverage review mandatory.",
+        "noise_and_nuisance": "Empirical binary64 primitive allowances remain conditional. Complete source coefficient/force-pole/remainder/normalization/path/infinite-frequency errors retained. Historical293/299 scalar sums are never fresh target data.",
+        "observable": "Full prospectively frozen shifted-origin C1/C2 coefficients, complete errors, original physical gates and agreement with complete308 qualification within summed EI.",
+        "outcome_rules": {
+          "inconclusive": "Any failed or missing source, branch, certificate, convergence, qualification, forecast or resource condition; infer neither physical sign.",
+          "refutes": "A valid resolved nonnegative independent coefficient rejects this witness and requires reconciliation with the exploratory primary result. It does not refute every other unstable direction or answer the parent.",
+          "supports": "Every source/branch/input/resource/convergence gate passes; cP+EP+Eep<0 and cI+EI+Eep<0; EP+Eep<=.25|cP| and EI+Eep<=.25|cI|; |cP-cI|<=EP+EI; Ectrl<=min(EP+Eep,EI+Eep); C1 and C2 are negative beyond their complete errors. This supports the fixed witness and defeats necessary local metastability within the source model. Additionally shifted-origin coefficients must agree with308within summed complete EI."
+        },
+        "predictions": {
+          "direct_schedule_feasible": "All31configs/93newrows with original controls complete within65000wall/2048MiB and no CPUcap. Runtime completion alone has no physics meaning.",
+          "direct_schedule_obstructed": "New shifted schedule or exact source/error/branch/resource condition fails; preserve precise obstacle and independently select materially different followthrough.",
+          "negative_fixed_witness": "All original complete C1/C2 negative/error gates survive new angular origin and agree with308within summed complete EI. Supports fixed witness only after independent actual result review.",
+          "null_fixed_witness": "Resolved nonnegative coefficients reject this witness only; origin disagreement/failed errors imply inconclusive, never parent stability."
+        },
+        "question_to_resolve": "Does the original fixed witness survive genuinely unconsumed angular-origin aliasing discriminant under unchanged full uncertainty and nonlinear acceptance rules?"
+      }
+    ],
+    "unmodeled_alternatives": "Other K/v instabilities, finite-amplitude escape, globally favorable textures, disorder/orbital/interband effects and device switching remain outside this witness test.",
+    "update_rule": "First failed local or full inequality banks exactdomain/margins, completedcontrolcoverage and genuine costs. No pilotreplay, changed witness/epsilon/source, automatic allocation increase or capretry. Two unchanged failures require independent parent alternatives strategy. Adequate complete controls still require independentresult/rootforecast/targetrelease/parentcoverage.",
+    "variables": [
+      {
+        "name": "x*=(T,D,q,h)",
+        "observability": "Original saved source endpoint and corrected physical radii T,D,q,h; no relocation or zero-radius inference",
+        "role": "Frozen background and endpoint uncertainty",
+        "units": "Tc0=1,vF=1"
+      },
+      {
+        "name": "K*,v*,eta",
+        "observability": "Saved witness; no rescreening or renormalization",
+        "role": "Fixed spatial intervention",
+        "units": "K in Tc0/vF; eta from the amplitude/phase vector"
+      },
+      {
+        "name": "completefinitebeta corrections/errors, originalC1C2, qualificationandactualcost",
+        "observability": "All31configurations/93epsilon rows at prospective common angular origin pi*sqrt5/256.13unique bases606208expansions,37888low-frequency,1184n0. Old32421rows preserved historical, zero inserted or relabeled fresh. Full-circle historical enclosures/beta0 anchor reused only within original covered scope.",
+        "role": "Prospective shifted-origin fixed-witness observations with historical qualification comparison",
+        "units": "Sourcecurvature/N0 and measuredCPU/wall/RSS/artifactunits"
+      },
+      {
+        "name": "EP,EI,Eep,Ectrl",
+        "observability": "Original EP/Eep/Ectrl and future completeEI thresholds unchanged; scoped local correction source/remainder/primitive/path errors reported. CompleteEI and nonlinearC1/C2 are not estimated by pilot.",
+        "role": "Preserved numerical/common uncertainties",
+        "units": "Samecurvatureunits"
+      },
+      {
+        "name": "originalfiveaxislevels/mixedpairs/epsilonladder",
+        "observability": "All31configurations/93epsilon rows at prospective common angular origin pi*sqrt5/256.13unique bases606208expansions,37888low-frequency,1184n0. Old32421rows preserved historical, zero inserted or relabeled fresh. Full-circle historical enclosures/beta0 anchor reused only within original covered scope.",
+        "role": "Frozen93-new-row confirmation schedule",
+        "units": "Counts and normalizedamplitude"
+      }
+    ],
+    "version": "competing-models-v2"
+  },
+  "protocol": {
+    "confirmation": {
+      "identities": [
+        {
+          "data_sha256": "726315f93abcc5b5ad1a0bb0adf02e7d184dc72032b0de42c3222cd0ee97915d",
+          "id": "project90105-fixed-witness-common-origin-pi-sqrt5-over256-v1",
+          "partition_sha256": "befe8831db2c75b4a9a71b062941125bfffd3d86a31c38f0f6c659a1f5e412c6"
+        }
+      ],
+      "mode": "heldout",
+      "partition_definition": {
+        "path": "evidence/supplement-1791364792243867848/PARTITION.json",
+        "sha256": "befe8831db2c75b4a9a71b062941125bfffd3d86a31c38f0f6c659a1f5e412c6"
+      }
+    },
+    "continuation_policy": "First failed local or full inequality banks exactdomain/margins, completedcontrolcoverage and genuine costs. No pilotreplay, changed witness/epsilon/source, automatic allocation increase or capretry. Two unchanged failures require independent parent alternatives strategy. Adequate complete controls still require independentresult/rootforecast/targetrelease/parentcoverage.",
+    "controls": {
+      "complete_nonlinear": "Original C1/C2, quarter-error, paired-sign, primary agreement and Ectrl retained; complete finite-beta source, branch, all-mode remainder, both poles, path exact-moment, angular/frequency/mixed/epsilon checks required.",
+      "original_physical_acceptance": {
+        "inconclusive": "Any failed or missing source, branch, certificate, convergence, qualification, forecast or resource condition; infer neither physical sign.",
+        "refute": "A valid resolved nonnegative independent coefficient rejects this witness and requires reconciliation with the exploratory primary result. It does not refute every other unstable direction or answer the parent.",
+        "support": "Every source/branch/input/resource/convergence gate passes; cP+EP+Eep<0 and cI+EI+Eep<0; EP+Eep<=.25|cP| and EI+Eep<=.25|cI|; |cP-cI|<=EP+EI; Ectrl<=min(EP+Eep,EI+Eep); C1 and C2 are negative beyond their complete errors. This supports the fixed witness and defeats necessary local metastability within the source model."
+      },
+      "qualified_linear_anchor": "Genuine271/272 fixedwitness empiricalbinary64 result and original controls only actualbeta0 scopes; source256 not replayed or transferred to nonlinear.",
+      "source_correction": "RemainingEep allowance2.1698954876252615e-6, totalEep unchanged; sourcebox fullrectangle, piT and correctionpropagation explicit."
+    },
+    "cpu_accounting_policy": {
+      "authorization": {
+        "path": "evidence/supplement-1791234847745936398/controller/USER_CPU_AUTHORIZATION_2026_10_04.json",
+        "sha256": "b52667f5897527426264e872aaae7924db135d95411a30edcb5dfa8a62d083d2"
+      },
+      "cumulative_cpu_limit_seconds": null,
+      "schema": "case-cpu-accounting-v2"
+    },
+    "cpu_cap_removal_authorization": {
+      "path": "orchestrator/USER_CPU_CAP_REMOVAL_2026_10_06.json",
+      "sha256": "7700a473e1b64c04cc190844e045f45a9a5b5878a341311ea83567210e0f09a9"
+    },
+    "cpu_task_limits": {
+      "invocation_cpu_seconds": null,
+      "invocation_wall_seconds": 65000,
+      "qualification_cpu_seconds": null,
+      "qualification_wall_seconds": 65000
+    },
+    "dispatch_scope": "prospective_shifted_angular_fixed_witness_confirmation",
+    "execution_assets": {
+      "case_loop_engine": {
+        "path": "evidence/supplement-1791343269688257449/runtime/case_loop_engine.py",
+        "sha256": "fb10ba521d190feac17c7e92e4492ff982fd4f95afa45388c18725f4676eea97"
+      },
+      "correction_bounds": {
+        "path": "evidence/supplement-1791365457601894436/target_package/correction_bounds.py",
+        "sha256": "50026d4f2e31b055ed5fa4cc5c10f709304ad2047b8401b0b5955758a040437f"
+      },
+      "cpu_policy": {
+        "path": "evidence/supplement-1791343269688257449/runtime/cpu_policy.py",
+        "sha256": "d40e9c19244962ef84127ebd5a710177df7cc1c2c07e2bc080ce2c9e51702320"
+      },
+      "fresh_launch_packet": {
+        "path": "evidence/supplement-1791360836314033300/FRESH_LAUNCH_PACKET.json",
+        "sha256": "70934d4080ecb2ebf09a5eec10460fc1e7396adc428c0f6696f6482765a0b2e4"
+      },
+      "linear_anchor271": {
+        "path": "evidence/supplement-1791365457601894436/target_package/LINEAR271.json",
+        "sha256": "894e1a0a6e9887bdbd7ab2a2feca3b84f3d6a110e907040e2b72d99e16b075cc"
+      },
+      "native_guard_adapter": {
+        "path": "evidence/supplement-1791365457601894436/target_package/native_guard_adapter.py",
+        "sha256": "24c646000164defbc0ab9c82e238a7b5bfdaf55fcc0536c4c65051088216a7c5"
+      },
+      "native_state_atomic_writer": {
+        "path": "evidence/supplement-1791343269688257449/runtime/native_state_atomic_writer.py",
+        "sha256": "62a0eb08f3a7e393cf85392e2876ccf05a49555a624176b6ea082e8aba611fd4"
+      },
+      "native_worker": {
+        "path": "evidence/supplement-1791365457601894436/target_package/native_worker.py",
+        "sha256": "5217a936fbe7ec91067944d00dabdf37a531ecdec26d0b509233abf2323199e7"
+      },
+      "nonlinear_response": {
+        "path": "evidence/supplement-1791365457601894436/target_package/nonlinear_response.py",
+        "sha256": "a66d0dbf78c82002f7f966372207fe08cafa5efade76f6fcdb799821998ed998"
+      },
+      "qualification_protocol": {
+        "path": "evidence/supplement-1791365457601894436/target_package/QUALIFICATION_PROTOCOL.json",
+        "sha256": "291a8d7d5ddeb60ae57b63d721c836201706473b2307d6cce32e38f65f66dc20"
+      },
+      "qualification_runner": {
+        "path": "evidence/supplement-1791365457601894436/target_package/qualification_runner.py",
+        "sha256": "1bc6efe699f2afdf7942cc05a8d7c9faffcdf7777d1f6126e19b90b6e354727f"
+      },
+      "resource_certificate": {
+        "path": "evidence/supplement-1791365452993850088/RESOURCE_CERTIFICATE.json",
+        "sha256": "404d509b773dd7eabf66d487159004eb81b5d76874982a35e1ece72cadee6455"
+      },
+      "saved293": {
+        "path": "evidence/supplement-1791365457601894436/target_package/SAVED293.json",
+        "sha256": "d7166d65f1a5672ba2fe83d0eb8d566dcb72422d00096a7c1442675ffa9cd338"
+      },
+      "saved293_protocol": {
+        "path": "evidence/supplement-1791365457601894436/target_package/SAVED293_PROTOCOL.json",
+        "sha256": "bf857182366cf7876c82e76ef7c4bcfb58c07da6489a1e9fba90063e147b8eaa"
+      },
+      "saved299": {
+        "path": "evidence/supplement-1791365457601894436/target_package/SAVED299.json",
+        "sha256": "964892ac4b48ba1bb947fa8f32c2c2be25aad40a0917049675c2ec35cb247208"
+      },
+      "saved299_protocol": {
+        "path": "evidence/supplement-1791365457601894436/target_package/SAVED299_PROTOCOL.json",
+        "sha256": "6041f65c1a22df53fd97272fea212c79fc62cfb09c354b17c9b3b12e139f84b1"
+      },
+      "saved308": {
+        "path": "evidence/supplement-1791365457601894436/target_package/SAVED308.json",
+        "sha256": "89a16fde242a71471902c9ca27a18bb7a10968c2223c2faf819391f12ca2ad15"
+      },
+      "target_routing_runtime": {
+        "path": "evidence/supplement-1791358617445264841/runtime/run_admitted_case.py",
+        "sha256": "b338c3a6b1cf31497cd010c0b30b23f55677b6e37ce7679cf8b97f8fad41a408"
+      }
+    },
+    "execution_device_policy": {
+      "device_upper_bound_accounting": "science_wall_upper_bound",
+      "device_use": "cpu-only",
+      "schema": "reviewed-device-use-v1"
+    },
+    "execution_prerequisite_evidence": [
+      {
+        "path": "evidence/supplement-1791364792243867848/FAILED324_BANK.json",
+        "sha256": "ac9854114111a455116747ef1d6e3230999e5524d20e74cef35ce78e0bb22a34"
+      },
+      {
+        "path": "evidence/supplement-1791364792243867848/CAPACITY_REMEDY.json",
+        "sha256": "1618fcbb59f7294312aeb654852e672d4000526c4421debaf0f739214d65c815"
+      },
+      {
+        "path": "evidence/supplement-1791364792243867848/RESOURCE_CERTIFICATE.json",
+        "sha256": "d3a74af3a0de63f804d8ecd0db295a2214ab88c44a65ab4f2f82da6eebbf39d0"
+      },
+      {
+        "path": "evidence/supplement-1791364792243867848/NODE_DISJOINTNESS.json",
+        "sha256": "0029b1aef8097f317068e04dcddfaa1669fb64c197d9545ed279d0a2da3df219"
+      },
+      {
+        "path": "evidence/supplement-1791364792243867848/REMAINING_ONLY_OBSTACLE.json",
+        "sha256": "11b547acca59561d719087aa580735e92ce0ee719a7add6d1c25881d62f78e49"
+      },
+      {
+        "path": "evidence/supplement-1791365452993850088/EXACT_DELTA.json",
+        "sha256": "ec05f344fcd48a8211b67f44e7c728d5e22d207faf47e3f855b72fa862627eba"
+      }
+    ],
+    "execution_readiness_reason": "Inert author proposal. Needs native324 independent actual-result disposition, exact projected bindings, reviewed byte-preserving disk capacity remedy, genuine allocation settlement/forecast, fresh independent native significance/design/delta-novelty and root release. No gate granted here.",
+    "execution_ready": false,
+    "execution_revision": "Fresh common-origin full schedule proposed because324lost unfinished accumulators and strict remaining-only schedule cannot avoid replay. Only observed disk shortage repaired before launch; unchanged solver/source/acceptance. Inert until exact projection, independent integrated gate and root release.",
+    "execution_worker": {
+      "path": "evidence/supplement-1791365457601894436/target_package/native_worker.py",
+      "sha256": "5217a936fbe7ec91067944d00dabdf37a531ecdec26d0b509233abf2323199e7"
+    },
+    "frozen_state": {
+      "EP": 5.8505237960874744e-08,
+      "Eep": 3.1623619986044952e-06,
+      "K": [
+        0.909013301211145,
+        0
+      ],
+      "binding": {
+        "path": "prior_artifacts/000008/science/frozen_witness.json",
+        "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+      },
+      "cP": -6.5287829634528e-05,
+      "epsilon": [
+        0.01,
+        0.005,
+        0.0025
+      ],
+      "status": "Inspected exploratory evidence. Exact binary centres do not imply zero physical uncertainty.",
+      "v": {
+        "imag": [
+          0,
+          -0.9908426008888789
+        ],
+        "real": [
+          -0.13502199918443586,
+          0
+        ]
+      },
+      "x": [
+        0.051955058120691594,
+        1.6925900731329657,
+        0.9791506418402958,
+        1.3985886221312929
+      ],
+      "x_order": [
+        "T",
+        "D",
+        "q",
+        "h"
+      ]
+    },
+    "independent_validation": "Fresh exact native independent integrated significance/design/scoped delta-novelty judges new common-origin deterministic test and324failure disposition, disjoint actual node inputs, unchanged source/thresholds and full nonlinearC1C2. Reuse valid unchanged source comparisons; no broad novelty research. Exact root release, independent actual result and parent coverage still mandatory.",
+    "known_control_scope": "Accepted complete308 supporting qualification, new target angular observations; no automatic closure",
+    "mandatory_external_gates": [
+      "Fresh exact native independent integrated significance/design/scoped delta-novelty admission.",
+      "Root genuine separate review-gate readback, authority/resource/confirmation freshness and exact reservation validation, then exact root release before target dispatch.",
+      "Independent actual-result review and separate parent-question coverage review."
+    ],
+    "model_specification": {
+      "binding": {
+        "path": "evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+        "sha256": "2304487b95b52f1456a995b00da5ab381f063b1dad175a5e5d5c340a90e135d7"
+      },
+      "json_pointers": [
+        "/protocol/model_specification",
+        "/protocol/canonical_endpoint"
+      ],
+      "normalization": "Uniform source weights w_lambda=(1+lambda/4)/2. Pipeline DOS weights W_lambda=2w_lambda are 3/4 and 5/4, summing to 2, with the audited piT signed-path prefactor. Do not interchange these conventions without their factor.",
+      "profile": "eta_+=vA+i vP; eta_-=conjugate(vA)+i conjugate(vP); Delta_beta=D+beta eta. Same z=omega+i delta in both Riccati sectors.",
+      "rule": "Inherit these physical definitions only, not historical execution rules or admission.",
+      "source_geometry": "theta_j=2pi*j/Ntheta + binary64(pi*sqrt(5)/256), one common fixed origin across nested16/32/64; unchanged cosine source coordinate, uniform full-circle integral, no physical state rotation."
+    },
+    "native_atomic_writer_release_readback": {
+      "atomic_live_path": "orchestration/hypothesis_loop.py",
+      "atomic_sha256": "62a0eb08f3a7e393cf85392e2876ccf05a49555a624176b6ea082e8aba611fd4",
+      "authorized_mutation": "exclusive native locks + save -> mkstemp/fsync/os.replace; no same-inode writer",
+      "engine_case_loop_live_path": "engine/case_loop.py",
+      "engine_case_loop_sha256": "fb10ba521d190feac17c7e92e4492ff982fd4f95afa45388c18725f4676eea97",
+      "metadata_trust": "Trusted local filesystem mutation reporting; no arbitrary-hostile-filesystem proof",
+      "required_before_cache_deployment": true
+    },
+    "observation_schedule": "All31configurations/93epsilon rows at prospective common angular origin pi*sqrt5/256.13unique bases606208expansions,37888low-frequency,1184n0. Old32421rows preserved historical, zero inserted or relabeled fresh. Full-circle historical enclosures/beta0 anchor reused only within original covered scope.",
+    "origin_identity_document": {
+      "path": "evidence/supplement-1791364792243867848/OBSERVATION_IDENTITY.json",
+      "sha256": "726315f93abcc5b5ad1a0bb0adf02e7d184dc72032b0de42c3222cd0ee97915d"
+    },
+    "outcomes": {
+      "inconclusive": "Any failed or missing source, branch, certificate, convergence, qualification, forecast or resource condition; infer neither physical sign.",
+      "refute": "A valid resolved nonnegative independent coefficient rejects this witness and requires reconciliation with the exploratory primary result. It does not refute every other unstable direction or answer the parent.",
+      "support": "Every source/branch/input/resource/convergence gate passes; cP+EP+Eep<0 and cI+EI+Eep<0; EP+Eep<=.25|cP| and EI+Eep<=.25|cI|; |cP-cI|<=EP+EI; Ectrl<=min(EP+Eep,EI+Eep); C1 and C2 are negative beyond their complete errors. This supports the fixed witness and defeats necessary local metastability within the source model. Additionally shifted-origin coefficients must agree with308within summed complete EI."
+    },
+    "pilot_protocol": {
+      "path": "evidence/supplement-1791365457601894436/target_package/QUALIFICATION_PROTOCOL.json",
+      "sha256": "291a8d7d5ddeb60ae57b63d721c836201706473b2307d6cce32e38f65f66dc20"
+    },
+    "predictions": {
+      "direct_schedule_feasible": "New common-origin all93rows complete within65000whole wall/2048MiB/nullCPU/268MiBdiskreserve after exact independently reviewed capacity remedy. Runtime has no physics meaning.",
+      "direct_schedule_obstructed": "New shifted schedule or exact source/error/branch/resource condition fails; preserve precise obstacle and independently select materially different followthrough.",
+      "negative_fixed_witness": "All original complete C1/C2 negative/error gates survive new angular origin and agree with308within summed complete EI. Supports fixed witness only after independent actual result review.",
+      "null_fixed_witness": "Resolved nonnegative coefficients reject this witness only; origin disagreement/failed errors imply inconclusive, never parent stability."
+    },
+    "prerequisites": [
+      {
+        "bindings": [
+          {
+            "path": "evidence/supplement-1791364792243867848/CAPACITY_REMEDY.json",
+            "sha256": "1618fcbb59f7294312aeb654852e672d4000526c4421debaf0f739214d65c815"
+          },
+          {
+            "path": "evidence/supplement-1791364792243867848/FAILED324_BANK.json",
+            "sha256": "ac9854114111a455116747ef1d6e3230999e5524d20e74cef35ce78e0bb22a34"
+          }
+        ],
+        "claim": "Prospective full93row run retains268MiBfree reserve plus projected inputs/1MBoutput without repeating observed324disk failure",
+        "classification": "essential",
+        "consequence": "No science until minimum byte-preserving capacity remedy independently reviewed and root verifies available storage",
+        "id": "disk-capacity-remedy",
+        "input": "Genuine324disk failure and exact projected runtime asset bytes",
+        "resolution": "Exact independently reviewed byte-preserving storage repairs executed; measured free capacity exceeds four native projected copies, atomic state scratch and unchanged reserve. Fresh exact scientific review still required.",
+        "status": "resolved"
+      }
+    ],
+    "question": "Is the source clean two-dimensional Rashba model's nominal nearly-maximal superconducting diode endpoint a physically self-consistent metastable pairing state once spatial pairing variations are allowed?",
+    "resource_limits": {
+      "artifact_bytes": 1000000,
+      "cpu_seconds_per_invocation": null,
+      "disk_reserve_bytes": 268435456,
+      "memory_mb": 2048,
+      "total_cpu_seconds": null,
+      "wall_seconds": 65000
+    },
+    "resource_projection": {
+      "certified": false,
+      "conservative_forecast_seconds": 60423.93990559397,
+      "controller_certificate": {
+        "path": "evidence/supplement-1791365452993850088/RESOURCE_CERTIFICATE.json",
+        "sha256": "404d509b773dd7eabf66d487159004eb81b5d76874982a35e1ece72cadee6455"
+      },
+      "cpu_limit_seconds": null,
+      "headroom_seconds": 4576.060094406028,
+      "independent_memory_alternatives": {
+        "path": "evidence/supplement-1791360827677387838/MEMORY_ALTERNATIVES.json",
+        "sha256": "bc49d63b1b2bfc7cd9d57b4b3478785c52cc707e59d69f571197497d7f881fba"
+      },
+      "limitations": [
+        "Allocation is a prospective empirical forecast and not certification; new-angle conditioning and per-node expense can differ. No per-frequency299 time decomposition exists in supplied report; attribution uses full measured299 cost and explicit expansion count.",
+        "Prospective2048MiB guard preserves308 SELF lifetime1336.64453125MiB evidence; sampled PGID484.5MiB has gaps. Same coefficient dimensions do not prove whole-memory compliance.",
+        "Artifact guard1,000,000bytes and disk reserve268,435,456bytes remain enforced. Existing308 result size and exact prospective projected assets must be checked by root preflight; this document certifies no storage footprint.",
+        "All CPU ceilings remain null and actual CPU must be measured. Finite65000whole wall applies unchanged. If independent review rejects bridge adequacy, hold dispatch and record exact deficit; no silent allocation increase."
+      ],
+      "limits": {
+        "artifact_bytes": 1000000,
+        "cpu_seconds_per_invocation": null,
+        "disk_reserve_bytes": 268435456,
+        "memory_mb": 2048,
+        "total_cpu_seconds": null,
+        "wall_seconds": 65000
+      },
+      "measured_inputs": {
+        "293_n0_including2048continuous_wall_seconds": 500.0315635399893,
+        "293_n0_scalar_nodes": 128,
+        "293_n0_total_nodes": 2176,
+        "293_total_wall_seconds": 503.3059575489897,
+        "299_calculation_wall_seconds": 17624.759952796987,
+        "299_n1to31_continuous_nodes": 63488,
+        "299_n1to31_expansion_nodes_including_continuous": 71424,
+        "299_total_expansion_nodes": 138200,
+        "308_calculation_cpu_seconds": 11143.268252759,
+        "308_calculation_nodes": 540672,
+        "308_calculation_wall_seconds": 12554.616561040006,
+        "308_sampled_pgid_max_mib": 484.5,
+        "308_self_lifetime_max_mib": 1336.64453125,
+        "308_whole_launch_wall_seconds": 12587.21,
+        "319_memory_scope": "GNUlargest awaitedprocesshighwater, not workerSELF or continuousPGID; worker initialSELF guard exceeded1536 before solver; targetobservations0.",
+        "319_whole_launch_GNU_max_mib": 1727.671875,
+        "whole_launch_provenance": "orchestrator/restarts/QUALIFICATION308_FINAL_ACCOUNTING.json; archived root settlement, separate from calculation measurement"
+      },
+      "memory_allocation": "Prospective2048MiB guard,320.328125MiB above observed319GNUpeak; prior308SELF1336.64453125 retained. Conditional feasibility only, no whole-memory proof; hardware/resources root recheck mandatory.",
+      "old_aggregate_arithmetic": "60423.93990559397 =2*(12587.21+17624.759952796987), not2*308+1*299. Current disjoint schedule budget sums to the same figure but now explicitly covers new n0, lost scalar reuse and overhead.",
+      "remaining_prospective_wall_seconds_root_supplied": 94186.84789467801,
+      "schedule_disjoint_costs": [
+        {
+          "bridge_seconds": 26393.22799764092,
+          "empirical_cost_bridge": "2*12554.616561040006*568320/540672; uses whole308 calculation mean including its low-frequency work, then factor2",
+          "expansions": 568320,
+          "task": "high n32..511 new expansions",
+          "wall_allowance_seconds": 27000
+        },
+        {
+          "bridge_seconds": 9250.583925489802,
+          "empirical_cost_bridge": "2*500.0315635399893*1184/128; charges full293 n0 cost INCLUDING2048 continuous support nodes to its128 scalar nodes, conservatively retaining expensive n0 cost although no new continuous expansion is scheduled",
+          "expansions": 1184,
+          "task": "new n0 expansions including loss of historical n0 scalar reuse",
+          "wall_allowance_seconds": 9500
+        },
+        {
+          "bridge_seconds": 18114.33661815246,
+          "empirical_cost_bridge": "2*17624.759952796987*36704/(31*2304); full299 wall includes both continuous and high-frequency work. Average per expanded node is an empirical conditioning proxy, not a proven bound for scalar/source expansions. Factor2 and rounded allowance absorb observed mix uncertainty, subject independent review.",
+          "expansions": 36704,
+          "task": "new n1..31 expansions including loss of historical finest scalar reuse",
+          "wall_allowance_seconds": 18500
+        },
+        {
+          "new_expansions": 0,
+          "task": "retained continuous-support intake/hash/source-domain validation",
+          "wall_allowance_seconds": 500
+        },
+        {
+          "task": "checkpoint, memory/disk guard and serialization overhead beyond calculation timings",
+          "wall_allowance_seconds": 2500
+        },
+        {
+          "task": "native startup/projected asset intake and final result settlement",
+          "wall_allowance_seconds": 2423.93990559397
+        }
+      ],
+      "schema": "project90105-schedule-wall-forecast-v1",
+      "scope": "93 genuinely new common-origin rows after disk324; no old scalar rows relabeled or reused. Valid unchanged measured forecast bridge remains conditional on new-angle conditioning.",
+      "target_release": false,
+      "whole_wall_seconds": 65000
+    },
+    "revision": "inert-fresh-common-sqrt5-origin-after324disk-obstacle",
+    "runtime_bindings": {
+      "target_launch_contract": {
+        "path": "evidence/supplement-1791360876349309221/TARGET_LAUNCH_CONTRACT.json",
+        "sha256": "c5d449321bb8de30ef1c1f06c3d5f2b8c13b35c311d07b0aea88ed97e3d53ee1"
+      }
+    },
+    "supporting_diagnostic_outcomes": {
+      "fail": "Any unresolvednativeprojection/routing/forecast/design condition holds science; no physical conclusion.",
+      "pass": "Supportingqualification already banked; this package is newtargetproposal pending exactindependentreview/rootrelease."
+    },
+    "supporting_reuse": {
+      "baseline308": "Independent qualification baseline for shifted-origin comparison",
+      "continuous_domain": "293 n0/299n1..31 full-circle source-connected enclosures reused; no scalar target rows reused",
+      "linear_anchor": "271 qualified beta0 only"
+    },
+    "target_deferred_prerequisites": [
+      "Independent actual-result and separate parent-question coverage review after target calculation."
+    ],
+    "test_id": "rashba-fixed-witness-origin-shift-confirmation"
+  }
+}

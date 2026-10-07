@@ -1,0 +1,325 @@
+{
+  "coverage_note": "Reader-reported section inspection; not independently verified full-paper reading.",
+  "coverage_verified": false,
+  "created_at": "2026-10-02T08:46:33.162449+00:00",
+  "identity": {
+    "effort": "medium",
+    "model": "gpt-5.6-luna",
+    "question": "Recover exact source conventions needed to reconstruct and independently validate the standard off-shell BCS functional and finite-wavevector Gaussian amplitude-phase response of the source single-q helical model. Give equation-linked compact answers: Hamiltonian, helicity density-of-states weights including sign and normalization, common or distinct velocities, definition of alpha-tilde=.25, field and q units/directions, Doppler shifts, Matsubara gap equation and current with all prefactors, Tc0 subtraction/cutoff convention, and how the critical endpoint is implicitly defined by current extrema coalescence. Distinguish source-specified quantities from standard derivable objects and genuinely unspecified physical assumptions. A missing printed free energy or Hessian is not itself missing external input. Identify approximations limiting finiteK extension, and whether source or cited earlier microscopic work already demonstrates multiple-q instability of this exact low-temperature endpoint. Use references strictly within inspected sections, splitting citations rather than spanning unread gaps.",
+    "source_sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6",
+    "version": "paper-reader-v1"
+  },
+  "reader": {
+    "answers": [
+      {
+        "answer": "Source Hamiltonian: H=H0+HZ, with H0=\u03a3k f\u2020k[\u03b5k\u2212\u03b1(\u03c3xky\u2212\u03c3ykx)]fk, \u03b5k=k\u00b2/(2m)\u2212\u03bc; HZ=\u03a3k f\u2020k(h\u00b7\u03c3)fk; and singlet single-q pairing HS=(1/2)\u03a3k[\u0394q(f\u2020k\u2191f\u2020\u2212k+q\u2193\u2212f\u2020k\u2193f\u2020\u2212k+q\u2191)+H.c.]. In the helicity basis, H0=\u03a3k,\u03bb(\u03b5k\u2212\u03bb\u03b1k)c\u2020k\u03bbck\u03bb and HS=(1/2)\u03a3\u03bb,k[i\u03bbe\u2212i\u03c6k\u0394q c\u2020k\u03bbc\u2020\u2212k+q,\u03bb+H.c.]. The source sets \u210f=kB=1 and \u03b1>0. [Source-specified]",
+        "references": [
+          {
+            "line_end": 184,
+            "line_start": 131,
+            "section": "II.A Model Hamiltonian"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "At zero field the helicity bands have common velocity v\u03bb=vF=\u221a(2\u03bc/m+\u03b1\u00b2), but distinct DOS N\u03bb=N0(1+\u03bb\u03b1\u0303), with N0=m/(2\u03c0) and \u03b1\u0303=\u03b1/vF. Thus normalized band weights are 1+\u03bb\u03b1\u0303: \u03bb=+ has 1+\u03b1\u0303 and \u03bb=\u2212 has 1\u2212\u03b1\u0303. The work fixes \u03b1\u0303=0.25 for its plotted phase diagram/results. [Source-specified]",
+        "references": [
+          {
+            "line_end": 184,
+            "line_start": 176,
+            "section": "II.A Model Hamiltonian"
+          },
+          {
+            "line_end": 381,
+            "line_start": 381,
+            "section": "III dimensionless conventions"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Weak Zeeman coupling shifts helicity-band Fermi-surface centers by Q\u03bb=\u03bb(h\u00d7n\u0302)/vF. The gauge-transformed pairing momentum is q\u03bb=q\u22122Q\u03bb. The homogeneous Matsubara Doppler shift is printed as \u03c9\u0303n,\u03bb=\u03c9n+i vF q\u03bb/2, with \u03a9\u03bb=(|\u0394\u03bb|\u00b2+\u03c9\u0303n,\u03bb\u00b2)1/2; for a general trajectory the source gives \u03c9\u0303\u00b1n,\u03bb=\u03c9n+i vF(q\u03bb\u00b7k\u0302\u00b1)/2. The omission of an angular dot product in the bulk equation is consistent with the later trajectory-resolved form. [Source-specified plus interpretation]",
+        "references": [
+          {
+            "line_end": 184,
+            "line_start": 176,
+            "section": "II.A Model Hamiltonian"
+          },
+          {
+            "line_end": 298,
+            "line_start": 253,
+            "section": "II.B gauge transformation and bulk solution"
+          },
+          {
+            "line_end": 322,
+            "line_start": 302,
+            "section": "II.B trajectory-resolved solution"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Field and momentum conventions: unless otherwise stated, h=h \u0177 and q=q x\u0302; \u03be=vF/\u0394q, \u03c9\u0303=\u03c9/\u0394q, h\u0303=h/\u0394q, q\u0303=q\u03be, q\u0303\u03bb=q\u03bb\u03be, and L\u0303=L/\u03be. The standard bulk equilibrium condition is j(q)=0, with \u0394q and q obtained self-consistently. [Source-specified]",
+        "references": [
+          {
+            "line_end": 381,
+            "line_start": 373,
+            "section": "III dimensionless conventions"
+          },
+          {
+            "line_end": 395,
+            "line_start": 385,
+            "section": "III.A Bulk SDE"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The source Matsubara gap equation, including prefactors and helicity weights, is T ln(T/Tc)+\u03c0T \u03a3\u03c9n>0,\u03bb[\u0394/\u03c9n\u2212(1+\u03bb\u03b1\u0303)\u27e8i(g\u03bb)12\u27e9FS]=0, with \u03c9n=(2n+1)\u03c0T. The bulk current per band is j\u03bb=\u2212(i\u03c0N\u03bbvFT/2)\u03a3\u03c9n\u27e8Tr[\u03c4z g\u03bb k\u0302]\u27e9FS, and j(q)=\u03a3\u03bbj\u03bb. [Source-specified]",
+        "references": [
+          {
+            "line_end": 226,
+            "line_start": 199,
+            "section": "II.B Eilenberger equation and self-consistency"
+          },
+          {
+            "line_end": 238,
+            "line_start": 229,
+            "section": "II.B LDOS and current"
+          },
+          {
+            "line_end": 395,
+            "line_start": 385,
+            "section": "III.A Bulk SDE"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Tc0 subtraction/cutoff convention: the source eliminates the pairing interaction in favor of the zero-field critical temperature Tc through the displayed T ln(T/Tc) plus convergent Matsubara subtraction. No bare coupling, explicit hard cutoff, or alternative regularization is printed; therefore an independent implementation should use this Tc subtraction, while any microscopic cutoff convention beyond it is unspecified by the supplied source. [Source-specified plus limitation]",
+        "references": [
+          {
+            "line_end": 226,
+            "line_start": 211,
+            "section": "II.B self-consistent gap equation"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "A standard off-shell single-q BCS functional is derivable from the Hamiltonian and Doppler-shifted helicity quasiparticle determinant, with two helicity contributions weighted by N\u03bb and the interaction eliminated using the printed Tc subtraction. The exact free-energy functional is not printed, so its additive normal-state constant and equivalent determinant representation are not source-specified. A finite-K Gaussian amplitude-phase kernel is likewise derivable as the second variation of that functional around \u0394qeiq\u00b7r; the source does not print the Hessian, and its fluctuation-field normalization is unspecified. [Derivable construction plus source limitation]",
+        "references": [
+          {
+            "line_end": 298,
+            "line_start": 253,
+            "section": "II.B gauge-transformed bulk solution"
+          },
+          {
+            "line_end": 395,
+            "line_start": 385,
+            "section": "III.A Bulk SDE"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The low-temperature critical endpoint is implicitly located where current extrema coalesce: on the self-consistent branch, solve j(q;T,h)=0, \u2202j/\u2202q=0, and \u2202\u00b2j/\u2202q\u00b2=0 at the point where the local minimum of j becomes an inflection point and touches zero. The source explicitly describes the local minimum becoming an inflection point at TCEP; the three-equation formulation is the corresponding mathematical inference, not a printed three-equation definition. [Inference]",
+        "references": [
+          {
+            "line_end": 447,
+            "line_start": 426,
+            "section": "III.A Lifshitz transition and CEP"
+          },
+          {
+            "line_end": 507,
+            "line_start": 490,
+            "section": "III.A critical-current discussion"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Finite-K amplitude-phase response is limited by the source\u2019s approximations: strong-SOC/weak-Zeeman band decoupling, ballistic quasiclassics, neglected interband pairing and field-induced Fermi-surface deformation, and the stated regime \u03bc, \u03b1\u0303\u03bc\u226b\u0394q,h. The source treats a homogeneous single-q bulk state and, for junction results, neglects inverse proximity and focuses on a single transverse channel unless otherwise stated. A finite-K Gaussian extension therefore requires retaining gradient/angular structure beyond the homogeneous equilibrium calculation and is not already a validated microscopic mult-q theory. [Source-specified limitations plus inference]",
+        "references": [
+          {
+            "line_end": 226,
+            "line_start": 190,
+            "section": "II.A/B model and quasiclassical approximations"
+          },
+          {
+            "line_end": 381,
+            "line_start": 373,
+            "section": "III dimensionless conventions"
+          },
+          {
+            "line_end": 322,
+            "line_start": 302,
+            "section": "II.B SNS assumptions"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The supplied source does not demonstrate a multiple-q instability of this exact low-temperature endpoint. It formulates a single-q pairing state and discusses the critical endpoint of the weak/strong single-q helical transition. The introduction compares the endpoint with FFLO and uniform/nonuniform transitions and cites earlier studies, but those external papers were not inspected; whether any cited earlier microscopic work demonstrated a multiple-q instability remains unresolved from the supplied source alone. [Source result versus unresolved external-literature question]",
+        "references": [
+          {
+            "line_end": 73,
+            "line_start": 73,
+            "section": "I. INTRODUCTION"
+          },
+          {
+            "line_end": 104,
+            "line_start": 73,
+            "section": "I. INTRODUCTION"
+          },
+          {
+            "line_end": 447,
+            "line_start": 426,
+            "section": "III.A Lifshitz transition and CEP"
+          },
+          {
+            "line_end": 812,
+            "line_start": 780,
+            "section": "IV. DISCUSSION"
+          }
+        ],
+        "status": "unresolved"
+      }
+    ],
+    "findings": [
+      {
+        "assumptions": [
+          "For reconstructing the off-shell functional, use the conventional mean-field BCS fermion determinant associated with the printed Hamiltonian and eliminate the interaction using the printed Tc subtraction.",
+          "Treat j(q) as the derivative of the equilibrium/off-shell free energy with respect to q when translating the source\u2019s current-extrema description into derivative conditions.",
+          "Use the source\u2019s single-q homogeneous saddle as the expansion point for finite-K fluctuations."
+        ],
+        "claim": "The source fixes the helicity normalization needed for independent reconstruction: N0=m/(2\u03c0), N\u03bb=N0(1+\u03bb\u03b1\u0303), common vF at zero field, q\u03bb=q\u22122Q\u03bb, and Q\u03bb=\u03bb(h\u00d7n\u0302)/vF.",
+        "equations": [
+          "v\u03bb=vF=\u221a(2\u03bc/m+\u03b1\u00b2)",
+          "N\u03bb=N0(1+\u03bb\u03b1\u0303)",
+          "N0=m/(2\u03c0)",
+          "Q\u03bb=\u03bb(h\u00d7n\u0302)/vF",
+          "q\u03bb=q\u22122Q\u03bb"
+        ],
+        "limitations": [
+          "The source does not print the off-shell free-energy functional or fluctuation-field normalization."
+        ],
+        "references": [
+          {
+            "line_end": 184,
+            "line_start": 176,
+            "section": "II.A Model Hamiltonian"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "The endpoint is approached on the branch satisfying the self-consistent gap equation."
+        ],
+        "claim": "The CEP condition can be reconstructed as the zero-current stationary-inflection condition in q, while the source itself states the physical coalescence description rather than printing the full derivative system.",
+        "equations": [
+          "j(q;T,h)=0",
+          "\u2202qj(q;T,h)=0",
+          "\u2202q\u00b2j(q;T,h)=0"
+        ],
+        "limitations": [
+          "The exact numerical CEP coordinates and any mult-q stability eigenvalues are not printed in the inspected source."
+        ],
+        "references": [
+          {
+            "line_end": 447,
+            "line_start": 426,
+            "section": "III.A Lifshitz transition and CEP"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "Only the supplied source is admissible evidence."
+        ],
+        "claim": "No source-supported claim of a multiple-q instability at this exact endpoint was found.",
+        "equations": [],
+        "limitations": [
+          "External cited papers and supplements were not inspected, so their results cannot be certified here."
+        ],
+        "references": [
+          {
+            "line_end": 73,
+            "line_start": 73,
+            "section": "I. INTRODUCTION"
+          },
+          {
+            "line_end": 104,
+            "line_start": 73,
+            "section": "I. INTRODUCTION"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "The source is a single-q helical-model paper using quasiclassical Eilenberger equations; it does not print the requested off-shell free energy or finite-K Gaussian Hessian.",
+      "No external references, cited earlier microscopic papers, supplements, or network material were inspected.",
+      "A hard ultraviolet cutoff, bare pairing interaction, exact additive free-energy normalization, and fluctuation-field normalization are not specified beyond the Tc-subtracted gap equation.",
+      "The mathematical three-condition CEP characterization is an explicit inference from the source\u2019s current-extrema/coalescence language, not a printed equation."
+    ],
+    "sections_inspected": [
+      {
+        "line_end": 184,
+        "line_start": 131,
+        "section": "II.A Model Hamiltonian"
+      },
+      {
+        "line_end": 238,
+        "line_start": 190,
+        "section": "II.B Eilenberger equation, self-consistency, and current"
+      },
+      {
+        "line_end": 298,
+        "line_start": 253,
+        "section": "II.B gauge-transformed bulk solution"
+      },
+      {
+        "line_end": 322,
+        "line_start": 302,
+        "section": "II.B trajectory-resolved solution"
+      },
+      {
+        "line_end": 381,
+        "line_start": 373,
+        "section": "III dimensionless conventions"
+      },
+      {
+        "line_end": 465,
+        "line_start": 385,
+        "section": "III.A Bulk SDE and CEP"
+      },
+      {
+        "line_end": 507,
+        "line_start": 490,
+        "section": "III.A critical-current discussion"
+      },
+      {
+        "line_end": 812,
+        "line_start": 780,
+        "section": "IV. DISCUSSION"
+      },
+      {
+        "line_end": 104,
+        "line_start": 73,
+        "section": "I. INTRODUCTION"
+      }
+    ],
+    "source_sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6",
+    "unread_scope": [
+      "Remaining source sections, including most SNS-specific derivations, figures, bibliography entries, and material outside the inspected ranges, were not inspected.",
+      "External references and supplements were not inspected."
+    ]
+  },
+  "report_path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/zhuang-conventions/eb96d0b6818bf07df25c3614f0ba98d4aa012bb2660b34f1007b0d5c8fac8a62/report.json",
+  "source": {
+    "line_count": 1270,
+    "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/raw/zhuang2026.txt",
+    "sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "author_full_cpu_seconds": "unknown; tool-process author costs not comprehensively metered",
+  "author_scientific_decision": "Can a materially sharper complete source envelope fit unchanged Eep before costly physical qualification?",
+  "cutoff_selection": "Choose4096 once prospectively, not a boundcap ladder: conservative source ranges T>.05,T<.053,D<2,d<2,K<1,vnorm1<2 imply S<5,r>1/20,firstomega>1286. Twice uniform Cauchy remainder+leading-sum truncation has coarse upper<1.5e-6 using the unchanged corrected_tail formula, below Eep3.16236e-6, leaving source derivative budget unmeasured. No runtime cutoff increase or response execution permitted.",
+  "cutoff_semantics": "New isolated prospective source budget only; oldv55 N1024 untouched. Failed total gate goes to material alternatives review, not cutoff escalation.",
+  "failure_followthrough": "Overbudget, resource, nonfinite, denominator exclusion or invalid coverage banks outcome and goes to independent material parent alternatives reassessment. No angular/grid/boundcap ladder; no intrinsic physical uncertainty inferred from failed sufficient upper bound.",
+  "frozen_schedule": {
+    "angular_cells": 256,
+    "endpoint_confirmations": 0,
+    "frequencies": 4096,
+    "helicities": 2,
+    "physical_response_grids": 0,
+    "repeat_if_failure": false,
+    "sourcebox": "Original T,D,q,h radii unchanged",
+    "targets": 0
+  },
+  "mathematics": {
+    "causal_sqrt": "For w>0,D real, causal sqrt(W) has Re(O)>=w. At cell/source midpoint O0 on causal branch, |O-O0|=|W-W0|/|O+O0|<=rectangle_deviation/(wmin+ReO0). This encloses causal O continuously; no sampled-root sign certificate.",
+    "denominator": "|W|^2=(w^2+D^2-a^2c^2)^2+4w^2a^2c^2; |Q|^2=[4(w^2+D^2)+(Kx^2-4a^2)c^2]^2+64w^2a^2c^2. Interval minima of real/imaginary-square terms bound full cells. Any unresolved positive margin fails immediately.",
+    "derivatives": "R_j=N_j WQ-N[(W_j/2)Q+W Q_j], j=w,D,a. S_j=Re[R_j/(W^(3/2)Q^2)]. Joint piT derivative has Re[(NWQ+wR_w)/(W^(3/2)Q^2)] times pi. Counterterm piT*(2/w) is T independent; its derivative is exactly zero. The log derivative is2||v||^2/T. q and h use factors1/2 and-lambda, separately aggregated; never assume helicity gradients equal.",
+    "integration": "Each frozen angular cell spans a complete theta interval. Cos extrema are cell endpoints because cells include0,pi,2pi. Polynomial evaluation retains shared c in delta and p before interval expansion; each resulting rectangle encloses every c/source value. Real quotient rectangles weighted by actual angular-cell width/(2pi) integrate complete derivatives. Integrated q/h/T/D rectangles include all same-box source perturbations. Mean-value theorem along straight source segment bounds the observable variation by sum radii*sup integrated derivative modulus. No finite corner or statistical coverage.",
+    "observable": "S=Re[N/(sqrt(W)Q)] = Re(vdagger B v) for the unprojected raw force B; scalar real-observable projection is definition, not Hermiticity control. M_witness=2ln(T)||v||^2+piT sum_n,lambda weight_lambda angularmean(2||v||^2/w-S).",
+    "polynomials": "W=z^2+D^2; Q=4W+p^2; A=|vA|^2+|vP|^2; b=|vP|^2; t=conj(vA)vP; N=8[A z^2+(b+i Re(t))D^2+i p z Im(t)]",
+    "real_quotient": "den=O W Q^2. Re(num/den)=Re(num*conj(den))/|den|^2. |den|^2>=mW^3*mQ^4. Upper bound from denominator rectangle. Real interval product with positive reciprocal interval encloses the quotient.",
+    "rounding": "Builtin binary64 interval and symbolic polynomial coefficient arithmetic; NOT directed rounding and NOT rigorous computer-assisted proof. Unchanged empirical primitive policy applied with recorded accumulated derivative-envelope scale. Exact mathematical formulas, empirical numerical execution; adequacy remains conditional on original empirical arithmetic policy.",
+    "tail": "Reuse exact unchanged corrected_tail source C3/T propagation. Add twice its complete uniform remainder to source variation by triangle inequality between source and nominal remainders; deliberately conservative. Nominal correction not evaluated as endpoint response here. Also add2*pi*Tmax*abscoef_box*omitted_s3(Tmin,N+65536) for uniform variation of the finite C3 leading sum truncation, preventing nominal-zero coefficient from falsely removing source truncation coverage.",
+    "variables": "w=(2n+1)piT, a_lambda=q/2-lambda h, c=cos(theta), z=w+i a_lambda c, p=Kx c; Ky=0 is the selected witness"
+  },
+  "physical_execution_during_authoring": false,
+  "remaining_gaps": [
+    "No complete physical EI/Ectrl",
+    "No finite-K raw source/current/functional reconstruction bridge",
+    "No nonlinear C1/C2/source/residual/quadrature qualification",
+    "No target release or endpoint conclusion",
+    "Passing source gate requires independent actual-result review and a newly admitted full qualification successor"
+  ],
+  "schema": "project90105-integrated-source-budget-derivation-v1",
+  "source": "Exact unchanged linear_response.py contracted raw B observable; existing compact source-linked reviews249251253 reused, no new full-paper reading or literature coverage claimed.",
+  "status": "INERT_FRESH_INDEPENDENT_EXACT_REVIEW_REQUIRED",
+  "synthetic_fixture_accounting": "Actual isolated synthetic self CPU/wall/RSS in ../SYNTHETIC_EXACT_IMPORT.json, excludes author reasoning and shell/root preparation"
+}

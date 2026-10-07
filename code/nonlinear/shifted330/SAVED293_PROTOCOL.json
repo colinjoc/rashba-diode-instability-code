@@ -1,0 +1,224 @@
+{
+  "acceptance": {
+    "inconclusive": "Any failed or missing source, branch, certificate, convergence, qualification, forecast or resource condition; infer neither physical sign.",
+    "refute": "A valid resolved nonnegative independent coefficient rejects this witness and requires reconciliation with the exploratory primary result. It does not refute every other unstable direction or answer the parent.",
+    "support": "Every source/branch/input/resource/convergence gate passes; cP+EP+Eep<0 and cI+EI+Eep<0; EP+Eep<=.25|cP| and EI+Eep<=.25|cI|; |cP-cI|<=EP+EI; Ectrl<=min(EP+Eep,EI+Eep); C1 and C2 are negative beyond their complete errors. This supports the fixed witness and defeats necessary local metastability within the source model."
+  },
+  "accepted_linear_source_bound": 9.924665109792337e-07,
+  "analytic_beta_radius": 0.1,
+  "analytic_tail_split": 32,
+  "angular_validation_subcells": 16,
+  "arithmetic_floor": 1e-12,
+  "artifact_bytes": 1000000,
+  "axis_order": [
+    "profile_beta_degree",
+    "Nw",
+    "Ntheta",
+    "force_beta_degree_divided_by_two",
+    "Nt"
+  ],
+  "common_profile_remainder_cap": 0.001,
+  "continuous_domain": "Full original source rectangle and 16 signed beta cells at n0, both helicities and64 quadrature angles; each original n0 angular cell additionally covered by16 fixed overlapping validated subcells. n32 retains original analytic complex-beta source-uniform bound.",
+  "controls_reuse_scope": "Genuine271 normalization/raw/signed force/current/K0/reference qualification controls retained only as beta0 controls; no scalar current to curvature transfer. Nonlinear equation/conjugation/Fourier normalized identity, continuous tube/source/pole/profile errors and actual nonlinear C1/C2 are independently newly checked.",
+  "correction_identity": "c_epsilon(x)=c0(x) - piT sum_n,lambda W_lambda average_theta sum_sigma integral_0^1 t [F_sigma*t*epsilon(x)-F0(x)] dt. Log(T)*E and E/omega counterterm cancel only in correction; piT source variation remains explicit. Anchor c0 reused at original source within genuine271 scope. Matched beta0 nodes are required control-variate evaluations at NEW nonlinear schedule, not replay of linear271/source256 jobs.",
+  "cumulative_user_cpu_ceiling": null,
+  "data_role": "Supporting qualification only; no fresh endpoint confirmation or physical conclusion from method failure",
+  "disk_reserve_bytes": 268435456,
+  "epsilon": [
+    0.01,
+    0.005,
+    0.0025
+  ],
+  "extra_conservative_checks": "Complete Richardson negative beyond propagated full errors and original Eep; this adds no relaxed criterion.",
+  "failure_policy": "Bank completed-node and frequency telemetry plus partial normalized sums and exact failure domain. No replay, automatic allocation expansion, physical sign or target release. Independent result review decides measured feasibility and materially different successor.",
+  "finest": [
+    16,
+    512,
+    64,
+    8,
+    8
+  ],
+  "forecast": {
+    "scope": "Two slabs only provide empirical measured branch/analytic rate extrapolations; no worst-case n dependence, full error hierarchy or complete full-test forecast certification.",
+    "target_forecast_certified": false
+  },
+  "frequencies": [
+    0,
+    32
+  ],
+  "frozen_state": {
+    "EP": 5.8505237960874744e-08,
+    "Eep": 3.1623619986044952e-06,
+    "K": [
+      0.909013301211145,
+      0
+    ],
+    "binding": {
+      "path": "prior_artifacts/000008/science/frozen_witness.json",
+      "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+    },
+    "cP": -6.5287829634528e-05,
+    "epsilon": [
+      0.01,
+      0.005,
+      0.0025
+    ],
+    "status": "Inspected exploratory evidence. Exact binary centres do not imply zero physical uncertainty.",
+    "v": {
+      "imag": [
+        0,
+        -0.9908426008888789
+      ],
+      "real": [
+        -0.13502199918443586,
+        0
+      ]
+    },
+    "x": [
+      0.051955058120691594,
+      1.6925900731329657,
+      0.9791506418402958,
+      1.3985886221312929
+    ],
+    "x_order": [
+      "T",
+      "D",
+      "q",
+      "h"
+    ]
+  },
+  "full_guard_interval_seconds": 0.5,
+  "levels": [
+    [
+      8,
+      12,
+      16
+    ],
+    [
+      128,
+      256,
+      512
+    ],
+    [
+      16,
+      32,
+      64
+    ],
+    [
+      4,
+      6,
+      8
+    ],
+    [
+      2,
+      4,
+      8
+    ]
+  ],
+  "linear_anchor_sha256": "894e1a0a6e9887bdbd7ab2a2feca3b84f3d6a110e907040e2b72d99e16b075cc",
+  "local_memory_mb": 1536,
+  "mixed_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "nonlinear_source_allowance": 2.1698954876252615e-06,
+  "normalization_max": 1e-10,
+  "paired_polynomial_identity_max": 1e-10,
+  "planned_rows": 6,
+  "preconditioner_modes": 12,
+  "quadrature_error_policy": "Retain original Gauss vs exact polynomial moments and all local source/remainder/primitive allowances. Pilot has no profile/frequency/angular/mixed/epsilon hierarchy, so angular quadrature and omitted finite frequencies remain unqualified; no full numerical/physical coefficient error is asserted.",
+  "qualification_pass": false,
+  "remainder_policy": "Exact high-beta-order Fourier residual, source coefficient radii, full operator block inverse and common uniqueness cap establish source-connected remainder conditionally. BOTH force factors and full normalization identity checked. Every inadequate inequality fails first with exact domain/margins.",
+  "residual_max": 1e-10,
+  "schedule": [
+    [
+      16,
+      1,
+      64,
+      8,
+      8
+    ],
+    [
+      16,
+      33,
+      64,
+      8,
+      8
+    ]
+  ],
+  "schema": "rashba-finite-beta-two-slab-control-cost-pilot-v1",
+  "scope": "ONE complete normalized source-uniform n0 and n32 slab supporting control/cost pilot; not whole qualification, target, endpoint confirmation or scientific sign",
+  "signed_beta_cells": 16,
+  "slab_configuration": [
+    16,
+    64,
+    8,
+    8
+  ],
+  "source_box_radii": [
+    1.2255719847929461e-08,
+    4.0114684557896594e-08,
+    1.061632250176717e-07,
+    1.8248016692488084e-08
+  ],
+  "source_error_policy": "Coefficientwise full-rectangle source radii on BOTH Riccati and normalized force recursions. Sum only even correction coefficients after sign cancellation, propagate piT. Accepted271 linear/source bridge once; new correction source bound<=2.1698954876252615e-6. Uniform-source all-order remainders included once in EI, not presumed zero.",
+  "spatial_method": "Every Taylor coefficient retains every exact convolution mode (profile degree k support<=k+1), normalized force coefficient recurrence retains full support. Exact zero Fourier coefficient integrates finite polynomial; complete force identity/profile remainder retains every omitted beta/spatial mode.",
+  "status": "INERT_FRESH_EXACT_INDEPENDENT_ADMISSION_ROOT_RELEASE_REQUIRED",
+  "tail_method": "Retain exact source-uniform complete infinite-tail bound beyond original cutoff512; it does not cover intentionally uncomputed finite frequencies.",
+  "target_release": false,
+  "test_id": "rashba-finite-beta-two-slab-control-cost-pilot",
+  "uncomputed_frequencies": {
+    "reason": "Frozen pilot intentionally evaluates two single-frequency slabs; absent finite-frequency contributions are not zero or bounded by infinite-tail envelope.",
+    "within_original_cutoff": [
+      [
+        1,
+        31
+      ],
+      [
+        33,
+        511
+      ]
+    ]
+  },
+  "whole_cpu_seconds": 18000,
+  "whole_qualification_pass": false,
+  "whole_wall_seconds": 9000
+}

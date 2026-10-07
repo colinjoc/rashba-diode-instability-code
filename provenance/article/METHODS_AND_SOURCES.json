@@ -1,0 +1,750 @@
+{
+  "schema": "rashba-instability-manuscript-methods-and-sources-v1",
+  "scope": "Read-only compact GPT-5.6 Luna medium report and accepted bound-worker extraction; no full papers, paper TeX sources, scientific reruns or case mutations.",
+  "accepted_parent_answer": "No, according to conditional empirical numerical evidence under the accepted frozen uncertainty criteria. The reconstructed nominal endpoint is self-consistent within the single-q ansatz but has an admissible coupled amplitude/phase finite-K descent direction with matched nonlinear free-energy lowering, so it fails necessary local pairing metastability when spatial variations are allowed. This is not a directed-rounding proof.",
+  "bindings": [
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/versions/v0078/claim.json",
+      "sha256": "07d4d580b2ce50f18073f866c3ff77858eaee9f6877b27e72466588c4e40fa86"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/prior_artifacts/000008/science/frozen_witness.json",
+      "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/evidence/preparation/UNIFORM_FUNCTIONAL_DERIVATION.json",
+      "sha256": "53a0196dfa87c4582681a53d57211adac772b08d561a63b4cb2c1f2cd978406f"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/evidence/preparation/PRIMARY_KERNEL_DERIVATION.json",
+      "sha256": "028820c7947e30e6ca6e27d247ad03b100b200033735430615985526bf6107db"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/evidence/engineering/primary_response.py",
+      "sha256": "316b74cf4a46b3aabe3844eb98f84d546e0fa448df9c76d541e6c3c6413116f6"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/evidence/supplement-1791234847745936398/controller/HISTORICAL_V15_CANDIDATE.json",
+      "sha256": "2304487b95b52f1456a995b00da5ab381f063b1dad175a5e5d5c340a90e135d7"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/evidence/supplement-1791365457601894436/target_package/QUALIFICATION_PROTOCOL.json",
+      "sha256": "291a8d7d5ddeb60ae57b63d721c836201706473b2307d6cce32e38f65f66dc20"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/evidence/supplement-1791365457601894436/target_package/nonlinear_response.py",
+      "sha256": "a66d0dbf78c82002f7f966372207fe08cafa5efade76f6fcdb799821998ed998"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/evidence/supplement-1791365457601894436/target_package/correction_bounds.py",
+      "sha256": "50026d4f2e31b055ed5fa4cc5c10f709304ad2047b8401b0b5955758a040437f"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/evidence/supplement-1791365457601894436/target_package/qualification_runner.py",
+      "sha256": "1bc6efe699f2afdf7942cc05a8d7c9faffcdf7777d1f6126e19b90b6e354727f"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/evidence/supplement-1791365457601894436/target_package/LINEAR271.json",
+      "sha256": "894e1a0a6e9887bdbd7ab2a2feca3b84f3d6a110e907040e2b72d99e16b075cc"
+    },
+    {
+      "path": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/science/complete-finite-beta/QUALIFICATION_RESULT.json",
+      "sha256": "e953008b2fec07e1502c79937d2593a561eb36d5b81fbc25e6798d9c6748293c"
+    }
+  ],
+  "reader_provenance": [
+    {
+      "id": "zhuang2026",
+      "path": "research/2026-10-02-materials-search-round3/readers/zhuang2026/908ddee67d762bb4eb8c8ab46b2d79a623587fc1ca30dd0ddee4f7663a1278c3/report.json",
+      "sha256": "5bd518fd43200e0c20b7161a1d4cf4d7876c4e072fd0db095be8a533be9d1c61",
+      "identity": {
+        "effort": "medium",
+        "model": "gpt-5.6-luna",
+        "question": "Targeted source-native consequential stability question. Extract complete clean Rashba/Eilenberger bulk model, gap equations/free-energy functional, DOS asymmetry/SOC/field/current conventions, numerical canonical near-perfect-diode critical endpoint parameters. Are equilibrium global branch, metastable local critical currents or constrained-current switching distinguished? Do source calculations include two-q stripe/order, amplitude/phase finite-wavevector Hessian, only uniformDelta/phase-gradient curvature, or a proved stability bound? Does actual endpoint lie in a source-compared AgterbergKaur2007/Aoyama2024 stable/stripe domain? What finite Gaussian stability certificate could change the nominal endpoint or BFS diagnostic under IDENTICAL source model, and are all its inputs specified? Full vs necessary local-stability scope, independent cost, code/data, strongest equivalent prior. No arbitrary phenomenological model or claim instability in advance. Cite sections/equations/limits/unreadscope.",
+        "source_sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6",
+        "version": "paper-reader-v1"
+      },
+      "paper_source": {
+        "line_count": 1270,
+        "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/raw/zhuang2026.txt",
+        "sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6"
+      },
+      "sections_inspected": [
+        {
+          "line_end": 130,
+          "line_start": 1,
+          "section": "Title, abstract and Introduction"
+        },
+        {
+          "line_end": 207,
+          "line_start": 173,
+          "section": "II.A Model Hamiltonian and II.B Quasiclassical Eilenberger equation"
+        },
+        {
+          "line_end": 237,
+          "line_start": 211,
+          "section": "Bulk self-consistency, LDOS and current"
+        },
+        {
+          "line_end": 294,
+          "line_start": 253,
+          "section": "Bulk gauge transformation and single-q solution"
+        },
+        {
+          "line_end": 381,
+          "line_start": 373,
+          "section": "III conventions and numerical defaults"
+        },
+        {
+          "line_end": 464,
+          "line_start": 385,
+          "section": "III.A Bulk SDE, helical phases and CEP"
+        },
+        {
+          "line_end": 506,
+          "line_start": 490,
+          "section": "Critical-current/barrier qualification"
+        },
+        {
+          "line_end": 825,
+          "line_start": 760,
+          "section": "Discussion and limitations/future work"
+        },
+        {
+          "line_end": 872,
+          "line_start": 850,
+          "section": "References: helical and stripe prior"
+        },
+        {
+          "line_end": 1135,
+          "line_start": 1108,
+          "section": "References: BFS stability and related prior"
+        }
+      ],
+      "unread_scope": [
+        "Source lines outside the listed targeted sections were not inspected, including most references and any material not captured by targeted searches.",
+        "External Agterberg–Kaur 2007 and Aoyama 2024 papers, supplements, source code, numerical data, and repositories were not inspected."
+      ],
+      "coverage_verified": false
+    },
+    {
+      "id": "zhuang-conventions",
+      "path": "research/2026-10-02-materials-search-round3/readers/zhuang-conventions/eb96d0b6818bf07df25c3614f0ba98d4aa012bb2660b34f1007b0d5c8fac8a62/report.json",
+      "sha256": "12c00555295bc56a20d4ddbc3d829f93d1e5e23cf88ad3b74912b74fa2522992",
+      "identity": {
+        "effort": "medium",
+        "model": "gpt-5.6-luna",
+        "question": "Recover exact source conventions needed to reconstruct and independently validate the standard off-shell BCS functional and finite-wavevector Gaussian amplitude-phase response of the source single-q helical model. Give equation-linked compact answers: Hamiltonian, helicity density-of-states weights including sign and normalization, common or distinct velocities, definition of alpha-tilde=.25, field and q units/directions, Doppler shifts, Matsubara gap equation and current with all prefactors, Tc0 subtraction/cutoff convention, and how the critical endpoint is implicitly defined by current extrema coalescence. Distinguish source-specified quantities from standard derivable objects and genuinely unspecified physical assumptions. A missing printed free energy or Hessian is not itself missing external input. Identify approximations limiting finiteK extension, and whether source or cited earlier microscopic work already demonstrates multiple-q instability of this exact low-temperature endpoint. Use references strictly within inspected sections, splitting citations rather than spanning unread gaps.",
+        "source_sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6",
+        "version": "paper-reader-v1"
+      },
+      "paper_source": {
+        "line_count": 1270,
+        "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/raw/zhuang2026.txt",
+        "sha256": "c15cbbe319b24ef7b5bc9677082fbcb64da72e71037fb74c2a3f9f539c8de3d6"
+      },
+      "sections_inspected": [
+        {
+          "line_end": 184,
+          "line_start": 131,
+          "section": "II.A Model Hamiltonian"
+        },
+        {
+          "line_end": 238,
+          "line_start": 190,
+          "section": "II.B Eilenberger equation, self-consistency, and current"
+        },
+        {
+          "line_end": 298,
+          "line_start": 253,
+          "section": "II.B gauge-transformed bulk solution"
+        },
+        {
+          "line_end": 322,
+          "line_start": 302,
+          "section": "II.B trajectory-resolved solution"
+        },
+        {
+          "line_end": 381,
+          "line_start": 373,
+          "section": "III dimensionless conventions"
+        },
+        {
+          "line_end": 465,
+          "line_start": 385,
+          "section": "III.A Bulk SDE and CEP"
+        },
+        {
+          "line_end": 507,
+          "line_start": 490,
+          "section": "III.A critical-current discussion"
+        },
+        {
+          "line_end": 812,
+          "line_start": 780,
+          "section": "IV. DISCUSSION"
+        },
+        {
+          "line_end": 104,
+          "line_start": 73,
+          "section": "I. INTRODUCTION"
+        }
+      ],
+      "unread_scope": [
+        "Remaining source sections, including most SNS-specific derivations, figures, bibliography entries, and material outside the inspected ranges, were not inspected.",
+        "External references and supplements were not inspected."
+      ],
+      "coverage_verified": false
+    },
+    {
+      "id": "zhuang-tex-equation-audit",
+      "path": "research/2026-10-02-materials-search-round3/readers/zhuang-tex-equation-audit/246c734ccd3f31ba3b73f28bbe91379959ef5cea441b1af0c4559408af93553a/report.json",
+      "sha256": "c54c6d2dd0ad1856b6d20e1f2f3ee3c2571d974f1b7821817e38b3649260be58",
+      "identity": {
+        "effort": "medium",
+        "model": "gpt-5.6-luna",
+        "question": "Original-TeX decisive equation audit. Identify version/title/dates to check equivalence to arXiv2510.18963 PDF. Transcribe exact original LaTeX gap-equation first term and bracket structure, including all Delta, T and pi prefactors. Prior extractedPDF reader claimed scalar Tln(T/Tc)+2piT sum(1/omega−1/Omega)=0 and called it standard BCS; this is dimensionally suspect if omega/T have energy units. Determine whether extracted layout was misread, original source has typo, or a dimensional normalization explains it. Give canonical physical BCS self-consistency implied by Hamiltonian and Tc regularization separately from literal source, and flag any explicit prospective departure needed. Clarify exact endpoint description and whether a stationary zero-current inflection j=jprime=jdoubleprime=0 follows from coalescing branches rather than treating absent derivative notation as missing input. Only inspect needed original-TeX portions; cite valid inspected contiguous lines.",
+        "source_sha256": "d20dcb32734c17a6dda2a6cec8598bdd861ff13a587fce80cb43770691047c18",
+        "version": "paper-reader-v1"
+      },
+      "paper_source": {
+        "line_count": 515,
+        "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/raw/zhuang-original-tex.txt",
+        "sha256": "d20dcb32734c17a6dda2a6cec8598bdd861ff13a587fce80cb43770691047c18"
+      },
+      "sections_inspected": [
+        {
+          "line_end": 55,
+          "line_start": 38,
+          "section": "Front matter"
+        },
+        {
+          "line_end": 159,
+          "line_start": 110,
+          "section": "Model Hamiltonian and quasiclassical self-consistency"
+        },
+        {
+          "line_end": 193,
+          "line_start": 169,
+          "section": "Bulk homogeneous solution"
+        },
+        {
+          "line_end": 346,
+          "line_start": 331,
+          "section": "Bulk SDE in the helical phase"
+        }
+      ],
+      "unread_scope": [
+        "All source sections outside the inspected front matter, theoretical formulation/self-consistency, homogeneous bulk solution, and bulk SDE endpoint discussion.",
+        "External arXiv metadata and PDF version history.",
+        "Supplementary material and cited primary references."
+      ],
+      "coverage_verified": false
+    },
+    {
+      "id": "agterberg2007",
+      "path": "research/2026-10-02-materials-search-round3/readers/agterberg2007/0387f3b0ea4b05f8cb91401e875c63e2d846282c48ade6dd71d699497f4c6d44/report.json",
+      "sha256": "ec2400942d9add4093e96d06c1577497890a15775c4976c8c3d7894e67bda8f0",
+      "identity": {
+        "effort": "medium",
+        "model": "gpt-5.6-luna",
+        "question": "Targeted strongest-equivalent scientific review. Read Agterberg-Kaur microscopic Rashba helical stability source, extract exact normal Hamiltonian/helicity DOS convention deltaN and strong-SOC approximation, pairing interaction and Eilenberger/free-energy regularization, coupled finite-wavevector perturbation operator including both fluctuation sectors around a single-q selfconsistent state, and actual helical-to-multiple-q instability boundaries. Compare model assumptions to this compact Zhuang2026 report context: clean 2D isotropic parabolic Rashba gas, strong SOC weak inplane Zeeman field, common singlet single-q pairing, helicity DOS asymmetry alphatilde=.25, quoted weak-to-strong helical critical endpoint TCEP/Tc approximately .05, missing exact hCEP/qCEP. Does your paper already prove or numerically establish that actual endpoint is preempted by stripe/multiple-q order at the same density asymmetry, or merely establish such instability in a different parameter domain? Provide explicit change-of-convention mapping where supported; do not equate generic existence of stripe with actual endpoint preemption. Are quantities sufficient for a source-native finite Gaussian local stability test without fitting phenomenological coefficients? Distinguish negative eigenvalue local instability from global phase selection and from gap closing. Identify exact missing coordinates, dimensions/geometry, angular/frequency grids/cutoffs, published code/data, strongest relevant precedent and limitations. Explain whether any source-specific new consequential finite endpoint inference remains, rather than new solver or known stripe boundary. Use compact equations and source citations; no simulation. Explicitly identify unread external citations and gaps, all source hashes, actual sections inspected.",
+        "source_sha256": "feddf8e57efbc60f008decf95dc4852020b4d8623bb8407716bc23285558546d",
+        "version": "paper-reader-v1"
+      },
+      "paper_source": {
+        "line_count": 512,
+        "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/agterberg2007/0387f3b0ea4b05f8cb91401e875c63e2d846282c48ade6dd71d699497f4c6d44/raw/source.txt",
+        "sha256": "feddf8e57efbc60f008decf95dc4852020b4d8623bb8407716bc23285558546d"
+      },
+      "sections_inspected": [
+        {
+          "line_end": 16,
+          "line_start": 1,
+          "section": "Title/Abstract"
+        },
+        {
+          "line_end": 83,
+          "line_start": 23,
+          "section": "I. INTRODUCTION"
+        },
+        {
+          "line_end": 170,
+          "line_start": 86,
+          "section": "II. MICROSCOPIC FORMULATION"
+        },
+        {
+          "line_end": 206,
+          "line_start": 173,
+          "section": "III.A. Helical phase solution"
+        },
+        {
+          "line_end": 326,
+          "line_start": 211,
+          "section": "III.B. Stability of the helical phase"
+        },
+        {
+          "line_end": 435,
+          "line_start": 329,
+          "section": "III.C. Density of states in the helical phase"
+        },
+        {
+          "line_end": 450,
+          "line_start": 438,
+          "section": "IV. CONCLUSIONS"
+        },
+        {
+          "line_end": 512,
+          "line_start": 455,
+          "section": "References (external works unread)"
+        }
+      ],
+      "unread_scope": [
+        "External references 1–28 and their papers, supplements, code, and data were not inspected.",
+        "No external Zhuang2026 report or underlying source was inspected; its context came only from the question.",
+        "No publisher version, appendices beyond the supplied source, source code, raw numerical data, or exact phase-boundary tables were inspected."
+      ],
+      "coverage_verified": false
+    },
+    {
+      "id": "dimitrova2007",
+      "path": "research/2026-10-02-materials-search-round3/readers/dimitrova2007/9fdf9286a653ec2bd1e4a24f447e81b535282fcde720d8b25416c9e163549c9c/report.json",
+      "sha256": "4cea7a97929a9dadfe8d11517ee3c836d41511219c58924db25fadb3b51a79b7",
+      "identity": {
+        "effort": "medium",
+        "model": "gpt-5.6-luna",
+        "question": "Read Dimitrova–Feigelman PRB76 014522(arXivcond-mat/0701698) only. Independent predecessor mapping: recover EXACT clean strong-SOC 2D Rashba singlet model, both helicity DOS/asymmetry parameter, velocity relation, αpF/EF smallness assumptions versus allowing finite DOS asymmetry, attraction/cutoff and all T/h/q normalizations. Extract helical/stripe or LO phases, low-T first-order boundary, transverse stiffness instability, critical/Lifshitz endpoints and stability claims, with exact equations and numerical parameter coordinates; distinguish Gaussian necessary stability from global branch freeenergy comparison. Does this source itself cover asymmetry δN=.25(or conversion to αtilde=.25) at T/Tc~.05, and does its published boundary demonstrably preempt another single-q weak/strong helical endpoint in THAT domain? The external Zhuang2026 model is clean2D parabolic Rashba strongSOC/weakfield, helicity Nλ, common vF,plane-wave singlet gap; it reports single-q weak/strong-helical CEP T/Tc≈.05 at αtilde=.25; exact h and qcoordinates currently missing. Do not assume external matching or infer from absent figurecoords; mark unsupported conventions/domain overlaps precisely. Can a source-known boundary settle the proposed finite-K-stability question without a new computation, or must both exact models/branches still be audited? Closest source references/formulations for helical-to-stripe and phasefluctuations. Extract equation-level material needed for root remapping and cheapest unresolved comparison, but parameter remapping alone routine not scientific novelty. No claimed new result, sourcefullcoverage, experiments or web. Cite exactsections/equations,sourcehash,assumptions,limitations,unreadscope.",
+        "source_sha256": "4312a534e6c3e3e86cc88d2931543daaa5cee0d227fdf3862c2839710442eb2e",
+        "version": "paper-reader-v1"
+      },
+      "paper_source": {
+        "line_count": 1869,
+        "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/dimitrova2007/9fdf9286a653ec2bd1e4a24f447e81b535282fcde720d8b25416c9e163549c9c/raw/source.txt",
+        "sha256": "4312a534e6c3e3e86cc88d2931543daaa5cee0d227fdf3862c2839710442eb2e"
+      },
+      "sections_inspected": [
+        {
+          "line_end": 125,
+          "line_start": 1,
+          "section": "Title, abstract, introduction, model overview"
+        },
+        {
+          "line_end": 219,
+          "line_start": 180,
+          "section": "II. Model of a spin-orbital superconductor"
+        },
+        {
+          "line_end": 330,
+          "line_start": 240,
+          "section": "III. GL functional and mean-field setup"
+        },
+        {
+          "line_end": 500,
+          "line_start": 327,
+          "section": "III. Transition line, L and S points"
+        },
+        {
+          "line_end": 672,
+          "line_start": 614,
+          "section": "IV. Stripe/LOFF vortices and topology"
+        },
+        {
+          "line_end": 930,
+          "line_start": 678,
+          "section": "V–VI. Helical stationary conditions, LT/ST′, current"
+        },
+        {
+          "line_end": 1105,
+          "line_start": 912,
+          "section": "VI–VII. Stiffness, DOS correction, weak helical phase"
+        },
+        {
+          "line_end": 1230,
+          "line_start": 1180,
+          "section": "VIII. DOS asymmetry notation and impurity formalism"
+        },
+        {
+          "line_end": 1458,
+          "line_start": 1420,
+          "section": "X. Conclusions and fluctuation discussion"
+        },
+        {
+          "line_end": 1575,
+          "line_start": 1520,
+          "section": "Appendices 1–3, first portion"
+        },
+        {
+          "line_end": 1676,
+          "line_start": 1576,
+          "section": "Appendix 3: eighth-order GL coefficient, continuation"
+        },
+        {
+          "line_end": 1866,
+          "line_start": 1844,
+          "section": "References"
+        }
+      ],
+      "unread_scope": [
+        "The remainder of the supplied source outside the listed sections, including most of the impurity derivation and intermediate vortex-functional algebra, was not inspected because it was not needed for the clean finite-asymmetry comparison.",
+        "External references and supplements were not inspected."
+      ],
+      "coverage_verified": false
+    },
+    {
+      "id": "aoyama-scope-followup",
+      "path": "research/2026-10-02-materials-search-round3/readers/aoyama-scope-followup/9b6054045f6ef8cc51b0d8e19b032ab354a9820ebed9944fba91e9d33a8097fa/report.json",
+      "sha256": "6941aeba8cc23c4eb27cce023e12e358a06d67cbfdcd62d2c1f9898314abba09",
+      "identity": {
+        "effort": "medium",
+        "model": "gpt-5.6-luna",
+        "question": "NARROW ADMISSION FOLLOW-UP, different from the earlier broad source reconstruction request. Determine ONLY whether Aoyama arXiv2310.16272 already establishes the following exact result or supplies a directly applicable theorem: at the source-connected low-temperature weak/strong single-q helical critical endpoint of a clean2D circular Rashba singlet model with helicity DOS asymmetry a=alpha/vF=1/4 and T/Tc approximately0.05, a fixed nonzero scaled wavevector has negative coupled amplitude/phase Gaussian curvature, or whether that endpoint is guaranteed locally stable. The target question comes from context, not from a Zhuang paper you have inspected. Inspect the abstract, model/approximation-validity statements, stripe phase domain and diode conclusions. Extract whether Aoyama uses near-Tc small-gap Ginzburg-Landau, a full low-temperature microscopic kernel, or another regime; report explicit dimensionality, DOS-asymmetry treatment and any stated temperature/field validity. Does it analyze this particular weak/strong-helical critical endpoint, only generic stripe onset, or provide a general bound that would settle it? Explain the strongest potential overlap and what remains undecided. Do not infer absence just from a title or citation. DO NOT reconstruct all source equations or benchmark parameters. Keep at most THREE findings and TWO answers with concise exact references. For every citation include its ENTIRE referenced line range in sections_inspected; prefer narrow actually inspected ranges and mark unresolved assertions instead of expanding citations beyond actual reading. Preserve actual unread scope. This is literature scope comparison only, no experiments. Failure history is retained; this materially narrower question exists to resolve the independent strategy-review objection, not to relabel an unchanged broad failed request.",
+        "source_sha256": "735ce8dd6002fb20f8d58516a568996f94917a130cec04b21428f1c7ea18e6ab",
+        "version": "paper-reader-v1"
+      },
+      "paper_source": {
+        "line_count": 808,
+        "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/raw/aoyama2024.txt",
+        "sha256": "735ce8dd6002fb20f8d58516a568996f94917a130cec04b21428f1c7ea18e6ab"
+      },
+      "sections_inspected": [
+        {
+          "line_end": 21,
+          "line_start": 1,
+          "section": "Abstract"
+        },
+        {
+          "line_end": 127,
+          "line_start": 24,
+          "section": "I. Introduction"
+        },
+        {
+          "line_end": 189,
+          "line_start": 128,
+          "section": "II. Theoretical framework; model and assumptions"
+        },
+        {
+          "line_end": 274,
+          "line_start": 243,
+          "section": "II.A GL expansion and II.B stability setup"
+        },
+        {
+          "line_end": 324,
+          "line_start": 275,
+          "section": "II.B Stability of the stripe order"
+        },
+        {
+          "line_end": 403,
+          "line_start": 377,
+          "section": "II.D Normalization and GL validity remarks"
+        },
+        {
+          "line_end": 487,
+          "line_start": 440,
+          "section": "III. Stability of the stripe order"
+        },
+        {
+          "line_end": 659,
+          "line_start": 554,
+          "section": "IV. Superconducting diode effect and V. Summary"
+        },
+        {
+          "line_end": 737,
+          "line_start": 663,
+          "section": "Appendix A: Applicability range of the GL expansion"
+        }
+      ],
+      "unread_scope": [
+        "Reference list and cited external papers were not inspected.",
+        "Figures were inspected only through their captions and nearby textual discussion; no independent numerical extraction was performed.",
+        "No supplementary material or external source was inspected."
+      ],
+      "coverage_verified": false
+    },
+    {
+      "id": "hosur2026",
+      "path": "research/2026-10-02-materials-search-round3/readers/hosur2026/565e4dc0146e31e3bcb92b1a8b6a4bcf0fd9749bd6f0f85fedfe651ac6b6b626/report.json",
+      "sha256": "cc8ebbadccfd2d8a0af742ae0a095e02d3b6b78f6c4e24ee91a65477d07371b3",
+      "identity": {
+        "effort": "medium",
+        "model": "gpt-5.6-luna",
+        "question": "Read latest supplied version source-specific strong-equivalence veto. Extract exact equilibrium diode theorem, regularity/free-energy assumptions, global equilibrium vs current-biased metastable or constrained phase ensembles, explicit solvable Ising model, multi-component and Josephson extensions. What criticality/singular-branch requirement already covers near-perfect diode near helical Lifshitz endpoint? Does local finite-wavevector pairing instability/global competing multi-q order fall inside theorem or remain model-specific? Identify exact complete model data/parameters and actual unresolved consequential science beyond re-proving known continuity/polynomial bounds. Do not novelty-pass generic bound/stability. Precise equations/sections/unreadscope.",
+        "source_sha256": "5843076883b22e232110bf24db87dfe6711b5bf0b4a701863744d937e8e3f22a",
+        "version": "paper-reader-v1"
+      },
+      "paper_source": {
+        "line_count": 725,
+        "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/raw/hosur2026.txt",
+        "sha256": "5843076883b22e232110bf24db87dfe6711b5bf0b4a701863744d937e8e3f22a"
+      },
+      "sections_inspected": [
+        {
+          "line_end": 20,
+          "line_start": 1,
+          "section": "Title and abstract"
+        },
+        {
+          "line_end": 129,
+          "line_start": 59,
+          "section": "Superconducting thermodynamics setup and exact no-go"
+        },
+        {
+          "line_end": 174,
+          "line_start": 130,
+          "section": "Critical currents, analytic obstruction, and singularity requirement"
+        },
+        {
+          "line_end": 222,
+          "line_start": 175,
+          "section": "Ising-coupled superconductor"
+        },
+        {
+          "line_end": 285,
+          "line_start": 254,
+          "section": "Ising examples and limiting parameter condition"
+        },
+        {
+          "line_end": 315,
+          "line_start": 232,
+          "section": "Relevance, experimental implications, and unresolved alternatives"
+        },
+        {
+          "line_end": 368,
+          "line_start": 289,
+          "section": "Appendix A: finite-order Landau assumptions and bound"
+        },
+        {
+          "line_end": 425,
+          "line_start": 373,
+          "section": "Appendix B: finite-harmonic Josephson bound and smoothness assumptions"
+        },
+        {
+          "line_end": 467,
+          "line_start": 426,
+          "section": "Appendix B: nonsmooth tails and 4π periodicity"
+        }
+      ],
+      "unread_scope": [
+        "Introduction/body lines 21-58 were not inspected because they are not needed for the requested theorem/model/ensemble analysis.",
+        "Bibliography and cited external literature were not inspected.",
+        "External references and supplements were not inspected; no independent verification of literature claims was performed."
+      ],
+      "coverage_verified": false
+    }
+  ],
+  "bibliography": {
+    "source": {
+      "authors": [
+        "Zekun Zhuang",
+        "Daniel Shaffer",
+        "Jaglul Hasan",
+        "Alex Levchenko"
+      ],
+      "title": "Helical phases and Bogoliubov Fermi surfaces probed by superconducting diode effects",
+      "journal": "Physical Review B",
+      "volume": 113,
+      "article": "174501",
+      "year": 2026,
+      "doi": "10.1103/k8gq-q61r",
+      "arxiv": "2510.18963",
+      "preprint_v1_date": "2025-10-21",
+      "metadata_basis": "Title/authors from compact TeX-equation audit; journal/DOI/arXiv metadata supplied by root after abstract-record verification. Local paper-source/PDF/version equivalence unresolved."
+    },
+    "prior_claim_limits": {
+      "Agterberg-Kaur2007": "Established precedent for multiple-q local instability in other domains. Its quoted DOS-asymmetry suppression statement concerns 3D spherical analysis, not an exact 2D a=.25 endpoint calculation.",
+      "Dimitrova-Feigelman2007": "Clean 2D Rashba helical/stripe fluctuation precedent; principal diagram neglects DOS asymmetry and later restores it perturbatively. It does not settle this exact finite-asymmetry low-T endpoint.",
+      "Aoyama2024": "Scoped compact followup establishes neither negative Gaussian curvature nor a stability theorem at a=.25,T/Tc0≈.05; low-temperature GL validity is limited.",
+      "Hosur2026": "Global equilibrium twist-free-energy theorem does not decide this selected endpoint metastability test or measured switching. No global phase selection inferred."
+    }
+  },
+  "source_equation_correction": {
+    "critical": "Initial zhuang-conventions reader incorrectly has T ln(T/Tc). Later original-TeX audit establishes Delta ln(T/Tc); use the later audit and accepted worker equations.",
+    "literal_gap": "Delta ln(T/Tc)+piT sum_{omega>0,lambda}[Delta/omega−(1+lambda alpha_tilde)〈i(g_lambda)12〉FS]=0.",
+    "zero_field_divided": "ln(T/Tc)+2piT sum_n[1/omega_n−1/sqrt(omega_n²+Delta²)]=0.",
+    "secondary_reader_caveat": "The later audit narrative also casually calls the undivided bracket inverse-energy: that wording is incorrect; the undivided bracket is dimensionless, multiplied by piT, while the divided bracket has inverse-energy units."
+  },
+  "source_model": {
+    "Omega": "sqrt((omega+i delta_lambda)^2+Delta²), branchReOmega>0 forpositiveomega",
+    "canonical_gap": "R=Delta ln(T/Tc0)+2piT sum_n[Delta/omega_n−sum_lambda wlambda Re<Delta/Omega_lambda>theta]=0",
+    "current": "Physical source j=2 partial_q F, F=N0 f with f defined by functional_per_N0; derivative_q F=pi T vF sum_positiveomega,lambda Nlambda <cos(theta) Im(zlambda/Omegalambda)>. Exact source Eq12 controls Nambu/helicity counting; no fitted normalization.",
+    "field": "h=h yhat,n=zhat,q=q xhat",
+    "formal_response": "Secondvariation aboutselfconsistentDelta exp(iq·r), coupled realamplitude/phase Fourierfields. Gplus/minus=(iomega−Hlambda(theta,xi±vF khat·K/2))^-1; verticesVA=taux,VP=−tauy. HermitianbubbleplusTc0 counterterm, withsameNambu normalization asfunctional.",
+    "frequencies": "omega_n=(2n+1)piT,n≥0",
+    "functional_per_N0": "f=Delta²ln(T/Tc0)+4piT sum_n[Delta²/(2omega_n)−sum_lambda wlambda Re<Omega_lambda−(omega_n+i delta_lambda)>theta];normalreferencef(Delta0)=0",
+    "geometry": "2D circular helicalFermi surfaces,commonvF;cleanballistic;strongSOCweakfield intraband singletpairing;no orbitalfield,interbandpairing,disorder orfield-inducedFSdeformation",
+    "helicities": [
+      -1,
+      1
+    ],
+    "off_shell_generalization": "Standard BCS Nambu determinant with same helicity DOS/angular/radial trace and Tc0 subtraction. Hlambda=delta_lambda tau0+xi tauz+ReDelta taux−ImDelta tauy. Uniform restriction must equal F=N0 f exactly and source j=2 partial_q F, fixing all overall factors. Target fluctuation signs alone cannot substitute these normalization controls.",
+    "physical_perturbation": "Forfixed normalizedeigenvector(vA,vP),a(r)=2Re(vAexp(iK·r)),b(r)=2Re(vPexp(iK·r));Deltaepsilon(r)=Delta0+epsilon[a(r)+i b(r)]. Meanphasegradientq heldfixed.",
+    "regularization": "Tc0 subtraction performed analytically before infinitefrequency/radial limits; no new physicalcutoff,mu*,bandshift orphenomenologicalpairinginteraction.",
+    "shifts": "Qlambda=lambda(h crossn)/vF;q_lambda=q−2Qlambda;delta_lambda(theta)=vF q_lambda dot(cos theta,sin theta)/2",
+    "units": "hbar=kB=1; useTc0=1,vF=1,N0=1 as normalization choices; sourcephysicalpositiveN0/vF factors restored forcurrentcomparison.",
+    "weights": "Nlambda=N0(1+lambda/4);Ntot=2N0;wlambda=Nlambda/Ntot"
+  },
+  "endpoint_definition": {
+    "before_threshold": "Primarynegativewitness is at exact sourceendpoint, separatedfromK0softmode. Negative finiteK margin gives a neighborhood oflocalinstability bycontinuity; optional finitecurrentcontinuation can substantiatepreemptionbut cannotreplace endpointclaim. No jprime0 tautology accepted.",
+    "branch_selection": "Choose endpoint continuously terminating uniformweak/strong coexistence line: two distinctamplitude-stable zero-currentminimaofsamef with equalf belowendpoint mergewithinterveningstationarybranch. Confirm positivequartic stabilizingcoefficient in q atendpoint andlocalamplitude stability. Uniformfreeenergyglobal comparison only,not unrestrictedmultiple-qequilibrium.",
+    "mathematical_characterization": "R=0,J=0,totalderivative_q J=0,totalderivative_q²J=0 alongamplitude-relaxeduniformbranch; infer from smoothcoalescence,not printedauthorderivativeequation.",
+    "source_printed": "Equilibriumj(q)=0; lowT localminimum j(q) becomesinflection atCEP; alphatilde.25 andTCEP/Tc0~.05",
+    "source_reproduction_guard": "Locate in source-nearT/Tc0 interval .02–.10 andh/Tc0 interval .5–3 withqvF/Tc0 interval0–6,Delta/Tc0 interval0–3. These are source-recovery numericalbrackets,not claimdomain. If no unique source-connectedendpoint inboundedrootsearch,holdsource-reproduction; do notsubstitute differentroot/physics."
+  },
+  "units": {
+    "coordinates": "[T/Tc0,D/Tc0,vF q/Tc0,h/Tc0], kappa=vF K/Tc0; numerical Tc0=vF=N0=1.",
+    "energy": "F is density; dimensionless f=F/(N0 Tc0²). Physical positive N0=m/(2pi) restores the density unit.",
+    "current": "Source j=2 partial_q F; current-density unit N0 vF Tc0. Do not invent SI/material conversion or a charge prefactor without source/material conventions.",
+    "weights": "W_lambda=N_lambda/N0=1+lambda/4: W−=.75,W+=1.25,sum2; w_lambda=W_lambda/2,sum1.",
+    "angular": "〈X〉=(1/2pi)integral_0^{2pi}X(theta)dtheta; spatial mean over one perturbation period.",
+    "domain": "Clean ballistic 2D circular sheets, common vF, strong-SOC/weak-Zeeman intraband singlet pairing; no interband pairing, orbital field, disorder or field-induced FS deformation."
+  },
+  "uniform_method_equations": {
+    "z": "omega_n=(2n+1)piT; delta_lambda=(q/2−lambda h)cos(theta); z=omega+i delta; Omega=sqrt(z²+D²), ReOmega>0 connected to positive omega.",
+    "functional": "f=D²ln(T/Tc0)+2piT sum_n[D²/omega_n−sum_lambda W_lambda Re〈Omega−z〉]. F(D=0)=0. This off-shell functional is a standard reconstruction, not a formula printed in the source.",
+    "gap_residual": "R/D=ln(T/Tc0)+piT sum_n[2/omega−sum_lambda W_lambda Re〈1/Omega〉]=0; partial_D F=2N0 R.",
+    "current": "j/N0=2piT vF sum_n,lambda W_lambda〈cos(theta)Im(z/Omega)〉; source j=2 partial_q F.",
+    "CEP": "R=j=(d/dq)j=(d²/dq²)j=0 along the amplitude-relaxed uniform branch. Total derivatives after solving R=0, not fixed-D derivatives. Smooth coalescence inferred from source prose, not literal printed source derivative system.",
+    "UV": "Eliminate pairing coupling by Tc0 subtraction before infinite-frequency/radial limit. No extra physical hard cutoff or fitted interaction introduced."
+  },
+  "endpoint_and_fixed_witness": {
+    "frozen_state": {
+      "EP": 5.8505237960874744e-08,
+      "Eep": 3.1623619986044952e-06,
+      "K": [
+        0.909013301211145,
+        0
+      ],
+      "binding": {
+        "path": "prior_artifacts/000008/science/frozen_witness.json",
+        "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+      },
+      "cP": -6.5287829634528e-05,
+      "epsilon": [
+        0.01,
+        0.005,
+        0.0025
+      ],
+      "status": "Inspected exploratory evidence. Exact binary centres do not imply zero physical uncertainty.",
+      "v": {
+        "imag": [
+          0,
+          -0.9908426008888789
+        ],
+        "real": [
+          -0.13502199918443586,
+          0
+        ]
+      },
+      "x": [
+        0.051955058120691594,
+        1.6925900731329657,
+        0.9791506418402958,
+        1.3985886221312929
+      ],
+      "x_order": [
+        "T",
+        "D",
+        "q",
+        "h"
+      ]
+    },
+    "source_rectangle_halfwidths": [
+      1.2255719847929461e-08,
+      4.0114684557896594e-08,
+      1.061632250176717e-07,
+      1.8248016692488084e-08
+    ]
+  },
+  "gaussian_kernel": {
+    "notation": "Dimensionless M=physical Hessian/N0; p=vF K·khat, L=4Omega²+p². Rows(aK*,bK*),columns(aK,bK); vertices amplitude tau_x and Cartesian imaginary-pairing −tau_y.",
+    "AA": "M_AA=2ln(T/Tc0)+2piT sum_n[2/omega−sum_lambda W_lambda Re〈4z²/(Omega L)〉].",
+    "PP": "M_PP=2ln(T/Tc0)+2piT sum_n[2/omega−sum_lambda W_lambda Re〈4Omega/L〉].",
+    "AP": "M_AP=−4pi i T sum_n,lambda W_lambda〈p Im[z/(Omega L)]〉; M_PA=conjugate(M_AP).",
+    "radial": "Integral dxi/(Aplus Aminus)=2pi/[Omega(4Omega²+p²)], integral dxi xi²/(Aplus Aminus)=pi/(2Omega), Aplus/minus=(xi±p/2)²+Omega².",
+    "controls": "K0: M_AA=F_DD/N0,M_PP=F_D/(N0D), preserving measured residual not forced Ward zero. Mixed small-K M_AP/(iK)=F_qD/(N0D), matching source units. Source j=2Fq, raw Hermiticity, signed-force mapping and zero-field control independently checked."
+  },
+  "perturbation_and_energy_normalization": {
+    "profile": "Delta_epsilon(r)=exp(iqx){D+epsilon[a(r)+i b(r)]}, a=2Re(vA exp(iK·r)),b=2Re(vP exp(iK·r)); |vA|²+|vP|²=1. q held fixed.",
+    "phase": "b is the Cartesian imaginary gap component, not a phase angle; linear phase angle is epsilon b/D.",
+    "witness": "vA=−.13502199918443586,vP=−.9908426008888789 i; hence a=−.27004399836887172 cos(Kx), b=+1.9816852017777578 sin(Kx).",
+    "eta": "eta+=vA+i vP; eta−=conjugate(vA)+i conjugate(vP). Unequal sidebands; not a pure amplitude cosine stripe.",
+    "c_definition": "c0=v†Mv, spatially averaged f(epsilon)−f0=epsilon² c0+O(epsilon³). Signed paired Cepsilon=[f(+epsilon)+f(−epsilon)−2f0]/(2epsilon²). Thus epsilon² Cepsilon is the mean signed free-energy difference divided by N0 Tc0², no additional profile normalization.",
+    "norm_warning": "Mean |eta(r)|²=2 for normalized v. Runner E=sol.norm(eta) is Fourier-l1 (abs eta−+abs eta+), used in remainder/tail majorants; it is NOT an extra energy denominator.",
+    "C_labels": "C0 at .01,C1 at .005,C2 at .0025. cI is separately qualified beta0 anchor; C1/C2 are mandatory nonlinear coefficients."
+  },
+  "independent_Riccati_path": {
+    "background": "a0=D/(z+Omega); A_beta=a0+beta U_beta,B_beta=a0+beta V_beta. Both sectors use identical causal z; V conjugates/reverses eta and reverses transport, never conjugates z.",
+    "recurrence": "L U0=eta−a0² eta*; L Uk=−2a0 eta* U{k−1}−D sum_{i+j=k−1}UiUj−eta* sum_{i+j=k−2}UiUj. Fourier L_m=2Omega+i m(vF K·khat). V uses eta* and opposite transport. Full convolution support |m|<=k+1 retained.",
+    "force": "Q=1+a0²,h_beta=beta a0(U+V)+beta²UV. Divided normalized anomalous force F_beta=2(U−a0² V−beta a0UV)/[Q(Q+h_beta)]. Full normalized identity and both Q factors checked.",
+    "correction": "c_epsilon(x)=c0(x)−piT sum_n,lambda W_lambda〈sum_sigma=±1 integral_0^1 t[F_{sigma t epsilon}(x)−F0(x)]dt〉. Scalar F here is Re zero-mode(eta* times divided force). Matched beta0 values at new nodes and qualified anchor avoid subtracting nearby free energies.",
+    "moments": "Odd powers cancel BEFORE error absolute values. Exact finite-polynomial moment integral t^(k+1)dt=1/(k+2); Gauss-path vs closed-moment discrepancy separately propagated. Log and 1/omega counterterms cancel in correction only; piT source variation stays explicit.",
+    "low_frequency": "n<32: full source coefficient radii, all-mode omitted residual/normalization identity, finite-mode block plus infinite high-mode inverse and common uniqueness neighborhood. H=12;16 signed beta cells cover[-.01,.01];common profile remainder cap .001; both force poles retained. Historical full-circle source/beta coverage used only within accepted domains.",
+    "high_frequency": "n>=32 uses source-uniform complex-beta analytic disk r=.1 plus computed finite correction. Complete Cauchy all-higher-even-order infinite Matsubara envelope, no zero-tail or low-frequency tube assumption.",
+    "tail_formula": "If |F(beta)−F0|<=Cf/omega³ on complex disk radius r, paired correction tail <=2piTmax Cf (epsilon/r)²/[1−(epsilon/r)²] [w^-3+(4piTmin w²)^-1], w=(2N+1)piTmin; recorded arithmetic allowance added. Cf is computed source-uniform both-sector/both-pole contraction, not fitted.",
+    "source": "Full rectangle in T,D,q,h propagated through background,both sectors,force and piT. Exact binary centers do not imply exact source state; sampled corners are not the coverage argument.",
+    "spatial": "Exact convolution retains every Fourier mode at each beta order. Zero-mode exactly integrates retained spatial polynomial; all omitted beta/profile modes retained in residual bounds."
+  },
+  "numerical_controls": {
+    "axis_order": [
+      "profile_beta_degree",
+      "Nw",
+      "Ntheta",
+      "force_beta_degree_divided_by_two",
+      "Nt"
+    ],
+    "levels": [
+      [
+        8,
+        12,
+        16
+      ],
+      [
+        128,
+        256,
+        512
+      ],
+      [
+        16,
+        32,
+        64
+      ],
+      [
+        4,
+        6,
+        8
+      ],
+      [
+        2,
+        4,
+        8
+      ]
+    ],
+    "finest": [
+      16,
+      512,
+      64,
+      8,
+      8
+    ],
+    "configurations": 31,
+    "epsilon_rows": 93,
+    "completed_expansions": 606208,
+    "origin": "Common theta_j=2pi*j/Ntheta+pi sqrt5/256, nested16/32/64. Discretization sensitivity test, neither statistical independence nor independent physical data; no physical state rotation.",
+    "hierarchy": "Axis three-rung d1,d2: |d2|<=.75|d1|+noise, same sign unless noise-sized; error4(|d2|+b1+b2)+b2. All ten mixed-pair contrasts tested/added. Epsilon hierarchy uses contraction .5 plus noise; Richardson01=(4C1−C0)/3,Richardson12=(4C2−C1)/3 with full propagated errors.",
+    "arithmetic": "binary64/complex128 floor1e-12; recurrence/normalization defects<=1e-10. Analytical enclosures conditional on empirical primitive/reduction allowances. No directed-rounding proof, no all-domain arithmetic certificate or statistical confidence level.",
+    "source_error": "Original Eep=3.1623619986044952e-6 once. Accepted linear source bridge9.924665109792337e-7 plus nonlinear source correction allowance2.1698954876252615e-6. Source errors not counted as independent random noise.",
+    "EI": "Qualified anchor EI plus spatial/profile remainder, primitive/residual/path errors, infinite tail, five axes and ten mixed interactions; source variation retained in Eep once.",
+    "acceptance": {
+      "inconclusive": "Any failed or missing source, branch, certificate, convergence, qualification, forecast or resource condition; infer neither physical sign.",
+      "refute": "A valid resolved nonnegative independent coefficient rejects this witness and requires reconciliation with the exploratory primary result. It does not refute every other unstable direction or answer the parent.",
+      "support": "Every source/branch/input/resource/convergence gate passes; cP+EP+Eep<0 and cI+EI+Eep<0; EP+Eep<=.25|cP| and EI+Eep<=.25|cI|; |cP-cI|<=EP+EI; Ectrl<=min(EP+Eep,EI+Eep); C1 and C2 are negative beyond their complete errors. This supports the fixed witness and defeats necessary local metastability within the source model."
+    },
+    "extra": "Richardson negative beyond complete error+Eep; shifted-origin coefficients agree308 within summed complete numerical EI; no historical scalar rows relabeled fresh330."
+  },
+  "manuscript_claim_limits": [
+    "One admissible nonzero-K descent direction excludes necessary local pairing metastability of this exact reconstructed source endpoint. Positive result on one witness would not establish full stability.",
+    "No replacement phase, unrestricted global phase diagram, switching/barrier dynamics, experimental diode efficiency or real-material claim established.",
+    "Distinguish source equations, standard derived functional/kernel, numerical endpoint reconstruction and new accepted instability evidence.",
+    "Plots may use saved measured coefficients/errors and exact analytic profile; mark illustrative profiles/curves and do not present off-grid interpolation as computed physics.",
+    "Targeted Luna source reading and unresolved local TeX/PDF version equivalence remain source-attribution limitations; any new paper reading uses engine.paper_review gpt-5.6-luna medium."
+  ]
+}

@@ -1,0 +1,151 @@
+[
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000332/receipt.json",
+    "bundled": "supplement/data/review000332.json",
+    "original_sha256": "c5c6928e0f709550ceeda54b77b940a54e337a6970ec94b478d26e852821807b",
+    "role": "compact extraction; full receipt retained in project"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000334/receipt.json",
+    "bundled": "supplement/data/review000334.json",
+    "original_sha256": "7c9c9dbcdbb07e0d4cc1bb4d4a42afecfbac2f07c282b56bd491ec677181575f",
+    "role": "compact extraction; full receipt retained in project"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/orchestrator/FINAL_SCIENTIFIC_DISPOSITION.json",
+    "bundled": "supplement/data/final_disposition.json",
+    "sha256": "f48aa3d8cf4014fd2cdcc8461029c1ff02410d3074e997e5259a142231b50c32"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/science/complete-finite-beta/QUALIFICATION_RESULT.json",
+    "bundled": "supplement/data/qualification330.json",
+    "sha256": "e953008b2fec07e1502c79937d2593a561eb36d5b81fbc25e6798d9c6748293c"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000008/work/science/endpoint_certificate.json",
+    "bundled": "supplement/data/endpoint_certificate.json",
+    "sha256": "689158d0beee78dd798af933593b3397dd41023cd3cc8b906aeda00cffeecb29"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000008/work/science/branch_topology.json",
+    "bundled": "supplement/data/branch_topology.json",
+    "sha256": "f8d76d948659b3f22d071f45cb817d5ca00a642fe0a1af007c385923184a2564"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000008/work/science/frozen_witness.json",
+    "bundled": "supplement/data/frozen_witness.json",
+    "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/native_guard_adapter.py",
+    "bundled": "supplement/code/native_guard_adapter.py",
+    "sha256": "24c646000164defbc0ab9c82e238a7b5bfdaf55fcc0536c4c65051088216a7c5"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/LINEAR271.json",
+    "bundled": "supplement/data/LINEAR271.json",
+    "sha256": "894e1a0a6e9887bdbd7ab2a2feca3b84f3d6a110e907040e2b72d99e16b075cc"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/nonlinear_response.py",
+    "bundled": "supplement/code/nonlinear_response.py",
+    "sha256": "a66d0dbf78c82002f7f966372207fe08cafa5efade76f6fcdb799821998ed998"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/SAVED293_PROTOCOL.json",
+    "bundled": "supplement/data/SAVED293_PROTOCOL.json",
+    "sha256": "bf857182366cf7876c82e76ef7c4bcfb58c07da6489a1e9fba90063e147b8eaa"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/native_worker.py",
+    "bundled": "supplement/code/native_worker.py",
+    "sha256": "5217a936fbe7ec91067944d00dabdf37a531ecdec26d0b509233abf2323199e7"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/QUALIFICATION_PROTOCOL.json",
+    "bundled": "supplement/data/QUALIFICATION_PROTOCOL.json",
+    "sha256": "291a8d7d5ddeb60ae57b63d721c836201706473b2307d6cce32e38f65f66dc20"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/SAVED308.json",
+    "bundled": "supplement/data/SAVED308.json",
+    "sha256": "89a16fde242a71471902c9ca27a18bb7a10968c2223c2faf819391f12ca2ad15"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/SAVED293.json",
+    "bundled": "supplement/data/SAVED293.json",
+    "sha256": "d7166d65f1a5672ba2fe83d0eb8d566dcb72422d00096a7c1442675ffa9cd338"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/correction_bounds.py",
+    "bundled": "supplement/code/correction_bounds.py",
+    "sha256": "50026d4f2e31b055ed5fa4cc5c10f709304ad2047b8401b0b5955758a040437f"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/qualification_runner.py",
+    "bundled": "supplement/code/qualification_runner.py",
+    "sha256": "1bc6efe699f2afdf7942cc05a8d7c9faffcdf7777d1f6126e19b90b6e354727f"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/SAVED299_PROTOCOL.json",
+    "bundled": "supplement/data/SAVED299_PROTOCOL.json",
+    "sha256": "6041f65c1a22df53fd97272fea212c79fc62cfb09c354b17c9b3b12e139f84b1"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/calls/000330/work/evidence/supplement-1791365457601894436/target_package/SAVED299.json",
+    "bundled": "supplement/data/SAVED299.json",
+    "sha256": "964892ac4b48ba1bb947fa8f32c2c2be25aad40a0917049675c2ec35cb247208"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/evidence/preparation/UNIFORM_FUNCTIONAL_DERIVATION.json",
+    "bundled": "supplement/data/UNIFORM_FUNCTIONAL_DERIVATION.json",
+    "sha256": "53a0196dfa87c4582681a53d57211adac772b08d561a63b4cb2c1f2cd978406f"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/evidence/preparation/PRIMARY_KERNEL_DERIVATION.json",
+    "bundled": "supplement/data/PRIMARY_KERNEL_DERIVATION.json",
+    "sha256": "028820c7947e30e6ca6e27d247ad03b100b200033735430615985526bf6107db"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/evidence/readers/hosur2026/565e4dc0146e31e3bcb92b1a8b6a4bcf0fd9749bd6f0f85fedfe651ac6b6b626/report.json",
+    "bundled": "supplement/data/reader_hosur2026.json",
+    "sha256": "cc8ebbadccfd2d8a0af742ae0a095e02d3b6b78f6c4e24ee91a65477d07371b3",
+    "role": "compact targeted source-linked report; not primary-paper fulltext"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/evidence/readers/zhuang-conventions/eb96d0b6818bf07df25c3614f0ba98d4aa012bb2660b34f1007b0d5c8fac8a62/report.json",
+    "bundled": "supplement/data/reader_zhuang-conventions.json",
+    "sha256": "12c00555295bc56a20d4ddbc3d829f93d1e5e23cf88ad3b74912b74fa2522992",
+    "role": "compact targeted source-linked report; not primary-paper fulltext"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/evidence/readers/zhuang-tex-equation-audit/246c734ccd3f31ba3b73f28bbe91379959ef5cea441b1af0c4559408af93553a/report.json",
+    "bundled": "supplement/data/reader_zhuang-tex-equation-audit.json",
+    "sha256": "c54c6d2dd0ad1856b6d20e1f2f3ee3c2571d974f1b7821817e38b3649260be58",
+    "role": "compact targeted source-linked report; not primary-paper fulltext"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/evidence/readers/zhuang2026/908ddee67d762bb4eb8c8ab46b2d79a623587fc1ca30dd0ddee4f7663a1278c3/report.json",
+    "bundled": "supplement/data/reader_zhuang2026.json",
+    "sha256": "5bd518fd43200e0c20b7161a1d4cf4d7876c4e072fd0db095be8a533be9d1c61",
+    "role": "compact targeted source-linked report; not primary-paper fulltext"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/evidence/readers/zhuang-equation-audit/63f4e666565bb1f80d25da946306cf9bba19706a1ec2e9016ee06d7c6ba292bd/report.json",
+    "bundled": "supplement/data/reader_zhuang-equation-audit.json",
+    "sha256": "4ceafa095f5a09d6c1ae36c3201b8e421fe9271f91eead7f9d44b6cfa58a5c12",
+    "role": "compact targeted source-linked report; not primary-paper fulltext"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/evidence/readers/agterberg2007/0387f3b0ea4b05f8cb91401e875c63e2d846282c48ade6dd71d699497f4c6d44/report.json",
+    "bundled": "supplement/data/reader_agterberg2007.json",
+    "sha256": "ec2400942d9add4093e96d06c1577497890a15775c4976c8c3d7894e67bda8f0",
+    "role": "compact targeted source-linked report; not primary-paper fulltext"
+  },
+  {
+    "original": "engine_state/case-loops/rashba-diode-endpoint/evidence/readers/dimitrova2007/9fdf9286a653ec2bd1e4a24f447e81b535282fcde720d8b25416c9e163549c9c/report.json",
+    "bundled": "supplement/data/reader_dimitrova2007.json",
+    "sha256": "4cea7a97929a9dadfe8d11517ee3c836d41511219c58924db25fadb3b51a79b7",
+    "role": "compact targeted source-linked report; not primary-paper fulltext"
+  }
+]

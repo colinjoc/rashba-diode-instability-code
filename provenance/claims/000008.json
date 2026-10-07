@@ -1,0 +1,614 @@
+{
+  "claim": "At the source single-q weak/strong-helical critical endpoint with alphatilde=1/4, there exists a fixed finite dimensionless vector kappa=vF K/Tc0≠0 whose coupled amplitude/phase Gaussian Hessian has a strictly negative eigenvalue. The same fixed perturbation lowers the source-compatible off-shell free energy to quadratic order.",
+  "dossier": {
+    "author_id": "external-root-error-certificate-recovery",
+    "claim": "At the source single-q weak/strong-helical critical endpoint with alphatilde=1/4, there exists a fixed finite dimensionless vector kappa=vF K/Tc0≠0 whose coupled amplitude/phase Gaussian Hessian has a strictly negative eigenvalue. The same fixed perturbation lowers the source-compatible off-shell free energy to quadratic order.",
+    "closest_work_difference": "The paired finite-K operator, stripe mechanism and Riccati methods are known. The proposed scientific increment is whether an advertised nearly-maximal single-q endpoint violates a necessary metastability condition in its own finite-asymmetry 2D model. Supplied targeted reader reports do not already assign that endpoint's sign; this limited comparison is not novelty admission, and parameter substitution alone is insufficient.",
+    "evidence_refs": [
+      "evidence/scout/source-model-draft.json",
+      "evidence/history/PREDECESSOR_MAPPING.json",
+      "evidence/supplement-1790936891664267888/AOYAMA_SCOPE_REPORT.json",
+      "evidence/preparation/MATCHED_METHOD_ADDENDUM.json",
+      "evidence/preparation/MEASURED_CERTIFICATE_BUDGET.json",
+      "evidence/review/FINAL_DESIGN_HARDWARE_REVIEW.json",
+      "evidence/engineering/PHASE_CONTROL_REFINEMENT.json",
+      "evidence/engineering/source_periodic_prepared.cu"
+    ],
+    "falsification_test": {
+      "binding": "Exact protocol and matching hypothesis_packet test returned with this claim; no admission granted.",
+      "inconclusive": "Bounded no-witness, source/branch ambiguity, failed convergence or method agreement, incomplete certificate or exhausted resources leaves the claim and parent open.",
+      "observable": "One fixed-K Rayleigh quotient and same-functional independent epsilon curvature.",
+      "refutes": "An exhaustive same-model all-K nonnegativity certificate would refute the existential claim but is outside this allocation. A contradictory independent result rejects only the selected witness.",
+      "supports": "All error_certificate.acceptance inequalities and controls pass for the same fixed nonzero K,v at the recovered source endpoint. This supports a numerical negative local pairing direction within empirical convergence estimates, not a formal theorem or device prediction.",
+      "test_id": "rashba-source-endpoint-fixed-finiteK-paired-curvature-v2"
+    },
+    "independent_evidence": "Two deterministic representations share the exact microscopic functional and regulator but compute curvature separately. The common endpoint/tail systematics are disclosed, not statistical independence. No target data were generated. Compact Luna reports have targeted, reader-reported coverage only; originals, external references and unlisted sections were not personally inspected.",
+    "prior_art": [
+      {
+        "accessed": "Supplied targeted Luna reader reports only; coverage is self-reported, not cover-to-cover or personal primary inspection.",
+        "difference": "Proposed new inference is fixed finiteK necessary local pairing stability with same source model, not refitting or reinterpretation of existing caveats.",
+        "overlap": "Source single-q endpoint and nominal nearly-maximal diode prediction",
+        "title": "Helical phases and Bogoliubov Fermi surfaces probed by superconducting diode effects",
+        "url": "https://arxiv.org/abs/2510.18963v1"
+      },
+      {
+        "accessed": "Supplied targeted Luna reader reports only; coverage is self-reported, not cover-to-cover or personal primary inspection.",
+        "difference": "Inspected spherical-geometry suppression boundary does not assign the exact2D finite-asymmetry source endpoint sign.",
+        "overlap": "Microscopic helical/multiple-q stability machinery and stripe mechanism are known",
+        "title": "Stability of magnetic-field induced helical phase in Rashba superconductors",
+        "url": "https://arxiv.org/abs/cond-mat/0612216"
+      },
+      {
+        "accessed": "Supplied targeted Luna reader reports only; coverage is self-reported, not cover-to-cover or personal primary inspection.",
+        "difference": "Leading equal-DOS/perturbative correction results do not determine the exact finite1/4 source critical endpoint.",
+        "overlap": "2D Rashba helical/stripe onset and instability methods are known",
+        "title": "Theory of2D superconductor with broken inversion symmetry",
+        "url": "https://arxiv.org/abs/cond-mat/0701698"
+      },
+      {
+        "accessed": "Supplied targeted Luna reader reports only; coverage is self-reported, not cover-to-cover or personal primary inspection.",
+        "difference": "Gap-quartic GL conditional validity/examined DOS0.01/0.05 supplies no transferable exact endpoint sign. LowT alone does not exclude GL; changed parameters alone are not novelty.",
+        "overlap": "Clean2D Rashba stripe onset, added -Q component and diode nonreciprocity",
+        "title": "Aoyama arXiv2310.16272 stripe order and superconducting diode study",
+        "url": "https://arxiv.org/abs/2310.16272"
+      },
+      {
+        "accessed": "Supplied targeted Luna reader reports only; coverage is self-reported, not cover-to-cover or personal primary inspection.",
+        "difference": "Explicit exclusion of selected metastable switching means it does not settle this necessary local pairing criterion.",
+        "overlap": "Equilibrium global-relaxed free-energy/perfect diode conditions",
+        "title": "Hosur arXiv2512.21384v3 equilibrium superconducting diode constraint",
+        "url": "https://arxiv.org/abs/2512.21384v3"
+      }
+    ],
+    "scientific_significance": {
+      "before_after": "Support would invalidate the endpoint's necessary local pairing-stability premise. An exhaustive nonnegativity result would only remove this Gaussian objection, leaving finite-amplitude/device questions. This bounded search cannot produce that exhaustive result; non-detection or uncertainty would leave the parent open.",
+      "bridge": "A negative Hessian Rayleigh quotient at fixed nonzero K implies free-energy lowering by arbitrarily small admissible spatial pairing variations and defeats local metastability. Independent same-functional epsilon curvature checks the numerical bridge. A lower global state, gap closure or K=0 soft mode alone does not supply it.",
+      "decision_and_need": "Zhuang's III.A endpoint and barrier discussion proposes nearly-maximal diode behavior using a self-consistent single-q state. Its reader report identifies omitted spatial pairing stability. Viable alternatives are a quadratically stable endpoint and one preempted locally by a coupled finite-K direction. Resolving the latter would change whether that mechanism is physically self-consistent within its own model.",
+      "independent_assessment": {
+        "challenge": "Suppose this result is correct and new: why might researchers need to change their understanding, and why might they not?",
+        "decision": "PASS significance for unchanged claim, within exact source-model scope; prior design verdict was revise.",
+        "exact_claim": "At the source single-q weak/strong-helical critical endpoint with alphatilde=1/4, there exists a fixed finite dimensionless vector kappa=vF K/Tc0≠0 whose coupled amplitude/phase Gaussian Hessian has a strictly negative eigenvalue. The same fixed perturbation lowers the source-compatible off-shell free energy to quadratic order.",
+        "receipt": "prior/000003.json",
+        "receipt_sha256": "3c364c42a10007bd2659db00f6c126ffb744d402d8fb55fac296fd0c496c2ef4",
+        "response": "The claimed consequence is limited to a necessary stability premise of that specific proposed mechanism. No device prediction is promised. This refinement adds no independent significance pass and requires renewed exact design review.",
+        "reviewed_candidate_sha256": "fa1ea4d53dc6bacdd12a1685f12d18aa63d94763dbc6d5f373e358803bc648fc",
+        "reviewer_id": "fresh-design_review-3",
+        "strongest_objection": "Correcting one idealized endpoint need not change device predictions."
+      },
+      "strongest_resolution": "Agterberg-Kaur and Dimitrova-Feigelman already supply microscopic modulation-instability machinery; Aoyama supplies 2D stripe/diode GL onset, and Hosur separates global-equilibrium bounds from metastable thresholds. A same-domain theorem or published endpoint assignment would make this a routine recovery. The saved reports do not establish such a resolution, and their limited coverage is retained."
+    },
+    "search_date": "2026-10-02",
+    "search_queries": [
+      "Archival targeted source/reader comparisons:2510.18963v1 source conventions and endpoint;cond-mat/0612216 helical stability;cond-mat/0701698 finite DOS;2310.16272 GL/endpoint scope;2512.21384v3 equilibrium versus metastability. No network or fresh countersearch in this invocation."
+    ],
+    "searched_through": "Saved targeted reports supplied on2026-10-02 only; no claim of exhaustive or fresh literature coverage.",
+    "strongest_baselines": [
+      "Exact source single-q model and definition, known finiteK stripe theory, Aoyama gap-quartic GL onset, Hosur equilibrium scope, known Ward/current and zero-field controls."
+    ]
+  },
+  "hypothesis_packet": {
+    "blockers": [],
+    "cheap_checks": [
+      {
+        "conclusion": "The source model and implicit endpoint are defined; the exact finite-K sign is not assigned by supplied reports. No target evaluation or personal full-paper reading occurred.",
+        "disposition": "retained",
+        "evidence_refs": [
+          "evidence/scout/source-model-draft.json",
+          "evidence/history/PREDECESSOR_MAPPING.json",
+          "evidence/supplement-1790936891664267888/AOYAMA_SCOPE_REPORT.json"
+        ],
+        "id": "C-source-and-scope",
+        "method": "Inspect supplied source convention audit and compact primary-comparison reports.",
+        "model_ids": [
+          "H0-local-stability",
+          "H1-finiteK-instability"
+        ]
+      },
+      {
+        "conclusion": "Saved phase error persists under coupling refinement and cannot bound the target. Nested reductions permit separate angle/frequency checks. For c+a epsilon^2+b epsilon^4, R12-c=-(R12-R01)/15. These routine checks motivate the prospective certificate and leave H2 unresolved.",
+        "disposition": "retained",
+        "evidence_refs": [
+          "evidence/engineering/PHASE_CONTROL_REFINEMENT.json",
+          "evidence/engineering/source_periodic_prepared.cu",
+          "evidence/engineering/primary_response.py",
+          "evidence/preparation/MATCHED_METHOD_ADDENDUM.json",
+          "evidence/preparation/MEASURED_CERTIFICATE_BUDGET.json"
+        ],
+        "id": "C-known-controls-and-errors",
+        "method": "Inspect saved control rows and nested code arrays; exact rational Richardson identity and operation-count arithmetic only.",
+        "model_ids": [
+          "H2-numerical-artifact"
+        ]
+      },
+      {
+        "conclusion": "Known identities are supporting controls; no finite-K sign follows.",
+        "disposition": "reclassified",
+        "evidence_refs": [
+          "evidence/preparation/UNIFORM_FUNCTIONAL_DERIVATION.json",
+          "evidence/preparation/PRIMARY_KERNEL_DERIVATION.json"
+        ],
+        "id": "C-symmetry-bank",
+        "method": "Check the supplied uniform-functional derivatives against K=0 Ward/current identities and prior independent algebra review.",
+        "model_ids": [
+          "D0-known-softness"
+        ]
+      },
+      {
+        "conclusion": "Global-energy or equilibrium-perfection arguments alone do not answer the local question.",
+        "disposition": "reclassified",
+        "evidence_refs": [
+          "evidence/scout/source-model-draft.json",
+          "evidence/history/PREDECESSOR_MAPPING.json"
+        ],
+        "id": "C-metastability-bank",
+        "method": "Compare source local-threshold definition with the supplied predecessor/ensemble mapping.",
+        "model_ids": [
+          "D1-global-vs-metastable"
+        ]
+      }
+    ],
+    "constraints": [
+      "Preserve the source Hamiltonian, DOS weights, current normalization j=2Fq, Tc subtraction and source-connected endpoint.",
+      "K=0 Ward/critical softness and a lower global competitor are supporting controls, not the claimed instability.",
+      "Use one frozen x*,K,v for primary and independent comparisons. No eigenvector refitting, new witness or tolerance selection after nonlinear data.",
+      "Use the complete v2 empirical uncertainty rules and absolute-error sums; passing them is not a rigorous interval theorem.",
+      "Preserve total14400 CPU s, invocation3600 s, host1024 MiB, GPU2048 MiB,128 periodic iterations and500000000 artifact bytes."
+    ],
+    "generation_methods": [
+      "mechanistic_decomposition",
+      "symmetry_dimensions",
+      "boundary_cases",
+      "null_model"
+    ],
+    "models": [
+      {
+        "assumptions": [
+          "Exact source model and source-connected endpoint; quadratic stability is necessary, not sufficient for metastability."
+        ],
+        "baseline": true,
+        "complexity_rationale": "Same microscopic model; no extra fitted parameters.",
+        "evidence_refs": [
+          "evidence/scout/source-model-draft.json",
+          "evidence/history/PREDECESSOR_MAPPING.json"
+        ],
+        "falsifier": "One fixed nonzero-K paired negative witness satisfying the frozen numerical acceptance rule.",
+        "id": "H0-local-stability",
+        "mathematical_model": "M(K) is positive semidefinite for every finite scaled K, with known K=0 soft modes permitted.",
+        "mechanism": "No negative Gaussian pairing direction at the source endpoint; higher-order or finite-amplitude failure remains possible.",
+        "status": "unresolved"
+      },
+      {
+        "assumptions": [
+          "Recover the actual source endpoint; freeze K and physical eigenvector before nonlinear confirmation."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Known response machinery tests a specific physical premise, not a new method.",
+        "evidence_refs": [
+          "evidence/preparation/PRIMARY_KERNEL_DERIVATION.json",
+          "evidence/preparation/MATCHED_METHOD_ADDENDUM.json",
+          "evidence/supplement-1790936891664267888/AOYAMA_SCOPE_REPORT.json"
+        ],
+        "falsifier": "An exhaustive same-model all-K nonnegativity certificate would refute H1; bounded non-detection cannot.",
+        "id": "H1-finiteK-instability",
+        "mathematical_model": "At the source single-q weak/strong-helical critical endpoint with alphatilde=1/4, there exists a fixed finite dimensionless vector kappa=vF K/Tc0≠0 whose coupled amplitude/phase Gaussian Hessian has a strictly negative eigenvalue. The same fixed perturbation lowers the source-compatible off-shell free energy to quadratic order.",
+        "mechanism": "A coupled spatial amplitude/phase mode destabilizes the single-q endpoint.",
+        "status": "unresolved"
+      },
+      {
+        "assumptions": [
+          "Two methods can share source errors; their agreement alone is insufficient."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Numerical-error rival, with no additional physical interaction.",
+        "evidence_refs": [
+          "evidence/engineering/PHASE_CONTROL_REFINEMENT.json",
+          "evidence/preparation/MATCHED_METHOD_ADDENDUM.json"
+        ],
+        "falsifier": "One fixed source-matched witness passes all numerical and source checks; shared model errors remain covered by source audits.",
+        "id": "H2-numerical-artifact",
+        "mathematical_model": "A raw negative curvature fails source controls, separate convergence or |cP-cI|<=EP+EI.",
+        "mechanism": "An apparent negative mode reflects wrong branch, normalization, tail, quadrature, periodic or extrapolation error.",
+        "status": "unresolved"
+      },
+      {
+        "assumptions": [
+          "These identities do not determine a fixed finite-K sign."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Banked symmetry/current control, not a discovery.",
+        "evidence_refs": [
+          "evidence/preparation/PRIMARY_KERNEL_DERIVATION.json",
+          "evidence/preparation/UNIFORM_FUNCTIONAL_DERIVATION.json"
+        ],
+        "falsifier": "Failure of the identities invalidates implementation; satisfying them cannot establish H1.",
+        "id": "D0-known-softness",
+        "mathematical_model": "M_PP(0)=2N0 R/Delta; at stationarity it vanishes. The small-K Schur phase response matches Jprime/2.",
+        "mechanism": "Global-phase symmetry and zero relaxed current slope cause known K=0 softness.",
+        "status": "diagnostic"
+      },
+      {
+        "assumptions": [
+          "Source thresholds are explicitly metastable/local; device dynamics are outside this claim."
+        ],
+        "baseline": false,
+        "complexity_rationale": "Banked ensemble distinction; separate finite-amplitude avenue remains unselected.",
+        "evidence_refs": [
+          "evidence/scout/source-model-draft.json",
+          "evidence/history/PREDECESSOR_MAPPING.json"
+        ],
+        "falsifier": "Only an admissible local negative direction answers this branch; a lower global state alone does not.",
+        "id": "D1-global-vs-metastable",
+        "mathematical_model": "Global free-energy minimization and finite-amplitude barrier escape differ from a negative local Hessian.",
+        "mechanism": "A global competitor or equilibrium diode bound can be mistaken for local instability.",
+        "status": "diagnostic"
+      }
+    ],
+    "proposed_study": null,
+    "question": "Does a fixed nonzero-wavevector coupled pairing fluctuation destabilize the source clean 2D Rashba single-q weak/strong-helical endpoint at DOS asymmetry 1/4?",
+    "ranking": {
+      "mode": "qualitative",
+      "rationale": "Preserve the independently significant source-endpoint decision. One frozen paired-curvature test can falsify its necessary local-stability premise; known Ward/stripe results remain controls. No numerical priors or optimality claim."
+    },
+    "scope": "Same source clean 2D circular, intraband singlet quasiclassical model at alpha/vF=1/4. Hold kappa=vF K/Tc0 nonzero and fixed as Tc0/mu->0, hence K/kF->0. This tests a necessary local pairing-stability premise; it cannot certify global phase selection, switching barriers, a device diode efficiency or all-K stability.",
+    "selected_test": "rashba-source-endpoint-fixed-finiteK-paired-curvature-v2",
+    "target_relevance": "The source's nominal nearly-maximal diode mechanism assumes a metastable single-q endpoint. A resolved negative local pairing direction would invalidate that necessary premise within the source model.",
+    "tests": [
+      {
+        "cheap_check_ids": [
+          "C-source-and-scope",
+          "C-known-controls-and-errors",
+          "C-symmetry-bank",
+          "C-metastability-bank"
+        ],
+        "conditions": "Same source clean 2D circular, intraband singlet quasiclassical model at alpha/vF=1/4. Hold kappa=vF K/Tc0 nonzero and fixed as Tc0/mu->0, hence K/kF->0. This tests a necessary local pairing-stability premise; it cannot certify global phase selection, switching barriers, a device diode efficiency or all-K stability.",
+        "cost_basis": "Revised operation-count projection13252.106 CPU s including spent preparation,600 s primary/uniform,600 s setup and1800 s diagnostic reserve; unchanged14400 s ceiling. Nx scaling and source conditioning are unverified; incomplete validation is inconclusive.",
+        "discrimination": "The complete paired negative witness separates H1 from H0 and tests H2. No-witness leaves H0/H1 unresolved. Agreement alone cannot exclude shared source errors.",
+        "estimated_actions": 4,
+        "id": "rashba-source-endpoint-fixed-finiteK-paired-curvature-v2",
+        "independent_validation": "Causal periodic Riccati trajectories and coupling-constant integration of the same Tc-subtracted gap residual; fixed physical perturbation and source normalization, with no reuse of the primary bubble as the independent result.",
+        "noise_and_nuisance": "Endpoint location/branch, angular and Matsubara quadratures, analytic tail, spatial cells, coupling quadrature, periodic recurrence, finite epsilon and rounding; no stochastic model.",
+        "observable": "Fixed-witness primary Rayleigh quotient cP and independently extrapolated off-shell curvature cI, with separate deterministic error tables.",
+        "outcome_rules": {
+          "inconclusive": "Bounded no-witness, source/branch ambiguity, failed convergence or method agreement, incomplete certificate or exhausted resources leaves the claim and parent open.",
+          "refutes": "An exhaustive same-model all-K nonnegativity certificate would refute the existential claim but is outside this allocation. A contradictory independent result rejects only the selected witness.",
+          "supports": "All error_certificate.acceptance inequalities and controls pass for the same fixed nonzero K,v at the recovered source endpoint. This supports a numerical negative local pairing direction within empirical convergence estimates, not a formal theorem or device prediction."
+        },
+        "predictions": {
+          "H0-local-stability": "No robust negative same-functional fixed-finiteK curvature exists; bounded non-detection does not establish this model.",
+          "H1-finiteK-instability": "At least one fixed finiteK gives a negative primary and independently matched off-shell quadratic curvature beyond uncertainty.",
+          "H2-numerical-artifact": "Apparent negativity loses source fidelity, convergence/error separation or independent same-functional agreement."
+        },
+        "question_to_resolve": "Does a fixed nonzero-wavevector coupled pairing fluctuation destabilize the source clean 2D Rashba single-q weak/strong-helical endpoint at DOS asymmetry 1/4?"
+      }
+    ],
+    "unmodeled_alternatives": "Finite-amplitude barrier escape, global multiple-q phase choice, disorder, additional pairing channels, orbital screening, device boundaries and switching dynamics remain outside this necessary Gaussian test.",
+    "update_rule": "Only admitted target data may support H1. A failed witness or error certificate leaves the existential claim unresolved and may diagnose H2; bounded non-detection cannot establish H0. Substantive changes require renewed review and admission.",
+    "variables": [
+      {
+        "name": "T,h,Delta,q",
+        "observability": "Same-functional roots, branch topology and empirical endpoint error box.",
+        "role": "Recovered source endpoint coordinates",
+        "units": "Tc0=vF=N0=1"
+      },
+      {
+        "name": "alpha/vF",
+        "observability": "Source input, never fitted or varied.",
+        "role": "Fixed helicity DOS asymmetry",
+        "units": "Dimensionless,1/4"
+      },
+      {
+        "name": "K,v",
+        "observability": "Primary matrix; identical values in every confirmation calculation.",
+        "role": "Selected then frozen physical perturbation",
+        "units": "vF K/Tc0; ||v||=1"
+      },
+      {
+        "name": "cP,cI,EP,EI,Eep",
+        "observability": "Separate convergence and error tables; no stochastic confidence claim.",
+        "role": "Curvatures and numerical uncertainty estimates",
+        "units": "F/N0 quadratic coefficient"
+      }
+    ],
+    "version": "competing-models-v2"
+  },
+  "protocol": {
+    "canonical_endpoint": {
+      "before_threshold": "Primarynegativewitness is at exact sourceendpoint, separatedfromK0softmode. Negative finiteK margin gives a neighborhood oflocalinstability bycontinuity; optional finitecurrentcontinuation can substantiatepreemptionbut cannotreplace endpointclaim. No jprime0 tautology accepted.",
+      "branch_selection": "Choose endpoint continuously terminating uniformweak/strong coexistence line: two distinctamplitude-stable zero-currentminimaofsamef with equalf belowendpoint mergewithinterveningstationarybranch. Confirm positivequartic stabilizingcoefficient in q atendpoint andlocalamplitude stability. Uniformfreeenergyglobal comparison only,not unrestrictedmultiple-qequilibrium.",
+      "mathematical_characterization": "R=0,J=0,totalderivative_q J=0,totalderivative_q²J=0 alongamplitude-relaxeduniformbranch; infer from smoothcoalescence,not printedauthorderivativeequation.",
+      "source_printed": "Equilibriumj(q)=0; lowT localminimum j(q) becomesinflection atCEP; alphatilde.25 andTCEP/Tc0~.05",
+      "source_reproduction_guard": "Locate in source-nearT/Tc0 interval .02–.10 andh/Tc0 interval .5–3 withqvF/Tc0 interval0–6,Delta/Tc0 interval0–3. These are source-recovery numericalbrackets,not claimdomain. If no unique source-connectedendpoint inboundedrootsearch,holdsource-reproduction; do notsubstitute differentroot/physics."
+    },
+    "confirmation": {
+      "mode": "none_analytical",
+      "reason": "Deterministic source-model numerical calculation; no empirical held-out data/split or statistical validation sample is generated. Primary selection is exploratory; independent deterministic confirmation freezes K/v before new perturbation computations and preserves every prior observation."
+    },
+    "continuation_policy": "Only after fresh exact design review and discovery-first-v1 admission, execute checkpointed science within unchanged cumulative 14400 CPU seconds including spent preparation/reserves and <=3600-second invocations. Freeze one x*,K,v before nonlinear data; preserve all outputs and failures. No new witness or identity after a failed confirmation. Prior observations and costs remain spent. Any substantive model/protocol change needs renewed review; inability to finish gives inconclusive, never a scientific negative.",
+    "controls": [
+      "Uniform zero-field BCS, source gap/current and functional derivative identities agree within 1e-8 scaled units; count residual, quadrature and rounding error explicitly.",
+      "Raw Hermiticity defect <=1e-12 max(1,||M||). At stationarity M_PP(0)=2N0 R/Delta within 1e-8 scaled units; amplitude curvature remains positive beyond its error.",
+      "At K along x of magnitudes 0.01,0.005,0.0025, check M_AP/(iK)=F_qDelta/Delta and Delta^2(M_PP-|M_AP|^2/M_AA)/K^2 -> Jprime/2. Use the same two Richardson extrapolants and Eseq/rounding rules; extrapolated discrepancies <=1e-8 plus propagated quadrature/extrapolation uncertainty. These diagnostic K values never count as an instability witness.",
+      "Independent uniform gap/current/free-energy normalization <=1e-8 scaled discrepancy; causal Riccati solution and per-trajectory normalization <=1e-10. No new counterterm, fitted prefactor or target-driven tolerance.",
+      "Any source-control numerical error larger than the selected witness's accepted total error invalidates the witness."
+    ],
+    "error_certificate": {
+      "acceptance": "Require every source, branch, contraction, mixed-error, periodic and resource check. Require cP+EP+Eep<0 and cI+EI+Eep<0, with EP+Eep<=0.25|cP| and EI+Eep<=0.25|cI| as numerical-resolution guards, not physical effect thresholds. Require |cP-cI|<=EP+EI at identical x*,K,v; shared endpoint error cannot hide method disagreement. The two finest-amplitude C1,C2 must also be negative beyond their propagated grid/periodic/roundoff error. Failure rejects this witness only; the existential hypothesis remains unresolved. For the C1,C2 guard, recompute the four axis and six mixed estimates on Cj itself (same tables), add its periodic/roundoff/tail bounds and Eep+Eepsilon, and require each resulting upper estimate <0.",
+      "early_exit": "No endpoint, ambiguous topology, no eligible primary witness, failed error assumptions/controls, incomplete diagnostic, >128 iterations, resource exhaustion or method disagreement => inconclusive/technical disposition. No positive conclusion from a raw eigenvalue, agreement of two uncontrolled calculations, bounded non-detection, or a zero-field calibration percentage.",
+      "endpoint_box": "For each coordinate x=(T,Delta,q,h), use Eseq for angular and frequency root sequences with the other resolution finest, and for the three finest-grid solver tolerances. At each root b_i=max(1e-12 max(1,|x_i|),(|Jg^-1| |g|)_i). Add 4 times the absolute fine-minus-medium mixed angular/frequency root contrast. Add (2|Jg^-1| |g_C5(x*)-g_C3(x*)|)_i for the tail diagnostic. The sum defines rho_i. Require the corresponding coarse-to-fine mixed contrast to contract by 0.75 within propagated roundoff, a nonsingular Jg with cond_inf<=1e10, rho_i<=0.01 max(1,|x_i*|), and ||I-Jg(x*)^-1 Jg(x)||_inf<=0.5 at all box corners. All box points must remain in the source bracket with Delta,T>0 and positive amplitude curvature. These sampled checks define an empirical endpoint uncertainty box, not a proved enclosure; failure is inconclusive.",
+      "endpoint_propagation": "Let c(x)=Re[vdagger M(x,K)v]/N0 using fixed v,K. At each coordinate compute centered slopes at rho_i and rho_i/2; require their difference <=0.25 times their maximum magnitude plus propagated rounding/rho_i. Let s_i be the largest absolute one-sided slope on those four axial probes; let g_i be the centered half-radius slope. Eep=2 sum_i rho_i s_i + 2 max_corners |c(x)-c(x*)-sum_i g_i(x_i-x_i*)|, with primary quadrature/roundoff error of all probes added using absolute coefficients. Use the same Eep as a disclosed common endpoint systematic in both sign assessments. Failure of local smoothness or branch identity is inconclusive.",
+      "epsilon": "At the fine anchor and on the Nx ladder with 16 coupling nodes, require |C2-C1|<=0.5|C1-C0| plus propagated numerical bounds, and no resolved increment sign reversal. Define Eepsilon=2 max_Nx(|R12-R01|+bound(R12-R01)). For c+a epsilon^2+b epsilon^4, R12-c=-(R12-R01)/15; that identity motivates, but does not prove, this deliberately larger empirical envelope. Fixed-amplitude and epsilon-contraction failures are inconclusive.",
+      "independent_axes": "Apply Eseq to R12 separately along theta=32,64,128; omega=128,256,512; Nx=64,128,256; coupling nodes=8,12,16, with every other axis at its finest value. The main grid supplies these four lines. Use all six pairwise J_low,J_mid contrasts, including the space/coupling contrasts from the selected-witness diagnostic. Each contrast must contract by the same 0.75 rule. Add EmixI=4 sum_pairs(|J_mid|+its propagated bound); require each |J_mid|<=0.25(Eaxis_i+Eaxis_j)+its bound so large unresolved interactions cannot be hidden. The accessible additional rows/columns must not violate axis contraction. No all-axis joint difference substitutes for these tests.",
+      "independent_total": "EtailI is the independently measured frequency Eseq plus 2|vdagger(M_C5-M_C3)v|/N0 and propagated rounding, explicitly counted even though frequency error is also included among axis errors. EI=EthetaI+EomegaI+ExI+EsI+EmixI+Eepsilon+Eperiodic+EroundI+EtailI. Double counting is conservative. No uncertainty parameter may be calibrated to the observed primary/independent discrepancy.",
+      "periodic_roundoff": "At each trajectory/node estimate force Eseq from the three periodic checkpoints; propagate its nonnegative bound through coupling, DOS, angle, frequency, epsilon and Richardson weights. This defines Eperiodic. Final per-trajectory boundary residual<=1e-12 and normalization error<=1e-10 are additional requirements, not curvature bounds. EroundI is the propagated primitive bound. This prevents tiny final residual alone from certifying a small curvature error.",
+      "primary": "At fixed x*,K use the 3x3 angular/frequency matrix table. Etheta and Eomega are the maximum Eseq over rows/columns, using matrix norms. For a pair of discretization axes, define J_low=yFF-yLF-yFL+yLL and J_mid=yFF-yMF-yFM+yMM. Require ||J_mid||<=0.75||J_low||+propagated numerical bounds; add 4(||J_mid||+its bound) as Emix. Include Etail=2||M_C5-M_C3|| at the finest grid plus its rounding bound. Require first omitted Matsubara frequency >=4 max(Delta,|q/2-h|,|q/2+h|,|K|/2), and norm of the C5 term <=0.25 times norm of C3 term, unless both are below roundoff. EP=Etheta+Eomega+Emix+Etail+b_matrix. Primary center cP=Re[vdagger M_C5,fine v]/N0. Hermitian cleanup, enforcing a Ward zero by hand, or fitting a normalization is forbidden.",
+      "primitive": "For each scalar energy/force or matrix entry compute b_round=max(1e-12 S,4|pairwise_sum-compensated_sum|), where S=1+sum of absolute weighted terms before paired subtraction, including counterterm and analytic tail. For complex quantities bound real and imaginary parts separately; matrix bounds use the resulting Frobenius norm. Propagate these and periodic-force bounds through every sum with absolute coefficients, including 1/(2 epsilon^2) and Richardson coefficients 4/3,-1/3. Never use signed cancellation or root-sum-squares to combine deterministic errors.",
+      "sequence": "For three approximations y0,y1,y2 with absolute numerical bounds b0,b1,b2, put d1=||y1-y0||,d2=||y2-y1||,n=b0+2b1+b2. A sequence is usable only if d2<=0.75 d1+n. For scalar sequences, increments of opposite sign are unresolved unless min(d1,d2)<=n. Define Eseq=4(d2+b1+b2)+b2. The factor 4 is a prospective conservative empirical envelope conditional on observed contraction, not proof of an asymptotic bound. A failed sequence cannot be rescued by increasing its error bar. Scalar near-zero flat sequences remain limited by b, never exact.",
+      "status": "Frozen empirical numerical uncertainty protocol, not a rigorous interval theorem or statistical confidence interval. All constants and failure rules below are prospective. No saved zero-field relative discrepancy is a target error bound."
+    },
+    "independent_protocol": {
+      "epsilon": "epsilon_j=0.01/2^j for j=0,1,2, both signs. C_j=[(F(+epsilon_j)-F0)+(F(-epsilon_j)-F0)]/(2 epsilon_j^2 N0). Require epsilon_0<=0.05 Delta*. R01=(4 C1-C0)/3 and R12=(4 C2-C1)/3; cI=R12. No fitted extrapolation order or post-result epsilon replacement.",
+      "main_grid": "At fixed Ntheta=128,Nomega=512 run all six signed amplitudes at Nx=64,128,256 and 16 Gauss-Legendre coupling nodes. At Nx=256 additionally run the four signed amplitudes epsilon=0.005,0.0025 with 8 and 12 coupling nodes. Thus 368 coupling-node solves, each with both helicities. All comparisons use common x*,K,v.",
+      "memory": "Stream angle/frequency batches, reuse scratch between helicities; enforce host<=1024 MiB and total GPU<=2048 MiB including context. Store reduced node tables and hashes, not full trajectory histories. The actual whole-allocation memory remains to be measured.",
+      "nested_reductions": "Laboratory theta=2pi*j/128 is nested: use every fourth/second/all node for 32/64/128. Positive Matsubara prefix counts are 128/256/512. Emit all nine angular/frequency reductions with their own weights and recomputed analytic tail at every node solve. These are distinct quadratures of existing trajectories, not new solves. Retain signed sums, absolute term sums, periodic-force error sums and normalization/residual maxima. Reduce transient trajectory arrays before discarding; do not save bulk arrays exceeding artifact limits.",
+      "periodic": "For every signed/node/helicity trajectory retain whole-profile force estimates when boundary residual reaches 1e-8,1e-10,1e-12. If thresholds coincide, obtain two further complete-period/profile estimates, within 128 iterations per Riccati sector. Require causal branch, normalized g^2+f fdagger, final residual<=1e-12 and the force-contraction rule in error_certificate. Preserve individual absolute force-error estimates before angular/frequency cancellation. Any missing/convergence-failed trajectory invalidates that curvature.",
+      "representation": "Same periodic causal Riccati / off-shell force integral as independent_validation. Use both helicities sequentially with weights 1+lambda/4. Fixed x*,K,v throughout; no primary bubble reused to compute the independent curvature.",
+      "selected_witness_diagnostic": "Before any positive conclusion, complete one bounded mixed space/coupling diagnostic: at Nx=64 use 8 nodes and at Nx=128 use 12 nodes, for both signs of epsilon=0.005,0.0025, with Ntheta=128,Nomega=512 and the same nested reductions. This is 80 additional node solves, both helicities. Together with the main grid it supplies coarse and medium space/coupling interaction contrasts. Cap this entire diagnostic at 1800 CPU seconds; missing contrasts or failed contraction => inconclusive. It also diagnoses cancellation in a deceptively small joint-grid change.",
+      "tail": "Use the existing covariant C3 tail analytically for each actual cutoff. No fitted tail or transplant of the primary result. Its omitted contribution is estimated by the independent frequency ladder and the primary C5-vs-C3 diagnostic in the same fixed physical direction, as a disclosed shared tail systematic; unresolved disagreement is inconclusive."
+    },
+    "independent_validation": {
+      "Riccati": "u a_prime=Delta-2z a-Delta* a^2; -u b_prime=Delta*-2z b-Delta b^2; f=2a/(1+ab), fdagger=2b/(1+ab), g=(1-ab)/(1+ab). Stableforward/backward periodiccausalMats branches, exactconstantcellMobiustransfer andNxrefinement. Grazingu=0 useslocalalgebraicroot; no finiterealspacehorizon truncation.",
+      "code_mapping": "source_periodic_prepared.cu now implements trajectorydelta_lambda, laboratorytheta andKdirection, fixedcomplexvFourierfields, complexnormalreference andcausalcomplexgrazingroot. Source-field code PREPAREDONLY; no target invocation. Confirmingworker mustapplyexternalDOS(1+lambda/4) andcouplingconstantforce/analyticcovarianttail exactlyasabove. Sequentialhelicitiesreuse memory.",
+      "constantcell_map": "LetOmega=sqrt(z^2+|Delta|^2),t=tanh(Omega dx/|u|),r=t/Omega. a_new=[(1-zr)a+Delta r]/[Delta* r a+1+zr]; b usesDelta conjugate andoppositetraversal. Removecommonexponent toavoid overflow;ReOmega>0.",
+      "coordinate": "x along fixedK; L=2pi/|K|; theta sampled in laboratoryframe. u=cos(theta-argK), delta_lambda=(q/2-lambda h)cos(theta), z=omega+i delta_lambda.",
+      "expected_curvature": "WithphysicalFourierfield2Re(v expiKx), F_epsilon-F0=epsilon^2 v^dagger M v+O(epsilon^3) inF/N0 convention. Symmetrize +/-epsilon, extrapolateepsilon^2; samefixedK/v acrossbothmethods andgrids.",
+      "frequency_tail": "Leadingcovarianttail Ftail/N0=piT C3 sum_lambda(1+lambda/4)< |(u/2)Delta_prime+i delta_lambda Delta|^2+|Delta|^4/4 >theta,x. Applyto difference, notseparatelylargeenergies. ResidualbeyondC3 estimatedbyfrequencyladder/refinementandcomparisonwithprimaryC5tail; unresolvedtailerror makesconfirmationinconclusive.",
+      "off_shell_force": "R(Delta_s)=Delta_s lnT+piT sum_{omega,lambda}[(Delta_s/omega)-(1+lambda/4)<f_lambda>theta]. F_epsilon-F_0=2 integral_0^1 ds Re<Deltaepsilon* R(sDeltaepsilon)-D R(sD)>x. Subtractforces withidenticalquadratures; primarybubble not reused.",
+      "physical_perturbation": "a(x)=2Re[vA exp(iKx)],b(x)=2Re[vP exp(iKx)],Deltaepsilon=D+epsilon(a+i b), |vA|^2+|vP|^2=1. Meanphasegradientq fixed. Bothhelicities sharephysicalperturbation, DOSweight1+lambda/4."
+    },
+    "interpretation_limits": "Same source clean 2D circular, intraband singlet quasiclassical model at alpha/vF=1/4. Hold kappa=vF K/Tc0 nonzero and fixed as Tc0/mu->0, hence K/kF->0. This tests a necessary local pairing-stability premise; it cannot certify global phase selection, switching barriers, a device diode efficiency or all-K stability.",
+    "model_specification": {
+      "Omega": "sqrt((omega+i delta_lambda)^2+Delta²), branchReOmega>0 forpositiveomega",
+      "canonical_gap": "R=Delta ln(T/Tc0)+2piT sum_n[Delta/omega_n−sum_lambda wlambda Re<Delta/Omega_lambda>theta]=0",
+      "current": "Physical source j=2 partial_q F, F=N0 f with f defined by functional_per_N0; derivative_q F=pi T vF sum_positiveomega,lambda Nlambda <cos(theta) Im(zlambda/Omegalambda)>. Exact source Eq12 controls Nambu/helicity counting; no fitted normalization.",
+      "field": "h=h yhat,n=zhat,q=q xhat",
+      "formal_response": "Secondvariation aboutselfconsistentDelta exp(iq·r), coupled realamplitude/phase Fourierfields. Gplus/minus=(iomega−Hlambda(theta,xi±vF khat·K/2))^-1; verticesVA=taux,VP=−tauy. HermitianbubbleplusTc0 counterterm, withsameNambu normalization asfunctional.",
+      "frequencies": "omega_n=(2n+1)piT,n≥0",
+      "functional_per_N0": "f=Delta²ln(T/Tc0)+4piT sum_n[Delta²/(2omega_n)−sum_lambda wlambda Re<Omega_lambda−(omega_n+i delta_lambda)>theta];normalreferencef(Delta0)=0",
+      "geometry": "2D circular helicalFermi surfaces,commonvF;cleanballistic;strongSOCweakfield intraband singletpairing;no orbitalfield,interbandpairing,disorder orfield-inducedFSdeformation",
+      "helicities": [
+        -1,
+        1
+      ],
+      "off_shell_generalization": "Standard BCS Nambu determinant with same helicity DOS/angular/radial trace and Tc0 subtraction. Hlambda=delta_lambda tau0+xi tauz+ReDelta taux−ImDelta tauy. Uniform restriction must equal F=N0 f exactly and source j=2 partial_q F, fixing all overall factors. Target fluctuation signs alone cannot substitute these normalization controls.",
+      "physical_perturbation": "Forfixed normalizedeigenvector(vA,vP),a(r)=2Re(vAexp(iK·r)),b(r)=2Re(vPexp(iK·r));Deltaepsilon(r)=Delta0+epsilon[a(r)+i b(r)]. Meanphasegradientq heldfixed.",
+      "regularization": "Tc0 subtraction performed analytically before infinitefrequency/radial limits; no new physicalcutoff,mu*,bandshift orphenomenologicalpairinginteraction.",
+      "shifts": "Qlambda=lambda(h crossn)/vF;q_lambda=q−2Qlambda;delta_lambda(theta)=vF q_lambda dot(cos theta,sin theta)/2",
+      "units": "hbar=kB=1; useTc0=1,vF=1,N0=1 as normalization choices; sourcephysicalpositiveN0/vF factors restored forcurrentcomparison.",
+      "weights": "Nlambda=N0(1+lambda/4);Ntot=2N0;wlambda=Nlambda/Ntot"
+    },
+    "outcomes": {
+      "inconclusive": "Bounded no-witness, source/branch ambiguity, failed convergence or method agreement, incomplete certificate or exhausted resources leaves the claim and parent open.",
+      "refute": "An exhaustive same-model all-K nonnegativity certificate would refute the existential claim but is outside this allocation. A contradictory independent result rejects only the selected witness.",
+      "support": "All error_certificate.acceptance inequalities and controls pass for the same fixed nonzero K,v at the recovered source endpoint. This supports a numerical negative local pairing direction within empirical convergence estimates, not a formal theorem or device prediction."
+    },
+    "predictions": {
+      "H0-local-stability": "No robust negative same-functional fixed-finiteK curvature exists; bounded non-detection does not establish this model.",
+      "H1-finiteK-instability": "At least one fixed finiteK gives a negative primary and independently matched off-shell quadratic curvature beyond uncertainty.",
+      "H2-numerical-artifact": "Apparent negativity loses source fidelity, convergence/error separation or independent same-functional agreement."
+    },
+    "prepared_implementations": [
+      {
+        "path": "evidence/engineering/primary_response.py",
+        "sha256": "316b74cf4a46b3aabe3844eb98f84d546e0fa448df9c76d541e6c3c6413116f6"
+      },
+      {
+        "path": "evidence/engineering/source_periodic_prepared.cu",
+        "sha256": "21911b93db4a4bcec7d5feb3f81d3af0afb550695d932a92bb60c8433fcad198"
+      }
+    ],
+    "prerequisites": [
+      {
+        "bindings": [
+          {
+            "path": "evidence/scout/source-model-draft.json",
+            "sha256": "754375f58becea88fff526e17ad3fd8025420cac38320d7d3a4aeba2dc774578"
+          },
+          {
+            "path": "evidence/preparation/GAP_EQUATION_AUDIT.json",
+            "sha256": "b0d2305c980cd476ffc2ef5e5b09b47cf3c5ffa2fd9bf8b5ee24a097095d330e"
+          }
+        ],
+        "classification": "essential",
+        "consequence": "A different model would not test the diode endpoint premise",
+        "id": "source-model",
+        "input": "Exact source Hamiltonian, singlet interaction, geometry, DOS/current/gap convention",
+        "resolution": "OriginalTeX audit and source-bound draft002 supply inputs; superseded interpretations retained",
+        "status": "resolved"
+      },
+      {
+        "bindings": [
+          {
+            "path": "evidence/scout/source-model-draft.json",
+            "sha256": "754375f58becea88fff526e17ad3fd8025420cac38320d7d3a4aeba2dc774578"
+          },
+          {
+            "path": "evidence/preparation/UNIFORM_FUNCTIONAL_DERIVATION.json",
+            "sha256": "53a0196dfa87c4582681a53d57211adac772b08d561a63b4cb2c1f2cd978406f"
+          }
+        ],
+        "classification": "essential",
+        "consequence": "Another stationary root or neighboring state cannot substitute",
+        "id": "endpoint-definition",
+        "input": "Mathematical characterization of actual source-connected weak/strong-helical endpoint",
+        "resolution": "Derivative/coalescence definition and source-near brackets are frozen; numerical recovery and uniqueness are mandatory prospective acceptance checks",
+        "status": "resolved"
+      },
+      {
+        "bindings": [
+          {
+            "path": "evidence/history/PREDECESSOR_MAPPING.json",
+            "sha256": "018deb1ad7ad85d7b3f2f0d2f22b8e7a6d33c1f3619a952e238545c9922ffd22"
+          },
+          {
+            "path": "evidence/supplement-1790936891664267888/AOYAMA_SCOPE_REPORT.json",
+            "sha256": "6941aeba8cc23c4eb27cce023e12e358a06d67cbfdcd62d2c1f9898314abba09"
+          }
+        ],
+        "classification": "essential",
+        "consequence": "Known stripe physics or equilibrium bound cannot be relabeled novel",
+        "id": "closest-primary-comparison",
+        "input": "Agterberg,Kaur,Dimitrova,Feigelman,Aoyama and Hosur comparisons",
+        "resolution": "Compact valid reports and predecessor mapping resolve the named prior-art scope; independent exact novelty review remains necessary",
+        "status": "resolved"
+      },
+      {
+        "bindings": [
+          {
+            "path": "evidence/preparation/MATCHED_METHOD_ADDENDUM.json",
+            "sha256": "ce1f81673d614afffa5bb06666132643e78d070fc27932656765575d33e0e1dc"
+          },
+          {
+            "path": "evidence/preparation/PRIMARY_KERNEL_DERIVATION.json",
+            "sha256": "028820c7947e30e6ca6e27d247ad03b100b200033735430615985526bf6107db"
+          },
+          {
+            "path": "evidence/preparation/UNIFORM_FUNCTIONAL_DERIVATION.json",
+            "sha256": "53a0196dfa87c4582681a53d57211adac772b08d561a63b4cb2c1f2cd978406f"
+          },
+          {
+            "path": "evidence/engineering/PRIMARY_KNOWN_CONTROL_TIMINGS.json",
+            "sha256": "fb861b014eca7303423ffea832b1ed4ccd201974cc76c3bce0aefa5cbbbd6406"
+          },
+          {
+            "path": "evidence/engineering/PHASE_CONTROL_REFINEMENT.json",
+            "sha256": "6e967bcd955e9f3be1b35ded0d7a0c1d4c32eea7dacee876a771835fd12d49f2"
+          }
+        ],
+        "classification": "essential",
+        "consequence": "Numerical disagreement or shared normalization error cannot certify instability",
+        "id": "matched-functional",
+        "input": "Two independent numerical representations with same regulator/Fourier convention",
+        "resolution": "Prepared radial kernel and causal periodic code plus addendum002 specify the same functional; source-field runtime controls remain prospective",
+        "status": "resolved"
+      },
+      {
+        "bindings": [
+          {
+            "path": "evidence/preparation/MEASURED_CERTIFICATE_BUDGET.json",
+            "sha256": "73b7d400dcf90e4435d4696001313886362a00984f928fe99aa0fde7d0516bec"
+          },
+          {
+            "path": "evidence/review/FINAL_DESIGN_HARDWARE_REVIEW.json",
+            "sha256": "2db3032f44c13fa29f9bd5ee6eed09b33935295661643a8a0e6abf22f9586e16"
+          }
+        ],
+        "classification": "boundable",
+        "consequence": "An unbounded/dominant missing validation route is infeasible",
+        "id": "bounded-resources",
+        "input": "Measured complete certificate cost and streaming memory",
+        "resolution": "Existing measurements support the revised explicit projection in resource_projection; actual conditioning, Nx scaling and whole-allocation memory are runtime checks. The v2 projection requires renewed design review.",
+        "status": "resolved"
+      },
+      {
+        "bindings": [
+          {
+            "path": "evidence/scout/source-model-draft.json",
+            "sha256": "754375f58becea88fff526e17ad3fd8025420cac38320d7d3a4aeba2dc774578"
+          },
+          {
+            "path": "evidence/history/PREDECESSOR_MAPPING.json",
+            "sha256": "018deb1ad7ad85d7b3f2f0d2f22b8e7a6d33c1f3619a952e238545c9922ffd22"
+          }
+        ],
+        "classification": "unnecessary",
+        "consequence": "Missing inputs would block a device switching prediction",
+        "id": "device-dynamics",
+        "input": "Device geometry,bath,noise,ramp and barrier inputs",
+        "resolution": "Unnecessary for necessary local pairing stability; no device claim made",
+        "status": "resolved"
+      },
+      {
+        "bindings": [
+          {
+            "path": "evidence/preparation/MATCHED_METHOD_ADDENDUM.json",
+            "sha256": "ce1f81673d614afffa5bb06666132643e78d070fc27932656765575d33e0e1dc"
+          },
+          {
+            "path": "evidence/engineering/PHASE_CONTROL_REFINEMENT.json",
+            "sha256": "6e967bcd955e9f3be1b35ded0d7a0c1d4c32eea7dacee876a771835fd12d49f2"
+          },
+          {
+            "path": "evidence/preparation/MEASURED_CERTIFICATE_BUDGET.json",
+            "sha256": "73b7d400dcf90e4435d4696001313886362a00984f928fe99aa0fde7d0516bec"
+          }
+        ],
+        "classification": "essential",
+        "consequence": "Without these definitions a sign or method agreement could be accepted using post-result numerical choices.",
+        "id": "operational-numerical-error-rule",
+        "input": "Prospectively defined endpoint, quadrature, periodic, epsilon and agreement rules for this exact fixed-witness claim",
+        "resolution": "Locally specified in this candidate's error_certificate and revised sampling schedule. Resolved as a prospective definition only; independent design approval and actual convergence remain required.",
+        "status": "resolved"
+      }
+    ],
+    "primary_protocol": {
+      "endpoint": "Recover the same source-connected endpoint with real analytic/automatic derivatives of the supplied functional and implicit amplitude branch; no complex-step differentiation through Re. Root system g=(R,J,dJ/dq,d2J/dq2). Use all nine (Ntheta,Nomega) pairs from {64,128,256} x {128,256,512}, with C3+C5 tails. At the finest pair retain root solves at residual targets 1e-8,1e-10,1e-12. Total at most 900 uniform/derivative evaluations, including topology checks; 600 CPU seconds jointly for uniform and primary work. Failure to recover the source branch within these bounds is inconclusive.",
+      "finiteK_search": "At most 40 candidates: nonzero K_lambda=2 lambda h-q along x, rotated by 0,pi/4,pi/2,3pi/4 and scaled by 0.5,0.75,1,1.25,1.5. Screen each on (64,128),(128,256),(256,512). Only 0.25<=|K|<=20 is implementable by the prepared periodic code; record exclusions without changing the all-K claim. No local search expansion. Total cap 207 finite-K matrix evaluations, reserving the balance after at most 120 screening evaluations for the selected witness and controls.",
+      "selected_matrix_checks": "At fixed x*,K compute all nine primary angular/frequency matrices; use operator norms for matrix error estimates. Evaluate endpoint sensitivities at x* +/-rho_i e_i and x* +/-rho_i e_i/2, and all 16 box corners, always at fixed K,v. This uses at most 120+9+32=161 matrices, leaving at least 46 of the 207 cap for controls/reused computations. No K->0 sequence can be a witness. For each full primary evaluation, reduce its nested angular/frequency integrands to all nine quadratures, with recomputed tails, so every endpoint probe has its own EP estimate without nine separate trajectory integrations.",
+      "selection": "Select the lowest fine-grid Rayleigh quotient among candidates passing the primary error rules, then freeze x*,K,v with ||v||=1 before any nonlinear perturbation. Tie within numerical error: lexicographic (Kx,Ky). The primary assessment uses the same frozen v, never a separately optimized eigenvector per grid. If the selected witness fails confirmation, retain failure and stop; no replacement witness in this allocation."
+    },
+    "question": "Does a fixed nonzero-wavevector coupled pairing fluctuation destabilize the source clean 2D Rashba single-q weak/strong-helical endpoint at DOS asymmetry 1/4?",
+    "resource_limits": {
+      "artifact_bytes": 500000000,
+      "cpu_seconds_per_invocation": 3600,
+      "gpu_memory_mb": 2048,
+      "memory_mb": 1024,
+      "optional_refinement_cpu_seconds": 1800,
+      "periodic_passes": 128,
+      "setup_reserve_cpu_seconds": 600,
+      "spent_instrumented_cpu_seconds": 133.387278,
+      "spent_unmetered_compile_reserve_seconds": 300,
+      "total_cpu_seconds": 14400,
+      "wall_seconds": 3600
+    },
+    "resource_projection": {
+      "archived_measurement": "evidence/preparation/MEASURED_CERTIFICATE_BUDGET.json: 12.7828 seconds per single-helicity finest-grid 128-pass solve; archived 11374.098-second total is preserved and is not this revised projection.",
+      "arithmetic": "Main kernel projection=248*2*12.7828*1.5=9510.4032 CPU s; scaled process overhead=308.3156323 s; spent133.387278+unmetered reserve300; uniform/primary cap600; setup/checkpoint reserve600. Core11452.1061103; full1800 diagnostic reserve gives13252.1061103<14400, leaving1147.8938897. Diagnostic kernel+process projection1294.1739375 fits1800.",
+      "limits": "This is a new operation-count projection using old measurements, not measured target runtime. Linear Nx scaling, retained-output reductions and added force checkpoints require runtime verification within the 1.5 margin. Benchmark the first admitted source solves; update remaining work estimates from actual per-cell cost. Stop before a block if conservative projected completion plus checkpoint time exceeds remaining allocation. Never expand total, invocation, memory or iteration ceilings.",
+      "revised_count": "Main: 6*16*(Nx64,Nx128,Nx256)+4*(8+12) at Nx256 =368 node solves, 736 helicity calls. Linear spatial-work weights give 248 finest-grid node equivalents. Diagnostic:4*8 at Nx64 +4*12 at Nx128=80 node solves,160 helicity calls,32 finest equivalents."
+    },
+    "revision": {
+      "claim_unchanged": true,
+      "id": "v2-operational-numerical-error-certificate",
+      "objection_receipt": "prior/000003.json",
+      "previous_candidate_sha256": "fa1ea4d53dc6bacdd12a1685f12d18aa63d94763dbc6d5f373e358803bc648fc",
+      "status": "Prospective refinement; repeat independent design review and novelty admission. No target calculation."
+    },
+    "source_bindings": [
+      {
+        "path": "evidence/scout/source-model-draft.json",
+        "sha256": "754375f58becea88fff526e17ad3fd8025420cac38320d7d3a4aeba2dc774578"
+      },
+      {
+        "path": "evidence/preparation/MATCHED_METHOD_ADDENDUM.json",
+        "sha256": "ce1f81673d614afffa5bb06666132643e78d070fc27932656765575d33e0e1dc"
+      },
+      {
+        "path": "evidence/preparation/MEASURED_CERTIFICATE_BUDGET.json",
+        "sha256": "73b7d400dcf90e4435d4696001313886362a00984f928fe99aa0fde7d0516bec"
+      },
+      {
+        "path": "evidence/preparation/PRIMARY_KERNEL_DERIVATION.json",
+        "sha256": "028820c7947e30e6ca6e27d247ad03b100b200033735430615985526bf6107db"
+      },
+      {
+        "path": "evidence/preparation/UNIFORM_FUNCTIONAL_DERIVATION.json",
+        "sha256": "53a0196dfa87c4582681a53d57211adac772b08d561a63b4cb2c1f2cd978406f"
+      },
+      {
+        "path": "evidence/review/FINAL_DESIGN_HARDWARE_REVIEW.json",
+        "sha256": "2db3032f44c13fa29f9bd5ee6eed09b33935295661643a8a0e6abf22f9586e16"
+      }
+    ],
+    "test_id": "rashba-source-endpoint-fixed-finiteK-paired-curvature-v2"
+  }
+}

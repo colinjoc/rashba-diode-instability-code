@@ -1,0 +1,158 @@
+{
+  "acceptance": {
+    "inconclusive": "Any failed or missing source, branch, certificate, convergence, qualification, forecast or resource condition; infer neither physical sign.",
+    "refute": "A valid resolved nonnegative independent coefficient rejects this witness and requires reconciliation with the exploratory primary result. It does not refute every other unstable direction or answer the parent.",
+    "support": "Every source/branch/input/resource/convergence gate passes; cP+EP+Eep<0 and cI+EI+Eep<0; EP+Eep<=.25|cP| and EI+Eep<=.25|cI|; |cP-cI|<=EP+EI; Ectrl<=min(EP+Eep,EI+Eep); C1 and C2 are negative beyond their complete errors. This supports the fixed witness and defeats necessary local metastability within the source model."
+  },
+  "allocation_origin": "Separate proposed prospective controller qualification allocation; not expansion/refund of v53 or historical v15. User cumulative CPU uncapped; this finite invocation and all hardware caps mandatory.",
+  "arithmetic_floor": 1e-12,
+  "artifact_bytes": 1000000,
+  "cumulative_user_cpu_ceiling": null,
+  "disk_reserve_bytes": 268435456,
+  "error_policy": "Original binary64 empirical floor; independent reference entrywise analytic angular strips, independent C3/C5/full Cauchy tail (response and saved256 stay C3) and primitive/cancellation errors. Response retains own solver and bounds. Complete EI and operator Ectrl computed; Eep retained once. No scalar current-to-curvature transfer. Current uses independent printed stable formula and analytic functional derivative with odd tail through order9 and frozen noncircular tolerance; full source-box domain bounds, no256 guard transfer. Full C3 response and C3/C5 reference sums use EM through B6 and two-sided periodic B8 remainder plus original empirical arithmetic floor. Source256 bridge retains old common bound and adds new full-tail source variation conservatively; full domain unchanged.",
+  "forecast": {
+    "total_conservative_estimated_cpu_seconds": 300,
+    "conservative_estimated_wall_seconds": 300,
+    "whole_cpu_limit": 600,
+    "whole_wall_limit": 600,
+    "basis": "No grid evaluation. Seven constant-time analytic tail sums, existing saved controls, small JSON aggregation; 300 seconds reserved for native controller/input/accounting overhead, not a measured performance bound. Existing immutable history projection can dominate; root must preflight before claim.",
+    "memory": "1536MiB inherited cap, SELF and sampled PGID limitations preserved; JSON payload small, history projection root-owned",
+    "disk": "1MB output cap,256MiB reserve and projected immutable assets preflight mandatory",
+    "estimate_limitations": "Native copy/controller/intake cost unmeasured for exact candidate; guard can bank finite resource failure."
+  },
+  "frozen": {
+    "EP": 5.8505237960874744e-08,
+    "Eep": 3.1623619986044952e-06,
+    "K": [
+      0.909013301211145,
+      0.0
+    ],
+    "cP": -6.5287829634528e-05,
+    "candidate_sha256": "12621a3ea333099972beae5b6b2fa370c0b842edbba1f85d46887826cae17d25",
+    "created_epoch": 1790943419.4598348,
+    "created_monotonic": 1471833.409352124,
+    "epsilon": [
+      0.01,
+      0.005,
+      0.0025
+    ],
+    "primary_upper": -6.206696239796263e-05,
+    "status": "Fixed before any nonlinear perturbation data; no replacement allowed",
+    "test_id": "rashba-source-endpoint-fixed-finiteK-paired-curvature-v2",
+    "v": {
+      "imag": [
+        0.0,
+        -0.9908426008888789
+      ],
+      "real": [
+        -0.13502199918443586,
+        0.0
+      ]
+    },
+    "x": [
+      0.051955058120691594,
+      1.6925900731329657,
+      0.9791506418402958,
+      1.3985886221312929
+    ]
+  },
+  "full_guard_interval_seconds": 0.5,
+  "hermiticity_relative_tolerance": 1e-12,
+  "historical_control_floor": 2.0319595129664327e-07,
+  "levels": [
+    [
+      512,
+      1024,
+      2048
+    ],
+    [
+      1024,
+      2048,
+      4096
+    ]
+  ],
+  "local_memory_mb": 1536,
+  "max_evaluations_per_grid": 17000000,
+  "nonlinear_beta_disk": 0.04,
+  "nonlinear_original_epsilon": [
+    0.01,
+    0.005,
+    0.0025
+  ],
+  "normalization_tolerance": 1e-10,
+  "planned_linear_response_evaluations": 0,
+  "planned_response_evaluations_if_preflight_fail": 0,
+  "planned_response_evaluations_if_preflight_pass": 0,
+  "preflight": "Exact runtime projected assets preflight; new finite600CPU600wall packet/review/rootrelease; no physical replay",
+  "production_type_fixture": "Not applicable: old rational/Jet/Fraction/hex codec absent; no scalar/codec repairs. New code uses builtin floats/complex with explicit numeric arrays in reports. Synthetic exact package checks execute imported implementations in isolated interpreter. No production_type_fixture result fabricated.",
+  "remaining_target_dependencies": [
+    "Qualified linear result independently accepted; supporting pass is no target release",
+    "Complete nonlinear C1/C2 spatial/source/angular/tail/profile/primitive errors, original epsilons and separately reviewed finite resources",
+    "Fresh exact nonlinear scientific admission/root release; independent result and parent coverage review"
+  ],
+  "saved_source256": {
+    "coverage": "Frozen x,K,v,radii,Eep unchanged; same linear C3 plus full omitted remainder. Source256 sourcebox applies only original contracted observable, not reference entries/current/K0.",
+    "native_call": 256,
+    "path": "SOURCE_BUDGET256.json",
+    "sha256": "34c50db2e3c7107fd8ba894859b1d52b182ca0f8ac4b2ae1d052c643ea7e716c",
+    "source_cutoff": 4096
+  },
+  "schedule": [
+    [
+      512,
+      1024
+    ],
+    [
+      1024,
+      2048
+    ],
+    [
+      512,
+      4096
+    ],
+    [
+      1024,
+      4096
+    ],
+    [
+      2048,
+      1024
+    ],
+    [
+      2048,
+      2048
+    ],
+    [
+      2048,
+      4096
+    ]
+  ],
+  "schema": "project90105-saved-grid-full-tail-reassembly-v1",
+  "scope": "ONE retrospective saved-seven-grid full-C3 tail completion; no response/source/control replay, no nonlinear or endpoint confirmation",
+  "source_box_radii": [
+    1.2255719847929461e-08,
+    4.0114684557896594e-08,
+    1.061632250176717e-07,
+    1.8248016692488084e-08
+  ],
+  "source_control_relative_tolerance": 1e-08,
+  "source_control_scaling": "Current and K0 error adequacy<=1e-8max(1,reference); normalization1e-10; Hermiticity1e-12max(1,normraw). Numerical gap residual retained rather than forced zero. Ectrl<=min(EP+Eep,EI+Eep).",
+  "source_derivation_coverage": {
+    "arithmetic": "Original empirical arithmetic only; no exact binary/source physical claim or directed rounding.",
+    "controls": "Both Riccati sectors and genuine inversion-paired raw matrices; direct G independent code; analytic F derivatives and current normalization factor2; numerical K0 and mixed guard errors.",
+    "sourcebox": "Saved256 is same4096C3+remainder witness continuum observable; same model/radii/K/v. New current/K0/reference-entry bounds own domains; no replay or256 widening."
+  },
+  "status": "INERT_REQUIRES_EXACT_FRESH_NATIVE_REVIEW_ADMISSION_ROOT_RELEASE",
+  "stop": "Any native authority/STOP/admission/release/hash/deadline/CPU/memory/disk/nonfinite/exclusion failure banks report and stops. Controls/error inadequacy banks negative qualification evidence; no sign inference. Two unchanged failures require independent strategy reassessment, not grid replay.",
+  "whole_cpu_seconds": 600,
+  "whole_wall_seconds": 600,
+  "saved_qualification264": {
+    "path": "SAVED_QUALIFICATION.json",
+    "sha256": "fa4b1240ae5919ef042f2e68f845aa0336239f3aacb9fb49369880cae85a8a8d",
+    "native_receipt_sha256": "72611726a68611e1316f6deaf5dfcc6eb3be239d9753a4ac1f56e9efaf0e6124",
+    "reuse": "Consumed supporting qualification only, retrospective estimator revision, never fresh endpoint data"
+  },
+  "new_grid_evaluations": 0,
+  "historical_consumed_grid_evaluations": 63963136,
+  "historical_cost_scope": "All264 measurements retained in saved report only; rows/evaluations and old control fields retrospective consumed evidence, not fresh cost."
+}

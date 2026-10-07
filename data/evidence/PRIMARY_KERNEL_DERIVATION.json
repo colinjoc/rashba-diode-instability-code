@@ -1,0 +1,37 @@
+{
+  "status": "Known analytic primary response preparation; not endpoint data or admission",
+  "units": "DOS Nlambda=N0(1+lambda/4), N0 positive; source Tc subtraction; positive Matsubara zlambda=omega+i delta; Omega=sqrt(z^2+Delta^2), ReOmega>0",
+  "relative_trajectory_shift": "p=vF khat dot K; Gplus/minus radialxi shifted by plus/minus p/2",
+  "radial_integrals": {
+    "I0": "integral dxi/[(xi+p/2)^2+Omega^2][(xi-p/2)^2+Omega^2]=2pi/[Omega(4Omega^2+p^2)]",
+    "I2": "integral xi^2 dxi over the same denominator=pi/(2Omega)"
+  },
+  "vertex_traces_integrated": {
+    "AA": "-8pi z^2/[Omega(4Omega^2+p^2)]",
+    "PP": "-8pi Omega/[4Omega^2+p^2]",
+    "AP": "4pi z p/[Omega(4Omega^2+p^2)]",
+    "PA": "minus AP"
+  },
+  "renormalized_kernel": {
+    "M_AA": "2N0 ln(T/Tc0)+4piT N0 sum 1/omega -8piT sum_{lambda,omega} Nlambda Re<zlambda^2/[Omega_lambda(4Omega_lambda^2+p^2)]>",
+    "M_PP": "2N0 ln(T/Tc0)+4piT N0 sum 1/omega -8piT sum_{lambda,omega} Nlambda Re<Omega_lambda/[4Omega_lambda^2+p^2]>",
+    "M_AP": "-4pi i T sum_{lambda,omega}Nlambda <p Im{zlambda/[Omega_lambda(4Omega_lambda^2+p^2)]}>",
+    "M_PA": "complex conjugate M_AP"
+  },
+  "regularization": "Combine common counterterm before sum. Analytic high-frequency remainder and separate Matsubara/angular convergence required. This analytic radial integration avoids a new radial quadrature or cutoff parameter.",
+  "known_zero_field_stationary_checks": {
+    "phase": "M_PP/N0=4piT sum <p^2/[Omega(4Omega^2+p^2)]>, hence zero at K0 and nonnegative otherwise",
+    "amplitude": "M_AA/N0=4piT sum <(4Delta^2+p^2)/[Omega(4Omega^2+p^2)]>",
+    "cross": "M_AP=0 by angular parity at zero field/zero q",
+    "smallK": "At stationary Delta and after amplitude relaxation, Delta^2 Mphase_effective/K^2 approaches d^2F/dq^2=sourcejprime/2 for matching direction and units."
+  },
+  "independent_check_needed": "Independent Fourier-ordering/vertex trace and source Ward check requested from materials_review. No finite-field numerical data generated.",
+  "revision": 2,
+  "supersedes": {
+    "path": "research/2026-10-02-materials-search-round3/preparation/PRIMARY_KERNEL_DERIVATION.v1.json",
+    "sha256": "527c4edd21a5052ef25e66f44878972ddc5395c521e4eb3863a4189a2f803a7c",
+    "reason": "Make conjugate-row Fourier ordering explicit; raw GplusVA GminusVP coefficient is the transposed physical AP entry."
+  },
+  "Fourier_convention": "a(r)=aK exp(iKr)+aK* exp(-iKr), b likewise. Quadratic matrix rows (aK*,bK*), columns(aK,bK), so AP uses Gminus VA Gplus VP, not raw Gplus VA Gminus VP.",
+  "mixed_smallK_control": "M_AP/(iK)=F_qDelta/Delta= -piT sum Nlambda vF costheta Im(zlambda/Omega_lambda^3), for K along sourceq. This fixes physical row/column/eigenvector convention; not merely arbitrary sign."
+}

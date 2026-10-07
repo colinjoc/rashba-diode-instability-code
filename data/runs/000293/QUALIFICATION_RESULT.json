@@ -1,0 +1,300 @@
+{
+  "accepted_linear_source_once": 9.924665109792337e-07,
+  "analytic_enclosures_conditional_on_empirical_binary64_allowances": true,
+  "complete_paired_infinite_tail_envelopes": {
+    "512": {
+      "0.0025": {
+        "all_higher_orders": true,
+        "bound": 9.384295393113558e-08,
+        "complex_beta_radius": 0.1,
+        "first_omitted_even_order": 2,
+        "first_omitted_frequency": 167.3021301664739,
+        "force_Cf": 8.367326739525527,
+        "infinite_frequency_sum3_upper": 5.4935233086717125e-05
+      },
+      "0.005": {
+        "all_higher_orders": true,
+        "bound": 3.7607439432552827e-07,
+        "complex_beta_radius": 0.1,
+        "first_omitted_even_order": 2,
+        "first_omitted_frequency": 167.3021301664739,
+        "force_Cf": 8.367326739525527,
+        "infinite_frequency_sum3_upper": 5.4935233086717125e-05
+      },
+      "0.01": {
+        "all_higher_orders": true,
+        "bound": 1.5156907407665233e-06,
+        "complex_beta_radius": 0.1,
+        "first_omitted_even_order": 2,
+        "first_omitted_frequency": 167.3021301664739,
+        "force_Cf": 8.367326739525527,
+        "infinite_frequency_sum3_upper": 5.4935233086717125e-05
+      }
+    }
+  },
+  "completed_frequencies": [
+    {
+      "calculation_cpu_seconds": 489.242694715,
+      "completed_expansion_nodes": 2176,
+      "completed_quadrature_nodes": 128,
+      "continuous_validation_nodes": 2048,
+      "n": 0,
+      "wall_seconds": 500.0315635399893
+    },
+    {
+      "calculation_cpu_seconds": 2.422787084000049,
+      "completed_expansion_nodes": 128,
+      "completed_quadrature_nodes": 128,
+      "continuous_validation_nodes": 0,
+      "n": 32,
+      "wall_seconds": 3.26351422299922
+    }
+  ],
+  "completed_nodes_per_frequency": {
+    "0": 2176,
+    "32": 128
+  },
+  "current_attempt": {
+    "angle_radius": 0.0,
+    "force_degree": 16,
+    "helicity": 1,
+    "n": 32,
+    "profile_degree": 16,
+    "source_box": [
+      1.2255719847929461e-08,
+      4.0114684557896594e-08,
+      1.061632250176717e-07,
+      1.8248016692488084e-08
+    ],
+    "theta": 6.1850105367549055
+  },
+  "data_role": "Supporting qualification only; no fresh endpoint confirmation or physical conclusion from method failure",
+  "directed_rounding": false,
+  "empirical_finest_only_extrapolation": {
+    "assumption": "All32 low-frequency finest slabs have n0 cost; all480 analytic finest slabs have n32 cost. Neither n dependence nor worst-case bound established. Excludes other hierarchy/mixed configurations and root launch/controller/intake costs.",
+    "certified": false,
+    "cpu_seconds": 16818.704031200024,
+    "target_forecast_certified": false,
+    "wall_seconds": 17567.496860319283
+  },
+  "endpoint_confirmation_nodes": 0,
+  "exact_finite_Fourier_mean_without_collocation": true,
+  "failed_checks": [],
+  "last_completed_node": {
+    "angle_radius": 0.0,
+    "helicity": 1,
+    "low_order_residual": 1.1420215500912324e-16,
+    "n": 32,
+    "normalization_defect": 1.4315052523534397e-17,
+    "theta": 6.1850105367549055,
+    "validation": false
+  },
+  "matched_beta0": "U0,V0,F0 computed within each new Taylor expansion; not replay271",
+  "measurements": {
+    "actual_two_sector_expansion_nodes": 2304,
+    "calculation_cpu_seconds": 491.672129052,
+    "calculation_wall_seconds": 503.3059575489897,
+    "connected_signed_beta_cells": 34816,
+    "continuous_validation_expansion_nodes": 2048,
+    "memory_scope": "SELF lifetime maximum; native sampled PGID remains separate/incomplete; remote model memory excluded",
+    "process_lifetime_maxrss_kib": 1276656
+  },
+  "next_step": "Root reconciles genuine complete costs and independently reviews two-slab outcome. Empirical rate only; full qualification, original nonlinear C1/C2, whole forecast and parent coverage remain required before any target release.",
+  "nonlinear_source_allowance": 2.1698954876252615e-06,
+  "original_criterion": {
+    "EP": 5.8505237960874744e-08,
+    "Eep": 3.1623619986044952e-06,
+    "K": [
+      0.909013301211145,
+      0
+    ],
+    "binding": {
+      "path": "prior_artifacts/000008/science/frozen_witness.json",
+      "sha256": "c6393a45d46580fd0227217472c89e1708a573ba8c85919393ff93515d68a1f5"
+    },
+    "cP": -6.5287829634528e-05,
+    "epsilon": [
+      0.01,
+      0.005,
+      0.0025
+    ],
+    "status": "Inspected exploratory evidence. Exact binary centres do not imply zero physical uncertainty.",
+    "v": {
+      "imag": [
+        0,
+        -0.9908426008888789
+      ],
+      "real": [
+        -0.13502199918443586,
+        0
+      ]
+    },
+    "x": [
+      0.051955058120691594,
+      1.6925900731329657,
+      0.9791506418402958,
+      1.3985886221312929
+    ],
+    "x_order": [
+      "T",
+      "D",
+      "q",
+      "h"
+    ]
+  },
+  "outcome": "complete_two_slab_supporting_pilot",
+  "paired_odd_cancellation_before_absolute_error": true,
+  "parent_answered": false,
+  "partial_sums": {},
+  "pilot_complete": true,
+  "primitive_empirical": true,
+  "qualification_pass": false,
+  "rows": [
+    {
+      "configuration": [
+        16,
+        64,
+        8,
+        8
+      ],
+      "correction": 7.912148663227538e-06,
+      "epsilon": 0.01,
+      "full_normalization": true,
+      "local_conditional_error": 6.292389569588623e-12,
+      "n": 0,
+      "path_polynomial_error": 1.4121359916252483e-20,
+      "primitive_error": 1.7919529242704573e-12,
+      "quadrature_angular_error_qualified": false,
+      "residual_force_error": 4.500436631196806e-12,
+      "source_error": 3.2119533388490355e-09,
+      "source_force_error": 3.210086177096609e-09,
+      "source_prefactor_error": 1.867161752426716e-12,
+      "whole_frequency_sum": false
+    },
+    {
+      "configuration": [
+        16,
+        64,
+        8,
+        8
+      ],
+      "correction": 1.977615812362616e-06,
+      "epsilon": 0.005,
+      "full_normalization": true,
+      "local_conditional_error": 6.292383624469613e-12,
+      "n": 0,
+      "path_polynomial_error": 3.535200474674497e-21,
+      "primitive_error": 1.7919469897376065e-12,
+      "quadrature_angular_error_qualified": false,
+      "residual_force_error": 4.500436631196806e-12,
+      "source_error": 8.004223305763811e-10,
+      "source_force_error": 7.999556393407604e-10,
+      "source_prefactor_error": 4.666912356206025e-13,
+      "whole_frequency_sum": false
+    },
+    {
+      "configuration": [
+        16,
+        64,
+        8,
+        8
+      ],
+      "correction": 4.943776155116366e-07,
+      "epsilon": 0.0025,
+      "full_normalization": true,
+      "local_conditional_error": 6.292382138580016e-12,
+      "n": 0,
+      "path_polynomial_error": 8.838001186686243e-22,
+      "primitive_error": 1.7919455064994098e-12,
+      "quadrature_angular_error_qualified": false,
+      "residual_force_error": 4.500436631196806e-12,
+      "source_error": 1.999460026063938e-10,
+      "source_force_error": 1.9982933525171582e-10,
+      "source_prefactor_error": 1.1666735467796878e-13,
+      "whole_frequency_sum": false
+    },
+    {
+      "configuration": [
+        16,
+        64,
+        8,
+        8
+      ],
+      "correction": 3.6699946879313466e-08,
+      "epsilon": 0.01,
+      "full_normalization": true,
+      "local_conditional_error": 1.7131249101243695e-12,
+      "n": 32,
+      "path_polynomial_error": 2.5053492135723676e-23,
+      "primitive_error": 1.3866815728687021e-12,
+      "quadrature_angular_error_qualified": false,
+      "residual_force_error": 3.2644333723061385e-13,
+      "source_error": 8.700468930890178e-14,
+      "source_force_error": 7.834741221674487e-14,
+      "source_prefactor_error": 8.657277092156904e-15,
+      "whole_frequency_sum": false
+    },
+    {
+      "configuration": [
+        16,
+        64,
+        8,
+        8
+      ],
+      "correction": 9.17499579023411e-09,
+      "epsilon": 0.005,
+      "full_normalization": true,
+      "local_conditional_error": 1.7131248825806283e-12,
+      "n": 32,
+      "path_polynomial_error": 6.263373033930919e-24,
+      "primitive_error": 1.386681545343751e-12,
+      "quadrature_angular_error_qualified": false,
+      "residual_force_error": 3.2644333723061385e-13,
+      "source_error": 2.175118712114832e-14,
+      "source_force_error": 1.9586807954747195e-14,
+      "source_prefactor_error": 2.164379166401125e-15,
+      "whole_frequency_sum": false
+    },
+    {
+      "configuration": [
+        16,
+        64,
+        8,
+        8
+      ],
+      "correction": 2.293749514459778e-09,
+      "epsilon": 0.0025,
+      "full_normalization": true,
+      "local_conditional_error": 1.7131248756946844e-12,
+      "n": 32,
+      "path_polynomial_error": 1.5658432584827297e-24,
+      "primitive_error": 1.3866815384625046e-12,
+      "quadrature_angular_error_qualified": false,
+      "residual_force_error": 3.2644333723061385e-13,
+      "source_error": 5.437851849058878e-15,
+      "source_force_error": 4.896699169985614e-15,
+      "source_prefactor_error": 5.411526790732646e-16,
+      "whole_frequency_sum": false
+    }
+  ],
+  "schema": "rashba-finite-beta-two-slab-control-cost-pilot-v1",
+  "scope": "ONE complete normalized source-uniform n0 and n32 slab supporting control/cost pilot; not whole qualification, target, endpoint confirmation or scientific sign",
+  "tail_scope": "Complete conditional tail beyond512 only; missing finite slabs remain uncomputed.",
+  "target_nodes": 0,
+  "target_release": false,
+  "uncomputed_frequencies": {
+    "reason": "Frozen pilot intentionally evaluates two single-frequency slabs; absent finite-frequency contributions are not zero or bounded by infinite-tail envelope.",
+    "within_original_cutoff": [
+      [
+        1,
+        31
+      ],
+      [
+        33,
+        511
+      ]
+    ]
+  },
+  "whole_memory_certified": false,
+  "whole_qualification_pass": false
+}

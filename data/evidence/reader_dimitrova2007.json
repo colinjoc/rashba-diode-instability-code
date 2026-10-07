@@ -1,0 +1,377 @@
+{
+  "coverage_note": "Reader-reported section inspection; not independently verified full-paper reading.",
+  "coverage_verified": false,
+  "created_at": "2026-10-02T08:56:59.200284+00:00",
+  "identity": {
+    "effort": "medium",
+    "model": "gpt-5.6-luna",
+    "question": "Read Dimitrova\u2013Feigelman PRB76 014522(arXivcond-mat/0701698) only. Independent predecessor mapping: recover EXACT clean strong-SOC 2D Rashba singlet model, both helicity DOS/asymmetry parameter, velocity relation, \u03b1pF/EF smallness assumptions versus allowing finite DOS asymmetry, attraction/cutoff and all T/h/q normalizations. Extract helical/stripe or LO phases, low-T first-order boundary, transverse stiffness instability, critical/Lifshitz endpoints and stability claims, with exact equations and numerical parameter coordinates; distinguish Gaussian necessary stability from global branch freeenergy comparison. Does this source itself cover asymmetry \u03b4N=.25(or conversion to \u03b1tilde=.25) at T/Tc~.05, and does its published boundary demonstrably preempt another single-q weak/strong helical endpoint in THAT domain? The external Zhuang2026 model is clean2D parabolic Rashba strongSOC/weakfield, helicity N\u03bb, common vF,plane-wave singlet gap; it reports single-q weak/strong-helical CEP T/Tc\u2248.05 at \u03b1tilde=.25; exact h and qcoordinates currently missing. Do not assume external matching or infer from absent figurecoords; mark unsupported conventions/domain overlaps precisely. Can a source-known boundary settle the proposed finite-K-stability question without a new computation, or must both exact models/branches still be audited? Closest source references/formulations for helical-to-stripe and phasefluctuations. Extract equation-level material needed for root remapping and cheapest unresolved comparison, but parameter remapping alone routine not scientific novelty. No claimed new result, sourcefullcoverage, experiments or web. Cite exactsections/equations,sourcehash,assumptions,limitations,unreadscope.",
+    "source_sha256": "4312a534e6c3e3e86cc88d2931543daaa5cee0d227fdf3862c2839710442eb2e",
+    "version": "paper-reader-v1"
+  },
+  "reader": {
+    "answers": [
+      {
+        "answer": "Supported. The paper uses a clean 2D parabolic Rashba model, H_so=\u03b1[\u03c3\u00d7p]\u00b7n, in-plane Zeeman energy H=g\u03bc_Bh/2, and intraband singlet pairing. Its hierarchy is \u03b5_F\u226b\u03b1p_F\u226bT_c, with H\u226a\u03b1p_F and q\u226ap_F. The order parameter contains momenta \u00b1Q, with Q perpendicular to h. The pairing cutoff is \u03c9_D, Matsubara \u03c9=2\u03c0(n+1/2)T, and T_c0=2\u03c9_D exp(\u22121/\u03bdU+\u03b3)/\u03c0. Plotted H and T are normalized by T_c0; momentum is commonly represented by v_FQ/T_c0.",
+        "references": [
+          {
+            "line_end": 121,
+            "line_start": 60,
+            "section": "Introduction and model overview"
+          },
+          {
+            "line_end": 219,
+            "line_start": 180,
+            "section": "II. Model of a spin-orbital superconductor"
+          },
+          {
+            "line_end": 299,
+            "line_start": 240,
+            "section": "III. Superconducting phase transition"
+          },
+          {
+            "line_end": 407,
+            "line_start": 327,
+            "section": "III. Superconducting phase transition"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Supported, with a convention caveat. The helicity Fermi momenta and DOS are p_F^\u03bb=\u221a(2m\u03bc+m\u00b2\u03b1\u00b2)+\u03bbm\u03b1 and \u03bd_\u03bb(\u03b5_F)=\u03bd(\u03b5_F)(1+\u03bb\u03b1/v_F). The leading phase diagram sets \u03bd_+=\u03bd_\u2212 and restores the O(\u03b1/v_F) DOS correction only later. From the parabolic dispersion, the zero-field branch velocities at their respective Fermi momenta satisfy v_\u03bb=p_F^\u03bb/m\u2212\u03bb\u03b1=\u221a(2\u03bc/m+\u03b1\u00b2), hence are equal; this velocity equality is an inference from the dispersion. If \u03b4N is defined as (\u03bd_+\u2212\u03bd_\u2212)/(\u03bd_++\u03bd_\u2212), the source gives \u03b4N=\u03b1/v_F at this order. It defines neither \u03b4N nor the external \u03b1-tilde convention.",
+        "references": [
+          {
+            "line_end": 219,
+            "line_start": 180,
+            "section": "II. Model of a spin-orbital superconductor"
+          },
+          {
+            "line_end": 360,
+            "line_start": 327,
+            "section": "III. Superconducting phase transition"
+          },
+          {
+            "line_end": 1218,
+            "line_start": 1201,
+            "section": "VIII. Phase diagram in the presence of impurities"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Supported. The normal-to-superconducting instability maximizes the quadratic kernel over Q. The Lifshitz point is L=(H_L,T_L)=(1.536,0.651)T_c0 and separates Q=0 from Q\u22600. The symmetric point is S=(H_S,T_S)=(1.779,0.525)T_c0 with v_FQ_S=2.647T_c0. Below S, \u03b2_a<0 favors a single-helicity helical state; above S, \u03b2_a>0 favors the parity-even stripe/LO state proportional to cos(Qy). Nonlinear stripe corrections include odd harmonics \u00b13Q,\u00b15Q,\u2026 .",
+        "references": [
+          {
+            "line_end": 464,
+            "line_start": 409,
+            "section": "III. Superconducting phase transition"
+          },
+          {
+            "line_end": 484,
+            "line_start": 470,
+            "section": "III. Superconducting phase transition"
+          },
+          {
+            "line_end": 845,
+            "line_start": 823,
+            "section": "V.B\u2013V.C: Lifshitz and helical-instability lines"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Supported. The low-temperature helical potential is expanded as \u03a9_hel(Q)=\u03a9_hel(0)+aQ\u00b2+bQ\u2074+cQ\u2076. The Q=0 local-stability line LO has a critical endpoint at (H,T)=(1.547,0.455)T_c0 where b=0; below it b<0 and the homogeneous-to-inhomogeneous transition is first order. The authors state that the actual thermodynamic BCS-to-inhomogeneous line O\u2032 lies below the absolute local-stability line O, approximately H_O=1.76T_c0, but do not give a complete O\u2032 coordinate set or global branch comparison.",
+        "references": [
+          {
+            "line_end": 759,
+            "line_start": 687,
+            "section": "V.A: Stationary conditions for the helical phase"
+          },
+          {
+            "line_end": 759,
+            "line_start": 730,
+            "section": "V.A: Stationary conditions for the helical phase"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Supported. The transverse stiffness is n_s^{yy}=(4m/\u210f\u00b2)\u2202\u00b2\u03a9_hel/\u2202Q\u00b2 and vanishes on the leading-order LT line a=0, while n_s^{xx} remains finite. Helical metastability against additional modulation is determined by the lowest fluctuation eigenvalue \u03b5_1(q), with ST\u2032 defined by min_q \u03b5_1(q)=0, \u2202_q\u03b5_1(q)=0, and the helical gap equations. The emerging branch is described as three-exponential and is expected to evolve toward the parity-even stripe state. Near T_c, \u03ba=0.0053>0, supporting a second-order helical instability in the controlled GL analysis; away from T_c the authors allow a weakly first-order helical-to-stripe transition. These are local/Gaussian or GL stability results, not a demonstrated global free-energy comparison of every branch.",
+        "references": [
+          {
+            "line_end": 798,
+            "line_start": 761,
+            "section": "V.B: Lifshitz phase transition line"
+          },
+          {
+            "line_end": 872,
+            "line_start": 823,
+            "section": "V.C: Phase transition line ST\u2032"
+          },
+          {
+            "line_end": 901,
+            "line_start": 866,
+            "section": "V.C: Phase transition line ST\u2032"
+          },
+          {
+            "line_end": 998,
+            "line_start": 936,
+            "section": "VI\u2013VII: electromagnetic response and weakly helical phase"
+          },
+          {
+            "line_end": 1673,
+            "line_start": 1554,
+            "section": "Appendix 3: eighth-order GL coefficient"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Contradicted. The source does not study an independently finite-asymmetry case \u03b4N=0.25 and does not define \u03b1-tilde. Its principal clean phase diagram neglects \u03bd_+\u2212\u03bd_\u2212, while the later correction is perturbative in \u03b1/v_F. Therefore the paper cannot be identified with the external clean parabolic Rashba model at \u03b1-tilde=0.25 by parameter relabeling alone.",
+        "references": [
+          {
+            "line_end": 360,
+            "line_start": 327,
+            "section": "III. Superconducting phase transition"
+          },
+          {
+            "line_end": 959,
+            "line_start": 936,
+            "section": "VI\u2013VII: electromagnetic response and weakly helical phase"
+          },
+          {
+            "line_end": 1439,
+            "line_start": 1420,
+            "section": "X. Conclusions"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "Unresolved. The source has no T/T_c\u22480.05 single-q weak/strong-helical critical endpoint and no exact h,q coordinates corresponding to the external Zhuang2026 claim. Its low-temperature discussion gives a first-order homogeneous-to-inhomogeneous regime and qualitative O\u2032/ST\u2032 statements, but not a global finite-DOS-asymmetry boundary at the external coordinates. It therefore does not demonstrably preempt that external endpoint in the stated \u03b4N=0.25 domain. Exact model conventions, branch content, and free energies must still be audited; if they are not identical, the finite-K stability question requires a new calculation.",
+        "references": [
+          {
+            "line_end": 759,
+            "line_start": 730,
+            "section": "V.A: Stationary conditions for the helical phase"
+          },
+          {
+            "line_end": 872,
+            "line_start": 823,
+            "section": "V.C: Phase transition line ST\u2032"
+          },
+          {
+            "line_end": 1439,
+            "line_start": 1420,
+            "section": "X. Conclusions"
+          }
+        ],
+        "status": "unresolved"
+      },
+      {
+        "answer": "Supported. The cheapest source-based remapping is to compare the external model with Eqs. (8), (22), (24)\u2013(28), (32)\u2013(33), and the finite-gap helical equations (53)\u2013(60), then compare the transverse-curvature criterion (62) and fluctuation criterion (65)\u2013(68). This can test leading-order model identity and normalization, but cannot settle global finite-K competition without evaluating the relevant competing branches. The closest cited formulations are the authors\u2019 earlier JETP Letters work [8], the 2D LOFF treatment [9], Agterberg\u2019s weak-helical formulation [10], Yip\u2019s equilibrium-current analysis [20], Polyakov\u2019s 2D fluctuation treatment [22], and Agterberg\u2013Kaur\u2019s clean DOS-asymmetry study [24].",
+        "references": [
+          {
+            "line_end": 380,
+            "line_start": 300,
+            "section": "III. Superconducting phase transition"
+          },
+          {
+            "line_end": 856,
+            "line_start": 761,
+            "section": "V.B\u2013V.C: stability equations"
+          },
+          {
+            "line_end": 1443,
+            "line_start": 1429,
+            "section": "X. Conclusions"
+          },
+          {
+            "line_end": 1866,
+            "line_start": 1844,
+            "section": "References"
+          }
+        ],
+        "status": "supported"
+      }
+    ],
+    "findings": [
+      {
+        "assumptions": [
+          "\u03b4N is conditionally defined as (\u03bd_+\u2212\u03bd_\u2212)/(\u03bd_++\u03bd_\u2212).",
+          "The common-velocity relation is derived from the stated parabolic dispersion, not quoted as an independent equation."
+        ],
+        "claim": "Dimitrova\u2013Feigelman is a leading-order strong-Rashba-splitting calculation with perturbative DOS asymmetry, not a finite-asymmetry numerical phase diagram.",
+        "equations": [
+          "p_F^\u03bb=\u221a(2m\u03bc+m\u00b2\u03b1\u00b2)+\u03bbm\u03b1",
+          "\u03bd_\u03bb=\u03bd(\u03b5_F)(1+\u03bb\u03b1/v_F)",
+          "v_\u03bb=p_F^\u03bb/m\u2212\u03bb\u03b1=\u221a(2\u03bc/m+\u03b1\u00b2)",
+          "T_c0=2\u03c9_D exp(\u22121/\u03bdU+\u03b3)/\u03c0"
+        ],
+        "limitations": [
+          "The source does not define \u03b4N or \u03b1-tilde.",
+          "Exact global O\u2032 and low-temperature ST\u2032 free-energy boundaries are not tabulated."
+        ],
+        "references": [
+          {
+            "line_end": 219,
+            "line_start": 180,
+            "section": "II. Model of a spin-orbital superconductor"
+          },
+          {
+            "line_end": 400,
+            "line_start": 327,
+            "section": "III. Superconducting phase transition"
+          },
+          {
+            "line_end": 1218,
+            "line_start": 1201,
+            "section": "VIII. Phase diagram in the presence of impurities"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "H denotes Zeeman energy g\u03bc_Bh/2, and plotted coordinates are normalized by T_c0."
+        ],
+        "claim": "The source\u2019s printed endpoint coordinates are L=(1.536,0.651), S=(1.779,0.525), T=(1.547,0.455), with approximate O at H=1.76T_c0; K and O\u2032 are not given as exact coordinate sets.",
+        "equations": [
+          "\u03a9_hel(Q)=\u03a9_hel(0)+aQ\u00b2+bQ\u2074+cQ\u2076",
+          "n_s^{yy}=(4m/\u210f\u00b2)\u2202\u00b2\u03a9_hel/\u2202Q\u00b2",
+          "min_q \u03b5_1(q)=0 and \u2202_q\u03b5_1(q)=0 define ST\u2032",
+          "\u03ba=D_1\u2212D_2+D_3/2\u2212d_2+d_3/2=0.0053"
+        ],
+        "limitations": [
+          "The source gives no exact K or O\u2032 coordinates.",
+          "The Appendix 3 calculation is inspected through line 1673; no figure-derived coordinates are inferred."
+        ],
+        "references": [
+          {
+            "line_end": 453,
+            "line_start": 409,
+            "section": "III. Superconducting phase transition"
+          },
+          {
+            "line_end": 749,
+            "line_start": 730,
+            "section": "V.A: Stationary conditions for the helical phase"
+          },
+          {
+            "line_end": 863,
+            "line_start": 761,
+            "section": "V.B\u2013V.C: stability equations"
+          },
+          {
+            "line_end": 1673,
+            "line_start": 1554,
+            "section": "Appendix 3: eighth-order GL coefficient"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "No external paper, supplement, or source beyond the supplied files was inspected."
+        ],
+        "claim": "The supplied source alone cannot decide whether a finite-K branch globally preempts the external weak/strong-helical endpoint at \u03b4N=0.25 and T/T_c\u22480.05.",
+        "equations": [
+          "A global comparison requires \u03a9_branch(K) for the externally defined branches; the source supplies local criteria a=0 and \u03b5_1(q)=0, not the requested cross-model comparison."
+        ],
+        "limitations": [
+          "No network access, experiments, or computations were used.",
+          "External Zhuang2026 coordinates and conventions were not available in the supplied source."
+        ],
+        "references": [
+          {
+            "line_end": 872,
+            "line_start": 761,
+            "section": "V.B\u2013V.C: stability equations"
+          },
+          {
+            "line_end": 1439,
+            "line_start": 1420,
+            "section": "X. Conclusions"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "Only source.numbered.txt/source.txt were inspected; external references, supplements, publisher versions, and the external Zhuang2026 model were not inspected.",
+      "The source\u2019s discussion of O\u2032 and possible low-temperature helical-to-stripe first-order behavior is qualitative rather than a complete global free-energy map.",
+      "The source treats DOS asymmetry perturbatively through \u03b1/v_F and does not establish equivalence to \u03b4N=0.25 or any \u03b1-tilde convention.",
+      "No figure coordinates were inferred where the text did not print exact values."
+    ],
+    "sections_inspected": [
+      {
+        "line_end": 125,
+        "line_start": 1,
+        "section": "Title, abstract, introduction, model overview"
+      },
+      {
+        "line_end": 219,
+        "line_start": 180,
+        "section": "II. Model of a spin-orbital superconductor"
+      },
+      {
+        "line_end": 330,
+        "line_start": 240,
+        "section": "III. GL functional and mean-field setup"
+      },
+      {
+        "line_end": 500,
+        "line_start": 327,
+        "section": "III. Transition line, L and S points"
+      },
+      {
+        "line_end": 672,
+        "line_start": 614,
+        "section": "IV. Stripe/LOFF vortices and topology"
+      },
+      {
+        "line_end": 930,
+        "line_start": 678,
+        "section": "V\u2013VI. Helical stationary conditions, LT/ST\u2032, current"
+      },
+      {
+        "line_end": 1105,
+        "line_start": 912,
+        "section": "VI\u2013VII. Stiffness, DOS correction, weak helical phase"
+      },
+      {
+        "line_end": 1230,
+        "line_start": 1180,
+        "section": "VIII. DOS asymmetry notation and impurity formalism"
+      },
+      {
+        "line_end": 1458,
+        "line_start": 1420,
+        "section": "X. Conclusions and fluctuation discussion"
+      },
+      {
+        "line_end": 1575,
+        "line_start": 1520,
+        "section": "Appendices 1\u20133, first portion"
+      },
+      {
+        "line_end": 1676,
+        "line_start": 1576,
+        "section": "Appendix 3: eighth-order GL coefficient, continuation"
+      },
+      {
+        "line_end": 1866,
+        "line_start": 1844,
+        "section": "References"
+      }
+    ],
+    "source_sha256": "4312a534e6c3e3e86cc88d2931543daaa5cee0d227fdf3862c2839710442eb2e",
+    "unread_scope": [
+      "The remainder of the supplied source outside the listed sections, including most of the impurity derivation and intermediate vortex-functional algebra, was not inspected because it was not needed for the clean finite-asymmetry comparison.",
+      "External references and supplements were not inspected."
+    ]
+  },
+  "report_path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/dimitrova2007/9fdf9286a653ec2bd1e4a24f447e81b535282fcde720d8b25416c9e163549c9c/report.json",
+  "source": {
+    "line_count": 1869,
+    "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/dimitrova2007/9fdf9286a653ec2bd1e4a24f447e81b535282fcde720d8b25416c9e163549c9c/raw/source.txt",
+    "sha256": "4312a534e6c3e3e86cc88d2931543daaa5cee0d227fdf3862c2839710442eb2e"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "result": {
+    "artifacts": [],
+    "binding_sha256": "7270a923e788a438890c6033044ec97107e9df31e027ef6c4f7998abbb8228eb",
+    "blockers": [],
+    "candidate_json": null,
+    "decision": "answered",
+    "external_dependency": null,
+    "findings": [
+      "Accept target330 as empirical numerical support for the exact admitted fixed-witness claim. The reconstructed source endpoint has a negative finite-K pairing direction and matched nonlinear free-energy lowering under the frozen uncertainty criteria. This closes hypothesis-0067 only; it does not automatically close the parent question.",
+      "Verified the candidate hash against admission329, the actual330 input receipt and RESULT; verified all 18 execution-asset hashes, all three declared artifact hashes and the resource-receipt hash. Reconstructing the native raw-result serialization from the preserved receipt exactly reproduces raw_sha256=93101bb05735a71ba32c3e8a5d0e1ee12c2cd8ed509b58c5819d95814bb57cd8. Original raw bytes were not separately projected.",
+      "Independently checked the complete 31-configuration/93-row schedule and 606208 completed expansions: 1184 at each of 512 frequencies. Recomputed all five-axis and ten mixed-pair hierarchy conditions, complete coefficient-error sums, epsilon contraction, Richardson reduction and shifted-origin agreement from saved measurements. They satisfy the frozen rules; no scientific calculation was replayed.",
+      "The physical state retains [T,Delta,q,h]=[0.051955058120691594,1.6925900731329657,0.9791506418402958,1.3985886221312929], alphatilde=1/4 and kappa=(0.909013301211145,0). Static inspection confirms source weights W_lambda=1+lambda/4, explicit piT, identical causal z in both Riccati sectors, and the original coupled amplitude/phase harmonics. The source endpoint is a numerical reconstruction of branch coalescence, not coordinates transcribed from a source figure. Its saved gap/current/relaxed-current derivative residuals and full uncertainty rectangle match the frozen definition.",
+      "The primary coefficient is cP=-6.5287829634528e-5; the qualified independent coefficient is cI=-6.528782574296713e-5 with EI=1.6766293751752474e-7. Adding the original Eep gives upper bounds -6.206696239796263e-5 and -6.19578008068451e-5. Total error fractions are 4.93% and 5.10%, below 25%. Primary discrepancy 3.891560874545383e-12 is below EP+EI=2.261681754783995e-7. Ectrl=2.0319595129664327e-7 is below the required minimum allowance 3.22086723656537e-6.",
+      "Nonlinear C1 at epsilon=.005 is -5.593206399023333e-5 with complete EI=1.172656882596315e-6; C2 at epsilon=.0025 is -6.294890742150746e-5 with EI=4.4420405631256507e-7. Including original Eep, their upper bounds remain -5.1597045109032524e-5 and -5.9342341366590406e-5. Richardson gives -6.528785523193218e-5 with error 1.6632768109746776e-5 and source-inclusive upper bound -4.549272512358091e-5.",
+      "The retained controls cover source-box propagation, causal connected branches, all Fourier modes, both force poles, paired-sign cancellation, exact path moments, complete infinite-frequency tails and angular/profile/frequency/path/mixed/epsilon convergence. Historical293/299 continuous full-circle enclosures and qualified271 beta0 controls remain supporting inputs within their original domains; zero historical scalar rows were inserted as fresh330 observations. Fresh coefficients agree with308: differences range from 1.7353873522116085e-10 to 2.7802392560345507e-9, below summed complete errors.",
+      "These are conditional empirical numerical bounds, not a directed-rounding theorem or statistical confidence intervals. Primitive binary64 allowances and convergence estimators remain empirical. The deterministic origin shift tests discretization sensitivity, not independent physical data. A negative second variation along one admissible nonzero-K direction suffices to defeat necessary local pairing stability; this result identifies neither the replacement phase nor switching dynamics, experimental diode efficiency or a complete phase diagram.",
+      "Actual330 allocation elapsed was 14360.764784628002 seconds within65000. Sampled PGID RSS reached538.625MiB; reported lifetime SELF high-water was1532.09765625MiB, below2048MiB. Sampling excludes initial10.8056 seconds, final0.2529 seconds and gaps up to0.72435 seconds; it does not certify continuous whole-group memory. Declared numerical artifacts total110091bytes, below1MB; observed final free disk320147456bytes exceeded the268435456byte reserve. CPU ceilings remain null. The supplied root settlement is accounting context, not remeasured telemetry or scientific admission; its unknown positive final tail and nonadditive GNUtime limitation remain preserved.",
+      "Inspected compact source-linked Luna reports for the source model and original-TeX equation/endpoint characterization, without ingesting primary papers. Targeted reading and unresolved TeX/PDF version equivalence limit source attribution. Original significance and novelty admission remain unchanged. Failed331 contains only a backend-exit error and call metadata; no saved draft or scientific judgment exists to repair."
+    ],
+    "local_exhaustion": [
+      "Read execution_context.json first, then case_context.json, candidate/claim.json, exact admission329, prior328\u2013330 receipts, failed331 and prior_resources/000330.json.",
+      "Inspected target330 RESULT, MANIFEST and complete qualification rows; verified hashes and recomputed frozen acceptance arithmetic using saved observations only.",
+      "Inspected the bound protocol, native worker, guard, nonlinear response and correction-bound acceptance paths; checked retained271 normalization/reference controls and historical293/299/308 support.",
+      "Inspected the historical endpoint certificate and uniform endpoint definitions, plus compact source-linked source and equation-reader reports. No network access, new physics calculation or confirmation replay occurred.",
+      "Filesystem access is read-only; no checkpoint or artifact file could be created. The substantive independent judgment is recorded in this returned receipt."
+    ],
+    "next_step": "Controller should bank hypothesis-0067 as empirically supported with these exact margins and limitations, preserve consumed confirmations and historical failures, and dispatch a SEPARATE independent parent-question coverage review. Do not replay330 or automatically close the parent. Any substantive successor requires fresh admission and controller release.",
+    "novelty_review_json": null,
+    "progress_evidence": [
+      {
+        "change": "Completed independent acceptance of the fresh93-row nonlinear result; the previously missing matched nonlinear confirmation now satisfies the original criteria.",
+        "reference": "prior_artifacts/000330/science/complete-finite-beta/QUALIFICATION_RESULT.json"
+      },
+      {
+        "change": "Verified actual-result and declared-artifact provenance, including exact reconstruction of the native raw-result hash.",
+        "reference": "prior/000330.json"
+      },
+      {
+        "change": "Confirmed the qualified linear witness and source-normalization controls remain matched to the original physical state.",
+        "reference": "evidence/supplement-1791365457601894436/target_package/LINEAR271.json"
+      },
+      {
+        "change": "Checked actual allocation and sampled memory evidence while retaining unsampled intervals and measurement-scope limitations.",
+        "reference": "prior_resources/000330.json"
+      }
+    ],
+    "question_assessment_json": null,
+    "summary": "Accepted: target330 supports the admitted finite-K instability and matched nonlinear lowering under conditional empirical numerical uncertainty. The reconstructed nominal endpoint fails necessary spatial local pairing stability within the frozen source model. This is not a rigorous proof; separate parent-question coverage review remains required."
+  },
+  "completed_at": 1791397219.4960682,
+  "original_receipt_sha256": "c5c6928e0f709550ceeda54b77b940a54e337a6970ec94b478d26e852821807b"
+}

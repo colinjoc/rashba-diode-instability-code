@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the article when using this code or its numerical evidence."
+type: software
+title: "Code for Spatial Pairing Instability at a Rashba Superconducting Diode Endpoint"
+version: 1.0.0
+date-released: 2026-10-07
+authors:
+  - family-names: "O'Callaghan"
+    given-names: Colin
+    website: "https://colinocallaghan.com/"
+url: "https://colinocallaghan.com/autonomous-ai-research/Spatial-Pairing-Instability-at-a-Rashba-Superconducting-Diode-Endpoint"
+preferred-citation:
+  type: article
+  title: "Spatial Pairing Instability at a Rashba Superconducting Diode Endpoint"
+  authors:
+    - family-names: "O'Callaghan"
+      given-names: Colin
+  year: 2026
+  month: 10
+  day: 7
+  url: "https://colinocallaghan.com/autonomous-ai-research/Spatial-Pairing-Instability-at-a-Rashba-Superconducting-Diode-Endpoint"

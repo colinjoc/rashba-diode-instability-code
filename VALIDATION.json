@@ -1,0 +1,30 @@
+{
+  "scope": "Code-release packaging validation; no new held-out confirmation",
+  "python": "3.12",
+  "test_environment": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "matplotlib": "3.11.2"
+  },
+  "environment_note": "Existing AIT scientific virtualenv; plotting dependencies supplied from the existing article plotting dependency directory. These paths are not needed by the released programs.",
+  "original_source_bytes_preserved": 173,
+  "checks": {
+    "saved_result_acceptance_audit": "passed",
+    "original_cpp_compensated_sum_compilation": "passed",
+    "fresh_primary_kernel_at_frozen_witness": "passed; coefficient agrees within 2e-13",
+    "independent_linear_vs_nonlinear_first_order": "passed at 12 physical/grazing nodes",
+    "accepted_linear_reassembly": "passed; saved coefficient and allowances agree within 1e-16",
+    "original_figure_script": "passed; generated seven PDF/PNG pairs",
+    "published_png_byte_comparison": "all seven match exactly",
+    "credential_pattern_scan": "no private keys, GitHub token patterns, or AWS access-key patterns found",
+    "github_file_size_check": "no release file exceeds 100 MB"
+  },
+  "not_run": [
+    "fresh full linear schedule",
+    "full nonlinear baseline and shifted-origin schedules",
+    "full endpoint reconstruction campaign",
+    "TeX manuscript rebuild"
+  ],
+  "software_licence": "not selected; existing manuscript CC BY 4.0 retained"
+}

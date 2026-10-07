@@ -1,0 +1,34 @@
+{
+  "status": "Known analytic preparation only; no target state/eigenvalue computed and no admission",
+  "author": "root",
+  "source_bindings": [
+    {
+      "path": "research/2026-10-02-materials-search-round3/readers/zhuang-conventions/eb96d0b6818bf07df25c3614f0ba98d4aa012bb2660b34f1007b0d5c8fac8a62/report.json",
+      "sha256": "12c00555295bc56a20d4ddbc3d829f93d1e5e23cf88ad3b74912b74fa2522992"
+    },
+    {
+      "path": "research/2026-10-02-materials-search-round3/readers/zhuang-tex-equation-audit/246c734ccd3f31ba3b73f28bbe91379959ef5cea441b1af0c4559408af93553a/report.json",
+      "sha256": "c54c6d2dd0ad1856b6d20e1f2f3ee3c2571d974f1b7821817e38b3649260be58"
+    }
+  ],
+  "units": "Tc0=1; vF retained; N0=m/(2pi)>0; angular average dtheta/(2pi).",
+  "definitions": {
+    "DOS": "Nlambda=N0(1+lambda a), a=1/4, lambda=+/-1",
+    "Doppler": "deltalambda(theta)=(vF q/2-lambda h) cos(theta) for q alongx and h alongy",
+    "z": "zlambda=omega_n+i deltalambda",
+    "Omega": "Omegalambda=sqrt(zlambda^2+Delta^2), Matsubara branch continuous from positive omega_n"
+  },
+  "uniform_renormalized_functional": "F/N0=Delta^2 ln(T/Tc0)+2piT sum_{omega_n>0}[Delta^2/omega_n-sum_lambda (1+lambda a) Re< Omegalambda-zlambda >theta]. Normal reference F(Delta=0)=0.",
+  "amplitude_derivative": "(dF/dDelta)/(2N0 Delta)=ln(T/Tc0)+piT sum_{omega_n>0}[2/omega_n-sum_lambda(1+lambda a) Re<1/Omegalambda>theta]. This is the canonical source gap residual after division by nonzero Delta.",
+  "twist_derivative": "dF/dq=piT vF sum_{omega_n>0,lambda}Nlambda <cos(theta) Im(zlambda/Omegalambda)>theta. This gives source jx=2 dF/dq in the reader current convention.",
+  "interpretation": "Fix this same amplitude/current normalization in the fluctuation functional. Positive arbitrary kernel prefactors preserve eigenvalue signs but do not suffice for source current/curvature matching.",
+  "regularization": "Tc0 subtraction eliminates the bare coupling; combine determinant and counterterm before UV limit. Do not introduce a finite-cutoff physical parameter merely as numerical quadrature.",
+  "remaining_checks": [
+    "Independent algebra check of current prefactor and helicity/Nambu counting",
+    "Agreement with source gap/current controls before target data",
+    "Second variation on physical coupled Fourier fields with Goldstone Ward check",
+    "Full independent periodic perturbation implementation and measured cost",
+    "Exact source endpoint branch coalescence and independent significance/novelty admission"
+  ],
+  "novelty": "This reconstructs a standard mean-field functional from known source equations. It is not the proposed scientific contribution."
+}

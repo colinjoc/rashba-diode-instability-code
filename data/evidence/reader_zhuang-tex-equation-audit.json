@@ -1,0 +1,168 @@
+{
+  "coverage_note": "Reader-reported section inspection; not independently verified full-paper reading.",
+  "coverage_verified": false,
+  "created_at": "2026-10-02T08:52:39.927276+00:00",
+  "identity": {
+    "effort": "medium",
+    "model": "gpt-5.6-luna",
+    "question": "Original-TeX decisive equation audit. Identify version/title/dates to check equivalence to arXiv2510.18963 PDF. Transcribe exact original LaTeX gap-equation first term and bracket structure, including all Delta, T and pi prefactors. Prior extractedPDF reader claimed scalar Tln(T/Tc)+2piT sum(1/omega\u22121/Omega)=0 and called it standard BCS; this is dimensionally suspect if omega/T have energy units. Determine whether extracted layout was misread, original source has typo, or a dimensional normalization explains it. Give canonical physical BCS self-consistency implied by Hamiltonian and Tc regularization separately from literal source, and flag any explicit prospective departure needed. Clarify exact endpoint description and whether a stationary zero-current inflection j=jprime=jdoubleprime=0 follows from coalescing branches rather than treating absent derivative notation as missing input. Only inspect needed original-TeX portions; cite valid inspected contiguous lines.",
+    "source_sha256": "d20dcb32734c17a6dda2a6cec8598bdd861ff13a587fce80cb43770691047c18",
+    "version": "paper-reader-v1"
+  },
+  "reader": {
+    "answers": [
+      {
+        "answer": "The supplied source is titled \u201cHelical phases and Bogoliubov Fermi surfaces probed by superconducting diode effects,\u201d by Zekun Zhuang, Daniel Shaffer, Jaglul Hasan, and Alex Levchenko. It contains only \\date{\\today}; no arXiv identifier, version number, submission date, or revision date is present. Equivalence to arXiv:2510.18963 and its PDF version/date therefore remains unresolved from this source alone.",
+        "references": [
+          {
+            "line_end": 55,
+            "line_start": 38,
+            "section": "Front matter"
+          }
+        ],
+        "status": "unresolved"
+      },
+      {
+        "answer": "The literal original-TeX self-consistency equation is\n\\[\\Delta \\ln \\frac{T}{T_c}+\\pi T\\sum_{\\omega_n>0,\\lambda}\\left[\\frac{\\Delta}{\\omega_n}-(1+\\lambda\\tilde{\\alpha})\\langle i(g_\\lambda)_{12}\\rangle_{\\mathrm{FS}}\\right]=0.\\]\nThus the first term is exactly \\(\\Delta\\ln(T/T_c)\\), and the bracket contains \\(\\Delta/\\omega_n\\) minus \\((1+\\lambda\\tilde\\alpha)\\langle i(g_\\lambda)_{12}\\rangle_{\\rm FS}\\), with the overall prefactor \\(\\pi T\\).",
+        "references": [
+          {
+            "line_end": 159,
+            "line_start": 144,
+            "section": "Quasiclassical Eilenberger equation"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The extracted scalar expression \\(T\\ln(T/T_c)+2\\pi T\\sum(1/\\omega_n-1/\\Omega_n)=0\\) is not the literal source equation and is dimensionally inconsistent when \\(T,\\omega_n,\\Omega_n\\) are energies. The source equation is dimensionally consistent: each bracket term has inverse-energy dimension, and \\(\\pi T\\) supplies energy; \\(\\Delta\\ln(T/T_c)\\) also has energy dimension. The likely issue is extraction/algebraic misreading: dividing the source equation by \\(\\Delta\\), then taking the zero-field equal-band homogeneous limit, yields \\(\\ln(T/T_c)+2\\pi T\\sum_{\\omega_n>0}(1/\\omega_n-1/\\Omega_n)=0\\), not a prefactor \\(T\\) multiplying the logarithm.",
+        "references": [
+          {
+            "line_end": 159,
+            "line_start": 149,
+            "section": "Quasiclassical Eilenberger equation"
+          },
+          {
+            "line_end": 193,
+            "line_start": 186,
+            "section": "Bulk homogeneous solution"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The canonical physical BCS self-consistency implied by the supplied Hamiltonian and the stated \\(T_c\\) regularization is the source equation itself, with \\(i(g_\\lambda)_{12}=\\Delta_\\lambda/\\Omega_\\lambda\\) in the homogeneous solution. In the zero-field, zero-momentum, equal-gap limit this reduces after division by \\(\\Delta\\) to \\(\\ln(T/T_c)+2\\pi T\\sum_{\\omega_n>0}[1/\\omega_n-1/\\sqrt{\\omega_n^2+\\Delta^2}]=0\\). No prospective physics correction is required; the extracted scalar should be corrected to this form.",
+        "references": [
+          {
+            "line_end": 159,
+            "line_start": 121,
+            "section": "Model Hamiltonian and self-consistency"
+          },
+          {
+            "line_end": 193,
+            "line_start": 186,
+            "section": "Bulk homogeneous solution"
+          }
+        ],
+        "status": "supported"
+      },
+      {
+        "answer": "The endpoint description is: at low temperature \\(j(q)\\) has a local minimum; as temperature increases that minimum becomes an inflection point at \\(T_{\\rm CEP}\\), ending the first-order transition. The source separately states equilibrium is selected by \\(j(q)=0\\). Under the usual smooth coalescence of the minimum and neighboring branch, the stationary zero-current CEP conditions \\(j=j'=j''=0\\) follow as an inference: \\(j=0\\) from equilibrium, while coalescence of stationary branches gives \\(j'=0\\) and their merger/inflection gives \\(j''=0\\). The derivative notation is not explicitly printed in the source, so these conditions should be flagged as an inferred mathematical characterization, not as a missing literal equation.",
+        "references": [
+          {
+            "line_end": 346,
+            "line_start": 331,
+            "section": "Bulk SDE in the helical phase"
+          }
+        ],
+        "status": "supported"
+      }
+    ],
+    "findings": [
+      {
+        "assumptions": [
+          "The homogeneous zero-field limit sets q=0, removes the Zeeman-induced band shift, and uses the stated homogeneous Green-function solution.",
+          "The two helical-band weights sum to two in the zero-field equal-gap limit."
+        ],
+        "claim": "The source\u2019s gap equation is a properly dimensioned Tc-regularized BCS equation; the reported T-prefactor/logarithm form is an extraction or algebra error rather than a source typo.",
+        "equations": [
+          "\\Delta\\ln(T/T_c)+\\pi T\\sum_{\\omega_n>0,\\lambda}[\\Delta/\\omega_n-(1+\\lambda\\tilde\\alpha)\\langle i(g_\\lambda)_{12}\\rangle_{FS}]=0",
+          "\\ln(T/T_c)+2\\pi T\\sum_{\\omega_n>0}[1/\\omega_n-1/\\sqrt{\\omega_n^2+\\Delta^2}]=0"
+        ],
+        "limitations": [
+          "The supplied source does not state the arXiv version/date or provide the target PDF for direct equivalence checking."
+        ],
+        "references": [
+          {
+            "line_end": 159,
+            "line_start": 156,
+            "section": "Quasiclassical Eilenberger equation"
+          },
+          {
+            "line_end": 193,
+            "line_start": 186,
+            "section": "Bulk homogeneous solution"
+          }
+        ]
+      },
+      {
+        "assumptions": [
+          "j(q) is smooth enough near the endpoint for the standard branch-coalescence interpretation."
+        ],
+        "claim": "The explicit source supports equilibrium j=0 and a local-minimum-to-inflection endpoint; j'=j''=0 is the corresponding inference from coalescing branches, not an explicitly stated author equation.",
+        "equations": [
+          "j(q)=0",
+          "j'(q)=0",
+          "j''(q)=0"
+        ],
+        "limitations": [
+          "No explicit derivative conditions are printed in the inspected TeX."
+        ],
+        "references": [
+          {
+            "line_end": 346,
+            "line_start": 337,
+            "section": "Bulk SDE in the helical phase"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "Only the supplied source.numbered.txt portions covering front matter, Hamiltonian/Eilenberger self-consistency, homogeneous bulk solution, and bulk endpoint discussion were inspected.",
+      "External references, the arXiv record/PDF, supplements, figures as rendered, and bibliography entries were not inspected."
+    ],
+    "sections_inspected": [
+      {
+        "line_end": 55,
+        "line_start": 38,
+        "section": "Front matter"
+      },
+      {
+        "line_end": 159,
+        "line_start": 110,
+        "section": "Model Hamiltonian and quasiclassical self-consistency"
+      },
+      {
+        "line_end": 193,
+        "line_start": 169,
+        "section": "Bulk homogeneous solution"
+      },
+      {
+        "line_end": 346,
+        "line_start": 331,
+        "section": "Bulk SDE in the helical phase"
+      }
+    ],
+    "source_sha256": "d20dcb32734c17a6dda2a6cec8598bdd861ff13a587fce80cb43770691047c18",
+    "unread_scope": [
+      "All source sections outside the inspected front matter, theoretical formulation/self-consistency, homogeneous bulk solution, and bulk SDE endpoint discussion.",
+      "External arXiv metadata and PDF version history.",
+      "Supplementary material and cited primary references."
+    ]
+  },
+  "report_path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/readers/zhuang-tex-equation-audit/246c734ccd3f31ba3b73f28bbe91379959ef5cea441b1af0c4559408af93553a/report.json",
+  "source": {
+    "line_count": 515,
+    "path": "/home/col/autoscience/research/2026-10-02-materials-search-round3/raw/zhuang-original-tex.txt",
+    "sha256": "d20dcb32734c17a6dda2a6cec8598bdd861ff13a587fce80cb43770691047c18"
+  }
+}
