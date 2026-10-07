@@ -7,12 +7,7 @@ agents using research harnesses designed by Dr Colin O’Callaghan.
 [Read the article](https://colinocallaghan.com/autonomous-ai-research/Spatial-Pairing-Instability-at-a-Rashba-Superconducting-Diode-Endpoint)
 or open [the bundled PDF](paper/article.pdf).
 
-The calculations find an amplitude/phase modulation that lowers the free energy
-at one reconstructed endpoint in a clean two-dimensional Rashba model. The
-conclusion is conditional on the model, endpoint uncertainty, and empirical
-binary64 numerical allowances. These allowances are not statistical confidence
-intervals or rigorous directed-rounding bounds. The calculation does not identify
-the replacement phase or establish achievable device current asymmetry.
+A superconducting diode can carry a larger current in one direction than in the other. A theoretical model predicts nearly maximal current asymmetry near a transition between two superconducting states, but this prediction restricts how the superconducting order can vary. We test whether the reconstructed transition endpoint remains stable when spatial variations are allowed. In a clean, two-dimensional Rashba model, where electron motion is coupled to spin, we find a small modulation that lowers the free energy. Two calculations agree that the energy initially decreases, and a nonlinear calculation confirms the decrease for small, finite modulations. The instability persists after accounting for the stated empirical estimates of numerical error and uncertainty in the endpoint. These results indicate that the specified endpoint is unstable within the model and its numerical assumptions. They do not identify the replacement state or establish how much current asymmetry a physical device could achieve.
 
 ## Quick start
 
