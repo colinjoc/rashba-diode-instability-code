@@ -149,12 +149,3 @@ International; see `paper/README.txt`. No additional software licence has been
 selected for this GitHub preparation package. Do not assume the manuscript's
 licence automatically licenses the code.
 
-## Validation of this release
-
-See `VALIDATION.json` for the actual checks performed. Full multi-hour numerical
-calculations are not rerun merely to package the code. The smoke tests and saved
-evidence checks do not independently certify the scientific conclusion.
-
-See [the security review](SECURITY_REVIEW.md) for the release review, filesystem
-hardening, dependency checks, and trust boundaries. Release entry points verify
-the manifest before loading solver code or compiling the original C++ library.
